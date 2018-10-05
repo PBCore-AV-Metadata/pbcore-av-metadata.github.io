@@ -3,6 +3,16 @@
     <h1>PBCore</h1>
     <!--<img src="/assets/images/pbcore-logo.png" alt="PBCore Logo"> -->
     <ul>
+      {% for item in site.data.nav.toc %}
+      <li><a href="#">{{ item.title }}</a></li>
+        <ul>
+          {% for entry in item.subfolderitems %}
+          <li><a href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </ul>
+<!--
     								<li><a href="#">About</a>
     									<ul>
     										<li><a href="pages/what-is-pbcore.html">About PBCore</a></li>
@@ -35,11 +45,12 @@
     									<ul>
     										<li><a href="community/users">PBCore Users</a></li>
     										<li><a href="community/user-groups">User Groups</a></li>
-    										<li><a href="/annual-meetings-notes.html">Annual Meeting Notes</a></li>
+    										<li><a href="annual-meetings-notes.html">Annual Meeting Notes</a></li>
     										<li><a href="community/news">News and Updates</a></li>
     										<li><a href="community/contact">Contact Us</a></li>
     									</ul>
     								</li>
     							</ul>
+-->
   </nav>
 </header>

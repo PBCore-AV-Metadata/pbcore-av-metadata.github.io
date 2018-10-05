@@ -1,10 +1,10 @@
 ---
-title: PBCore Mappings to Other Standards
+title: License
 layout: default
-permalink: /mappings.html
+permalink: /license.html
 ---
 
-Some mappings will live here
+License
 
 
 

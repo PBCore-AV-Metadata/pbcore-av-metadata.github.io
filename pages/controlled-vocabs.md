@@ -1,10 +1,10 @@
 ---
-title: PBCore Mappings to Other Standards
+title: Controlled Vocabularies
 layout: default
-permalink: /mappings.html
+permalink: /controlled-vocabs.html
 ---
 
-Some mappings will live here
+Links to each controlled vocab
 
 
 

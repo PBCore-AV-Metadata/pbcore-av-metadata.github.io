@@ -1,10 +1,11 @@
 ---
-title: PBCore Mappings to Other Standards
+title: PBCore XML Schema
 layout: default
-permalink: /mappings.html
+permalink: /xsd.html
 ---
 
-Some mappings will live here
+This is where the information about external tools and integrations lives.
+
 
 
 

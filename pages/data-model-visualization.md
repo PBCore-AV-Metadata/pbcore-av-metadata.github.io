@@ -1,11 +1,10 @@
 ---
-title: PBCore Mappings to Other Standards
+title: Data Model Visualization
 layout: default
-permalink: /mappings.html
+permalink: /data-model.html
 ---
 
-Some mappings will live here
-
+visualization!
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere, odio at suscipit tincidunt, dolor tortor laoreet mi, vitae placerat tortor velit sit amet risus. Morbi vel neque cursus dui malesuada volutpat. Sed lacus justo, hendrerit ac fringilla non, molestie eget libero. Nam sagittis sodales nisl, nec rutrum velit lacinia non. Sed finibus ornare est, ut tristique lacus imperdiet rutrum. Nunc a augue at diam auctor vehicula. Phasellus non dignissim lacus. Pellentesque vehicula tincidunt ullamcorper. In a mi et dolor ultricies posuere. Phasellus sapien ligula, euismod eget tristique non, tristique id ante. Aliquam auctor sodales justo, id eleifend risus ultrices sed. Sed a erat sed arcu iaculis commodo pretium quis mi. Phasellus laoreet porttitor neque fringilla bibendum.

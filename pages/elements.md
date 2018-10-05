@@ -1,10 +1,10 @@
 ---
-title: PBCore Mappings to Other Standards
+title: Elements
 layout: default
-permalink: /mappings.html
+permalink: /elements.html
 ---
 
-Some mappings will live here
+Landing page to start looking at PBCore elements.
 
 
 
