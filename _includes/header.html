@@ -3,54 +3,44 @@
     <h1>PBCore</h1>
     <!--<img src="/assets/images/pbcore-logo.png" alt="PBCore Logo"> -->
     <ul>
-      {% for item in site.data.nav.toc %}
-      <li><a href="#">{{ item.title }}</a></li>
+    {% for item in site.data.nav.toc %}
+      {% if item.title == "About" %}
+      <li class="menu_about"><a href="#">{{ item.title }}</a>
         <ul>
           {% for entry in item.subfolderitems %}
           <li><a href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a></li>
           {% endfor %}
         </ul>
-      {% endfor %}
+      </li>
+      {% endif %}
+      {% if item.title == "Schema" %}
+      <li class="menu_schema"><a href="#">{{ item.title }}</a>
+        <ul>
+          {% for entry in item.subfolderitems %}
+          <li><a href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% endif %}
+      {% if item.title == "Resources" %}
+      <li class="menu_resources"><a href="#">{{ item.title }}</a>
+        <ul>
+          {% for entry in item.subfolderitems %}
+          <li><a href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% endif %}
+      {% if item.title == "Community" %}
+      <li class="menu_community"><a href="#">{{ item.title }}</a>
+        <ul>
+          {% for entry in item.subfolderitems %}
+          <li><a href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% endif %}
+    {% endfor %}
     </ul>
-<!--
-    								<li><a href="#">About</a>
-    									<ul>
-    										<li><a href="pages/what-is-pbcore.html">About PBCore</a></li>
-    										<li><a href="pages/faqs.html">FAQs/Glossary</a></li>
-    										<li><a href="pages/steering.html">Steering Committee</a></li>
-    									</ul>
-    								</li>
-    								<li><a href="#">Schema</a>
-    									<ul>
-    										<li><a href="schema/elements">Elements</a></li>
-    										<li><a href="schema/attributes">Attributes</a></li>
-    										<li><a href="schema/controlled-vocabs">Controlled Vocabularies</a></li>
-    										<li><a href="schema/xsd">XML Schema</a></li>
-    										<li><a href="schema/data-model">Data Model Visualization</a></li>
-    									</ul>
-    								</li>
-    								<li><a href="#">Resources</a>
-    									<ul>
-    										<li><a href="resources/cataloging-tool">Cataloging Tool</a></li>
-    										<li><a href="resources/spreadsheets">Spreadsheet Templates</a></li>
-    										<li><a href="resources/validator">PBCore XML Validator</a></li>
-    										<li><a href="resources/tools-integrations">External Tools/Integrations</a></li>
-    										<li><a href="resources/mappings">Mappings</a></li>
-    										<li><a href="resources/sample-records">Sample Records</a></li>
-    										<li><a href="resources/tutorials">Tutorials</a></li>
-    										<li><a href="resources/presentations">Presentations</a></li>
-    									</ul>
-    								</li>
-    								<li><a href="#">Community</a>
-    									<ul>
-    										<li><a href="community/users">PBCore Users</a></li>
-    										<li><a href="community/user-groups">User Groups</a></li>
-    										<li><a href="annual-meetings-notes.html">Annual Meeting Notes</a></li>
-    										<li><a href="community/news">News and Updates</a></li>
-    										<li><a href="community/contact">Contact Us</a></li>
-    									</ul>
-    								</li>
-    							</ul>
--->
   </nav>
 </header>

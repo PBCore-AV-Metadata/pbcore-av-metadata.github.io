@@ -1,0 +1,36 @@
+elementgroups:
+  - group: Root Elements
+    elements:
+      - name: pbcoreCollection
+        definition: pbcoreCollection groups multiple pbcoreDescriptionDocument XML into one container element to allow for a serialized output. Uses might include API returns or other web service output.
+        attributes:
+        best-practice: This element is not intended to be equivalent to the archive/library concept of a ‘collection.’ Please see pbcoreAssetType for information on how PBCore can be used to express information about collections. The element is only applicable to XML expressions of PBCore. This container enables a similar function to RSS; pbcoreCollection would be similar to rss:channel and pbcoreDescription document to rss:item.
+        usage: not repeatable
+        example:
+        subelements:
+      - name: pbcoreDescriptionDocument
+        definition: pbcoreDescriptionDocument is a root XML element for the expression of an individual PBCore record. pbcoreDescriptionDocument can be used to express intellectual content only (e.g. a series or collection level record with no associated instantiations), or intellectual content with one or more instantiations (e.g. an episode of a program with copies/instantiations on videotape and digital file). This element is only applicable to XML expressions of PBCore.
+        attributes:
+        best-practices:
+        usage: only repeatable within pbcoreCollection
+        example:
+        subelements:
+      - name: pbcoreInstantiationDocument
+        definition:
+        attributes:
+        example:
+        subelements:
+  - group: Asset Elements
+    elements:
+      - name:
+        definition:
+        attributes:
+        example:
+        subelements:
+  - group: Instantiation Elements
+    elements:
+      - name:
+        definition:
+        attributes:
+        example:
+        subelements:
