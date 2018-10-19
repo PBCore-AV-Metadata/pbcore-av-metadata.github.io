@@ -1,0 +1,45 @@
+<footer>
+  <nav class="footer_nav_container" aria-label="footer naviagtion">
+    <ul>
+      <li><a href="{{ site.url }}">Home</a></li>
+      {% for item in site.data.nav.toc %}
+        {% if item.title == "About" %}
+        {% for entry in item.subfolderitems %}
+        <li><a href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a></li>
+        {% endfor %}
+        {% endif %}
+      {% endfor %}
+      <li><a href="{{ site.url }}/license.html">License Details</a></li>
+    </ul>
+    <ul>
+      {% for item in site.data.nav.toc %}
+        {% if item.title == "Schema" %}
+        {% for entry in item.subfolderitems %}
+        <li><a href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a></li>
+        {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <ul>
+    {% for item in site.data.nav.toc %}
+      {% if item.title == "Resources" %}
+      {% for entry in item.subfolderitems %}
+      <li><a href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a></li>
+      {% endfor %}
+      {% endif %}
+    {% endfor %}
+    </ul>
+    <ul>
+    {% for item in site.data.nav.toc %}
+      {% if item.title == "Community" %}
+      {% for entry in item.subfolderitems %}
+      <li><a href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a></li>
+      {% endfor %}
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </nav>
+  <img src="/assets/images/pbcore-logo.png" alt="PBCore Logo">
+  <h2>PBCore</h2>
+  <p>PBCore is licensed under blah blah blah</p>
+</footer>

@@ -1,0 +1,31 @@
+faqs:
+  - section: Getting Started with PBCore
+    questions:
+      - question: How do I get started with PBCore?
+        answer: lorem ipsum blah blah blah
+      - question: What is an asset? What is an instantitaion? What's the difference?
+        answer: An asset is a lorem ipsum. An instantiation is an area tempor labore et up
+      - question: What is an element vs. an attribute?
+        answer: Elements are data and attributes qualify that data.
+      - question: What are container elements?
+        answer: Container elements do not directly enclose data, but rather wrap around other elements holding data to group them together.
+  - section: Benefits of PBCore
+    questions:
+      - question: How can PBCore benefit my archive description and program goals?
+        answer: lorem ipsum blah blah blah
+      - question: Does it cost anything to adopt PBCore?
+        answer: PBCore is free!
+      - question: What kind of time, staff, or training to I need?
+        answer: lorem ipsum lorem ipsum blah blah blah
+      - question: What is the expected return on time investment?
+        answer: I dunno.
+  - section: Implementing PBCore
+    questions:
+      - question: What are the steps to integrating PBCore into my current workflow or system?
+        answer: mapping existing databases! or creating a new database! inventorying!
+      - question: What does PBCore look like at the most basic level?
+        answer: A beautiful many-rooted tree.
+      - question: How are the versions of PBCore (1.0, 2.0, 2.1) different from each other?
+        answer: they get better and better
+      - question: My question isn't listed here. How can I contact the PBCore Team for assistance?
+        answer: Probably rebecca or sadie.

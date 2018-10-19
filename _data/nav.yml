@@ -1,0 +1,51 @@
+toc:
+  - title: About
+    subfolderitems:
+      - page: What is PBCore?
+        url: /what-is-pbcore.html
+      - page: FAQs/Glossary
+        url: /faqs.html
+      - page: Steering Committee
+        url: /steering.html
+  - title: Schema
+    subfolderitems:
+      - page: Elements
+        url: /elements.html
+      - page: Attributes
+        url: /attributes.html
+      - page: Controlled Vocabularies
+        url: /controlled-vocabs.html
+      - page: XML Schema
+        url: /xsd.html
+      - page: Data Model Visualization
+        url: /data-model.html
+  - title: Resources
+    subfolderitems:
+      - page: Cataloging Tool
+        url: /cataloging-tool.html
+      - page: Spreadsheet Templates
+        url: /spreadsheet-templates.html
+      - page: PBCore XML Validator
+        url: /validator.html
+      - page: External Tools/Integrations
+        url: /external-tools-and-integrations.html
+      - page: Mappings
+        url: /mappings.html
+      - page: Sample Records
+        url: /sample-records.html
+      - page: Tutorials
+        url: /tutorials.html
+      - page: Presentations
+        url: /presentations.html
+  - title: Community
+    subfolderitems:
+      - page: PBCore Users
+        url: /pbcore-users.html
+      - page: User Groups
+        url: /user-groups.html
+      - page: Annual Meeting Notes
+        url: /annual-meeting-notes.html
+      - page: News and Updates
+        url: /news.html
+      - page: Contact Us
+        url: /contact.html
