@@ -218,3 +218,7 @@ section p {
   font-size: 25px;
   padding: 10px 10px
 }
+
+.dropdown:hover .dropdown-menu {
+display: block;
+}
