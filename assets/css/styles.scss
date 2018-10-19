@@ -3,6 +3,11 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato|Bree+Serif);
 
+$blue: #358ff2;
+$red: #f5463e;
+$green: #36b431;
+$dark-grey: #4d4d4d;
+
 body {color: #333;
     font-family: 'Lato', sans-serif;
     padding-top: 66px;
@@ -23,33 +28,38 @@ p {
   background: #f2f2f2;
   height: 100px;
   width: 100%;
+
+  a {
+    font-size: 30px
+  }
+
+  img {
+    float: left;
+    width: 150px;
+    object-fit: contain;
+  }
+
+  .navbar-collapse ul {
+  	list-style: none;
+  	position: relative;
+  	float: left;
+  	margin: 0;
+  	padding: 0;
+
+
+    li {
+
+      a {
+    	display: block;
+    	text-decoration: none;
+    	font-size: 16px;
+    	line-height: 32px;
+    	padding: 0 15px;
+      }
+    }
+  }
 }
 
-.primary_nav_container h1 {
-  font-size: 20px;
-  padding: 5px 5px;
-}
-
-.primary_nav_container img {
-  width: 150px;
-  object-fit: contain;
-}
-
-.primary_nav_container ul {
-	list-style: none;
-	position: relative;
-	float: left;
-	margin: 0;
-	padding: 0;
-}
-
-.primary_nav_container ul a {
-	display: block;
-	text-decoration: none;
-	font-size: 12px;
-	line-height: 32px;
-	padding: 0 15px;
-}
 
 .primary_nav_container ul li {
 	position: relative;
@@ -58,17 +68,7 @@ p {
 	padding: 0
 }
 
-/*
-.primary_nav_container ul li.current-menu-item {
-	background: #ddd
-}
-*/
-
-.primary_nav_container ul li:hover {
-	background: #ddd
-}
-
-.primary_nav_container ul ul {
+.primary_nav_container.dropdown-menu {
 	display: none;
 	position: absolute;
 	top: 100%;
@@ -77,7 +77,7 @@ p {
 	padding: 0
 }
 
-.primary_nav_container ul ul li {
+.primary_nav_container.dropdown-menu a {
 	float:none;
 	width:200px
 }
@@ -88,35 +88,35 @@ p {
 }
 
 .menu_about a {
-  color: #358ff2;
+color: $blue;
 }
 
 .menu_schema a {
-  color: #36b431;
+color: $green;
 }
 
 .menu_resources a {
-  color: #f5463e;
+color: $red;
 }
 
 .menu_community a {
-  color: #4d4d4d;
+color: $dark-grey;
 }
 
 .menu_about ul li:hover {
-  background: blue;
+  background: $blue;
 }
 
 .menu_schema ul li:hover {
-  background: green;
+  background: $green;
 }
 
 .menu_resources ul li:hover {
-  background: red;
+  background: $red;
 }
 
 .menu_community ul li:hover {
-  background: grey;
+  background: $dark-grey;
 }
 
 .primary_nav_container ul li ul li:hover a {
@@ -125,6 +125,10 @@ p {
 
 .primary_nav_container ul li:hover ul {
 	display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+display: block;
 }
 
 .footer_nav_container {
@@ -217,8 +221,4 @@ section p {
   color: #f5463e;
   font-size: 25px;
   padding: 10px 10px
-}
-
-.dropdown:hover .dropdown-menu {
-display: block;
 }
