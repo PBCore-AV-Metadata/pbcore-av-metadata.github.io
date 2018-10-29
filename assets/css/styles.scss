@@ -131,27 +131,14 @@ color: $dark-grey;
 display: block;
 }
 
-.footer_nav_container {
+footer {
   background: #f2f2f2;
   border-bottom: 2px solid #ccc;
-  height: 66px;
   width: 100%;
   padding: 10px 10px;
 }
 
-.footer_nav_container ul {
-	list-style: none;
-	position: relative;
-	float: left;
-	margin: 0;
-	padding: 0
-}
-
-.footer_nav_container li {
-	padding: 5px 5px
-}
-
-.footer_nav_container a {
+footer a {
 color: #333333;
 text-decoration: none;
 }
