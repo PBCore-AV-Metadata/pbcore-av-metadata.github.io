@@ -3,6 +3,11 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato|Bree+Serif);
 
+$blue: #358ff2;
+$red: #f5463e;
+$green: #36b431;
+$dark-grey: #4d4d4d;
+
 body {color: #333;
     font-family: 'Lato', sans-serif;
     padding-top: 66px;
@@ -221,4 +226,12 @@ section p {
 
 .dropdown:hover .dropdown-menu {
 display: block;
+}
+
+.element-highlight {
+  color: $green;
+}
+
+.element-bold {
+  font-weight: bold;
 }
