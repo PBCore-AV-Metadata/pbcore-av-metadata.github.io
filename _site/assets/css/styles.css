@@ -64,6 +64,25 @@ p {
   background: #4d4d4d;
   color: white; }
 
+.footer-msg {
+  font-size: 12px;
+  font-weight: bold; }
+
+.footer-copyright {
+  font-size: 48px;
+  font-weight: bold; }
+
+.footer-copyright-sub {
+  color: #ccc;
+  font-size: 14px; }
+
+.footer-brand {
+  margin-right: 10px;
+  height: 6em; }
+
+.dropdown-toggle::after {
+  display: none; }
+
 .dropdown-menu {
   border-radius: 0px; }
 
@@ -168,6 +187,3 @@ section p {
   color: #f5463e;
   font-size: 25px;
   padding: 10px 10px; }
-
-.dropdown-toggle::after {
-  display: none; }
