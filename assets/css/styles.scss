@@ -23,6 +23,7 @@ p {
 
 .primary_nav_container {
   position: fixed;
+  z-index: 2001;
   top: 0;
   left: 0;
   background: #f2f2f2;
@@ -42,7 +43,6 @@ p {
   .navbar-collapse ul {
   	list-style: none;
   	position: relative;
-  	float: left;
   	margin: 0;
   	padding: 0;
 
@@ -60,75 +60,62 @@ p {
   }
 }
 
-
-.primary_nav_container ul li {
-	position: relative;
-	float: left;
-	margin: 0;
-	padding: 0
-}
-
-.primary_nav_container.dropdown-menu {
-	display: none;
-	position: absolute;
-	top: 100%;
-	left: 0;
-	background: white;
-	padding: 0
-}
-
-.primary_nav_container.dropdown-menu a {
-	float:none;
-	width:200px
-}
-
-.primary_nav_container ul ul a {
-	line-height: 120%;
-	padding: 10px 15px;
-}
-
 .menu_about a {
-color: $blue;
+  color: $blue;
 }
 
 .menu_schema a {
-color: $green;
+  color: $green;
 }
 
 .menu_resources a {
-color: $red;
+  color: $red;
 }
 
 .menu_community a {
-color: $dark-grey;
+  color: $dark-grey;
 }
 
-.menu_about ul li:hover {
+.menu_about div a:hover {
   background: $blue;
-}
-
-.menu_schema ul li:hover {
-  background: $green;
-}
-
-.menu_resources ul li:hover {
-  background: $red;
-}
-
-.menu_community ul li:hover {
-  background: $dark-grey;
-}
-
-.primary_nav_container ul li ul li:hover a {
   color: white;
 }
 
-.primary_nav_container ul li:hover ul {
-	display: block;
+.menu_schema div a:hover {
+  background: $green;
+  color: white;
 }
 
+.menu_resources div a:hover {
+  background: $red;
+  color: white;
+}
+
+.menu_community div a:hover {
+  background: $dark-grey;
+  color: white;
+}
+
+// custom nav STUFF
 .dropdown:hover .dropdown-menu {
-display: block;
+  display: block;
+}
+
+li.nav-item.dropdown {
+  position: relative;
+}
+
+// pseudoelement for hitbox ++
+.dropdown::before {
+  content: '';
+  position: absolute;
+  width: 104%;
+  height: 104%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index:1001;
+  // border:1px solid green;
 }
 
 footer {
@@ -208,4 +195,12 @@ section p {
   color: #f5463e;
   font-size: 25px;
   padding: 10px 10px
+}
+
+
+
+
+// remove arrows
+.dropdown-toggle::after {
+    display:none;
 }

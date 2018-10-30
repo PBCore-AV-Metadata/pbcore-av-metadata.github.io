@@ -4,10 +4,10 @@
     <head>
   <meta charset="utf-8">
   <title>Controlled Vocabularies</title>
-  <link rel="stylesheet" href="/assets/css/styles.css"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/assets/css/styles.css"/>
   <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="PBCore Metadata Standard" />
   <!-- Begin Jekyll SEO tag v2.5.0 -->
 <title>Controlled Vocabularies | PBCore Metadata Standard</title>
@@ -20,46 +20,154 @@
 <meta property="og:url" content="http://localhost:4000/controlled-vocabs.html" />
 <meta property="og:site_name" content="PBCore Metadata Standard" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/controlled-vocabs.html","headline":"Controlled Vocabularies","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebPage","@context":"http://schema.org"}</script>
+{"headline":"Controlled Vocabularies","url":"http://localhost:4000/controlled-vocabs.html","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebPage","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
 
   </head>
   <body>
-    <div class="container">
+    <div style="z-index: 900 !important; position: relative;" class="container">
       <div class="row">
         <div class="col-md-12">
           <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+
+  <nav class="primary_nav_container navbar navbar-expand-xl navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand-xs navbar-light bg-light">
+    <img src="/assets/images/pbcore-logo.png"/>
+    <a class="navbar-brand" href="http://localhost:4000">PBCore</a>
+
+
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
       <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown link
+
+        <li class="nav-item dropdown menu_about">
+
+          <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+            About
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+
+          <div class="dropdown-menu menu_about" aria-labelledby="navbarDropdownMenuLink">
+            
+              
+                
+                  <a class="dropdown-item" href="http://localhost:4000/what-is-pbcore.html">What is PBCore?</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/faqs.html">FAQs/Glossary</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/steering.html">Steering Committee</a>
+                
+              
+            
+              
+            
+              
+            
+              
+            
+          </div>
+
+        </li>
+
+        <li class="nav-item dropdown menu_schema">
+
+          <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+            Schema
+          </a>
+
+          <div class="dropdown-menu menu_schema" aria-labelledby="navbarDropdownMenuLink">
+            
+              
+            
+              
+                
+                  <a class="dropdown-item" href="http://localhost:4000/elements.html">Elements</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/attributes.html">Attributes</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/controlled-vocabs.html">Controlled Vocabularies</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/xsd.html">XML Schema</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/data-model.html">Data Model Visualization</a>
+                
+              
+            
+              
+            
+              
+            
           </div>
         </li>
+
+        <li class="nav-item dropdown menu_resources">
+          <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+            Resources
+          </a>
+          <div class="dropdown-menu menu_resources" aria-labelledby="navbarDropdownMenuLink">
+            
+              
+            
+              
+            
+              
+                
+                  <a class="dropdown-item" href="http://localhost:4000/cataloging-tool.html">Cataloging Tool</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/spreadsheet-templates.html">Spreadsheet Templates</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/validator.html">PBCore XML Validator</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/external-tools-and-integrations.html">External Tools/Integrations</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/mappings.html">Mappings</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/sample-records.html">Sample Records</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/tutorials.html">Tutorials</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/presentations.html">Presentations</a>
+                
+              
+            
+              
+            
+          </div>
+        </li>
+
+        <li class="nav-item dropdown menu_community">
+          <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+            Community
+          </a>
+          <div class="dropdown-menu menu_community" aria-labelledby="navbarDropdownMenuLink">
+            
+              
+            
+              
+            
+              
+            
+              
+                
+                  <a class="dropdown-item" href="http://localhost:4000/pbcore-users.html">PBCore Users</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/user-groups.html">User Groups</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/annual-meeting-notes.html">Annual Meeting Notes</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/news.html">News and Updates</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/contact.html">Contact Us</a>
+                
+              
+            
+          </div>
+        </li>
+
       </ul>
     </div>
   </nav>
+
 </header>
 
         </div>
@@ -130,108 +238,171 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <footer>
-  <nav class="footer_nav_container" aria-label="footer naviagtion">
-    <ul>
-      <li><a href="http://localhost:4000">Home</a></li>
-      
-        
-        
-        <li><a href="http://localhost:4000/what-is-pbcore.html">What is PBCore?</a></li>
-        
-        <li><a href="http://localhost:4000/faqs.html">FAQs/Glossary</a></li>
-        
-        <li><a href="http://localhost:4000/steering.html">Steering Committee</a></li>
-        
-        
-      
-        
-      
-        
-      
-        
-      
-      <li><a href="http://localhost:4000/license.html">License Details</a></li>
-    </ul>
-    <ul>
-      
-        
-      
-        
-        
-        <li><a href="http://localhost:4000/elements.html">Elements</a></li>
-        
-        <li><a href="http://localhost:4000/attributes.html">Attributes</a></li>
-        
-        <li><a href="http://localhost:4000/controlled-vocabs.html">Controlled Vocabularies</a></li>
-        
-        <li><a href="http://localhost:4000/xsd.html">XML Schema</a></li>
-        
-        <li><a href="http://localhost:4000/data-model.html">Data Model Visualization</a></li>
-        
-        
-      
-        
-      
-        
-      
-    </ul>
-    <ul>
-    
-      
-    
-      
-    
-      
-      
-      <li><a href="http://localhost:4000/cataloging-tool.html">Cataloging Tool</a></li>
-      
-      <li><a href="http://localhost:4000/spreadsheet-templates.html">Spreadsheet Templates</a></li>
-      
-      <li><a href="http://localhost:4000/validator.html">PBCore XML Validator</a></li>
-      
-      <li><a href="http://localhost:4000/external-tools-and-integrations.html">External Tools/Integrations</a></li>
-      
-      <li><a href="http://localhost:4000/mappings.html">Mappings</a></li>
-      
-      <li><a href="http://localhost:4000/sample-records.html">Sample Records</a></li>
-      
-      <li><a href="http://localhost:4000/tutorials.html">Tutorials</a></li>
-      
-      <li><a href="http://localhost:4000/presentations.html">Presentations</a></li>
-      
-      
-    
-      
-    
-    </ul>
-    <ul>
-    
-      
-    
-      
-    
-      
-    
-      
-      
-      <li><a href="http://localhost:4000/pbcore-users.html">PBCore Users</a></li>
-      
-      <li><a href="http://localhost:4000/user-groups.html">User Groups</a></li>
-      
-      <li><a href="http://localhost:4000/annual-meeting-notes.html">Annual Meeting Notes</a></li>
-      
-      <li><a href="http://localhost:4000/news.html">News and Updates</a></li>
-      
-      <li><a href="http://localhost:4000/contact.html">Contact Us</a></li>
-      
-      
-    
-    </ul>
-  </nav>
-  <img src="/assets/images/pbcore-logo.png" alt="PBCore Logo">
-  <h2>PBCore</h2>
-  <p>PBCore is licensed under blah blah blah</p>
+          <footer class="page-footer font-small indigo">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="http://localhost:4000">Home</a>
+          </li>
+          
+            
+              
+                <li>
+                  <a href="http://localhost:4000/what-is-pbcore.html">What is PBCore?</a>
+                </li>
+              
+                <li>
+                  <a href="http://localhost:4000/faqs.html">FAQs/Glossary</a>
+                </li>
+              
+                <li>
+                  <a href="http://localhost:4000/steering.html">Steering Committee</a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+            
+          
+          <li>
+            <a href="http://localhost:4000/license.html">License Details</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+        <ul class="list-unstyled">
+          
+            
+          
+            
+            
+            <li><a href="http://localhost:4000/elements.html">Elements</a></li>
+            
+            <li><a href="http://localhost:4000/attributes.html">Attributes</a></li>
+            
+            <li><a href="http://localhost:4000/controlled-vocabs.html">Controlled Vocabularies</a></li>
+            
+            <li><a href="http://localhost:4000/xsd.html">XML Schema</a></li>
+            
+            <li><a href="http://localhost:4000/data-model.html">Data Model Visualization</a></li>
+            
+            
+          
+            
+          
+            
+          
+        <ul class="list-unstyled">
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+
+        <ul class="list-unstyled">
+          
+            
+          
+            
+          
+            
+            
+            <li><a href="http://localhost:4000/cataloging-tool.html">Cataloging Tool</a></li>
+            
+            <li><a href="http://localhost:4000/spreadsheet-templates.html">Spreadsheet Templates</a></li>
+            
+            <li><a href="http://localhost:4000/validator.html">PBCore XML Validator</a></li>
+            
+            <li><a href="http://localhost:4000/external-tools-and-integrations.html">External Tools/Integrations</a></li>
+            
+            <li><a href="http://localhost:4000/mappings.html">Mappings</a></li>
+            
+            <li><a href="http://localhost:4000/sample-records.html">Sample Records</a></li>
+            
+            <li><a href="http://localhost:4000/tutorials.html">Tutorials</a></li>
+            
+            <li><a href="http://localhost:4000/presentations.html">Presentations</a></li>
+            
+            
+          
+            
+          
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mx-auto">
+
+        <!-- Links -->
+
+        <ul class="list-unstyled">
+          
+            
+          
+            
+          
+            
+          
+            
+            
+            <li><a href="http://localhost:4000/pbcore-users.html">PBCore Users</a></li>
+            
+            <li><a href="http://localhost:4000/user-groups.html">User Groups</a></li>
+            
+            <li><a href="http://localhost:4000/annual-meeting-notes.html">Annual Meeting Notes</a></li>
+            
+            <li><a href="http://localhost:4000/news.html">News and Updates</a></li>
+            
+            <li><a href="http://localhost:4000/contact.html">Contact Us</a></li>
+            
+            
+          
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright py-3">
+    <img src="/assets/images/pbcore-logo.png"/>
+  </div>
+  <!-- Copyright -->
 </footer>
 
         </div>

@@ -1,13 +1,20 @@
 <header>
-  <nav class="primary_nav_container navbar navbar-expand-lg navbar-light bg-light">
+
+  <nav class="primary_nav_container navbar navbar-expand-xl navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand-xs navbar-light bg-light">
     <img src="/assets/images/pbcore-logo.png"/>
     <a class="navbar-brand" href="{{ site.url }}">PBCore</a>
+
+
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
       <ul class="navbar-nav">
+
         <li class="nav-item dropdown menu_about">
-          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+          <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
             About
           </a>
+
           <div class="dropdown-menu menu_about" aria-labelledby="navbarDropdownMenuLink">
             {% for item in site.data.nav.toc %}
               {% if item.title == "About" %}
@@ -17,11 +24,15 @@
               {% endif %}
             {% endfor %}
           </div>
+
         </li>
+
         <li class="nav-item dropdown menu_schema">
-          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+          <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
             Schema
           </a>
+
           <div class="dropdown-menu menu_schema" aria-labelledby="navbarDropdownMenuLink">
             {% for item in site.data.nav.toc %}
               {% if item.title == "Schema" %}
@@ -32,8 +43,9 @@
             {% endfor %}
           </div>
         </li>
+
         <li class="nav-item dropdown menu_resources">
-          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
             Resources
           </a>
           <div class="dropdown-menu menu_resources" aria-labelledby="navbarDropdownMenuLink">
@@ -46,8 +58,9 @@
             {% endfor %}
           </div>
         </li>
+
         <li class="nav-item dropdown menu_community">
-          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
             Community
           </a>
           <div class="dropdown-menu menu_community" aria-labelledby="navbarDropdownMenuLink">
@@ -60,7 +73,9 @@
             {% endfor %}
           </div>
         </li>
+
       </ul>
     </div>
   </nav>
+
 </header>
