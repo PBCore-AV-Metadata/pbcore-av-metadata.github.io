@@ -64,6 +64,9 @@ p {
   background: #4d4d4d;
   color: white; }
 
+.dropdown-menu {
+  border-radius: 0px; }
+
 .dropdown:hover .dropdown-menu {
   display: block; }
 
@@ -79,6 +82,26 @@ li.nav-item.dropdown {
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 1001; }
+
+.dropdown-menu::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  top: -4px;
+  z-index: 1000; }
+
+.dropdown-menu.menu_about::before {
+  background-color: #358ff2; }
+
+.dropdown-menu.menu_schema::before {
+  background-color: #36b431; }
+
+.dropdown-menu.menu_resources::before {
+  background-color: #f5463e; }
+
+.dropdown-menu.menu_community::before {
+  background-color: #4d4d4d; }
 
 footer {
   background: #f2f2f2;
