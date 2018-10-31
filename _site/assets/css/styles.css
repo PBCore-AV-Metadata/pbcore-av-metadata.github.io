@@ -152,10 +152,25 @@ section {
 section p {
   padding: 10px 10px 10px 10px; }
 
-h2.blue-title {
-  color: #358ff2;
+h2.title {
   font-size: 53px;
   padding: 10px 10px; }
+
+h2.med-title {
+  font-size: 28px;
+  padding: 10px 10px; }
+
+.red {
+  color: #e44; }
+
+.blue {
+  color: #358ff2; }
+
+.white {
+  color: #fff; }
+
+.red-back {
+  background-color: #e44; }
 
 #getting-started {
   background-image: url("/assets/images/01_getting started flag_box.png");
