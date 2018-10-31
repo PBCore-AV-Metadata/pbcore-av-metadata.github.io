@@ -28,6 +28,19 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+collections:
+  elements:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "elements"
+    values:
+      layout: "element"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
