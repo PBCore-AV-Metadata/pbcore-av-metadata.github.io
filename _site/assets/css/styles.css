@@ -237,3 +237,37 @@ h2.blue-title {
 
 .med-text {
   font-size: 20px; }
+
+.icon {
+  height: 3.4em;
+  width: 3.4em;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 !important; }
+
+.big-icon {
+  height: 4.4em;
+  width: 4.4em;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 !important; }
+
+.cataloging {
+  background-image: url("/assets/images/icons/cataloging.png"); }
+
+.databases {
+  background-image: url("/assets/images/icons/databases.png"); }
+
+.vocabularies {
+  background-image: url("/assets/images/icons/vocabularies.png"); }
+
+.collection_management {
+  background-image: url("/assets/images/icons/collection_management.png"); }
+
+.exchange {
+  background-image: url("/assets/images/icons/exchange.png"); }
+
+.spreadsheets {
+  background-image: url("/assets/images/icons/spreadsheets.png"); }
