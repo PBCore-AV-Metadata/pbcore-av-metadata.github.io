@@ -254,6 +254,10 @@ h2.blue-title {
   background-repeat: no-repeat;
   margin: 0 !important; }
 
+.icon-col {
+  margin-left: 2.4%;
+  margin-right: 2.4%; }
+
 .cataloging {
   background-image: url("/assets/images/icons/cataloging.png"); }
 
