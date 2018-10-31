@@ -3,7 +3,7 @@ title: PBCore Metadata Standard
 layout: default
 ---
 <section id="what-is-pbcore">
-  <h2>What is PBCore?</h2>
+  <h2 class="blue-title">What is PBCore?</h2>
   <p>PBCore is a cataloging standard for the description of audiovisual content, a data sharing tool, and so much more. Since its development in the 1970s, dozens of organizations have been using PBCore's comprehensive and flexible features for their archiving needs.</p>
   <button class="pb-button pb-button-learn">Learn More</button>
 </section>
