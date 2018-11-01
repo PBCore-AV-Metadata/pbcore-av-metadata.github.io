@@ -161,16 +161,19 @@ h2.med-title {
   padding: 10px 10px; }
 
 .red {
-  color: #e44; }
+  color: #f5463e; }
 
 .blue {
   color: #358ff2; }
+
+.green {
+  color: #36b431; }
 
 .white {
   color: #fff; }
 
 .red-back {
-  background-color: #e44; }
+  background-color: #f5463e; }
 
 #getting-started {
   background-image: url("/assets/images/01_getting started flag_box.png");
@@ -290,3 +293,12 @@ h2.med-title {
 
 .spreadsheets {
   background-image: url("/assets/images/icons/spreadsheets.png"); }
+
+.indent-1 {
+  margin-left: 1em; }
+
+.indent-2 {
+  margin-left: 2em; }
+
+.indent-3 {
+  margin-left: 3em; }

@@ -221,11 +221,15 @@ h2.med-title {
 }
 
 .red {
-  color: #e44;
+  color: $red;
 }
 
 .blue {
-  color: #358ff2;
+  color: $blue;
+}
+
+.green {
+  color: $green;
 }
 
 .white {
@@ -233,7 +237,7 @@ h2.med-title {
 }
 
 .red-back {
-  background-color: #e44;
+  background-color: $red;
 }
 
 #getting-started {
@@ -379,4 +383,16 @@ h2.med-title {
 
 .spreadsheets {
   background-image: url("/assets/images/icons/spreadsheets.png")
+}
+
+.indent-1 {
+  margin-left: 1em;
+}
+
+.indent-2 {
+  margin-left: 2em;
+}
+
+.indent-3 {
+  margin-left: 3em;
 }

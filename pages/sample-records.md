@@ -23,21 +23,70 @@ permalink: /sample-records.html
 
 <div class="row">
 
-  <div class="col-md-3">
+  <div class="col-md-3 text-center">
     <h2 class="med-title red">
       Sample Records
     </h2>
 
-    <span class="med-text">
-      Sample 1
-    </span>
+
+    <div class="row">
+      <div class="col-md-12 med-text">
+        <p>
+          Description
+        </p>
+
+      </div>
+    </div>
   </div>
 
   <div class="col-md-3">
 
-    <div class="red-back white text-center" style="height: 2.4em; font-size: 19px;">
-      PLAIN TEXT FORMAT
+    <div class="row">
+      <div class="col-md-12">
+
+        <div class="red-back white text-center" style="height: 2.4em; font-size: 19px;">
+          PLAIN TEXT FORMAT
+        </div>
+      </div>
     </div>
+
+    <div class="row">
+      <div class="col-md-12">
+
+        <p class="indent-1 blue" style="margin-top: 6%;">
+          DESCRIPTION DOCUMENT:
+        </p>
+
+        <p class="indent-2">
+          <span class="blue">
+            ASSET TYPE:
+          </span>
+
+          Episode
+        </p>
+
+        <p class="indent-3">
+          <span class="green">
+            Source:
+          </span>
+        </p>
+
+        <p class="indent-2">
+          <span class="blue">
+            ASSET TYPE:
+          </span>
+
+          Episode
+        </p>
+
+        <p class="indent-3">
+          <span class="green">
+            Source:
+          </span>
+        </p>
+      </div>
+    </div>
+
 
   </div>
 
