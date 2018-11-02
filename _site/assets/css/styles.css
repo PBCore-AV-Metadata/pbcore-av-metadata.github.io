@@ -157,7 +157,7 @@ h2.title {
   padding: 10px 10px; }
 
 h2.med-title {
-  font-size: 28px;
+  font-size: 38px;
   padding: 10px 10px; }
 
 .red {
@@ -172,8 +172,23 @@ h2.med-title {
 .white {
   color: #fff; }
 
+.grey {
+  background-color: #eee; }
+
 .red-back {
   background-color: #f5463e; }
+
+.grey-back {
+  background-color: #eee; }
+
+.dark-grey-back {
+  background-color: #4d4d4d; }
+
+.blue-back {
+  background-color: #358ff2; }
+
+.no-back {
+  background-color: transparent; }
 
 #getting-started {
   background-image: url("/assets/images/01_getting started flag_box.png");
@@ -182,19 +197,9 @@ h2.med-title {
   background-position: center;
   color: #fff; }
 
-#getting-started h2 {
-  color: #ffffff;
-  font-size: 38px;
-  padding: 10px 10px; }
-
 #getting-started p {
   color: #ffffff;
   font-size: 21px;
-  padding: 10px 10px; }
-
-#who-uses-pbcore h2 {
-  color: #f5463e;
-  font-size: 53px;
   padding: 10px 10px; }
 
 #accessing-tools {
@@ -202,11 +207,6 @@ h2.med-title {
   background-repeat: no-repeat;
   background-size: 1125px;
   background-position: center; }
-
-#accessing-tools h2 {
-  color: #f5463e;
-  font-size: 25px;
-  padding: 10px 10px; }
 
 .pb-button {
   padding-left: 1.8%;
@@ -272,6 +272,17 @@ h2.med-title {
   background-repeat: no-repeat;
   margin: 0 !important; }
 
+.huge-icon {
+  height: 8.4em;
+  width: 8.4em;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 !important; }
+
+.ib {
+  display: inline-block; }
+
 .icon-col {
   margin-left: 2.4%;
   margin-right: 2.4%; }
@@ -302,3 +313,6 @@ h2.med-title {
 
 .indent-3 {
   margin-left: 3em; }
+
+.pb-list {
+  list-style: none; }

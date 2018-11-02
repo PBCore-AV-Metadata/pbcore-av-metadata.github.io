@@ -2,7 +2,7 @@
 title: PBCore Metadata Standard
 layout: default
 ---
-<section id="what-is-pbcore">
+<section id="what-is-pbcore" class="">
   <h2 class="blue title">What is PBCore?</h2>
   <p>PBCore is a cataloging standard for the description of audiovisual content, a data sharing tool, and so much more. Since its development in the 1970s, dozens of organizations have been using PBCore's comprehensive and flexible features for their archiving needs.</p>
 
@@ -38,10 +38,10 @@ layout: default
   </div>
 </section>
 
-<section id="getting-started">
+<section id="getting-started" class="blue-back">
   <div class="row">
     <div class="col-md-12">
-      <h2>Getting Started</h2>
+      <h2 class="med-title">Getting Started</h2>
     </div>
   </div>
 
@@ -57,13 +57,13 @@ layout: default
   </div>
 
 </section>
-<section id="who-uses-pbcore">
-  <h2>Who uses PBCore?</h2>
+<section id="who-uses-pbcore" class="dark-grey">
+  <h2 class="med-title red">Who uses PBCore?</h2>
   <p>The Smithsonian Channel, New York Public Media, and other organizations have chosen PBCore for its focus on audiovisual content and the ease with which they can share their records. Take a look at how people use PBCore, and find out how it can help you.</p>
   <button class="pb-button pb-button-who">Learn More</button>
 </section>
-<section id="accessing-tools">
-  <h2>Accessing Tools and Delving Deep</h2>
+<section id="accessing-tools" class="grey-back">
+  <h2 class="red med-title">Accessing Tools and Delving Deep</h2>
 
   <div class="row">
     <div class="col-md-8">

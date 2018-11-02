@@ -7,6 +7,7 @@ $blue: #358ff2;
 $red: #f5463e;
 $green: #36b431;
 $dark-grey: #4d4d4d;
+$grey: #eee;
 
 body {color: #333;
     font-family: 'Lato', sans-serif;
@@ -216,7 +217,7 @@ h2.title {
 }
 
 h2.med-title {
-  font-size: 28px;
+  font-size: 38px;
   padding: 10px 10px;
 }
 
@@ -236,8 +237,28 @@ h2.med-title {
   color: #fff;
 }
 
+.grey {
+  background-color: $grey;
+}
+
 .red-back {
   background-color: $red;
+}
+
+.grey-back {
+  background-color: $grey;
+}
+
+.dark-grey-back {
+  background-color: $dark-grey;
+}
+
+.blue-back {
+  background-color: $blue;
+}
+
+.no-back {
+  background-color: transparent;
 }
 
 #getting-started {
@@ -248,22 +269,10 @@ h2.med-title {
   color: #fff;
 }
 
-#getting-started h2 {
-  color: #ffffff;
-  font-size: 38px;
-  padding: 10px 10px;
-}
-
 #getting-started p {
   color: #ffffff;
   font-size: 21px;
   padding: 10px 10px;
-}
-
-#who-uses-pbcore h2 {
-  color: #f5463e;
-  font-size: 53px;
-  padding: 10px 10px
 }
 
 #accessing-tools {
@@ -271,12 +280,6 @@ h2.med-title {
   background-repeat: no-repeat;
   background-size: 1125px;
   background-position: center
-}
-
-#accessing-tools h2 {
-  color: #f5463e;
-  font-size: 25px;
-  padding: 10px 10px
 }
 
 .pb-button {
@@ -337,7 +340,6 @@ h2.med-title {
   font-size: 20px;
 }
 
-
 .icon {
   height: 3.4em;
   width: 3.4em;
@@ -355,6 +357,20 @@ h2.med-title {
   background-repeat: no-repeat;
   margin: 0 !important;
 }
+
+.huge-icon {
+  height: 8.4em;
+  width: 8.4em;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 !important;
+}
+
+.ib {
+  display: inline-block;
+  }
+
 
 .icon-col {
   margin-left: 2.4%;
@@ -395,4 +411,8 @@ h2.med-title {
 
 .indent-3 {
   margin-left: 3em;
+}
+
+.pb-list {
+  list-style: none;
 }
