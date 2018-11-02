@@ -7,7 +7,10 @@ $blue: #358ff2;
 $red: #f5463e;
 $green: #36b431;
 $dark-grey: #4d4d4d;
+<<<<<<< HEAD
 $grey: #eee;
+=======
+>>>>>>> master
 
 body {color: #333;
     font-family: 'Lato', sans-serif;
@@ -422,4 +425,17 @@ h2.med-title {
   display: block;
   padding: 0.8%;
   margin-bottom: 2%;
+}
+
+.element-highlight {
+  color: $green;
+}
+
+.element-bold {
+  color: black;
+  font-weight: bold;
+}
+
+.sidebar-nav.card-header {
+  background: none
 }
