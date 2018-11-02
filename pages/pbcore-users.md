@@ -4,7 +4,7 @@ layout: default
 permalink: /pbcore-users.html
 ---
 
-## Who uses PBCore?
+<h2 class="title">Who uses PBCore?</h2>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sem ac diam venenatis pellentesque. Ut eget elit sit amet odio euismod aliquet. Praesent ac neque vitae elit mollis varius sit amet in metus. Aenean interdum, tortor nec volutpat efficitur, mauris erat laoreet risus, nec congue quam mauris nec justo. Maecenas non erat massa. Ut et euismod est. Integer consectetur pellentesque libero ac lobortis. Mauris fringilla varius purus in mattis. Nunc laoreet id ante non lobortis. Duis leo diam, maximus ut massa a, hendrerit aliquam nisi. Quisque lorem neque, ullamcorper sed enim in, accumsan iaculis ex. Curabitur id feugiat lacus. Integer a eros ac eros tempor imperdiet sed vel dolor. Ut nibh nisl, iaculis ut dapibus eu, molestie in elit. Aenean ipsum neque, auctor a semper eget, mattis quis velit. Suspendisse potenti.
 
@@ -44,7 +44,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sem ac 
 <hr>
 
 {% for item in site.data.pbcore_users.users %}
-
   <div class="row">
     <div class="col-md-12">
       <img style="width: 100%; display: block;" src="/assets/images/{{ item.logo-file }}">

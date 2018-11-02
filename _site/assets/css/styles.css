@@ -316,3 +316,9 @@ h2.med-title {
 
 .pb-list {
   list-style: none; }
+
+.spread-title {
+  width: 100%;
+  display: block;
+  padding: 0.8%;
+  margin-bottom: 2%; }

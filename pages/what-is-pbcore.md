@@ -4,7 +4,7 @@ layout: default
 permalink: /what-is-pbcore.html
 ---
 
-<div class="row" style="margin-top:3.6em; margin-bottom:3.6em;">
+<div class="row">
   <div class="col-md-6">
 
     <h2 class="blue title">
