@@ -3,62 +3,55 @@ title: Frequently Asked Questions
 layout: default
 permalink: /faqs.html
 ---
-<h1>Frequently Asked Questions and Glossary</h1>
-  <div class="container-fluid bg-gray" id="faq-accordion">
+<script>
+$(document).ready(function(){
+  $('.arrow-icon').click(function(){
+    if($(this).hasClass('arrow-down')){
+      $(this).removeClass('arrow-down').addClass('arrow-up')
+    }
+    else if($(this).hasClass('arrow-up')){
+      $(this).removeClass('arrow-up').addClass('arrow-down')
+    }
+  })
+})
+</script>
+
+<div class="container-fluid bg-gray faq" id="faq">
+  <h1>Frequently Asked Questions</h1>
+  <img class="faq" src="/assets/images/03_faqs_background-icon.png">
   	<div class="container">
   		<section>
+      {% assign i = 0 %}
+       {% for item in site.data.faqs %}
   			<div class="row">
-  				<div class="col-12">
-  					<h2 class="mb-4">Frequently Asked Questions</h2>
-  				</div>
   				<div class="col-10 mx-auto">
-  					<div class="accordion" id="accordionExample">
-              {% for item in site.data.faqs %}
-  						<div class="card">
-  							<div class="card-header" id="headingOne">
-  								<h5 class="mb-0">
-  							<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-  							  <i class="fa fa-amazon main"></i><i class="fa fa-angle-double-right mr-3"></i>{{ item.question }}
-  							</button>
-  						  </h5>
-  							</div>
-
-  							<div id="collapseOne" class="collapse show fade" aria-labelledby="headingOne" data-parent="#accordionExample">
-  								<div class="card-body">
-                    {{ item.answer | markdownify }}
-  								</div>
-  							</div>
-  						</div>
-            {% endfor %}
+            <h2 class="mb-4 faq-section-header">{{ item.section }}</h2>
+  					<div class="accordion" id="faq-accordion{{ i }}">
+              {% for entry in item.questions %}
+                {% assign i = i|plus:1 %}
+      						<div class="card">
+      							<div class="card-header" id="heading{{ i }}">
+      								<h5 class="mb-0">
+      							     <a class="collapsed" data-toggle="collapse" href="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
+                          <span class="arrow-icon arrow-down"></span>
+                          <span class="bold">Q: </span>
+                          {{ entry.question }}
+      							     </a>
+      						     </h5>
+      						  </div>
+  							    <div id="collapse{{ i }}" class="collapse fade" aria-labelledby="heading{{ i }}">
+  								     <div class="card-body">
+                        <span class="bold">A: </span>
+                        <span class="faq-answer">{{ entry.answer | markdownify }}</span>
+  								     </div>
+  							    </div>
+                  <span class="faq-separator"></span>
+  						   </div>
+              {% endfor %}
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <h2 class="mb-4">Glossary</h2>
-        </div>
-        <div class="col-10 mx-auto">
-          <div class="accordion" id="accordionExample">
-            {% for item in site.data.glossary %}
-            <div class="card">
-              <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <i class="fa fa-amazon main"></i><i class="fa fa-angle-double-right mr-3"></i>{{ item.term }}
-              </button>
-              </h5>
-              </div>
-
-              <div id="collapseOne" class="collapse show fade" aria-labelledby="headingOne" data-parent="#accordionExample">
-                <div class="card-body">
-                  {{ item.definition | markdownify }}
-                </div>
-              </div>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
+      {% endfor %}
     </section>
   </div>
 </div>    

@@ -1,7 +1,7 @@
 ---
 ---
 
-@import url(http://fonts.googleapis.com/css?family=Lato|Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab);
 
 $blue: #358ff2;
 $red: #f5463e;
@@ -9,16 +9,20 @@ $green: #36b431;
 $dark-grey: #4d4d4d;
 
 body {color: #333;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top: 66px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Bree Serif', serif;
+  font-family: 'Roboto+Slab', serif;
 }
 
 p {
     line-height: 20px;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .primary_nav_container {
@@ -232,42 +236,76 @@ display: block;
   color: $green;
 }
 
-.element-bold {
+.bold {
   font-weight: bold;
 }
 
-#faq-accordion h1,
-#faq-accordion a{
-    color:#007b5e;
-}
-#faq-accordion .btn-link {
-    font-weight: 400;
-    color: #007b5e;
-    background-color: transparent;
-    text-decoration: none !important;
-    font-size: 16px;
-    font-weight: bold;
-	padding-left: 25px;
+#faq h1, #faq h2, #faq a, #faq div{
+  color: $blue;
+  text-align: left;
 }
 
-#faq-accordion .card-body {
-    border-top: 2px solid #007b5e;
+#glossary h1, #glossary h2, #glossary a, #glossary div{
+  color: $blue;
+  text-align: left;
 }
 
-#faq-accordion .card-header .btn.collapsed .fa.main{
-	display:none;
+.faq-background {
+  background-image: url("/assets/images/03_faqs_background-icon.png");
 }
 
-#faq-accordion .card-header .btn .fa.main{
-	background: #007b5e;
-    padding: 13px 11px;
-    color: #ffffff;
-    width: 35px;
-    height: 41px;
-    position: absolute;
-    left: -1px;
-    top: 10px;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
-	display:block;
+.arrow-icon {
+  background-repeat: no-repeat;
+  float: left;
+  height: 20px;
+  width: 30px;
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.arrow-down {
+  background-image: url("/assets/images/03_faqs_arrow_down_icon.png");
+}
+
+.arrow-up {
+  background-image: url("/assets/images/03_faqs_arrow_up_icon.png");
+}
+
+.arrow-down:hover {
+  background-image: url("/assets/images/03_faqs_arrow_down_icon_rollover.png");
+}
+
+.arrow-up:hover {
+  background-image: url("/assets/images/03_faqs_arrow_up_icon_rollover.png");
+}
+
+.accordion {
+  margin-bottom: 60px;
+}
+
+.card {
+  border: 0px !important;
+}
+
+div.card-header {
+  border: 0px !important;
+  background-color: transparent !important;
+}
+
+.faq-answer {
+ font-weight: 100;
+}
+
+.faq-section-header {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+span.faq-separator {
+  border-bottom: 1px solid #999999;
+}
+
+img.faq {
+  height: 80px;
+  object-fit: contain;
 }
