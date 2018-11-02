@@ -14,7 +14,7 @@ layout: default
   <ul>
     {% for item in page.attributes %}
       <li>
-        <span class="element-bold">{{ item.name }}: </span><span class="attribute-note">{{ item.note }}</span>
+        <span class="bold">{{ item.name }}: </span><span class="attribute-note">{{ item.note }}</span>
       </li>
     {% endfor %}
   </ul>
@@ -26,7 +26,7 @@ layout: default
   <ul>
     {% for item in page.subelements %}
       <li>
-        <a class="element-bold">{{ item.name }}: </a><span class="subelement-note">{{ item.note }}</span>
+        <a class="bold">{{ item.name }}: </a><span class="subelement-note">{{ item.note }}</span>
       </li>
     {% endfor %}
   </ul>

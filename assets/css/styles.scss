@@ -1,7 +1,7 @@
 ---
 ---
 
-@import url(http://fonts.googleapis.com/css?family=Lato|Bree+Serif);
+@import url(https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab);
 
 $blue: #358ff2;
 $red: #f5463e;
@@ -10,16 +10,20 @@ $dark-grey: #4d4d4d;
 $grey: #eee;
 
 body {color: #333;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top: 66px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Bree Serif', serif;
+  font-family: 'Roboto+Slab', serif;
 }
 
 p {
     line-height: 20px;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .primary_nav_container {
@@ -428,9 +432,78 @@ h2.med-title {
   color: $green;
 }
 
-.element-bold {
-  color: black;
+.bold {
   font-weight: bold;
+}
+
+#faq h1, #faq h2, #faq a, #faq div{
+  color: $blue;
+  text-align: left;
+}
+
+#glossary h1, #glossary h2, #glossary a, #glossary div{
+  color: $blue;
+  text-align: left;
+}
+
+.faq-background {
+  background-image: url("/assets/images/03_faqs_background-icon.png");
+}
+
+.arrow-icon {
+  background-repeat: no-repeat;
+  float: left;
+  height: 20px;
+  width: 30px;
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.arrow-down {
+  background-image: url("/assets/images/03_faqs_arrow_down_icon.png");
+}
+
+.arrow-up {
+  background-image: url("/assets/images/03_faqs_arrow_up_icon.png");
+}
+
+.arrow-down:hover {
+  background-image: url("/assets/images/03_faqs_arrow_down_icon_rollover.png");
+}
+
+.arrow-up:hover {
+  background-image: url("/assets/images/03_faqs_arrow_up_icon_rollover.png");
+}
+
+.accordion {
+  margin-bottom: 60px;
+}
+
+.card {
+  border: 0px !important;
+}
+
+div.card-header {
+  border: 0px !important;
+  background-color: transparent !important;
+}
+
+.faq-answer {
+ font-weight: 100;
+}
+
+.faq-section-header {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+span.faq-separator {
+  border-bottom: 1px solid #999999;
+}
+
+img.faq {
+  height: 80px;
+  object-fit: contain;
 }
 
 .sidebar-nav.card-header {

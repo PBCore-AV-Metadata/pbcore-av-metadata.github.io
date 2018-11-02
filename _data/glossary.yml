@@ -1,0 +1,33 @@
+- term: Asset
+  definition: a single piece of content, such as a program, clip, or episode. One asset may exist in many different forms (for example, on DVD, on a U-matic tape in English, and on a VHS tape in French). If the content is the same, those would all be considered instantiations of the same asset.
+- term: Attribute
+  definition: >
+    a structure used to describe or provide more information about the data contained in an element. Within the context of XML, attributes are stored within the value of an element.
+    Here’s an example.
+    <pbcoreTitle titleType=“main”>Lassie</pbcoreTitle>
+    In this case, the element is pbcoreTitle, and the attribute titleType provides more information about the title.
+- term: Container
+  definition: a container element in XML is a way to group other elements together. Container elements usually do not hold data themselves, but act as a bucket for sub-elements that do hold data. The container element is only relevant to PBCore users who are using the XML expression.
+- term: Digital Asset Management (DAM)
+  definition: an asset management system that either serves as a brand asset library or a system for storing and retrieving historical assets.
+- term: Elements
+  definition: >
+    a way to describe and store data in a self-explanatory manner according to a structured vocabulary.
+    Here’s an example.
+    <pbcoreTitle titleType=“main”>Lassie</pbcoreTitle>
+    This would appear as “Title: Lassie.” “Title” is the element, and “Lassie” is the value.
+    Putting the information “Lassie” within a “pbcoreTitle” element tells anyone (or any machine) looking at the data that “Lassie” is the title of the asset. Attributes may be associated with any element, and elements provide even further detail about the data.
+- term: Instantiation
+  definition: a manifestation of an asset that is embodied in physical or digital form, such as a tape, DVD, or digital file. One asset can have many instantiations, but generally, each instantiation holds the same intellectual content.
+- term: Media Asset Management (MAM)
+  definition: an asset management system that's primarily a part of an audio or video workflow. MAM systems are primarily for audiovisual creators that allow them to put content in a central location so that editors can access it.
+- term: Metadata
+  definition: >
+    a set of data that describes and gives information about other data. Some examples include description (title, subject), technical information, or rights information.
+    Metadata can include a wide variety of information, and different communities have different uses for metadata. Often there are different types of metadata needed for different purposes: structural metadata, technical metadata, and preservation metadata. PBCore describes descriptive, structural, and technical metadata, and some people also use it for preservation metadata.
+- term: Schema
+  definition: An XML schema lays out rules for structuring an XML document in a specific way. The PBCore schema specifies how PBCore information should be written in XML so that people and machines can consistently understand the information contained in PBCore documents by referencing the schema.
+- term: XML (Extensible Markup Language)
+  definition: a (markup language)[https://en.wikipedia.org/wiki/Markup_language] that defines a set of rules for encoding documents in a (format)[https://en.wikipedia.org/wiki/File_format] that is readable by both humans and machines. It is defined by the (W3C)[https://en.wikipedia.org/wiki/World_Wide_Web_Consortium]‘s (XML)[https://en.wikipedia.org/wiki/XML] 1.0 Specification and by several other related specifications.
+- term: XSD (XML Schema Definition)
+  definition: the document that defines an XML schema. It can be used to validate other XML documents to make sure that they are complying with the rules of the schema. 
