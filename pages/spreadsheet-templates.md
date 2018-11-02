@@ -17,13 +17,13 @@ permalink: /spreadsheet-templates.html
   </div>
 
   <div class="col-md-6">
-    <button type="button" class="pb-button pb-button-who" name="button" style="padding:4%;">
+    <button type="button" class="pb-button pb-button-who" name="button" style="padding:2.4%;">
       TUTORIAL
     </button>
   </div>
 </div>
 
-<div class="row">
+<div class="row" style="margin-top:4%;">
   <div class="col-md-3">
   yah
   </div>
