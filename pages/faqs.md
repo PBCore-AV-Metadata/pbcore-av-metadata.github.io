@@ -45,7 +45,7 @@ $(document).ready(function(){
                         <span class="faq-answer">{{ entry.answer | markdownify }}</span>
   								     </div>
   							    </div>
-                  <span class="faq-separator"></span>
+                  <span class="separator"></span>
   						   </div>
               {% endfor %}
             </div>

@@ -266,7 +266,7 @@ h2.med-title {
 }
 
 #getting-started {
-  background-image: url("/assets/images/01_getting started flag_box.png");
+  background-image: url("/assets/images/01_getting_started_flag_box.png");
   background-repeat: no-repeat;
   background-size: 1125px;
   background-position: center;
@@ -280,7 +280,7 @@ h2.med-title {
 }
 
 #accessing-tools {
-  background-image: url("/assets/images/01_accessing tools_box.png");
+  background-image: url("/assets/images/01_accessing_tools_box.png");
   background-repeat: no-repeat;
   background-size: 1125px;
   background-position: center
@@ -428,12 +428,12 @@ h2.med-title {
   margin-bottom: 2%;
 }
 
-.element-highlight {
-  color: $green;
-}
-
 .bold {
   font-weight: bold;
+}
+
+.light {
+  font-weight: 100;
 }
 
 #faq h1, #faq h2, #faq a, #faq div{
@@ -497,8 +497,9 @@ div.card-header {
   font-size: 24px;
 }
 
-span.faq-separator {
+.separator {
   border-bottom: 1px solid #999999;
+  padding: 5px;
 }
 
 img.faq {
@@ -506,6 +507,27 @@ img.faq {
   object-fit: contain;
 }
 
-.sidebar-nav.card-header {
-  background: none
+span.definition-icon {
+  background-image: url("/assets/images/06_definition_icon.png");
+  background-repeat: no-repeat;
+  float: left;
+  height: 40px;
+  width: 40px;
+  background-size: contain;
+}
+
+.attribute-name {
+  text-align: right !important;
+}
+
+.attribute-list ul {
+  list-style-type: none;
+}
+
+.attribute-list p {
+  margin: 0 0 0 0;
+}
+
+div.spacing {
+  height: 20px;
 }
