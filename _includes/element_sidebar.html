@@ -1,3 +1,120 @@
 <nav class="sidebar-nav">
+  <h3 class="element-highlight">Elements</h3>
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <span class="element-bold">Root</span>
+          </button>
+        </h5>
+      </div>
 
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+          <ul>
+            {% for item in site.data.elements.elementgroups %}
+              {% if item.group == "Root" %}
+                {% for entry in item.elements %}
+                <li><a href="{{ site.url }}{{entry.url}}">{{ entry.name }}</a></li>
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link element-highlight collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <span class="element-bold">Asset</span>
+          </button>
+        </h5>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+        <div class="card-body">
+          <ul>
+            {% for item in site.data.elements.elementgroups %}
+              {% if item.group == "Asset" %}
+                {% for entry in item.elements %}
+                <li><a href="{{ site.url }}{{entry.url}}">{{ entry.name }}</a>
+                  {% if entry.elements %}
+                    <ul>
+                      {% for subelement in entry.elements %}
+                        <li><a href="{{ site.url }}{{subelement.url}}">{{ subelement.name }}</a>
+                          {% if subelement.elements %}
+                            <ul>
+                              {% for subsubelement in subelement.elements %}
+                                <li><a href="{{ site.url }}{{subsubelement.url}}">{{ subsubelement.name }}</a></li>
+                              {% endfor %}
+                            </ul>
+                          {% endif %}
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h5 class="mb-0">
+          <button class="btn btn-link element-highlight collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <span class="element-bold">Instantiation</span>
+          </button>
+        </h5>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+        <div class="card-body">
+          <ul>
+            {% for item in site.data.elements.elementgroups %}
+              {% if item.group == "Instantiation" %}
+                {% for entry in item.elements %}
+                  <li><a href="{{ site.url }}{{entry.url}}">{{ entry.name }}</a>
+                    {% if entry.elements %}
+                      <ul>
+                        {% for subelement in entry.elements %}
+                          <li><a href="{{ site.url }}{{subelement.url}}">{{ subelement.name }}</a>
+                            {% if subelement.elements %}
+                              <ul>
+                                {% for subsubelement in subelement.elements %}
+                                  <li><a href="{{ site.url }}{{subsubelement.url}}">{{ subsubelement.name }}</a>
+                                    {% if subsubelement.elements %}
+                                      <ul>
+                                        {% for buriedelement in subsubelement.elements %}
+                                          <li><a href="{{ site.url }}{{buriedelement.url}}">{{ buriedelement.name }}</a>
+                                            {% if buriedelement.elements %}
+                                              <ul>
+                                                {% for element in buriedelement.elements %}
+                                                  <li><a href="{{ site.url }}{{element.url}}">{{ element.name }}</a></li>
+                                                {% endfor %}
+                                              </ul>
+                                            {% endif %}
+                                          </li>
+                                        {% endfor %}
+                                      </ul>
+                                    {% endif %}
+                                  </li>
+                                {% endfor %}
+                              </ul>
+                            {% endif %}
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </nav>

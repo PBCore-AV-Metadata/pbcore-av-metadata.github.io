@@ -1,53 +1,211 @@
 elementgroups:
-  - group: Root Elements
+  - group: Root
     elements:
       - name: pbcoreCollection
-        definition: pbcoreCollection groups multiple pbcoreDescriptionDocument XML into one container element to allow for a serialized output. Uses might include API returns or other web service output.
-        best-practice: This element is not intended to be equivalent to the archive/library concept of a ‘collection.’ Please see pbcoreAssetType for information on how PBCore can be used to express information about collections. The element is only applicable to XML expressions of PBCore. This container enables a similar function to RSS; pbcoreCollection would be similar to rss:channel and pbcoreDescription document to rss:item.
-        usage: not repeatable
-        attributes:
-          - name: xmlns
-            note: required
-          - name: xsi
-            note: required
-          - name: schemaLocation
-            note: required
-          - name: collectionTitle
-            note: optional
-          - name: collectionDescription
-            note: optional
-          - name: collectionSource
-            note: optional
-          - name: collectionRef
-            note: optional
-          - name: collectionDate
-            note: optional
-        subelements:
-          - name: pbcoreDescriptionDocument
-            note: required
+        url: /elements/pbcorecollection
       - name: pbcoreDescriptionDocument
-        definition: pbcoreDescriptionDocument is a root XML element for the expression of an individual PBCore record. pbcoreDescriptionDocument can be used to express intellectual content only (e.g. a series or collection level record with no associated instantiations), or intellectual content with one or more instantiations (e.g. an episode of a program with copies/instantiations on videotape and digital file). This element is only applicable to XML expressions of PBCore.
-        attributes:
-        best-practices:
-        usage: only repeatable within pbcoreCollection
-        example:
-        subelements:
+        url: /elements/pbcoredescriptiondocument
       - name: pbcoreInstantiationDocument
-        definition:
-        attributes:
-        example:
-        subelements:
-  - group: Asset Elements
+        url: /elements/pbcoreinstantiationdocument
+  - group: Asset
     elements:
-      - name:
-        definition:
-        attributes:
-        example:
-        subelements:
-  - group: Instantiation Elements
+      - name: pbcoreAssetType
+        url: /elements/pbcoreassettype
+      - name: pbcoreAssetDate
+        url: /elements/pbcoreassetdate
+      - name: pbcoreIdentifier
+        url: /elements/pbcoreidentifier
+      - name: pbcoreTitle
+        url: /elements/pbcoreidentifier
+      - name: pbcoreSubject
+        url: /elements/pbcoresubject
+      - name: pbcoreDescription
+        url: /elements/pbcoredescription
+      - name: pbcoreGenre
+        url: /elements/pbcoregenre
+      - name: pbcoreRelation
+        url: /elements/pbcorerelation
+        elements:
+            - name: pbcoreRelationType
+              url: /elements/pbcorerelationtype
+            - name: pbcoreRelationIdentifer
+              url: /elements/pbcorerelationidentifier
+      - name: pbcoreCoverage
+        url: /elements/pbcorecoverage
+        elements:
+          - name: coverage
+            url: /elements/coverage
+          - name: coverageType
+            url: /elements/coveragetype
+      - name: pbcoreAudienceLevel
+        url: /elements/pbcoreaudiencelevel
+      - name: pbcoreAudienceRating
+        url: /elements/pbcoreaudiencerating
+      - name: pbcoreCreator
+        url: /elements/pbcorecreator
+        elements:
+          - name: creator
+            url: /elements/creator
+          - name: creatorRole
+            url: /elements/creatorrole
+      - name: pbcoreContributor
+        url: /elements/pbcorecontributor
+        elements:
+          - name: contributor
+            url: /elements/contributor
+          - name: contributorRole
+            url: /elements/contributorrole
+      - name: pbcorePublisher
+        url: /elements/pbcorepublisher
+        elements:
+            - name: publisher
+              url: /elements/publisher
+            - name: publisherRole
+              url: /elements/publisherrole
+      - name: pbcoreRightsSummary
+        url: /elements/pbcorerightssummary
+        elements:
+          - name: rightsSummary
+            url: /elements/rightssummary
+          - name: rightsLink
+            url: /elements/rightslink
+          - name: rightsEmbedded
+            url: /elements/rightsembedded
+      - name: pbcorePart
+        url: /elements/pbcorepart
+      - name: pbcoreAnnotation
+        url: /elements/pbcoreannotation
+      - name: pbcoreExtension
+        url: /elements/pbcoreextension
+        elements:
+          - name: extensionWrap
+            url: /elements/extensionwrap
+            elements:
+              - name: extensionElement
+                url: /elements/extensionelement
+              - name: extensionValue
+                url: /elements/extensionvalue
+              - name: extensionAuthorityUsed
+                url: /elements/extensionauthorityused
+          - name: extensionEmbedded
+            url: /elements/extensionEmbedded
+  - group: Instantiation
     elements:
-      - name:
-        definition:
-        attributes:
-        example:
-        subelements:
+      - name: pbcoreInstantiation
+        url: /elements/pbcoreInstantiation
+        elements:
+          - name: instantiationIdentifer
+            url: /elements/instantiationidentifier
+          - name: instantiationDate
+            url: /elements/instantiationdate
+          - name: instantiationDimensions
+            url: /elements/instantiationdimensions
+          - name: instantiationPhysical
+            url: /elements/instantiationphysical
+          - name: instantiationDigital
+            url: /elements/instantiationdigital
+          - name: instantiationStandard
+            url: /elements/instantiationstandard
+          - name: instantiationLocation
+            url: /elements/instantiationlocation
+          - name: instantiationMediaType
+            url: /elements/instantiationmediatype
+          - name: instantiationGenerations
+            url: /elements/instantiationgenerations
+          - name: instantiationFileSize
+            url: /elements/instantiationtimestart
+          - name: instantiationDuration
+            url: /elements/instantiationduration
+          - name: instantiationDataRate
+            url: /elements/instantiationdatarate
+          - name: instantiationColors
+            url: /elements/instantiationcolors
+          - name: instantiationTracks
+            url: /elements/instantiationtracks
+          - name: instantiationChannelConfiguration
+            url: /elements/instantiationchannelconfiguration
+          - name: instantiationLangauge
+            url: /elements/instantiationlanguage
+          - name: instantiationAlternativeModes
+            url: /elements/instantiationalternativemodes
+          - name: instantiationEssenceTrack
+            url: /elements/instantiationessencetrack
+            elements:
+              - name: essenceTrackType
+                url: /elements/essencetracktype
+              - name: essenceTrackIdentifier
+                url: /elements/essencetrackidentifier
+              - name: essenceTrackStandard
+                url: /elements/essencetrackstandard
+              - name: essenceTrackEncoding
+                url: /elements/essencetrackencoding
+              - name: essenceTrackDataRate
+                url: /elements/essencetrackdatadate
+              - name: essenceTrackFrameRate
+                url: /elements/essencetrackframerate
+              - name: essenceTrackPlaybackSpeed
+                url: /elements/essencetrackplaybackspeed
+              - name: essenceTrackSamplingRate
+                url: /elements/essencetracksamplingrate
+              - name: essenceTrackBitDepth
+                url: /elements/essencetrackbitdepth
+              - name: essenceTrackFrameSize
+                url: /elements/essencetrackframesize
+              - name: essenceTrackAspectRatio
+                url: /elements/essencetrackaspectratio
+              - name: essenceTrackTimeStart
+                url: /elements/essencetracktimestart
+              - name: essenceTrackDuration
+                url: /elements/essencetrackduration
+              - name: essenceTrackLanguage
+                url: /elements/essencetracklanguage
+              - name: essenceTrackAnnotation
+                url: /elements/essencetrackannotation
+              - name: essenceTrackExtension
+                url: /elements/essencetrackextension
+                elements:
+                  - name: extensionWrap
+                    url: /elements/extensionwrap
+                    elements:
+                      - name: extensionElement
+                        url: /elements/extensionelement
+                      - name: extensionValue
+                        url: /elements/extensionvalue
+                      - name: extensionAuthorityUsed
+                        url: /elements/extensionauthorityused
+                  - name: extensionEmbedded
+                    url: /elements/extensionembedded
+          - name: instantiationRelation
+            url: /elements/instantiationrelation
+            elements:
+              - name: instantiationRelationType
+                url: /elements/instantiationrelationtype
+              - name: instantiationRelationIdentifier
+                url: /elements/instantiationrelationidentifier
+          - name: instantiationRights
+            url: /elements/instantiationrights
+            elements:
+              - name: rightsSummary
+                url: /elements/rightssummary
+              - name: rightsLink
+                url: /elements/rightslink
+              - name: rightsEmbedded
+                url: /elements/rightsembedded
+          - name: instantiationAnnotation
+            url: /elements/instantiationannotation
+          - name: instantiationPart
+            url: /elements/instantiationpart
+          - name: instantiationExtension
+            url: /elements/instantiationextension
+            elements:
+              - name: extensionWrap
+                url: /elements/extensionwrap
+                elements:
+                  - name: extensionElement
+                    url: /elements/extensionelement
+                  - name: extensionValue
+                    url: /elements/extensionvalue
+                  - name: extensionAuthorityUsed
+                    url: /elements/extensionauthorityused
+              - name: extensionEmbedded
+                url: /elements/extensionembedded
