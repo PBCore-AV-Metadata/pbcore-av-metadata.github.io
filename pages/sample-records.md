@@ -28,7 +28,6 @@ permalink: /sample-records.html
       Sample Records
     </h2>
 
-
     <div class="row">
       <div class="col-md-12 med-text">
         <p>
@@ -62,41 +61,42 @@ permalink: /sample-records.html
     <div class="row">
       <div class="col-md-12">
 
-        <p class="indent-1 blue" style="margin-top: 6%;">
-          DESCRIPTION DOCUMENT:
-        </p>
+        {% for rec in site.data.sample_records %}
 
-        <p class="indent-2">
-          <span class="blue">
-            ASSET TYPE:
-          </span>
+          <span class="{{rec.color}}">
+            {{ rec.label }}:
+          </span> {{ rec.text }}
 
-          Episode
-        </p>
+          {% if rec.children %}
+            {% for rec2 in rec.children %}
 
-        <p class="indent-3">
-          <span class="green">
-            Source:
-          </span>
-        </p>
+              <span class="indent-1 tree-item">
 
-        <p class="indent-2">
-          <span class="blue">
-            ASSET TYPE:
-          </span>
+                <span class="{{rec.color}}">
+                  {{ rec2.label }}:
+                </span> {{ rec2.text }}
 
-          Episode
-        </p>
+                {% if rec2.children %}
 
-        <p class="indent-3">
-          <span class="green">
-            Source:
-          </span>
-        </p>
+                  {% for rec3 in rec2.children %}
+                    <span class="indent-1 tree-item">
+
+                      <span class="{{rec3.color}}">
+                        {{ rec3.label }}:
+                      </span> {{ rec3.text }}
+                    </span>
+                  {% endfor %}
+
+                {% endif %}
+              </span>
+            {% endfor %}
+
+          {% endif %}
+
+        {% endfor %}
+
       </div>
     </div>
-
-
   </div>
 
   <div class="col-md-6">
@@ -107,4 +107,11 @@ permalink: /sample-records.html
 
   </div>
 
+</div>
+
+<div class="row">
+  <div class="col-md-12 med-text red">
+
+    Download complete user documentation
+  </div>
 </div>

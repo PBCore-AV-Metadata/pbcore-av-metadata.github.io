@@ -422,6 +422,17 @@ h2.med-title {
   display: block;
   padding: 0.8%;
   margin-bottom: 2%;
+  border: 1px solid #000;
+}
+
+.spread-title:hover {
+  background-color: $red;
+}
+
+.spread-body {
+  width: 100%;
+  display: block;
+  margin-bottom: 2%;
 }
 
 .element-highlight {
@@ -435,4 +446,10 @@ h2.med-title {
 
 .sidebar-nav.card-header {
   background: none
+}
+
+.tree-item {
+  display: block;
+  margin-bottom: .5em;
+  padding: 2.4%;
 }
