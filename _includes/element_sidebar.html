@@ -1,17 +1,17 @@
 
 <nav class="sidebar-nav">
-  <h3 class="element-highlight">Elements</h3>
-  <div id="accordion">
-    <div class="card">
+  <h3 class="green bold">Elements</h3>
+  <div id="element-accordion">
+    <div class="card separator">
       <div class="card-header" id="headingOne">
         <h5 class="mb-0">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          <span class="element-bold">Root</span>
-          </button>
+          <a class="bold collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Root
+          </a>
         </h5>
       </div>
 
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
         <div class="card-body">
           <ul>
             {% for item in site.data.elements.elementgroups %}
@@ -25,15 +25,15 @@
         </div>
       </div>
     </div>
-    <div class="card">
+    <div class="card separator">
       <div class="card-header" id="headingTwo">
         <h5 class="mb-0">
-          <button class="btn btn-link element-highlight collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            <span class="element-bold">Asset</span>
-          </button>
+          <a class="bold collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Asset
+          </a>
         </h5>
       </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
         <div class="card-body">
           <ul>
             {% for item in site.data.elements.elementgroups %}
@@ -63,15 +63,15 @@
         </div>
       </div>
     </div>
-    <div class="card">
+    <div class="card separator">
       <div class="card-header" id="headingThree">
         <h5 class="mb-0">
-          <button class="btn btn-link element-highlight collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            <span class="element-bold">Instantiation</span>
-          </button>
+          <a class="bold collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Instantiation
+          </a>
         </h5>
       </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree">
         <div class="card-body">
           <ul>
             {% for item in site.data.elements.elementgroups %}
