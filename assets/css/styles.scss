@@ -576,3 +576,7 @@ div.spacing {
   margin-bottom: .5em;
   padding: 2.4%;
 }
+
+code[class*="language-"] {
+  white-space: pre-wrap !important;
+}
