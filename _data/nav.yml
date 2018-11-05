@@ -3,8 +3,10 @@ toc:
     subfolderitems:
       - page: What is PBCore?
         url: /what-is-pbcore.html
-      - page: FAQs/Glossary
+      - page: FAQs
         url: /faqs.html
+      - page: Glossary
+        url: /glossary.html
       - page: Steering Committee
         url: /steering.html
   - title: Schema

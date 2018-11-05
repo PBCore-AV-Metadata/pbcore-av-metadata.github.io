@@ -2,31 +2,31 @@
 layout: default
 ---
 {% include element_sidebar.html %}
-<h3 class="element-highlight">Elements defined</h3>
+<h3 class="green">Elements defined</h3>
 <h2>{{ page.name }}</h2>
 <p class="element_def">{{ page.definition }}</p>
 {% if page.best-practice %}
-<p><span class="element-highlight">Best Practice: </span><span>{{ page.best-practice }}</span></p>
+<p><span class="green">Best Practice: </span><span>{{ page.best-practice }}</span></p>
 {% endif %}
-<p><span class="element-highlight">Usage: </span><span>{{ page.usage }}</span></p>
-<h3 class="element-highlight">Attributes</h3>
+<p><span class="green">Usage: </span><span>{{ page.usage }}</span></p>
+<h3 class="green">Attributes</h3>
 {% if page.attributes %}
   <ul>
     {% for item in page.attributes %}
       <li>
-        <span class="element-bold">{{ item.name }}: </span><span class="attribute-note">{{ item.note }}</span>
+        <span class="bold">{{ item.name }}: </span><span class="attribute-note">{{ item.note }}</span>
       </li>
     {% endfor %}
   </ul>
 {% else %}
   <p>This element cannot have any attributes.</p>
 {% endif %}
-<h3 class="element-highlight">Subelements</h3>
+<h3 class="green">Subelements</h3>
 {% if page.subelements %}
   <ul>
     {% for item in page.subelements %}
       <li>
-        <a class="element-bold">{{ item.name }}: </a><span class="subelement-note">{{ item.note }}</span>
+        <a class="bold">{{ item.name }}: </a><span class="subelement-note">{{ item.note }}</span>
       </li>
     {% endfor %}
   </ul>
@@ -34,6 +34,6 @@ layout: default
   <p>This element does not have any subelements.</p>
 {% endif %}
 
-<h3 class="element-highlight">Example</h3>
+<h3 class="green">Examples</h3>
 
 {{ content }}
