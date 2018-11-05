@@ -26,7 +26,6 @@ permalink: /what-is-pbcore.html
       Key Functions
     </h3>
 
-    <hr>
     <span class="med-text">
 
       <div class="row">
@@ -39,7 +38,7 @@ permalink: /what-is-pbcore.html
         </div>
       </div>
 
-      <hr>
+      <hr class="blue-back">
       <div class="row">
         <div class="col-md-2">
           <span class="icon databases"></span>
@@ -50,7 +49,7 @@ permalink: /what-is-pbcore.html
         </div>
       </div>
 
-      <hr>
+      <hr class="blue-back">
       <div class="row">
         <div class="col-md-2">
           <span class="icon vocabularies"></span>
@@ -61,7 +60,7 @@ permalink: /what-is-pbcore.html
         </div>
       </div>
 
-      <hr>
+      <hr class="blue-back">
       <div class="row">
         <div class="col-md-2">
           <span class="icon collection_management"></span>
@@ -72,7 +71,7 @@ permalink: /what-is-pbcore.html
         </div>
       </div>
 
-      <hr>
+      <hr class="blue-back">
       <div class="row">
         <div class="col-md-2">
           <span class="icon exchange"></span>
@@ -83,7 +82,7 @@ permalink: /what-is-pbcore.html
         </div>
       </div>
 
-      <hr>
+      <hr class="blue-back">
       <div class="row">
         <div class="col-md-2">
           <span class="icon spreadsheets"></span>
