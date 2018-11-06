@@ -1,6 +1,6 @@
 ---
 title: Elements
-layout: default
+layout: element-groups
 permalink: /elements.html
 ---
 
