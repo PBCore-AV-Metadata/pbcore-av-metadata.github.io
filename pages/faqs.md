@@ -5,7 +5,7 @@ permalink: /faqs.html
 ---
 <script>
 $(document).ready(function(){
-  $('.arrow-icon').click(function(){
+  $('.faq-arrow-icon').click(function(){
     if($(this).hasClass('arrow-down')){
       $(this).removeClass('arrow-down').addClass('arrow-up')
     }
@@ -33,7 +33,7 @@ $(document).ready(function(){
       							<div class="card-header" id="heading{{ i }}">
       								<h5 class="mb-0">
       							     <a class="collapsed" data-toggle="collapse" href="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
-                          <span class="arrow-icon arrow-down"></span>
+                          <span class="faq-arrow-icon arrow-down"></span>
                           <span class="bold">Q: </span>
                           {{ entry.question }}
       							     </a>

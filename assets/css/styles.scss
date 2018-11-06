@@ -498,6 +498,15 @@ h2.med-title {
   // margin-right: 10px;
 }
 
+.faq-arrow-icon {
+  background-repeat: no-repeat;
+  float: left;
+  height: 20px;
+  width: 30px;
+  background-size: contain;
+  margin-right: 10px;
+}
+
 .arrow-down {
   background-image: url("/assets/images/03_faqs_arrow_down_icon.png");
 }
@@ -584,6 +593,7 @@ div.spacing {
   left: -1.2em;
   top: 1em;
 }
+
 
 .element-arrow-down {
   background-image: url("/assets/images/05_arrow_down_menu-button.png");
