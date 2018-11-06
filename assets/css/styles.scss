@@ -452,11 +452,11 @@ h2.med-title {
 
 .arrow-icon {
   background-repeat: no-repeat;
-  float: left;
+  // float: left;
   height: 20px;
   width: 30px;
   background-size: contain;
-  margin-right: 10px;
+  // margin-right: 10px;
 }
 
 .arrow-down {
@@ -540,10 +540,14 @@ div.spacing {
 .element-arrow-icon {
   background-image: url("/assets/images/05_arrow_down_menu-button.png");
   background-repeat: no-repeat;
-  float: left;
+  // float: left;
   height: 10px;
   width: 20px;
   background-size: contain;
+  position: absolute;
+  display: block;
+  left: -1.2em;
+  top: 1em;
 }
 
 .element-arrow-down {
@@ -575,5 +579,14 @@ div.spacing {
 }
 
 .sidebar-indent {
-  text-indent: 1em;
+  margin-left: 1em;
+}
+
+.card-header {
+  padding-left: 0;
+}
+
+.card-body {
+  padding-left: 0em;
+  padding-top: 0em;
 }
