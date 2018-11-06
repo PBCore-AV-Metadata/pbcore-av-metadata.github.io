@@ -1,207 +1,206 @@
 <nav class="sidebar-nav">
   <h3 class="green bold">Elements</h3>
   <div id="element-accordion">
-  {% assign i = 0 %}
-      <div class="card separator">
-        <div class="card-header" id="headingRoot">
-          <h4 class="mb-0">
-            <a class="bold show collapsed" data-toggle="collapse" data-target="#collapseRoot" aria-expanded="false" aria-controls="collapseRoot">
-              ROOT
-            </a>
-          </h4>
-        </div>
-        <div id="collapseRoot" class="collapse" aria-labelledby="headingRoot">
-          <div class="card-body sidebar-indent">
-            {% for item in site.data.elements.elementgroups %}
-              {% if item.group == "Root" %}
-                {% for level1 in item.elements %}
-                  <h5 class="">
-                    <a href="{{ site.url }}{{level1.url}}">
-                      {{ level1.name }}
-                    </a>
-                  </h5>
-                {% endfor %}
-              {% endif %}
-            {% endfor %}
-          </div>
+    {% assign i = 0 %}
+    <div class="card separator">
+      <div class="card-header top" id="headingRoot">
+        <h4 class="mb-0">
+          <a class="bold" data-toggle="collapse" data-target="#collapseRoot" aria-expanded="false" aria-controls="collapseRoot">
+            ROOT
+          </a>
+        </h4>
+      </div>
+      <div id="collapseRoot" class="collapse show" aria-labelledby="headingRoot">
+        <div class="card-body sidebar-indent">
+          {% for item in site.data.elements.elementgroups %}
+            {% if item.group == "Root" %}
+              {% for level1 in item.elements %}
+                <h5 class="card-guy">
+                  <a href="{{ site.url }}{{level1.url}}">
+                    {{ level1.name }}
+                  </a>
+                </h5>
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
         </div>
       </div>
-      <div class="card separator">
-        <div class="card-header" id="headingAsset">
-          <h4 class="mb-0">
-            <a class="bold show collapsed" data-toggle="collapse" data-target="#collapseAsset" aria-expanded="false" aria-controls="collapseAsset">
-              ASSET
-            </a>
-          </h4>
-        </div>
-        <div id="collapseAsset" class="collapse" aria-labelledby="headingAsset">
-          <div class="card-body sidebar-indent">
-            {% for item in site.data.elements.elementgroups %}
-              {% if item.group == "Asset" %}
-                {% for level1 in item.elements %}
-                  {% if level1.elements %}
-                    {% assign i = i|plus:1 %}
-                    <div id="{{ i }}-accordion">
-                      <div class="card">
-                        <div class="card-header" id="heading{{ i }}">
-                          <h5 class="collapsed" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
-                            <span class="element-arrow-icon element-arrow-down"></span>
-                            <a href="{{ site.url }}{{ level1.url }}">
-                              {{ level1.name }}
-                            </a>
-                          </h5>
-                        </div>
-                        <div id="collapse{{ i }}" class="collapse" aria-labelledby="heading{{ i }}">
-                          <div class="card-body sidebar-indent">
-                            {% for level2 in level1.elements %}
-                              {% if level2.elements %}
-                                {% assign i = i|plus:1 %}
-                                <div id="{{ i }}-accordion">
-                                  <div class="card">
-                                    <div class="card-header" id="heading{{ i }}">
-                                      <h5 class="collapsed" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
-                                        <span class="element-arrow-icon element-arrow-down"></span>
-                                        <a href="{{ site.url }}{{ level2.url }}">
-                                          {{ level2.name }}
-                                        </a>
-                                      </h5>
-                                    </div>
-                                    <div id="collapse{{ i }}" class="collapse" aria-labelledby="heading{{ i }}">
-                                      <div class="card-body sidebar-indent">
-                                        {% for level3 in level2.elements %}
-                                          <h5 class="">
-                                            <a href="{{ site.url }}{{ level3.url }}">
-                                              {{ level3.name }}
-                                            </a>
-                                          </h5>
-                                        {% endfor %}
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              {% else %}
-                                  <h5 class=""><a href="{{ site.url }}{{ level2.url }}">{{ level2.name }}</a></h5>
-                              {% endif %}
-                            {% endfor %}
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                      {% else %}
-                        <h5 class="">
+    </div>
+    <div class="card separator">
+      <div class="card-header top" id="headingAsset">
+        <h4 class="mb-0">
+          <a class="bold" data-toggle="collapse" data-target="#collapseAsset" aria-expanded="false" aria-controls="collapseAsset">
+            ASSET
+          </a>
+        </h4>
+      </div>
+      <div id="collapseAsset" class="collapse show" aria-labelledby="headingAsset">
+        <div class="card-body sidebar-indent">
+          {% for item in site.data.elements.elementgroups %}
+            {% if item.group == "Asset" %}
+              {% for level1 in item.elements %}
+                {% if level1.elements %}
+                  {% assign i = i|plus:1 %}
+                  <div id="{{ i }}-accordion">
+                    <div class="card">
+                      <div class="card-header" id="heading{{ i }}">
+                        <h5 class="collapsed" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
+                          <span class="element-arrow-icon element-arrow-down"></span>
                           <a href="{{ site.url }}{{ level1.url }}">
                             {{ level1.name }}
                           </a>
                         </h5>
-                      {% endif %}
-                    {% endfor %}
-                  {% endif %}
-                {% endfor %}
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card separator">
-          <div class="card-header" id="headingInstantiation">
-            <h4 class="mb-0">
-              <a class="bold show collapsed" data-toggle="collapse" data-target="#collapseInstantiation" aria-expanded="false" aria-controls="collapseInstantiation">
-                INSTANTIATION
-              </a>
-            </h4>
-          </div>
-          <div id="collapseInstantiation" class="collapse" aria-labelledby="headingInstantiation">
-            <div class="card-body sidebar-indent">
-              {% for item in site.data.elements.elementgroups %}
-                {% if item.group == "Instantiation" %}
-                  {% for level1 in item.elements %}
-                    {% if level1.elements %}
-                      {% assign i = i|plus:1 %}
-                      <div id="{{ i }}-accordion">
-                        <div class="card">
-                          <div class="card-header" id="heading{{ i }}">
-                            <h5 class="collapsed" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
-                              <a href="{{ site.url }}{{ level1.url }}">
-                                {{ level1.name }}
-                              </a>
-                              <span class="element-arrow-icon element-arrow-down"></span>
-
-                            </h5>
-                          </div>
-                          <div id="collapse{{ i }}" class="collapse" aria-labelledby="heading{{ i }}">
-                            <div class="card-body ">
-                              {% for level2 in level1.elements %}
-                                {% if level2.elements %}
-                                  {% assign i = i|plus:1 %}
-                                  <div id="{{ i }}-accordion">
-                                    <div class="card">
-                                      <div class="card-header" id="heading{{ i }}">
-                                        <h5 class="collapsed" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
-                                          <span class="element-arrow-icon element-arrow-down"></span>
-                                          <a href="{{ site.url }}{{ level2.url }}">
-                                            {{ level2.name }}
+                      </div>
+                      <div id="collapse{{ i }}" class="collapse" aria-labelledby="heading{{ i }}">
+                        <div class="card-body sidebar-indent">
+                          {% for level2 in level1.elements %}
+                            {% if level2.elements %}
+                              {% assign i = i|plus:1 %}
+                              <div id="{{ i }}-accordion">
+                                <div class="card">
+                                  <div class="card-header" id="heading{{ i }}">
+                                    <h5 class="collapsed" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
+                                      <span class="element-arrow-icon element-arrow-down"></span>
+                                      <a href="{{ site.url }}{{ level2.url }}">
+                                        {{ level2.name }}
+                                      </a>
+                                    </h5>
+                                  </div>
+                                  <div id="collapse{{ i }}" class="collapse" aria-labelledby="heading{{ i }}">
+                                    <div class="card-body sidebar-indent">
+                                      {% for level3 in level2.elements %}
+                                        <h5 class="card-guy">
+                                          <a href="{{ site.url }}{{ level3.url }}">
+                                            {{ level3.name }}
                                           </a>
                                         </h5>
-                                      </div>
-                                      <div id="collapse{{ i }}" class="collapse" aria-labelledby="heading{{ i }}">
-                                        <div class="card-body sidebar-indent">
-                                          {% for level3 in level2.elements %}
-                                            {% if level3.elements %}
-                                              {% assign i = i|plus:1 %}
-                                              <div id="{{ i }}-accordion">
-                                                <div class="card">
-                                                  <div class="card-header" id="heading{{ i }}">
-                                                    <h5 class="collapsed" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
-                                                      <span class="element-arrow-icon element-arrow-down"></span>
-                                                      <a href="{{ site.url }}{{ level3.url }}">
-                                                        {{ level3.name }}
-                                                      </a>
-                                                    </h5>
-                                                  </div>
-                                                  <div id="collapse{{ i }}" class="collapse" aria-labelledby="heading{{ i }}">
-                                                    <div class="card-body sidebar-indent">
-                                                      {% for level4 in level3.elements %}
-                                                        <h5 class="">
-                                                          <a href="{{ site.url }}{{ level4.url }}">
-                                                            {{ level4.name }}
-                                                          </a>
-                                                        </h5>
-                                                      {% endfor %}
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            {% else %}
-                                              <h5 class="">
+                                      {% endfor %}
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            {% else %}
+                                <h5 class="card-guy"><a href="{{ site.url }}{{ level2.url }}">{{ level2.name }}</a></h5>
+                            {% endif %}
+                          {% endfor %}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                {% else %}
+                  <h5 class="card-guy">
+                    <a href="{{ site.url }}{{ level1.url }}">
+                      {{ level1.name }}
+                    </a>
+                  </h5>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card separator">
+    <div class="card-header top" id="headingInstantiation">
+      <h4 class="mb-0">
+        <a class="bold" data-toggle="collapse" data-target="#collapseInstantiation" aria-expanded="false" aria-controls="collapseInstantiation">
+          INSTANTIATION
+        </a>
+      </h4>
+    </div>
+    <div id="collapseInstantiation" class="collapse show" aria-labelledby="headingInstantiation">
+      <div class="card-body sidebar-indent">
+        {% for item in site.data.elements.elementgroups %}
+          {% if item.group == "Instantiation" %}
+            {% for level1 in item.elements %}
+              {% if level1.elements %}
+                {% assign i = i|plus:1 %}
+                <div id="{{ i }}-accordion">
+                  <div class="card">
+                    <div class="card-header" id="heading{{ i }}">
+                      <h5 class="collapsed" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
+                        <a href="{{ site.url }}{{ level1.url }}">
+                          {{ level1.name }}
+                        </a>
+                        <span class="element-arrow-icon element-arrow-down"></span>
+
+                      </h5>
+                    </div>
+                    <div id="collapse{{ i }}" class="collapse" aria-labelledby="heading{{ i }}">
+                      <div class="card-body ">
+                        {% for level2 in level1.elements %}
+                          {% if level2.elements %}
+                            {% assign i = i|plus:1 %}
+                            <div id="{{ i }}-accordion">
+                              <div class="card">
+                                <div class="card-header" id="heading{{ i }}">
+                                  <h5 class="collapsed" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
+                                    <span class="element-arrow-icon element-arrow-down"></span>
+                                    <a href="{{ site.url }}{{ level2.url }}">
+                                      {{ level2.name }}
+                                    </a>
+                                  </h5>
+                                </div>
+                                <div id="collapse{{ i }}" class="collapse" aria-labelledby="heading{{ i }}">
+                                  <div class="card-body sidebar-indent">
+                                    {% for level3 in level2.elements %}
+                                      {% if level3.elements %}
+                                        {% assign i = i|plus:1 %}
+                                        <div id="{{ i }}-accordion">
+                                          <div class="card">
+                                            <div class="card-header" id="heading{{ i }}">
+                                              <h5 class="collapsed" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
+                                                <span class="element-arrow-icon element-arrow-down"></span>
                                                 <a href="{{ site.url }}{{ level3.url }}">
                                                   {{ level3.name }}
                                                 </a>
                                               </h5>
-                                            {% endif %}
-                                          {% endfor %}
+                                            </div>
+                                            <div id="collapse{{ i }}" class="collapse" aria-labelledby="heading{{ i }}">
+                                              <div class="card-body sidebar-indent">
+                                                {% for level4 in level3.elements %}
+                                                  <h5 class="card-guy">
+                                                    <a href="{{ site.url }}{{ level4.url }}">
+                                                      {{ level4.name }}
+                                                    </a>
+                                                  </h5>
+                                                {% endfor %}
+                                              </div>
+                                            </div>
+                                          </div>
                                         </div>
-                                      </div>
-                                    </div>
+                                      {% else %}
+                                        <h5 class="card-guy">
+                                          <a href="{{ site.url }}{{ level3.url }}">
+                                            {{ level3.name }}
+                                          </a>
+                                        </h5>
+                                      {% endif %}
+                                    {% endfor %}
                                   </div>
-                                {% else %}
-                                    <h5 class=""><a href="{{ site.url }}{{ level2.url }}">{{ level2.name }}</a></h5>
-                                {% endif %}
-                              {% endfor %}
+                                </div>
+                              </div>
                             </div>
-                          </div>
-                        </div>
+                          {% else %}
+                              <h5 class="card-guy"><a href="{{ site.url }}{{ level2.url }}">{{ level2.name }}</a></h5>
+                          {% endif %}
+                        {% endfor %}
                       </div>
-                        {% else %}
-                          <h5 class="">
-                            <a href="{{ site.url }}{{ level1.url }}">
-                              {{ level1.name }}
-                            </a>
-                          </h5>
-                        {% endif %}
-                      {% endfor %}
-                    {% endif %}
-                  {% endfor %}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
+              {% else %}
+                <h5 class="card-guy">
+                  <a href="{{ site.url }}{{ level1.url }}">
+                    {{ level1.name }}
+                  </a>
+                </h5>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </nav>
