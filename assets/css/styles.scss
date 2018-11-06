@@ -536,3 +536,44 @@ div.spacing {
   list-style-type: none;
   font-size: 12px;
 }
+
+.element-arrow-icon {
+  background-image: url("/assets/images/05_arrow_down_menu-button.png");
+  background-repeat: no-repeat;
+  float: left;
+  height: 10px;
+  width: 20px;
+  background-size: contain;
+}
+
+.element-arrow-down {
+  background-image: url("/assets/images/05_arrow_down_menu-button.png");
+}
+
+.element-arrow-up {
+  background-image: url("/assets/images/05_arrow_up_menu-button.png");
+}
+
+.element-arrow-down:hover {
+  background-image: url("/assets/images/05_arrow_down_menu-button_rollover.png");
+}
+
+.element-arrow-up:hover {
+  background-image: url("/assets/images/05_arrow_up_menu-button_rollover.png");
+}
+
+.sidebar-nav h4 {
+  font: Roboto;
+  font-size: 17px;
+  color: #000000
+}
+
+.sidebar-nav h5 a {
+  font: Roboto;
+  font-size: 16px;
+  color: #000000
+}
+
+.sidebar-indent {
+  text-indent: 1em;
+}
