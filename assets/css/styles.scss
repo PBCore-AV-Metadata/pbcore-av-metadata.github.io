@@ -32,7 +32,7 @@ a:hover {
   top: 0;
   left: 0;
   background: #f2f2f2;
-  height: 100px;
+  height: 14vh;
   width: 100%;
 
   a {
@@ -381,6 +381,10 @@ h2.med-title {
   margin-right:2.4%;
 }
 
+.catalog-list {
+  list-style-type: circle;
+}
+
 .cataloging {
   background-image: url("/assets/images/icons/cataloging.png")
 }
@@ -405,6 +409,30 @@ h2.med-title {
   background-image: url("/assets/images/icons/spreadsheets.png")
 }
 
+.cataloging:hover {
+  background-image: url("/assets/images/icons/cataloging_select.png")
+}
+
+.databases:hover {
+  background-image: url("/assets/images/icons/databases_select.png")
+}
+
+.vocabularies:hover {
+  background-image: url("/assets/images/icons/vocabularies_select.png")
+}
+
+.collection_management:hover {
+  background-image: url("/assets/images/icons/collection_management_select.png")
+}
+
+.exchange:hover {
+  background-image: url("/assets/images/icons/exchange_select.png")
+}
+
+.spreadsheets:hover {
+  background-image: url("/assets/images/icons/spreadsheets_select.png")
+}
+
 .indent-1 {
   margin-left: 1em;
 }
@@ -425,6 +453,17 @@ h2.med-title {
   width: 100%;
   display: block;
   padding: 0.8%;
+  margin-bottom: 2%;
+  border: 1px solid #000;
+}
+
+.spread-title:hover {
+  background-color: $red;
+}
+
+.spread-body {
+  width: 100%;
+  display: block;
   margin-bottom: 2%;
 }
 
@@ -527,6 +566,7 @@ div.spacing {
   height: 20px;
 }
 
+
 #element-accordion ul {
   list-style-type: none;
   font-size: 12px;
@@ -609,4 +649,13 @@ div.card-header.top {
   border-radius: 0;
   border-right: 1px solid black !important;
   border-right: 1px solid black !important;
+
+.tree-item {
+  display: block;
+  margin-bottom: .5em;
+  padding: 2.4%;
+}
+
+code[class*="language-"] {
+  white-space: pre-wrap !important;
 }
