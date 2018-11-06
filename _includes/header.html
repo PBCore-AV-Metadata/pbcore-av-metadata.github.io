@@ -1,11 +1,31 @@
+<script type="text/javascript">
+  $(document).ready(function() {
+      var accordion_ids=Cookies.get('accordionDisplay');
+      if (accordion_ids!=null) {
+          //show the open_accordions visible group
+          $(accordion_ids).collapse("show");
+      }
+  });
+
+  //when a group is shown, save it as the active accordion group
+  $(document).on('show.bs.collapse', function() {
+      var active_accs = $("div.collapse.show[id^=collapse]")
+      var active_ids = $.map(active_accs, function(ele){
+        return '#' + ele.id;
+      }).join(',');
+      Cookies.remove('accordionDisplay');
+      Cookies.set('accordionDisplay', active_ids, {path: '/elements/pbcorecollection'})
+  });
+</script>
+
 <header>
-  <nav class="primary_nav_container navbar navbar-expand-xl navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand-xs navbar-light bg-light">
+  <nav class="primary_nav_container navbar navbar-expand-xl navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand-xs navbar-light bg-light" style="min-height:8em;height:8em;">
 
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-      <ul style="margin-left:5.7%; position: relative; margin-bottom:1.6%;">
+      <ul style="margin-left:5.7%; margin-bottom:1.6%;">
         <li>
-          <img src="/assets/images/pbcore-logo.png" alt="" style="padding:2%;">
+          <img src="/assets/images/pbcore-logo.png" alt="">
         </li>
       </ul>
       <ul style="margin-left:6%; bottom: 0; position: absolute;" class="navbar-nav">
