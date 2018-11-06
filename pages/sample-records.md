@@ -61,39 +61,44 @@ permalink: /sample-records.html
     <div class="row">
       <div class="col-md-12">
 
-        {% for rec in site.data.sample_records %}
+        <span style="margin-top:1em; display: block;">
 
-          <span class="{{rec.color}}">
-            {{ rec.label }}:
-          </span> {{ rec.text }}
+          {% for rec in site.data.sample_records %}
 
-          {% if rec.children %}
-            {% for rec2 in rec.children %}
+            <span class="{{rec.color}}">
+              {{ rec.label }}:
+            </span> {{ rec.text }}
 
-              <span class="indent-1 tree-item">
+            {% if rec.children %}
+              {% for rec2 in rec.children %}
 
-                <span class="{{rec.color}}">
-                  {{ rec2.label }}:
-                </span> {{ rec2.text }}
+                <span class="indent-1 tree-item">
 
-                {% if rec2.children %}
+                  <span class="{{rec.color}}">
+                    {{ rec2.label }}:
+                  </span> {{ rec2.text }}
 
-                  {% for rec3 in rec2.children %}
-                    <span class="indent-1 tree-item">
+                  {% if rec2.children %}
 
-                      <span class="{{rec3.color}}">
-                        {{ rec3.label }}:
-                      </span> {{ rec3.text }}
-                    </span>
-                  {% endfor %}
+                    {% for rec3 in rec2.children %}
+                      <span class="indent-1 tree-item">
 
-                {% endif %}
-              </span>
-            {% endfor %}
+                        <span class="{{rec3.color}}">
+                          {{ rec3.label }}:
+                        </span> {{ rec3.text }}
+                      </span>
+                    {% endfor %}
 
-          {% endif %}
+                  {% endif %}
+                </span>
+              {% endfor %}
 
-        {% endfor %}
+            {% endif %}
+
+          {% endfor %}
+
+        </span>
+
 
       </div>
     </div>
