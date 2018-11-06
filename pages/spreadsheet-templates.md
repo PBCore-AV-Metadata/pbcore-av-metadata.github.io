@@ -24,17 +24,19 @@ permalink: /spreadsheet-templates.html
 </div>
 
 <div class="row" style="margin-top:4%;">
-  <div class="col-md-3">
-  yah
-  </div>
+  <div class="col-md-3"></div>
 
   <div class="col-md-9">
 
-    <span class="spread-title white dark-grey-back med-text">
-      <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;">
-      Full PBCore Spreadsheet Template
-    </span>
-    <span class="med-text">Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah </span>
+    {% for block in site.data.spreadsheets %}
 
+      <span class="spread-title white dark-grey-back med-text">
+        <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;">
+        {{ block.title }}
+      </span>
+      <span class="med-text spread-body">
+        {{ block.text }}
+      </span>
+    {% endfor %}
   </div>
 </div>
