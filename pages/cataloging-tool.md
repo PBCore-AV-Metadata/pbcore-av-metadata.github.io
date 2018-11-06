@@ -46,8 +46,6 @@ The PBCore Cataloging Tool is designed to be used in conjunction with the PBCore
       <p style="margin-top:4%; margin-left:4%;">
         * Please note that the Cataloging Tool currently will only work with the full PBCore Spreadsheet Template and not the abbreviated version or instantiation-only version.
       </p>
-
-
     </span>
   </div>
 </div>
@@ -57,5 +55,19 @@ The PBCore Cataloging Tool is designed to be used in conjunction with the PBCore
     <img style="width: 100%;" src="/assets/images/tool-example.png" alt="">
   </div>
   <div class="col-md-6">
+  </div>
+</div>
+
+<div class="row" style="margin-top:4%;">
+  <div class="col-md-12 med-text">
+    <a href="/userdocumentation" class="red">
+      Download complete user documentation
+    </a>
+  </div>
+</div>
+
+<div class="row"  style="margin-top:4%;">
+  <div class="col-md-12 med-text">
+    The PBCore Cataloging Tool is an open-source tool written in Java. We welcome contributions, suggestions, and review! Code available here: <a class="red" href="https://github.com/WGBH/PBCore-Cataloging-Tool">https://github.com/WGBH/PBCore-Cataloging-Tool</a>
   </div>
 </div>
