@@ -31,6 +31,8 @@ plugins:
 collections:
   elements:
     output: true
+  vocabularies:
+    output: true
 defaults:
   - scope:
       path: ""
