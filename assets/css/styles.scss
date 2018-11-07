@@ -502,16 +502,6 @@ h2.med-title {
   background-image: url("/assets/images/03_faqs_background-icon.png");
 }
 
-.arrow-icon {
-  background-repeat: no-repeat;
-  // float: left;
-  height: 20px;
-  width: 30px;
-
-  background-size: contain;
-  // margin-right: 10px;
-}
-
 .faq-arrow-icon {
   background-repeat: no-repeat;
   float: left;
@@ -591,6 +581,12 @@ span.definition-icon {
 
 .attribute-name {
   text-align: right !important;
+}
+
+.attribute-def {
+  display: block;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 .attribute-list ul {

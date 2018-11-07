@@ -26,17 +26,21 @@ layout: default
 
     {% if page.attributes %}
       <ul>
-        {% for item in page.attributes %}
+        {% for attribute in page.attributes %}
           <li>
-            <span class="bold">{{ item.name }}: </span><span class="attribute-note">{{ item.note }}</span>
+            <span class="bold">{{ attribute.name }}: </span>
+            <span class="attribute-note">{{ attribute.note }}</span>
+            <span class="attribute-def">{{ site.data.attributes[attribute.name].definition }}</span>
           </li>
+
         {% endfor %}
       </ul>
     {% else %}
 
       <p>This element cannot have any attributes.</p>
     {% endif %}
-      <h3 class="green">Subelements</h3>
+
+    <h3 class="green">Subelements</h3>
 
     {% if page.subelements %}
       <ul>
