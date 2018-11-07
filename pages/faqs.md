@@ -16,9 +16,8 @@ $(document).ready(function(){
 })
 </script>
 
-<div class="container-fluid bg-gray faq" id="faq">
+<div class="container-fluid faq" id="faq">
   <h1>Frequently Asked Questions</h1>
-  <img class="faq" src="/assets/images/03_faqs_background-icon.png">
   	<div class="container">
   		<section>
       {% assign i = 0 %}

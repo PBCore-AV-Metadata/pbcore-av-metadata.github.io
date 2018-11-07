@@ -479,9 +479,18 @@ h2.med-title {
   font-weight: 100;
 }
 
+#faq {
+  background-image: url('/assets/images/03_faqs_background-icon_wide.png') !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+  z-index: 10000;
+}
+
 #faq h1, #faq h2, #faq a, #faq div{
   color: $blue;
   text-align: left;
+  background-color: transparent;
 }
 
 #glossary h1, #glossary h2, #glossary a, #glossary div{
