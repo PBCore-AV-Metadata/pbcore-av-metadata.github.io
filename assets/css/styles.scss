@@ -445,6 +445,10 @@ h2.med-title {
   margin-left: 3em;
 }
 
+.indent-4 {
+  margin-left: 2.6em;
+}
+
 .pb-list {
   list-style: none;
 }
@@ -529,6 +533,18 @@ h2.med-title {
 
 .card {
   border: 0px !important;
+}
+
+
+.faq-answer-a {
+  font-size: 1.25rem;
+  display: inline;
+  margin-right: 0.25em;
+}
+
+.faq-answer, .faq-answer p {
+  padding-left: 0;
+  display: inline;
 }
 
 .faq-answer {

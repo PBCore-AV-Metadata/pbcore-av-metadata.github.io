@@ -40,9 +40,11 @@ $(document).ready(function(){
       						     </h5>
       						  </div>
   							    <div id="collapse{{ i }}" class="collapse fade" aria-labelledby="heading{{ i }}">
-  								     <div class="card-body">
-                        <span class="bold">A: </span>
-                        <span class="faq-answer">{{ entry.answer | markdownify }}</span>
+  								     <div class="card-body indent-4">
+                        <span class="faq-answer">
+                          <span class="bold faq-answer-a">A: </span>
+                          {{ entry.answer | markdownify }}
+                        </span>
   								     </div>
   							    </div>
                   <span class="separator"></span>
@@ -54,4 +56,4 @@ $(document).ready(function(){
       {% endfor %}
     </section>
   </div>
-</div>    
+</div>
