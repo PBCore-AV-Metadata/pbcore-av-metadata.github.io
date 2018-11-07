@@ -66,19 +66,19 @@ a:hover {
 }
 
 .menu_about a {
-  color: $blue;
+  color: $blue !important;
 }
 
 .menu_schema a {
-  color: $green;
+  color: $green !important;
 }
 
 .menu_resources a {
-  color: $red;
+  color: $red !important;
 }
 
 .menu_community a {
-  color: $dark-grey;
+  color: $dark-grey !important;
 }
 
 .menu_about div a:hover {
@@ -659,4 +659,8 @@ div.card-header.top {
 
 code[class*="language-"] {
   white-space: pre-wrap !important;
+}
+
+.navbar-nav li {
+  margin-right: 12%;
 }

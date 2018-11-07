@@ -1,6 +1,6 @@
 <nav class="sidebar-nav">
   <h3 class="green bold">Elements</h3>
-  <div id="element-accordion">
+  <div id="element-accordion" class="">
     {% assign i = 0 %}
     <div class="card separator">
       <div class="card-header top" id="headingRoot">
@@ -41,7 +41,7 @@
               {% for level1 in item.elements %}
                 {% if level1.elements %}
                   {% assign i = i|plus:1 %}
-                  <div id="{{ i }}-accordion">
+                  <div id="{{ i }}-accordion" class="">
                     <div class="card">
                       <div class="card-header" id="heading{{ i }}">
                         <h5 class="collapsed" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
@@ -56,7 +56,7 @@
                           {% for level2 in level1.elements %}
                             {% if level2.elements %}
                               {% assign i = i|plus:1 %}
-                              <div id="{{ i }}-accordion">
+                              <div id="{{ i }}-accordion" class="">
                                 <div class="card">
                                   <div class="card-header" id="heading{{ i }}">
                                     <h5 class="collapsed" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
@@ -116,7 +116,7 @@
             {% for level1 in item.elements %}
               {% if level1.elements %}
                 {% assign i = i|plus:1 %}
-                <div id="{{ i }}-accordion">
+                <div id="{{ i }}-accordion" class="">
                   <div class="card">
                     <div class="card-header" id="heading{{ i }}">
                       <h5 class="collapsed" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
@@ -132,7 +132,7 @@
                         {% for level2 in level1.elements %}
                           {% if level2.elements %}
                             {% assign i = i|plus:1 %}
-                            <div id="{{ i }}-accordion">
+                            <div id="{{ i }}-accordion" class="">
                               <div class="card">
                                 <div class="card-header" id="heading{{ i }}">
                                   <h5 class="collapsed" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
@@ -147,7 +147,7 @@
                                     {% for level3 in level2.elements %}
                                       {% if level3.elements %}
                                         {% assign i = i|plus:1 %}
-                                        <div id="{{ i }}-accordion">
+                                        <div id="{{ i }}-accordion" class="">
                                           <div class="card">
                                             <div class="card-header" id="heading{{ i }}">
                                               <h5 class="collapsed" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
