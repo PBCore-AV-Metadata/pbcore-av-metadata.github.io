@@ -12,7 +12,7 @@
           return '#' + ele.id;
         }).join(',');
 
-        Cookies.set('accordionDisplay', active_ids, {path: '/elements/pbcorecollection'})
+        Cookies.set('accordionDisplay', active_ids)
     });
   });
 
@@ -25,7 +25,7 @@
 
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-      <div style="margin-left:5.7%; margin-bottom:2.0%;overflow-y:visible; z-index: 10000">
+      <div style="margin-left:5.7%; margin-bottom:2.0%;overflow-y:visible; z-index: 10000;">
           <img src="/assets/images/pbcore-logo.png" alt="">
       </div>
       <ul style="margin-left:6.1%; bottom: 0; position: absolute;" class="navbar-nav">
