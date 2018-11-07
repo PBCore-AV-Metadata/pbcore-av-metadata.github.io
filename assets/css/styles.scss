@@ -83,22 +83,22 @@ a:hover {
 
 .menu_about div a:hover {
   background: $blue;
-  color: white;
+  color: white !important;
 }
 
 .menu_schema div a:hover {
   background: $green;
-  color: white;
+  color: white !important;
 }
 
 .menu_resources div a:hover {
   background: $red;
-  color: white;
+  color: white !important;
 }
 
 .menu_community div a:hover {
   background: $dark-grey;
-  color: white;
+  color: white !important;
 }
 
 // footer STUFF
@@ -445,6 +445,10 @@ h2.med-title {
   margin-left: 3em;
 }
 
+.indent-4 {
+  margin-left: 2.6em;
+}
+
 .pb-list {
   list-style: none;
 }
@@ -475,9 +479,18 @@ h2.med-title {
   font-weight: 100;
 }
 
+#faq {
+  background-image: url('/assets/images/03_faqs_background-icon_wide.png') !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+  z-index: 10000;
+}
+
 #faq h1, #faq h2, #faq a, #faq div{
   color: $blue;
   text-align: left;
+  background-color: transparent;
 }
 
 #glossary h1, #glossary h2, #glossary a, #glossary div{
@@ -494,8 +507,18 @@ h2.med-title {
   // float: left;
   height: 20px;
   width: 30px;
+
   background-size: contain;
   // margin-right: 10px;
+}
+
+.faq-arrow-icon {
+  background-repeat: no-repeat;
+  float: left;
+  height: 20px;
+  width: 30px;
+  background-size: contain;
+  margin-right: 10px;
 }
 
 .arrow-down {
@@ -522,6 +545,18 @@ h2.med-title {
   border: 0px !important;
 }
 
+
+.faq-answer-a {
+  font-size: 1.25rem;
+  display: inline;
+  margin-right: 0.25em;
+}
+
+.faq-answer, .faq-answer p {
+  padding-left: 0;
+  display: inline;
+}
+
 .faq-answer {
  font-weight: 100;
 }
@@ -529,6 +564,10 @@ h2.med-title {
 .faq-section-header {
   font-weight: bold;
   font-size: 24px;
+}
+
+.faq-separator {
+  margin-bottom: 4%;
 }
 
 .separator {
@@ -582,8 +621,9 @@ div.spacing {
   position: absolute;
   display: block;
   left: -1.2em;
-  top: 1em;
+  top: 0.5em;
 }
+
 
 .element-arrow-down {
   background-image: url("/assets/images/05_arrow_down_menu-button.png");
@@ -619,11 +659,14 @@ div.spacing {
 
 .card-header {
   padding-left: 0;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .card-body {
   padding-left: 0em;
   padding-top: 0em;
+  padding-bottom: 0em;
 }
 
 .card-guy {
@@ -643,6 +686,7 @@ div.card-header {
 div.card-header.top {
   border-top: 1px solid black !important;
   border-radius: 0 !important;
+  padding: 1em;
 }
 
 .card.separator {

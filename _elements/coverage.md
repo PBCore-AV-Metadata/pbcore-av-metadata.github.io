@@ -18,13 +18,13 @@ attributes:
   - name: timeAnnotation
     note: optional
 controlled-vocabs:
-  - vocab: Temporal: <a href="https://www.w3.org/TR/NOTE-datetime">W3C Profile of ISO 8601 Representation of Dates and  Time</a>
-  - vocab: Temporal: <a href="https://www.loc.gov/standards/datetime/">Library of Congress Extended Date/Time Format</a>
-  - vocab: Spatial: <a href="http://www.getty.edu/research/tools/vocabularies/tgn/index.html">Getty Thesaurus of Geographic Names (TGN)</a>
-  - vocab: Spatial: <a href="http://cv.iptc.org/newscodes/worldregion">IPTC NewsCodes World Region</a>
-  - vocab: Spatial: <a href="http://www.geonames.org/">GeoNames</a>
-  - vocab: Spatial: <a href="http://id.loc.gov/vocabulary/countries.html">MARC List for Countries</a>
-  - vocab: Spatial: <a href="http://id.loc.gov/vocabulary/geographicAreas.html">MARC List for Geographic Areas</a>
+  - vocab: Temporal <a href="https://www.w3.org/TR/NOTE-datetime">W3C Profile of ISO 8601 Representation of Dates and  Time</a>
+  - vocab: Temporal <a href="https://www.loc.gov/standards/datetime/">Library of Congress Extended Date/Time Format</a>
+  - vocab: Spatial <a href="http://www.getty.edu/research/tools/vocabularies/tgn/index.html">Getty Thesaurus of Geographic Names (TGN)</a>
+  - vocab: Spatial <a href="http://cv.iptc.org/newscodes/worldregion">IPTC NewsCodes World Region</a>
+  - vocab: Spatial <a href="http://www.geonames.org/">GeoNames</a>
+  - vocab: Spatial <a href="http://id.loc.gov/vocabulary/countries.html">MARC List for Countries</a>
+  - vocab: Spatial <a href="http://id.loc.gov/vocabulary/geographicAreas.html">MARC List for Geographic Areas</a>
 ---
 ~~~~
 <pbcoreCoverage>

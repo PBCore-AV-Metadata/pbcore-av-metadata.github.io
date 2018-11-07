@@ -1,7 +1,8 @@
 ---
-name: pbcoreInstantiation
-definition: <strong>pbcoreInstantiation</strong> contains subelements that describe a single instantiation of an asset. The definition is malleable, but it should be thought of as any discreet and tangible unit that typically (though not always) comprises a whole representation of the asset. For example, an original master videotape, a preservation master video file, and a low-bitrate access copy would all be considered Instantiations of a single video program. All of the sub-elements held by this element are used to describe the instantiation specifically, not necessarily the asset as a whole. pbcoreInstantiation can be contained within the elements pbcoreDescriptionDocument or pbcorePart.
-usage: optional, repeatable
+name: pbcoreInstantiationDocument
+definition: <strong>pbcoreInstantiationDocument</strong> is the equivalent of the instantiation element, but used for the expression of an instantiation record at the root of an XML document. This is most commonly used when referenced from other schemas, or if you want to create and express a single, stand-alone instantiation. pbcoreInstantiationDocument is a root element and cannot be contained by any other elements.
+best-practice: This is most commonly used when Intellectual Content (in other words, descriptive metadata) is not expressed using PBCore, but rather another standard such as MODS or Dublin Core.
+usage: not repeatable
 attributes:
   - name: startTime
     note: optional
@@ -58,9 +59,11 @@ subelements:
     note: optional
 ---
 ~~~~
-<pbcoreInstantiation>
-<!-- No data here directly; it's within sub-elements instead -->
-       <instantiationIdentifier>123456</instantiationIdentifier>
-       <instantiationLocation>Shelf 46, Row 3</instantiationLocation>
-</pbcoreInstantiation>
+<!--?xml version="1.0" encoding="UTF-8"?-->
+    <pbcoreInstantiationDocument xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://pbcore.org/xsd/pbcore-2.1.xsd">
+        <instantiationIdentifier source="McHale University">MCU_v0123_01</instantiationIdentifier>
+        <instantiationLocation>McHale University</instantiationLocation>
+    </pbcoreInstantiationDocument>
 ~~~~
