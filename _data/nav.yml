@@ -1,5 +1,6 @@
 toc:
   - title: About
+    color: blue
     subfolderitems:
       - page: What is PBCore?
         url: /what-is-pbcore.html
@@ -10,6 +11,7 @@ toc:
       - page: Steering Committee
         url: /steering.html
   - title: Schema
+    color: green
     subfolderitems:
       - page: Elements
         url: /elements.html
@@ -22,6 +24,7 @@ toc:
       - page: Data Model Visualization
         url: /data-model.html
   - title: Resources
+    color: red
     subfolderitems:
       - page: Cataloging Tool
         url: /cataloging-tool.html
@@ -40,6 +43,7 @@ toc:
       - page: Presentations
         url: /presentations.html
   - title: Community
+    color: grey
     subfolderitems:
       - page: PBCore Users
         url: /pbcore-users.html
