@@ -7,16 +7,15 @@
     }
 
     $(document).on('shown.bs.collapse hidden.bs.collapse', function() {
-        var active_accs = $("div.collapse.show[id^=collapse]")
-        var active_ids = $.map(active_accs, function(ele){
-          return '#' + ele.id;
-        }).join(',');
+      var active_accs = $("div.collapse.show[id^=collapse]")
+      var active_ids = $.map(active_accs, function(ele){
+        return '#' + ele.id;
+      }).join(',');
 
-        Cookies.set('accordionDisplay', active_ids)
+      Cookies.set('accordionDisplay', active_ids)
+    });
   });
-
   //when a group is shown, save it as the active accordion group
-
 </script>
 
 <header>
