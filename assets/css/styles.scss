@@ -83,22 +83,22 @@ a:hover {
 
 .menu_about div a:hover {
   background: $blue;
-  color: white;
+  color: white !important;
 }
 
 .menu_schema div a:hover {
   background: $green;
-  color: white;
+  color: white !important;
 }
 
 .menu_resources div a:hover {
   background: $red;
-  color: white;
+  color: white !important;
 }
 
 .menu_community div a:hover {
   background: $dark-grey;
-  color: white;
+  color: white !important;
 }
 
 // footer STUFF
@@ -498,6 +498,7 @@ h2.med-title {
   // float: left;
   height: 20px;
   width: 30px;
+
   background-size: contain;
   // margin-right: 10px;
 }
@@ -556,6 +557,10 @@ h2.med-title {
   font-size: 24px;
 }
 
+.faq-separator {
+  margin-bottom: 4%;
+}
+
 .separator {
   border-bottom: 1px solid #999999;
   padding: 5px;
@@ -607,7 +612,7 @@ div.spacing {
   position: absolute;
   display: block;
   left: -1.2em;
-  top: 1em;
+  top: 0.5em;
 }
 
 
@@ -645,11 +650,14 @@ div.spacing {
 
 .card-header {
   padding-left: 0;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .card-body {
   padding-left: 0em;
   padding-top: 0em;
+  padding-bottom: 0em;
 }
 
 .card-guy {
@@ -669,6 +677,7 @@ div.card-header {
 div.card-header.top {
   border-top: 1px solid black !important;
   border-radius: 0 !important;
+  padding: 1em;
 }
 
 .card.separator {

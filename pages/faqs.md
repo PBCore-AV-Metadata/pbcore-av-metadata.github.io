@@ -47,7 +47,7 @@ $(document).ready(function(){
                         </span>
   								     </div>
   							    </div>
-                  <span class="separator"></span>
+                  <span class="separator faq-separator"></span>
   						   </div>
               {% endfor %}
             </div>
