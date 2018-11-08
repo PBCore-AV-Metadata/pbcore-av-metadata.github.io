@@ -43,7 +43,7 @@ layout: default
     <h3 class="green">Subelements</h3>
 
     {% if page.subelements %}
-      <ul>
+      <ul class="attribute-container">
         {% for subelement in page.subelements %}
           <li>
             <span class="bolder attribute-name">{{ subelement.name }}: </span>
