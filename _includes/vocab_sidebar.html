@@ -1,0 +1,9 @@
+<nav class="sidebar-nav">
+  <h3 class="green bold">Vocabularies</h3>
+
+  {% for item in site.data.vocabs %}
+    <h5>
+      <a href="{{item.url}}">{{item.name}}</a>
+    </h5>
+  {% endfor %}
+</nav>

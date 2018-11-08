@@ -1,0 +1,26 @@
+- name: pbcoreAssetType Element
+  url: /vocabs/pbcoreassettype.html
+- name: dateType Attribute
+  url: /vocabs/datetype.html
+- name: descriptionType Attribute
+  url: /vocabs/descriptiontype.html
+- name: titleType Attribute
+  url: /vocabs/titletype.html
+- name: pbcoreRelationType Element
+  url: /vocabs/pbcorerelationtype.html
+- name: instantiationRelationType Element
+  url: /vocabs/instantiationrelationtype.html
+- name: creatorRole and contributorRole Element
+  url: /vocabs/role.html
+- name: publisherRole Element
+  url: /vocabs/publisherrole.html
+- name: instantiationPhysical Audio
+  url: /vocabs/instantiationphysical_audio.html
+- name: instantiationPhysical Film
+  url: /vocabs/instantiationphysical_film.html
+- name: instantiationPhysical Video
+  url: /vocabs/instantiationphysical_video.html
+- name: instantiationMediaType Element
+  url: /vocabs/instantiationmediatype.html
+- name: instantiationGenerations Element
+  url: /vocabs/instantiationgenerations.html
