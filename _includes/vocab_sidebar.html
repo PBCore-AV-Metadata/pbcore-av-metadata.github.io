@@ -1,13 +1,7 @@
----
-title: Controlled Vocabularies
-layout: default
-permalink: /controlled-vocabs.html
----
-
 <h2 class="green bold">PBCore Controlled Vocabularies</h2>
 
 <div class="row">
-  <div class="col-md-3">
+  <div class="col-md-4">
     <div class="vocab-list">
       <ul>
         {% for item in site.data.controlled-vocabs.vocabularies%}
@@ -18,7 +12,20 @@ permalink: /controlled-vocabs.html
       </ul>
     </div>
   </div>
-  <div class="col-md-9">
+  <div class="col-md-8">
     {{content}}
   </div>
 </div>
+
+
+
+
+
+<nav class="sidebar-nav">
+  <h3 class="green bold">Vocabularies</h3>
+
+  {% for item in site.data.controlled-vocabs.vocabularies %}
+
+    <a href="{{item.url}}">{{item.element}}</a>
+  {% endfor %}
+</nav>

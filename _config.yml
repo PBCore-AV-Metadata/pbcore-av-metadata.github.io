@@ -31,7 +31,7 @@ plugins:
 collections:
   elements:
     output: true
-  vocabularies:
+  vocabs:
     output: true
 defaults:
   - scope:
@@ -39,6 +39,11 @@ defaults:
       type: "elements"
     values:
       layout: "element"
+  - scope:
+      path: ""
+      type: "vocabs"
+    values:
+      layout: "vocab"
   - scope:
       path: ""
     values:
