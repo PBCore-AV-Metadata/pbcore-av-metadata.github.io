@@ -475,6 +475,10 @@ h2.med-title {
   font-weight: bold;
 }
 
+.bolder {
+  font-weight: bolder;
+}
+
 .light {
   font-weight: 100;
 }
@@ -580,15 +584,27 @@ span.definition-icon {
 }
 
 .attribute-name {
-  text-align: right !important;
+  // text-align: right !important;
+  font-size: 18px;
+}
+
+.attribute-note {
+  // text-align: right !important;
+  // font-size: 18px;
+  color: $green;
 }
 
 .attribute-def {
-  display: block;
-  font-size: 10px;
-  font-weight: bold;
+  // font-size: 10px;
+  // font-weight: bold;
 }
 
+.attribute-container {
+  list-style-type: none;
+  font-size: 14px;
+}
+
+// attributes page
 .attribute-list ul {
   list-style-type: none;
 }
@@ -600,7 +616,6 @@ span.definition-icon {
 div.spacing {
   height: 20px;
 }
-
 
 #element-accordion ul {
   list-style-type: none;
@@ -712,5 +727,4 @@ code[class*="language-"] {
 
 .vocab-container {
   list-style: none;
-
 }
