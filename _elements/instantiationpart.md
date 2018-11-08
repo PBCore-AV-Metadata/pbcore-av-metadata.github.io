@@ -1,6 +1,6 @@
 ---
-name: pbcoreInstantiation
-definition: <strong>pbcoreInstantiation</strong> contains subelements that describe a single instantiation of an asset. The definition is malleable, but it should be thought of as any discreet and tangible unit that typically (though not always) comprises a whole representation of the asset. For example, an original master videotape, a preservation master video file, and a low-bitrate access copy would all be considered Instantiations of a single video program. All of the sub-elements held by this element are used to describe the instantiation specifically, not necessarily the asset as a whole.
+name: instantiationPart
+definition: <strong>instantiationPart</strong> is a container that allows the instantiation to be split into multiple parts, which can describe the parts of a multi-section instantiation, e.g., a multi-disk DVD or vitagraph record and 35mm reel that are intended for synchronous playback. It contains all of the elements that a pbcoreInstantiation element would typically contain.
 usage: optional, repeatable
 attributes:
   - name: startTime
@@ -58,11 +58,20 @@ subelements:
     note: optional
   - name: instantiationExtension
     note: optional
+controlled-vocabs:
+  - vocab:
 ---
 ~~~~
 <pbcoreInstantiation>
-<!-- No data here directly; it's within sub-elements instead -->
-       <instantiationIdentifier>123456</instantiationIdentifier>
-       <instantiationLocation>Shelf 46, Row 3</instantiationLocation>
+     <instantiationPart>
+     <!-- No data here directly; it's within sub-elements instead -->
+         <instantiationIdentifier>654321-1</instantiationIdentifier>
+         <instantiationLocation>Shelf 12, Row 7</instantiationLocation>
+     </instantiationPart>
+    <instantiationPart>
+     <!-- No data here directly; it's within sub-elements instead -->
+         <instantiationIdentifier>654321-2</instantiationIdentifier>
+         <instantiationLocation>Shelf 12, Row 7</instantiationLocation>
+     </instantiationPart>
 </pbcoreInstantiation>
 ~~~~
