@@ -253,7 +253,8 @@ pbcoreRelation:
   definition: <strong>pbcoreRelation</strong> contains the pbcoreRelationType and pbcoreRelationIdentifier elements. In order to properly use these two elements they must be nested with the pbcoreRelation element, and pbcoreRelation must contain both pbcoreRelationType and pbcoreRelationIdentifier if it is included.
   usage: optional, repeatable
 pbcoreRelationIdentifier:
-  whoa: yes
+  definition: pbcoreRelationIdentifier contains the identifier of the related asset. In the case that the related asset has a PBCore record, this identifier should correspond with the pbcoreIdentifier of the related asset. However, it is possible to use this element with a record that isn’t in PBCore, in which case the source attribute should identify the source of the identifier.
+  usage: required within relationType, not repeatable
 pbcoreRelationType:
   definition: pbcoreRelationType describes the relationship between the asset being describe by the PBCore document and any other asset. Ideally it would contain text from a controlled vocabulary for describing relationships. There is some depth to what a relationship could be. The assets can be related as different episodes in a series, different tapes in a box set, or different versions of an original, among others.
   best-practice: The assets may be related in that they are different discrete parts of a single intellectual unit, one may be a derivative of another, or they may be different versions that are distinct enough to be described as separate assets.
