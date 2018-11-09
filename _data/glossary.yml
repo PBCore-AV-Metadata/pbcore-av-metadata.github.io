@@ -14,7 +14,7 @@
   definition: >
     a way to describe and store data in a self-explanatory manner according to a structured vocabulary.
     Here’s an example.
-    <pbcoreTitle titleType=“main”>Lassie</pbcoreTitle>
+      <pbcoreTitle titleType=“main”>Lassie</pbcoreTitle>
     This would appear as “Title: Lassie.” “Title” is the element, and “Lassie” is the value.
     Putting the information “Lassie” within a “pbcoreTitle” element tells anyone (or any machine) looking at the data that “Lassie” is the title of the asset. Attributes may be associated with any element, and elements provide even further detail about the data.
 - term: Instantiation
@@ -30,4 +30,4 @@
 - term: XML (Extensible Markup Language)
   definition: a (markup language)[https://en.wikipedia.org/wiki/Markup_language] that defines a set of rules for encoding documents in a (format)[https://en.wikipedia.org/wiki/File_format] that is readable by both humans and machines. It is defined by the (W3C)[https://en.wikipedia.org/wiki/World_Wide_Web_Consortium]‘s (XML)[https://en.wikipedia.org/wiki/XML] 1.0 Specification and by several other related specifications.
 - term: XSD (XML Schema Definition)
-  definition: the document that defines an XML schema. It can be used to validate other XML documents to make sure that they are complying with the rules of the schema. 
+  definition: the document that defines an XML schema. It can be used to validate other XML documents to make sure that they are complying with the rules of the schema.
