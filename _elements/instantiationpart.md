@@ -1,7 +1,5 @@
 ---
 name: instantiationPart
-definition: <strong>instantiationPart</strong> is a container that allows the instantiation to be split into multiple parts, which can describe the parts of a multi-section instantiation, e.g., a multi-disk DVD or vitagraph record and 35mm reel that are intended for synchronous playback. It contains all of the elements that a pbcoreInstantiation element would typically contain.
-usage: optional, repeatable
 attributes:
   - name: startTime
     note: optional

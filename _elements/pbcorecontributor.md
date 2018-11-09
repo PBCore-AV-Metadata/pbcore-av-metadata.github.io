@@ -1,7 +1,5 @@
 ---
 name: pbcoreContributor
-definition: <strong>pbcoreContributor</strong> is a container for sub-elements contributor and contributorRole.
-usage: optional, repeatable
 subelements:
   - name: contributor
     note: required

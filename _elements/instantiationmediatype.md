@@ -1,7 +1,5 @@
 ---
 name: instantiationMediaType
-definition: <strong>instantiationMediaType</strong> identifies the general, high level nature of the content of an instantiation. It uses categories that show how content is presented to an observer, e.g., as a sound, text or moving image.
-usage: optional, not repeatable
 attributes:
   - name: source
     note: optional

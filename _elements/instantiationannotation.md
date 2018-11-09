@@ -1,7 +1,5 @@
 ---
 name: instantiationAnnotation
-definition: <strong>instantiationAnnotation</strong> is used to add any supplementary information about an instantiation of the instantiation or the metadata used to describe it. It clarifies element values, terms, descriptors, and vocabularies that may not be otherwise sufficiently understood.
-usage: optional, repeatable
 attributes:
   - name: annotationType
     note: optional

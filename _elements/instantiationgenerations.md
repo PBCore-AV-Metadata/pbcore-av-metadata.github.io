@@ -1,7 +1,5 @@
 ---
 name: instantiationGenerations
-definition: <strong>instantiationGenerations</strong> identifies the use type and provenance of the instantiation. For example, the generation of a video tape may be an “Original Master” or “Dub,” the generation of a film reel may be an “Original Negative” or “Composite Positive,” an audiotape may be a “Master” or “Mix Element,” and an image may be a “Photograph” or a “Photocopy.”
-usage: optional, repeatable
 attributes:
   - name: source
     note: optional

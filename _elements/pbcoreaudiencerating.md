@@ -1,7 +1,5 @@
 ---
 name: pbcoreAudienceRating
-definition: <strong>pbcoreAudienceRating</strong> designates the type of users for whom the intellectual content of a media item is intended or judged appropriate. This element differs from the element pbcoreAudienceLevel in that it utilizes standard ratings that have been crafted by the broadcast television and film industries and that are used as flags for audience or age-appropriate materials.
-usage: optional, repeatable
 attributes:
   - name: source
     note: optional

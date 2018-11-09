@@ -1,7 +1,5 @@
 ---
 name: rightsLink
-definition: <strong>rightsLink</strong> is a URI pointing to a declaration of rights.
-usage: optional, not repeatable
 attributes:
   - name: source
     note: optional

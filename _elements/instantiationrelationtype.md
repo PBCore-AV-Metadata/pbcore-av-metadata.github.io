@@ -1,8 +1,5 @@
 ---
 name: instantiationRelationType
-definition: <strong>instantiationRelationType</strong> describes the relation between the instantiation being described and another instantiation.
-best-practice: The instantiations may be related in that they are different discrete parts of a single intellectual unit, they may be generationally related, one may be a derivative of another, they may be different versions.
-usage: required within instantiationRelation, not repeatable
 attributes:
   - name: source
     note: optional

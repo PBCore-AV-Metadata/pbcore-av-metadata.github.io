@@ -1,7 +1,5 @@
 ---
 name: instantiationDate
-definition: <strong>instantiationDate</strong> is a date associated with an instantiation.
-usage: Best practice is to use ISO 8601 or some other date/time standard if possible.
 attributes:
   - name: dateType
     note: optional

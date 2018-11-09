@@ -1,7 +1,5 @@
 ---
 name: essenceTrackAspectRatio
-definition: <strong>essenceTrackAspectRatio</strong> indicates the ratio of horizontal to vertical proportions in the display of a static image or moving image.
-usage: optional, not repeatable
 attributes:
   - name: unitsOfMeasure
     note: optional

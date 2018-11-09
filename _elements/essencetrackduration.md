@@ -1,9 +1,5 @@
 ---
 name: essenceTrackDuration
-definition: <strong>essenceTrackDuration</strong> provides a timestamp for the overall length or duration of a track. It represents the track playback time.
-best-practice: |
-  Best practice is to use a timestamp format such as HH:MM:SS[:|;]FF or HH:MM:SS.mmm or S.mmm.
-usage: optional, not repeatable
 attributes:
   - name: source
     note: optional

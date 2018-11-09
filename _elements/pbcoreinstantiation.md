@@ -1,7 +1,5 @@
 ---
 name: pbcoreInstantiation
-definition: <strong>pbcoreInstantiation</strong> contains subelements that describe a single instantiation of an asset. The definition is malleable, but it should be thought of as any discreet and tangible unit that typically (though not always) comprises a whole representation of the asset. For example, an original master videotape, a preservation master video file, and a low-bitrate access copy would all be considered Instantiations of a single video program. All of the sub-elements held by this element are used to describe the instantiation specifically, not necessarily the asset as a whole.
-usage: optional, repeatable
 attributes:
   - name: startTime
     note: optional

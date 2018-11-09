@@ -1,8 +1,5 @@
 ---
 name: instantiationRights
-definition: <strong>instantiationRights</strong> is a container for sub-elements rightsSummary, rightsLink and rightsEmbedded to describe rights particular to this instantiation.
-best-practice: This element contains rights information that is specific to an instantiation of an asset, such as rights conferred in a donation agreement that apply only to a single donated item.
-usage: optional, repeatable
 attributes:
   - name: startTime
     note: optional

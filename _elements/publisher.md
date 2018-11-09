@@ -1,7 +1,5 @@
 ---
 name: publisher
-definition: <strong>publisher</strong> identifies a person, people, or organization primarily responsible for distributing or making the asset available to others. The publisher may be a person, a business, organization, group, project or service.
-usage: required within pbcorePublisher, not repeatable
 attributes:
   - name: affiliation
     note: optional

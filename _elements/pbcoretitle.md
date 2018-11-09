@@ -1,8 +1,5 @@
 ---
 name: pbcoreTitle
-definition: <strong>pbcoreTitle</strong> is a name or label relevant to the asset.
-best-practice: There may be many types of titles an asset may have, such as a series title, episode title, segment title, or project title, therefore the element is repeatable.
-usage: required, repeatable
 attributes:
   - name: titleType
     note: optional

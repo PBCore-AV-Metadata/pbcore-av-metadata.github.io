@@ -1,8 +1,5 @@
 ---
 name: pbcoreInstantiationDocument
-definition: <strong>pbcoreInstantiationDocument</strong> is the equivalent of the instantiation element, but used for the expression of an instantiation record at the root of an XML document. This is most commonly used when referenced from other schemas, or if you want to create and express a single, stand-alone instantiation. pbcoreInstantiationDocument is a root element and cannot be contained by any other elements.
-best-practice: This is most commonly used when Intellectual Content (in other words, descriptive metadata) is not expressed using PBCore, but rather another standard such as MODS or Dublin Core.
-usage: not repeatable
 attributes:
   - name: startTime
     note: optional

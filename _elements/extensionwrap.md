@@ -1,7 +1,5 @@
 ---
 name: extensionWrap
-definition: <strong>extensionWrap</strong> serves as a container for the elements extensionElement, extensionValue, and extensionAuthorityUsed.
-usage: required within pbcoreExtension, instantiationExtension, or essenceTrackExtension, if extensionEmbedded is not used; cannot be used with extensionEmbedded; repeatable
 attributes:
   - name: source
     note: optional

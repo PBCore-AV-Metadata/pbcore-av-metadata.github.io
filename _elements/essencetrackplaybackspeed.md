@@ -1,7 +1,5 @@
 ---
 name: essenceTrackPlaybackSpeed
-definition: <strong>essenceTrackPlaybackSpeed</strong> specifies the rate of units against time at which the media track should be rendered for human consumption. e.g., 15ips (inches per second).
-usage: optional, not repeatable
 attributes:
   - name: unitsOfMeasure
     name: optional

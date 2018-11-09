@@ -1,7 +1,5 @@
 ---
 name: pbcoreAnnotation
-definition: <strong>pbcoreAnnotation</strong> allows the addition of any supplementary information about the metadata used to describe the PBCore record. pbcoreAnnotation clarifies element values, terms, descriptors, and vocabularies that may not be otherwise sufficiently understood.
-usage: optional, repeatable
 attributes:
   - name: annotationType
     note: optional

@@ -1,7 +1,5 @@
 ---
 name: instantiationIdentifier
-definition: <strong>instantiationIdentifier</strong> contains an unambiguous reference or identifier for a particular instantiation of an asset.
-usage: required, repeatable
 attributes:
   - name: source
     note: required

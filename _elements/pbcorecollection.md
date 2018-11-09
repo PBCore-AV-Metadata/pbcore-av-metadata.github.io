@@ -1,8 +1,5 @@
 ---
 name: pbcoreCollection
-definition: <strong>pbcoreCollection</strong> groups multiple pbcoreDescriptionDocument XML into one container element to allow for a serialized output. Uses might include API returns or other web service output.
-best-practice: This element is not intended to be equivalent to the archive/library concept of a ‘collection.’ Please see pbcoreAssetType for information on how PBCore can be used to express information about collections. The element is only applicable to XML expressions of PBCore. This container enables a similar function to RSS; pbcoreCollection would be similar to rss:channel and pbcoreDescription document to rss:item.
-usage: not repeatable
 attributes:
   - name: xmlns
     note: required

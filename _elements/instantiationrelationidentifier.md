@@ -1,8 +1,5 @@
 ---
 name: instantiationRelationIdentifier
-definition: <strong>instantiationRelationIdentifier</strong> is used to provide a name, locator, accession, identification number or ID where the related item can be obtained or found.
-best-practice: We recommend using a unique identifier or global unique ID in this element.
-usage: required with instantiationRelation, not repeatable
 attributes:
   - name: source
     note: optional

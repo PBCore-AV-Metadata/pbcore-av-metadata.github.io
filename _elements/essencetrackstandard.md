@@ -1,7 +1,5 @@
 ---
 name: essenceTrackStandard
-definition: <strong>essenceTrackStandard</strong> should be be used with file-based instantiations to describe the broadcast standard of the video signal (e.g. NTSC, PAL) or to further clarify the standard of the essenceTrackEncoding format.
-usage: optional, not repeatable
 attributes:
   - name: source
     note: optional

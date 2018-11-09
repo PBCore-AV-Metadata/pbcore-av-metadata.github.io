@@ -1,8 +1,5 @@
 ---
 name: instantiationEssenceTrack
-definition: <strong>instantiationEssenceTrack</strong> is an XML container element that allows for grouping of related essenceTrack elements and their repeated use. Use instantiationEssenceTrack element to describe the individual streams that comprise an instantiation, such as audio, video, timecode, etc.
-best-practice: Essence tracks can exist in either the digital or physical realm. In the digital realm, they may refer to the separate audio and video tracks within a digital file. In the physical realm, they may refer to the video and audio tracks contained on a single video tape.
-usage: optional, repeatable
 subelements:
   - name: essenceTrackType
     note: optional

@@ -17,7 +17,7 @@ permalink: /attributes.html
           <div class="separator col-md-9">
             <p class="definition">{{ item.definition }}</p>
             {% if item.best-practice %}
-            <p class="light"><span class="green bold">Best Practice:</span> {{ item.best-practice}}</p>
+              <p class="light"><span class="green bold">Best Practice:</span> {{ item.best-practice}}</p>
             {% endif %}
           </div>
         </div>

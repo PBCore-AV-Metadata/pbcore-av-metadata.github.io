@@ -1,7 +1,5 @@
 ---
 name: creatorRole
-definition: <strong>creatorRole</strong> is used to identify the role played by the person, people or organization(s) identified in the companion descriptor creator. The PBCore schema allows for creatorRole to be repeated in the pbcoreCreator container element. This can be useful when a single person or organization is associated with multiple roles in an asset.
-usage: optional, repeatable
 attributes:
   - name: source
     note: optional

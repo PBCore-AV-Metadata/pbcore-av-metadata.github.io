@@ -1,7 +1,5 @@
 ---
 name: essenceTrackIdentifier
-definition: <strong>essenceTrackIdentifier</strong> is an identifier of the track. Several audiovisual containers include such identifier schema to identify each track, such as MPEG2 PIDs or QuickTime Track ids.
-usage: optional, repeatable
 attributes:
   - name: source
     note: optional

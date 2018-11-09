@@ -1,8 +1,5 @@
 ---
 name: pbcoreRightsSummary
-definition: <strong>pbcoreRightsSummary</strong> is a container for sub-elements ‘rightsSummary’, ‘rightsLink’ and ‘rightsEmbedded’ used to describe Rights for the asset.
-best-practice: The pbcoreRightsSummary container can be repeated to express multiple rights statements. However, all rights information contained within a pbcoreRightsSummary container should apply to the entire asset. Rights that relate to a specific instantiation of an asset, such as those conferred along with an item in a donation agreement, can be documented in the instantiationRights element.
-usage: optional, repeatable
 attributes:
   - name: startTime
     note: optional

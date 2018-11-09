@@ -1,8 +1,5 @@
 ---
 name: pbcoreDescription
-definition: <strong>pbcoreDescription</strong> is an element that uses free-form text or a narrative to report general notes, abstracts, or summaries about the intellectual content of an asset. The information may be in the form of an individual program description, anecdotal interpretations, or brief content reviews. The description may also consist of outlines, lists, bullet points, rundowns, edit decision lists, indexes, or tables of content.
-best-practice: pbcoreDescription can be repeated, so that multiple descriptions can be provided. The attribute @descriptionType can be used to identify the type of description. The @source attribute can be used to identify the source of a description, e.g. @source=’NOVA website’.
-usage: required, repeatable
 attributes:
   - name: descriptionType
     note: optional

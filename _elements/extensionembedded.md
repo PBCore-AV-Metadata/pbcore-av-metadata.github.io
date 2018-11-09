@@ -1,8 +1,5 @@
 ---
 name: extensionEmbedded
-definition: <strong>extensionEmbedded</strong> is an element allows the inclusion of xml from another schema, e.g. TEI, METS, etc.
-best-practice:
-usage: required within pbcoreExtension, instantiationExtension, or essenceTrackExtension, if extensionWrap is not used; cannot be used with extensionWrap; repeatable
 attributes:
   - name: source
     note: optional

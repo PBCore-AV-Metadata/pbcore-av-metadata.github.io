@@ -1,7 +1,5 @@
 ---
 name: pbcoreDescriptionDocument
-definition: <strong>pbcoreDescriptionDocument</strong> is a root XML element for the expression of an individual PBCore record. pbcoreDescriptionDocument can be used to express intellectual content only (e.g. a series or collection level record with no associated instantiations), or intellectual content with one or more instantiations (e.g. an episode of a program with copies/instantiations on videotape and digital file). This element is only applicable to XML expressions of PBCore. pbcoreDescriptionDocument can only be contained by pbcoreCollection.
-usage: only repeatable within pbcoreCollection
 attributes:
   - name: xmlns
     note: required

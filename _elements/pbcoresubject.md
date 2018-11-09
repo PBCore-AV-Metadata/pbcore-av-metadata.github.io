@@ -1,7 +1,5 @@
 ---
 name: pbcoreSubject
-definition: <strong>pbcoreSubject</strong> is used to assign topic headings or keywords that portray the intellectual content of the asset. A subject is expressed by keywords, key phrases, or even specific classification codes. Controlled vocabularies, authorities, formal classification codes, as well as folksonomies and user-generated tags, may be employed when assigning descriptive subject terms.
-usage: optional, repeatable
 attributes:
   - name: subjectType
     note: optional

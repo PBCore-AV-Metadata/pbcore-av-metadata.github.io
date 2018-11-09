@@ -1,7 +1,5 @@
 ---
 name: pbcorePublisher
-definition: <strong>pbcorePublisher</strong> is a container for sub-elements publisher and publisherRole.
-usage: optional, repeatable
 subelements:
   - name: publisher
     note: required

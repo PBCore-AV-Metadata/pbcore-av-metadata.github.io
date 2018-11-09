@@ -1,8 +1,5 @@
 ---
 name: pbcoreGenre
-definition: <strong>pbcoreGenre</strong> is an element that describes the Genre of the asset, which can be defined as a categorical description informed by the topical nature or a particular style or form of the content.
-best-practice: Genre refers to the intellectual content of the asset, whereas the element Asset Type defines a broader structural category; i.e. an asset might have the Asset Type of Segment, with a Genre of News, together defining a news segment.
-usage: optional, repeatable
 attributes:
   - name: source
     note: optional

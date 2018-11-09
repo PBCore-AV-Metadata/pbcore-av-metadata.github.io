@@ -1,7 +1,5 @@
 ---
 name: contributorRole
-definition: <strong>contributorRole</strong> is used to identify the role played by the person, people or organizations identified in the companion element contributor. The PBCore schema allows for contributorRole to be repeated in the pbcoreContributor container element. This can be useful when a single person or organization is associated with multiple roles in an asset.
-usage: optional, repeatable
 attributes:
   - name: portrayal
     name: optional

@@ -1,8 +1,5 @@
 ---
 name: instantiationStandard
-definition: If the instantiation is a physical item, <strong>instantiationStandard</strong> can be used to refer to the broadcast standard of the video signal (e.g. NTSC, PAL), or the audio encoding (e.g. Dolby A, vertical cut). If the instantiation is a digital item, <strong>instantiationStandard</strong> should be used to express the container format of the digital file (e.g. MXF).
-best-practice: While the usage described in the definition is best practice for 2.1, this usage is likely to change if new elements are added for PBCore 3.0.
-usage: optional, not repeatable
 attributes:
   - name: profile
     note: optional

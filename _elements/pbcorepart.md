@@ -1,8 +1,5 @@
 ---
 name: pbcorePart
-definition: <strong>pbcorePart</strong> is an element that may be used to split up a single asset so as to enable the use of all available elements at the pbcoreDescriptionDocument level to describe the intellectual content of individual segments of an asset.
-best-practice: Splitting up an asset in this way allows for defining and describing segments, stories, episodes or other divisions within the asset, such as individual films in a compilation reel, or distinct segments of a news show when each may have their own titles, creators, publishers, or other specific intellectual content information that does not apply across the whole asset.
-usage: optional, repeatable
 attributes:
   - name: partType
     note: optional

@@ -1,7 +1,5 @@
 ---
 name: coverageType
-definition: <strong>coverageType</strong> is used to identify the actual type of keywords that are being used by its companion metadata element coverage. coverageType provides a picklist of two possible types – spatial or temporal – because coverage in intellectual content may be expressed spatially by geographic location or it may also be expressed temporally by a date, period, era, or time-based event.
-usage: option, not repeatable
 controlled-vocabs:
   - vocab: <a href="#">PBCore's coverageType Vocabulary (required)</a>
 ---

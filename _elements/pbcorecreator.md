@@ -1,7 +1,5 @@
 ---
 name: pbcoreCreator
-definition: <strong>pbcoreCreator</strong> is a container for sub-elements creator and creatorRole.
-usage: optional, repeatable
 subelements:
   - name: creator
     note: required

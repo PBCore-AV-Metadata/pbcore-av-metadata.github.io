@@ -1,7 +1,5 @@
 ---
 name: pbcoreCoverage
-definition: <strong>pbcoreCoverage</strong> is a container for subelements coverage and coverageType.
-usage: optional, repeatable
 subelements:
   - name: coverage
     note: required

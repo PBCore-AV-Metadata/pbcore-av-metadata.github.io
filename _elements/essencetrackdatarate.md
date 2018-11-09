@@ -1,7 +1,5 @@
 ---
 name: essenceTrackDataRate
-definition: <strong>essenceTrackDataRate</strong> measures the amount of data used per time interval for encoded data. The data rate can be calculated by dividing the total data size of the track’s encoded data by a time unit. By default use bytes per second.
-usage: optional, not repeatable
 attributes:
   - name: unitsOfMeasure
     note: optional

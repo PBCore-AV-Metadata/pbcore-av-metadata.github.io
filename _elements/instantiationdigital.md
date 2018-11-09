@@ -1,8 +1,5 @@
 ---
 name: instantiationDigital
-definition: <strong>instantiationDigital</strong> is used to identify the format of a particular instantiation of an asset as it exists as a digital file on a server, hard drive, or other digital storage medium. Digital instantiations should be expressed as a formal Internet MIME types.
-best-practice: InstantiationDigital should only be used to describe the MIME type of the digital file itself. There are multiple options to convey more information about the storage medium or location of the digital file, which are discussed in more detail on the PBCore site.
-usage: optional, not repeatable
 attributes:
   - name: source
     note: optional

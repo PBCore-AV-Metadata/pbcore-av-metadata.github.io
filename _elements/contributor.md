@@ -1,7 +1,5 @@
 ---
 name: contributor
-definition: <strong>contributor</strong> identifies a person, people, or organization that has made substantial creative contributions to the asset. This contribution is considered to be secondary to the primary author(s) (person or organization) identified in the descriptor creator.
-usage: required within pbcoreContributor, not repeatable
 attributes:
   - name: affiliation
     note: optional

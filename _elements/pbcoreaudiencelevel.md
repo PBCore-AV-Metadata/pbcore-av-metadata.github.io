@@ -1,7 +1,5 @@
 ---
 name: pbcoreAudienceLevel
-definition: <strong>pbcoreAudienceLevel</strong> identifies a type of audience, viewer, or listener for whom the media item is primarily designed or educationally useful.
-usage: optional, repeatable
 attributes:
   - name: source
     note: optional

@@ -1,7 +1,5 @@
 ---
 name: creator
-definition: <strong>creator</strong> identifies the primary person, people, or organization(s) responsible for creating the asset. Note that non-primary names and roles should be included within the pbcoreContributor container.
-usage: required within pbcoreCreator, not repeatable
 attributes:
   - name: affiliation
     note: optional

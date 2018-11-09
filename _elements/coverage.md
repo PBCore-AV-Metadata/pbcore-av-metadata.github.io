@@ -1,7 +1,5 @@
 ---
 name: coverage
-definition: <strong>coverage</strong> refers to either the geographic location or the time period covered by the asset’s intellectual content. For geographic locations (‘spatial’ descriptors), it is expressed by keywords such as place names (e.g. ‘Alaska’ or ‘Washington, DC’), numeric coordinates or geo-spatial data. For time-based events (‘temporal’ descriptors), it is expressed by using a date, period, era, or time-based event that is portrayed or covered in the intellectual content (e.g. ‘2007’ or ‘Victorian Era’). The PBCore metadata element coverage houses the actual spatial or temporal keywords. The companion element coverageType is used to identify the type of keywords that are being used.
-usage: required with pbcoreCoverage, not repeatable
 attributes:
   - name: source
     note: optional

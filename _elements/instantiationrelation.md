@@ -1,7 +1,5 @@
 ---
 name: instantiationRelation
-definition: <strong>instantiationRelation</strong> is a container for sub-elements instantiationRelationType and instantiationRelationIdentifier to describe relationships to other instantiations.
-usage: optional, repeatable
 subelements:
   - name: instantiationRelationType
     note: required
