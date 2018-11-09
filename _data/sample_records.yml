@@ -1,0 +1,34 @@
+children:
+  - label: DESCRIPTION DOCUMENT
+    color: blue
+    children:
+      - label: ASSET TYPE
+        text: Episode
+        color: blue
+        children:
+          - label: Source
+            text: Whatever
+            color: green
+          - label: Source
+            text: Whatever
+            color: green
+      - label: ASSET TYPE
+        text: Episode
+        color: blue
+        children:
+          - label: Source
+            text: Whatever
+            color: green
+          - label: Flavor
+            text: Cherry
+            color: red
+      - label: ASSET TYPE
+        text: Episode
+        color: blue
+        children:
+          - label: Sorcery
+            text: pseudomagical
+            color: red
+          - label: Source
+            text: Whatever
+            color: green
