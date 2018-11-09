@@ -10,10 +10,15 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<instantiationColors source="PBCore instantiationColors">Color</instantiationColors>
-~~~~
 
-~~~~
-<instantiationColors source="instantiationColors" ref="http://metadataregistry.org/conceptprop/list/concept_id/1484.html" annotation="sepia">Toned</instantiationColors>
-~~~~
+<pre>
+  <code>
+    &lt;instantiationColors source=&quot;PBCore instantiationColors&quot;&gt;Color&lt;/instantiationColors&gt;
+  </code>
+</pre>
+
+<pre>
+  <code>
+    &lt;instantiationColors source=&quot;instantiationColors&quot; ref=&quot;http://metadataregistry.org/conceptprop/list/concept_id/1484.html&quot; annotation=&quot;sepia&quot;&gt;Toned&lt;/instantiationColors&gt;
+  </code>
+</pre>

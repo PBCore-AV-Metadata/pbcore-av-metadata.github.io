@@ -10,14 +10,21 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<essenceTrackDuration>00:56:22:13</essenceTrackDuration>
-~~~~
 
-~~~~
-<essenceTrackDuration>00:28:44</essenceTrackDuration>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackDuration&gt;00:56:22:13&lt;/essenceTrackDuration&gt;
+  </code>
+</pre>
 
-~~~~
-<essenceTrackDuration>01;34;28;05</essenceTrackDuration>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackDuration&gt;00:28:44&lt;/essenceTrackDuration&gt;
+  </code>
+</pre>
+
+<pre>
+  <code>
+    &lt;essenceTrackDuration&gt;01;34;28;05&lt;/essenceTrackDuration&gt;
+  </code>
+</pre>

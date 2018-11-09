@@ -12,10 +12,14 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<essenceTrackSamplingRate unitsOfMeasure="kHz">44.1<essenceTrackSamplingRate>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackSamplingRate unitsOfMeasure=&quot;kHz&quot;&gt;44.1&lt;essenceTrackSamplingRate&gt;
+  </code>
+</pre>
 
-~~~~
-<essenceTrackSamplingRate unitsOfMeasure="MHz">2.8224</essenceTrackSamplingRate>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackSamplingRate unitsOfMeasure=&quot;MHz&quot;&gt;2.8224&lt;/essenceTrackSamplingRate&gt;
+  </code>
+</pre>

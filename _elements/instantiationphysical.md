@@ -14,14 +14,21 @@ controlled-vocabs:
   - vocab: <a href="#">PBCore's instantiationPhysical (Film)</a>
   - vocab: <a href="#">PBCore's instantiationPhysical (Audio)</a>
 ---
-~~~~
-<instantiationPhysical>Betacam Digital (Digi Beta)</instantiationPhysical>
-~~~~
 
-~~~~
-<instantiationPhysical>Shellac disc</instantiationPhysical>
-~~~~
+<pre>
+  <code>
+    &lt;instantiationPhysical&gt;Betacam Digital (Digi Beta)&lt;/instantiationPhysical&gt;
+  </code>
+</pre>
 
-~~~~
-<instantiationPhysical>6.3 mm (1/4 inch) track half width analogue audio tape, Stereo</instantiationPhysical>
-~~~~
+<pre>
+  <code>
+    &lt;instantiationPhysical&gt;Shellac disc&lt;/instantiationPhysical&gt;
+  </code>
+</pre
+
+<pre>
+  <code>
+    &lt;instantiationPhysical&gt;6.3 mm (1/4 inch) track half width analogue audio tape, Stereo&lt;/instantiationPhysical&gt;
+  </code>
+</pre>

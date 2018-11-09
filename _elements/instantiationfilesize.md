@@ -12,10 +12,15 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<instantiationFileSize unitsOfMeasure="MB">322</instantiationFileSize>
-~~~~
 
-~~~~
-<instantiationFileSize unitsOfMeasure="kB">125</instantiationFileSize>
-~~~~
+<pre>
+  <code>
+    &lt;instantiationFileSize unitsOfMeasure=&quot;MB&quot;&gt;322&lt;/instantiationFileSize&gt;
+  </code>
+</pre>
+
+<pre>
+  <code>
+    &lt;instantiationFileSize unitsOfMeasure=&quot;kB&quot;&gt;125&lt;/instantiationFileSize&gt;
+  </code>
+</pre>

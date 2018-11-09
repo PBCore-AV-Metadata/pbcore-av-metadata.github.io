@@ -15,16 +15,20 @@ controlled-vocabs:
   - vocab: <a href="#">PBCore's creatorRole/contributorRole Vocabulary</a> (recommended)
   - vocab: <a href="https://www.ebu.ch/metadata/cs/web/ebu_RoleCodeCS_p.xml.htm">EBUCore roleCode</a>
 ---
-~~~~
-<pbcoreContributor>
-        <contributor>Lisa Quijano Wolfinger</contributor>
-        <contributorRole>Narrator</contributorRole>
-</pbcoreContributor>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreContributor&gt;<br>
+      &lt;contributor&gt;Lisa Quijano Wolfinger&lt;/contributor&gt;<br>
+      &lt;contributorRole&gt;Narrator&lt;/contributorRole&gt;<br>
+    &lt;/pbcoreContributor&gt;<br>
+  </code>
+</pre>
 
-~~~~
-pbcoreContributor>
-        <contributor>Yo-Yo Ma</contributor>
-        <contributorRole source="PBCore contributorRole" ref="http://metadataregistry.org/conceptprop/list/concept_id/1330.html">Instrumentalist</contributorRole>
-</pbcoreContributor>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreContributor&gt;<br>
+      &lt;contributor&gt;Yo-Yo Ma&lt;/contributor&gt;<br>
+      &lt;contributorRole source=&quot;PBCore contributorRole&quot;<br> ref=&quot;http://metadataregistry.org/conceptprop/list/concept_id/1330.html&quot;&gt;Instrumentalist&lt;/contributorRole&gt;<br>
+    &lt;/pbcoreContributor&gt;<br>
+  </code>
+</pre>

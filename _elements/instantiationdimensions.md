@@ -12,14 +12,21 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<instantiationDimensions annotation="letterbox">720x480</instantiationDimensions>
-~~~~
+<pre>
+  <code>
+    &lt;instantiationDimensions annotation=&quot;letterbox&quot;&gt;720x480&lt;/instantiationDimensions&gt;
+  </code>
+</pre>
 
-~~~~
-<instantiationDimensions unitsofmeasure="pixels">100x200</instantiationDimensions>
-~~~~
+<pre>
+  <code>
+    &lt;instantiationDimensions unitsofmeasure=&quot;pixels&quot;&gt;100x200&lt;/instantiationDimensions&gt;
+  </code>
+</pre>
 
-~~~~
-<instantiationDimensions unitsofmeasure="inches">5x7</instantiationDimensions>
-~~~~
+
+<pre>
+  <code>
+    &lt;instantiationDimensions unitsofmeasure=&quot;inches&quot;&gt;5x7&lt;/instantiationDimensions&gt;
+  </code>
+</pre>

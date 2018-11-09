@@ -12,14 +12,21 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<instantiationAnnotation>American Archive Mezzanine Version</instantiationAnnotation>
-~~~~
 
-~~~~
-<instantiationAnnotation>Rough cut, sub in fine later</instantiationAnnotation>
-~~~~
+<pre>
+  <code>
+    &lt;instantiationAnnotation&gt;American Archive Mezzanine Version&lt;/instantiationAnnotation&gt;
+  </code>
+</pre>
 
-~~~~
-<instantiationAnnotation>Original recording lost, this serves as master</instantiationAnnotation>
-~~~~
+<pre>
+  <code>
+    &lt;instantiationAnnotation&gt;Rough cut, sub in fine later&lt;/instantiationAnnotation&gt;
+  </code>
+</pre>
+
+<pre>
+  <code>
+    &lt;instantiationAnnotation&gt;Original recording lost, this serves as master&lt;/instantiationAnnotation&gt;
+  </code>
+</pre>

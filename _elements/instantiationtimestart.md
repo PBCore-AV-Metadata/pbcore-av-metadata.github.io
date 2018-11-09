@@ -10,6 +10,8 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<instantiationTimeStart>00:23:30:15</instantiationTimeStart>
-~~~~
+<pre>
+  <code>
+    &lt;instantiationTimeStart&gt;00:23:30:15&lt;/instantiationTimeStart&gt;
+  </code>
+</pre>

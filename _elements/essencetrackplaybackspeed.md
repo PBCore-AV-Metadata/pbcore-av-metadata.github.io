@@ -12,10 +12,14 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<essenceTrackPlaybackSpeed unitsOfMeasure="rpm">78</essenceTrackPlaybackSpeed>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackPlaybackSpeed unitsOfMeasure=&quot;rpm&quot;&gt;78&lt;/essenceTrackPlaybackSpeed&gt;
+  </code>
+</pre>
 
-~~~~
-<essenceTrackPlaybackSpeed unitsOfMeasure="rpm">33 1/3</essenceTrackPlaybackSpeed>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackPlaybackSpeed unitsOfMeasure=&quot;rpm&quot;&gt;33 1/3&lt;/essenceTrackPlaybackSpeed&gt;
+  </code>
+</pre>

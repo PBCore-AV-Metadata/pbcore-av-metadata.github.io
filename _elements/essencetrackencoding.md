@@ -15,10 +15,17 @@ controlled-vocabs:
   - vocab: <a href="http://cv.iptc.org/newscodes/videocodec/">IPTC NewsCodes video codec</a>
   - vocab: <a href="http://cv.iptc.org/newscodes/audiocodec/">IPTC NewsCodes audio codec</a>
 ---
-~~~~
-<essenceTrackEncoding source="PBCore essenceTrackEncoding" ref="http://metadataregistry.org/concept/show/id/2889.html">H.264/MPEG-4 AVC: QuickTime H.264 </essenceTrackEncoding>
-~~~~
 
-~~~~
-<essenceTrackEncoding>WAV</essenceTrackEncoding>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackEncoding source=&quot;PBCore essenceTrackEncoding&quot; ref=&quot;http://metadataregistry.org/concept/show/id/2889.html&quot;&gt;<br>
+    H.264/MPEG-4 AVC: QuickTime H.264<br>
+    &lt;/essenceTrackEncoding&gt;<br>
+  </code>
+</pre>
+
+<pre>
+  <code>
+    &lt;essenceTrackEncoding&gt;WAV&lt;/essenceTrackEncoding&gt;
+  </code>
+</pre>

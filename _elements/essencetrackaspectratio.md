@@ -12,10 +12,10 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<essenceTrackAspectRatio source="PBCore essenceTrackAspectRatio" ref="http://metadataregistry.org/conceptprop/list/concept_id/1439.html">4:3 (16:9 letterbox)</essenceTrackAspectRatio>
-~~~~
-
-~~~~
-<essenceTrackAspectRatio source="PBCore essenceTrackAspectRatio" ref="http://metadataregistry.org/conceptprop/list/concept_id/1444.html">16:9</essenceTrackAspectRatio>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackAspectRatio source=&quot;PBCore essenceTrackAspectRatio&quot; ref=&quot;http://metadataregistry.org/conceptprop/list/concept_id/1439.html&quot;&gt;<br>
+    4:3 (16:9 letterbox)<br>
+    &lt;/essenceTrackAspectRatio&gt;<br>
+  </code>
+</pre>

@@ -12,10 +12,14 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<essenceTrackBitDepth>8<essenceTrackBitDepth>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackBitDepth&gt;8&lt;essenceTrackBitDepth&gt;
+  </code>
+</pre>
 
-~~~~
-<essenceTrackBitDepth annotation="color">10<essenceTrackBitDepth>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackBitDepth annotation=&quot;color&quot;&gt;10&lt;essenceTrackBitDepth&gt;
+  </code>
+</pre>

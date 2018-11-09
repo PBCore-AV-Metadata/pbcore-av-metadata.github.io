@@ -10,8 +10,10 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<pbcoreRightsSummary>
-     <rightsLink>www.rightsinfo.com</rightsLink>
-</pbcoreRightsSummary>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreRightsSummary&gt;<br>
+     &lt;rightsLink&gt;www.rightsinfo.com&lt;/rightsLink&gt;<br>
+    &lt;/pbcoreRightsSummary&gt;<br>
+  </code>
+</pre>

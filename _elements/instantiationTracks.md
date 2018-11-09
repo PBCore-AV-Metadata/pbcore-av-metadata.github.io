@@ -10,10 +10,16 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<instantiationTracks>3 audio tracks</instantiationTracks>
-~~~~
 
-~~~~
-<instantiationTracks>1 video track, 1 audio track</instantiationTracks>
-~~~~
+<pre>
+  <code>
+    &lt;instantiationTracks&gt;3 audio tracks&lt;/instantiationTracks&gt;
+  </code>
+</pre>
+
+
+<pre>
+  <code>
+    &lt;instantiationTracks&gt;1 video track, 1 audio track&lt;/instantiationTracks&gt;
+  </code>
+</pre>

@@ -26,37 +26,39 @@ attributes:
   - name: timeAnnotation
     note: optional
 ---
-~~~~
-<pbcoreCreator>
-        <creator>WGBH Educational Foundation</creator>
-        <creatorRole>Producer</creatorRole>
-</pbcoreCreator>
-<pbcoreCreator>
-        <creator>Lone Wolf Documentary Group</creator>
-        <creatorRole>Producer</creatorRole>
-</pbcoreCreator>
-<pbcoreCreator>
-        <creator>Paula Apsell</creator>
-        <creatorRole>Senior Executive Producer</creatorRole>
-</pbcoreCreator>
-<pbcoreCreator>
-        <creator>Jed Rauscher</creator>
-        <creatorRole>Editor</creatorRole>
-</pbcoreCreator>
-<pbcoreCreator>
-        <creator>Matthew Collins</creator>
-        <creatorRole>Producer</creatorRole>
-</pbcoreCreator>
-<pbcoreCreator>
-        <creator>Matthew Collins</creator>
-        <creatorRole>Writer</creatorRole>
-</pbcoreCreator>
-<pbcoreCreator>
-        <creator>Kirk Wolfinger</creator>
-        <creatorRole>Producer</creatorRole>
-</pbcoreCreator>
-<pbcoreCreator>
-        <creator>Lisa Quijano Wolfinger</creator>
-        <creatorRole>Producer</creatorRole>
-</pbcoreCreator>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreCreator&gt;<br>
+            &lt;creator&gt;WGBH Educational Foundation&lt;/creator&gt;<br>
+            &lt;creatorRole&gt;Producer&lt;/creatorRole&gt;<br>
+    &lt;/pbcoreCreator&gt;<br>
+    &lt;pbcoreCreator&gt;<br>
+            &lt;creator&gt;Lone Wolf Documentary Group&lt;/creator&gt;<br>
+            &lt;creatorRole&gt;Producer&lt;/creatorRole&gt;<br>
+    &lt;/pbcoreCreator&gt;<br>
+    &lt;pbcoreCreator&gt;<br>
+            &lt;creator&gt;Paula Apsell&lt;/creator&gt;<br>
+            &lt;creatorRole&gt;Senior Executive Producer&lt;/creatorRole&gt;<br>
+    &lt;/pbcoreCreator&gt;<br>
+    &lt;pbcoreCreator&gt;<br>
+            &lt;creator&gt;Jed Rauscher&lt;/creator&gt;<br>
+            &lt;creatorRole&gt;Editor&lt;/creatorRole&gt;<br>
+    &lt;/pbcoreCreator&gt;<br>
+    &lt;pbcoreCreator&gt;<br>
+            &lt;creator&gt;Matthew Collins&lt;/creator&gt;<br>
+            &lt;creatorRole&gt;Producer&lt;/creatorRole&gt;<br>
+    &lt;/pbcoreCreator&gt;<br>
+    &lt;pbcoreCreator&gt;<br>
+            &lt;creator&gt;Matthew Collins&lt;/creator&gt;<br>
+            &lt;creatorRole&gt;Writer&lt;/creatorRole&gt;<br>
+    &lt;/pbcoreCreator&gt;<br>
+    &lt;pbcoreCreator&gt;<br>
+            &lt;creator&gt;Kirk Wolfinger&lt;/creator&gt;<br>
+            &lt;creatorRole&gt;Producer&lt;/creatorRole&gt;<br>
+    &lt;/pbcoreCreator&gt;<br>
+    &lt;pbcoreCreator&gt;<br>
+            &lt;creator&gt;Lisa Quijano Wolfinger&lt;/creator&gt;<br>
+            &lt;creatorRole&gt;Producer&lt;/creatorRole&gt;<br>
+    &lt;/pbcoreCreator&gt;<br>
+  </code>
+</pre>

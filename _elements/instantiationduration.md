@@ -10,6 +10,8 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<instantiationDuration>00:56:46</instantiationDuration>
-~~~~
+<pre>
+  <code>
+    &lt;instantiationDuration&gt;00:56:46&lt;/instantiationDuration&gt;
+  </code>
+</pre>

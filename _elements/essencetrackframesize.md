@@ -12,10 +12,18 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<essenceTrackFrameSize source="PBCore essenceTrackFrameSize" ref="http://metadataregistry.org/conceptprop/list/concept_id/1456.html" annotation="web">320x240</essenceTrackFrameSize>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackFrameSize source=&quot;PBCore essenceTrackFrameSize&quot; ref=&quot;http://metadataregistry.org/conceptprop/list/concept_id/1456.html&quot; annotation=&quot;web&quot;&gt;<br>
+      320x240<br>
+    &lt;/essenceTrackFrameSize&gt;<br>
+  </code>
+</pre>
 
-~~~~
-<essenceTrackFrameSize source="PBCore essenceTrackFrameSize" ref="http://metadataregistry.org/conceptprop/list/concept_id/1461.html" annotation="full screen">720x480</essenceTrackFrameSize>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackFrameSize source=&quot;PBCore essenceTrackFrameSize&quot; ref=&quot;http://metadataregistry.org/conceptprop/list/concept_id/1461.html&quot; annotation=&quot;full screen&quot;&gt;<br>
+      720x480<br>
+    &lt;/essenceTrackFrameSize&gt;<br>
+  </code>
+</pre>

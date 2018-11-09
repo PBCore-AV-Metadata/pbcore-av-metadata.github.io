@@ -47,12 +47,15 @@ subelements:
   - name: pbcoreExtension
     note: optional
 ---
-~~~~
-<pbcoreDescriptionDocument xmlns="http://pbcore.org/PBCore/PBCoreNamespace.html"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://pbcore.org/PBCore/PBCoreNamespace.html https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd">
-    <pbcoreIdentifier source="NOLA Code">AMEX000102</pbcoreIdentifier>
-    <pbcoreTitle titleType="Full">American Experience: Radio Bikini</pbcoreTitle>
-    <pbcoreDescription>In July 1946, the U.S. Navy staged "Operation Crossroads"--two highly publicized atomic bomb tests at a Pacific Island called Bikini.  This film is the story of those tests and their effect not only on the thousands of Naval personnel and spectators who watched, but also on the Bikinians whose homes was rendered uninhabitable by contamination, even now, 40 years later.</pbcoreDescription>
-</pbcoreDescriptionDocument>
+<pre>
+  <code>
+    &lt;pbcoreDescriptionDocument xmlns=&quot;http://pbcore.org/PBCore/PBCoreNamespace.html&quot;
+        xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+        xsi:schemaLocation=&quot;http://pbcore.org/PBCore/PBCoreNamespace.html https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd&quot;&gt;<br>
+        &lt;pbcoreIdentifier source=&quot;NOLA Code&quot;&gt;AMEX000102&lt;/pbcoreIdentifier&gt;<br>
+        &lt;pbcoreTitle titleType=&quot;Full&quot;&gt;American Experience: Radio Bikini&lt;/pbcoreTitle&gt;<br>
+        &lt;pbcoreDescription&gt;In July 1946, the U.S. Navy staged &quot;Operation Crossroads&quot;--two highly publicized atomic bomb tests at a Pacific Island called Bikini.  This film is the story of those tests and their effect not only on the thousands of Naval personnel and spectators who watched, but also on the Bikinians whose homes was rendered uninhabitable by contamination, even now, 40 years later.&lt;/pbcoreDescription&gt;<br>
+    &lt;/pbcoreDescriptionDocument&gt;<br>
+  </code>
+</pre>
 ~~~~

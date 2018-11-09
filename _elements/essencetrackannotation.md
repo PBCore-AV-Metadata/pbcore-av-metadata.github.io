@@ -12,6 +12,10 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<essenceTrackAnnotation annotationType="Condition note">Audio reel shows faint signs of mold</essenceTrackAnnotation>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackAnnotation annotationType=&quot;Condition note&quot;&gt;<br>
+    Audio reel shows faint signs of mold<br>
+    &lt;/essenceTrackAnnotation&gt;<br>
+  </code>
+</pre>

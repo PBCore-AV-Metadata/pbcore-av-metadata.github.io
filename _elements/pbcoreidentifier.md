@@ -10,6 +10,8 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<pbcoreIdentifier source="NOLA Code">NOVA003406</pbcoreIdentifier>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreIdentifier source=&quot;NOLA Code&quot;&gt;NOVA003406&lt;/pbcoreIdentifier&gt;
+  </code>
+</pre>

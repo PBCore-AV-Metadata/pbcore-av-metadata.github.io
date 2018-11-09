@@ -13,9 +13,11 @@ controlled-vocabs:
   - vocab: <a href="#">PBCore's Relation Type Vocabulary</a>
   - vocab: <a href="http://dublincore.org/documents/1999/04/29/rdf-relation-types/">Dublin Core RDF Schema Declaration of Relation Types</a>
 ---
-~~~~
-<pbcoreRelation>
-        <pbcoreRelationType>Is Part Of</pbcoreRelationType>
-        <pbcoreRelationIdentifier>NOVA</pbcoreRelationIdentifier>
-</pbcoreRelation>
-~~~~
+<pre>
+  <code>
+  &lt;pbcoreRelation&gt;<br>
+    &lt;pbcoreRelationType&gt;Is Part Of&lt;/pbcoreRelationType&gt;<br>
+    &lt;pbcoreRelationIdentifier&gt;NOVA&lt;/pbcoreRelationIdentifier&gt;<br>
+  &lt;/pbcoreRelation&gt;<br>
+  </code>
+</pre>

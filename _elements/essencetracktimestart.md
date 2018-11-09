@@ -10,6 +10,8 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<essenceTrackTimeStart>00:00:32:05</essenceTrackTimeStart>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackTimeStart&gt;00:00:32:05&lt;/essenceTrackTimeStart&gt;
+  </code>
+</pre>

@@ -55,12 +55,14 @@ subelements:
   - name: instantiationExtension
     note: optional
 ---
-~~~~
-<!--?xml version="1.0" encoding="UTF-8"?-->
-    <pbcoreInstantiationDocument xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://pbcore.org/xsd/pbcore-2.1.xsd">
-        <instantiationIdentifier source="McHale University">MCU_v0123_01</instantiationIdentifier>
-        <instantiationLocation>McHale University</instantiationLocation>
-    </pbcoreInstantiationDocument>
-~~~~
+<pre>
+  <code>
+    &lt;!--?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?--&gt;<br>
+    &lt;pbcoreInstantiationDocument xmlns=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace.html&quot;
+        xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+        xsi:schemaLocation=&quot;http://pbcore.org/xsd/pbcore-2.1.xsd&quot;&gt;<br>
+        &lt;instantiationIdentifier source=&quot;McHale University&quot;&gt;MCU_v0123_01&lt;/instantiationIdentifier&gt;<br>
+        &lt;instantiationLocation&gt;McHale University&lt;/instantiationLocation&gt;<br>
+    &lt;/pbcoreInstantiationDocument&gt;<br>
+  </code>
+</pre>  
