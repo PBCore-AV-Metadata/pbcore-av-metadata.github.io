@@ -249,6 +249,8 @@ pbcorePublisher:
 pbcoreRelation:
   definition: <strong>pbcoreRelation</strong> contains the pbcoreRelationType and pbcoreRelationIdentifier elements. In order to properly use these two elements they must be nested with the pbcoreRelation element, and pbcoreRelation must contain both pbcoreRelationType and pbcoreRelationIdentifier if it is included.
   usage: optional, repeatable
+pbcoreRelationIdentifier:
+  whoa: yes
 pbcoreRelationType:
   definition: pbcoreRelationType describes the relationship between the asset being describe by the PBCore document and any other asset. Ideally it would contain text from a controlled vocabulary for describing relationships. There is some depth to what a relationship could be. The assets can be related as different episodes in a series, different tapes in a box set, or different versions of an original, among others.
   best-practice: The assets may be related in that they are different discrete parts of a single intellectual unit, one may be a derivative of another, or they may be different versions that are distinct enough to be described as separate assets.
@@ -260,6 +262,9 @@ pbcoreRightsSummary:
 pbcoreRightsSummary:
   definition: <strong>pbcoreRightsSummary</strong> is a container for sub-elements ‘rightsSummary’, ‘rightsLink’ and ‘rightsEmbedded’ used to describe Rights for the asset.
   best-practice: The pbcoreRightsSummary container can be repeated to express multiple rights statements. However, all rights information contained within a pbcoreRightsSummary container should apply to the entire asset. Rights that relate to a specific instantiation of an asset, such as those conferred along with an item in a donation agreement, can be documented in the instantiationRights element.
+  usage: optional, repeatable
+pbcoreSubject:
+  definition: <strong>pbcoreSubject</strong> is used to assign topic headings or keywords that portray the intellectual content of the asset. A subject is expressed by keywords, key phrases, or even specific classification codes. Controlled vocabularies, authorities, formal classification codes, as well as folksonomies and user-generated tags, may be employed when assigning descriptive subject terms.
   usage: optional, repeatable
 pbcoreTitle:
   definition: <strong>pbcoreTitle</strong> is a name or label relevant to the asset.
