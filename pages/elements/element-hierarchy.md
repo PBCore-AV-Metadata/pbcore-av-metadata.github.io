@@ -1,7 +1,7 @@
 ---
 title: Element Hierarchy
 layout: element-groups
-permalink: /element-hierarchy.html
+permalink: elements/element-hierarchy.html
 ---
 
 <h2 class="green title">Element Hierarchy</h2>
@@ -91,3 +91,7 @@ Elements in an XML document must appear in a certain order and hierarchy. The hi
     - extensionValue
     - extensionAuthorityUsed
   - extensionEmbedded
+
+Within a pbcoreCollection, the hierarchy remains the same, but the pbcoreDescriptionDocument is contained inside a pbcoreCollection element. If a pbcoreInstantiationDocument is used as the root element, only the Instantiation elements may appear inside the document.
+
+If pbcorePart or instantiationPart are used, all sub-elements must appear in the same order that they would within pbcoreDescriptionDocument (for pbcorePart) or pbcoreInstantiation (for instantiationPart.)
