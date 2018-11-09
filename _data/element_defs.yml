@@ -160,7 +160,8 @@ instantiationPhysical:
   best-practice: PBCore provides a controlled vocabulary for media objects, though any controlled vocabulary can be used as long as it is referenced. For digital storage carriers that contain portable file-based media, such as data CDs, LTO tapes or hard drives, use instantiationDigital to convey the mime type of the file instead of describing the carrier.
   usage: optional, not repeatable
 instantiationRelation:
-  yup
+  definition: <strong>instantiationRelation</strong> is a container for sub-elements instantiationRelationType and instantiationRelationIdentifier to describe relationships to other instantiations.
+  usage: optional, repeatable
 instantiationRelationIdentifier:
   definition: <strong>instantiationRelationIdentifier</strong> is used to provide a name, locator, accession, identification number or ID where the related item can be obtained or found.
   best-practice: We recommend using a unique identifier or global unique ID in this element.
