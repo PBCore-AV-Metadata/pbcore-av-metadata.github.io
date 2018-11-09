@@ -210,8 +210,8 @@ pbcoreContributor:
 pbcoreCoverage:
   definition: <strong>pbcoreCoverage</strong> is a container for subelements coverage and coverageType.
   usage: optional, repeatable
-pbcoreCoverage:
-  definition: <strong>pbcoreCoverage</strong> is a container for subelements coverage and coverageType.
+pbcoreCreator:
+  definition: <strong>pbcoreCreator</strong> is a container for sub-elements creator and creatorRole.
   usage: optional, repeatable
 pbcoreDescription:
   definition: <strong>pbcoreDescription</strong> is an element that uses free-form text or a narrative to report general notes, abstracts, or summaries about the intellectual content of an asset. The information may be in the form of an individual program description, anecdotal interpretations, or brief content reviews. The description may also consist of outlines, lists, bullet points, rundowns, edit decision lists, indexes, or tables of content.
