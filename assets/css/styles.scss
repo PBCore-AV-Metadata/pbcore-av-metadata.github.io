@@ -1,7 +1,7 @@
 ---
 ---
 
-@import url(https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab);
+@import url(//fonts.googleapis.com/css?family=Roboto|Roboto+Slab);
 
 $blue: #358ff2;
 $red: #f5463e;
@@ -83,22 +83,22 @@ a:hover {
 
 .menu_about div a:hover {
   background: $blue;
-  color: white;
+  color: white !important;
 }
 
 .menu_schema div a:hover {
   background: $green;
-  color: white;
+  color: white !important;
 }
 
 .menu_resources div a:hover {
   background: $red;
-  color: white;
+  color: white !important;
 }
 
 .menu_community div a:hover {
   background: $dark-grey;
-  color: white;
+  color: white !important;
 }
 
 // footer STUFF
@@ -449,6 +449,10 @@ h2.med-title {
   margin-left: 3em;
 }
 
+.indent-4 {
+  margin-left: 2.6em;
+}
+
 .pb-list {
   list-style: none;
 }
@@ -475,13 +479,26 @@ h2.med-title {
   font-weight: bold;
 }
 
+.bolder {
+  font-weight: bolder;
+}
+
 .light {
   font-weight: 100;
+}
+
+#faq {
+  background-image: url('/assets/images/03_faqs_background-icon_wide.png') !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+  z-index: 10000;
 }
 
 #faq h1, #faq h2, #faq a, #faq div{
   color: $blue;
   text-align: left;
+  background-color: transparent;
 }
 
 #glossary h1, #glossary h2, #glossary a, #glossary div{
@@ -493,13 +510,13 @@ h2.med-title {
   background-image: url("/assets/images/03_faqs_background-icon.png");
 }
 
-.arrow-icon {
+.faq-arrow-icon {
   background-repeat: no-repeat;
-  // float: left;
+  float: left;
   height: 20px;
   width: 30px;
   background-size: contain;
-  // margin-right: 10px;
+  margin-right: 10px;
 }
 
 .arrow-down {
@@ -526,6 +543,18 @@ h2.med-title {
   border: 0px !important;
 }
 
+
+.faq-answer-a {
+  font-size: 1.25rem;
+  display: inline;
+  margin-right: 0.25em;
+}
+
+.faq-answer, .faq-answer p {
+  padding-left: 0;
+  display: inline;
+}
+
 .faq-answer {
  font-weight: 100;
 }
@@ -533,6 +562,10 @@ h2.med-title {
 .faq-section-header {
   font-weight: bold;
   font-size: 24px;
+}
+
+.faq-separator {
+  margin-bottom: 4%;
 }
 
 .separator {
@@ -555,9 +588,25 @@ span.definition-icon {
 }
 
 .attribute-name {
-  text-align: right !important;
+  // text-align: right !important;
+  font-size: 18px;
 }
 
+.attribute-note {
+  color: $green;
+}
+
+.attribute-def {
+  // font-size: 10px;
+  // font-weight: bold;
+}
+
+.attribute-container {
+  list-style-type: none;
+  font-size: 14px;
+}
+
+// attributes page
 .attribute-list ul {
   list-style-type: none;
 }
@@ -569,7 +618,6 @@ span.definition-icon {
 div.spacing {
   height: 20px;
 }
-
 
 #element-accordion ul {
   list-style-type: none;
@@ -586,8 +634,9 @@ div.spacing {
   position: absolute;
   display: block;
   left: -1.2em;
-  top: 1em;
+  top: 0.5em;
 }
+
 
 .element-arrow-down {
   background-image: url("/assets/images/05_arrow_down_menu-button.png");
@@ -623,11 +672,14 @@ div.spacing {
 
 .card-header {
   padding-left: 0;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .card-body {
   padding-left: 0em;
   padding-top: 0em;
+  padding-bottom: 0em;
 }
 
 .card-guy {
@@ -647,6 +699,7 @@ div.card-header {
 div.card-header.top {
   border-top: 1px solid black !important;
   border-radius: 0 !important;
+  padding: 1em;
 }
 
 .card.separator {
@@ -667,4 +720,13 @@ code[class*="language-"] {
 
 .navbar-nav li {
   margin-right: 12%;
+}
+
+.vocab-text {
+  font-size: 14px;
+  color: black;
+}
+
+.vocab-container {
+  list-style: none;
 }

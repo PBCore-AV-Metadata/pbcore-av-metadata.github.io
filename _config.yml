@@ -31,12 +31,19 @@ plugins:
 collections:
   elements:
     output: true
+  vocabs:
+    output: true
 defaults:
   - scope:
       path: ""
       type: "elements"
     values:
       layout: "element"
+  - scope:
+      path: ""
+      type: "vocabs"
+    values:
+      layout: "vocab"
   - scope:
       path: ""
     values:

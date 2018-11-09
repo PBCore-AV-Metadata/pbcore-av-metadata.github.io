@@ -6,32 +6,49 @@ layout: default
     {% include element_sidebar.html %}
   </div>
   <div class="col-md-9">
+
     <span class="definition-icon"></span>
+
     <h3 class="green">Elements defined</h3>
+
     <h2>{{ page.name }}</h2>
+
     <p>{{ page.definition }}</p>
+
     {% if page.best-practice %}
-    <p><span class="green">Best Practice: </span><span>{{ page.best-practice }}</span></p>
+
+      <p><span class="green">Best Practice: </span><span>{{ page.best-practice }}</span></p>
     {% endif %}
+
     <p><span class="green">Usage: </span><span>{{ page.usage }}</span></p>
+
     <h3 class="green">Attributes</h3>
+
     {% if page.attributes %}
-      <ul>
-        {% for item in page.attributes %}
+      <ul class="attribute-container">
+        {% for attribute in page.attributes %}
           <li>
-            <span class="bold">{{ item.name }}: </span><span class="attribute-note">{{ item.note }}</span>
+            <span class="bolder attribute-name">{{ attribute.name }}: </span>
+            <span class="attribute-note">{{ attribute.note }}</span>
+            | <span class="attribute-def">{{ site.data.attributes[attribute.name].definition }}</span>
           </li>
+
         {% endfor %}
       </ul>
     {% else %}
+
       <p>This element cannot have any attributes.</p>
     {% endif %}
+
     <h3 class="green">Subelements</h3>
+
     {% if page.subelements %}
-      <ul>
-        {% for item in page.subelements %}
+      <ul class="attribute-container">
+        {% for subelement in page.subelements %}
           <li>
-            <a class="bold">{{ item.name }}: </a><span class="subelement-note">{{ item.note }}</span>
+            <span class="bolder attribute-name">{{ subelement.name }}: </span>
+            <span class="attribute-note">{{ subelement.note }}</span>
+            | <span class="attribute-def">{{ site.data.attributes[subelement.name].definition }}</span>
           </li>
         {% endfor %}
       </ul>
@@ -42,6 +59,5 @@ layout: default
     <h3 class="green">Example</h3>
 
     {{ content }}
-
   </div>
 </div>

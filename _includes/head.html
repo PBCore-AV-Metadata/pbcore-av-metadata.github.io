@@ -9,13 +9,24 @@
 
   <link href="/assets/css/a11y-dark.css" rel="stylesheet" type="text/css">
   <script type="text/javascript" src="/assets/highlight.pack.js"></script>
-  <script type="text/javascript" src="/assets/highlightjs-line-numbers.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-  
+
   <script>
     $(document).ready(function() {
       hljs.configure({useBR: true});hljs.initHighlightingOnLoad();
+
+      $('.element-arrow-icon, .faq-arrow-icon').click(function(e){
+        var start = $(this).hasClass('element-arrow-icon') ? 'element-' : '';
+        if($(this).hasClass(start+'arrow-down')){
+          $(this).removeClass(start+'arrow-down').addClass(start+'arrow-up')
+        }
+        else if($(this).hasClass(start+'arrow-up')){
+          $(this).removeClass(start+'arrow-up').addClass(start+'arrow-down')
+        }
+      })
+
     });
+
   </script>
 
   {% feed_meta %}

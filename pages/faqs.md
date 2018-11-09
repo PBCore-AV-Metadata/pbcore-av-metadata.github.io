@@ -3,22 +3,9 @@ title: Frequently Asked Questions
 layout: default
 permalink: /faqs.html
 ---
-<script>
-$(document).ready(function(){
-  $('.arrow-icon').click(function(){
-    if($(this).hasClass('arrow-down')){
-      $(this).removeClass('arrow-down').addClass('arrow-up')
-    }
-    else if($(this).hasClass('arrow-up')){
-      $(this).removeClass('arrow-up').addClass('arrow-down')
-    }
-  })
-})
-</script>
 
-<div class="container-fluid bg-gray faq" id="faq">
+<div class="container-fluid faq" id="faq">
   <h1>Frequently Asked Questions</h1>
-  <img class="faq" src="/assets/images/03_faqs_background-icon.png">
   	<div class="container">
   		<section>
       {% assign i = 0 %}
@@ -33,19 +20,21 @@ $(document).ready(function(){
       							<div class="card-header" id="heading{{ i }}">
       								<h5 class="mb-0">
       							     <a class="collapsed" data-toggle="collapse" href="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
-                          <span class="arrow-icon arrow-down"></span>
+                          <span class="faq-arrow-icon arrow-down"></span>
                           <span class="bold">Q: </span>
                           {{ entry.question }}
       							     </a>
       						     </h5>
       						  </div>
   							    <div id="collapse{{ i }}" class="collapse fade" aria-labelledby="heading{{ i }}">
-  								     <div class="card-body">
-                        <span class="bold">A: </span>
-                        <span class="faq-answer">{{ entry.answer | markdownify }}</span>
+  								     <div class="card-body indent-4">
+                        <span class="faq-answer">
+                          <span class="bold faq-answer-a">A: </span>
+                          {{ entry.answer | markdownify }}
+                        </span>
   								     </div>
   							    </div>
-                  <span class="separator"></span>
+                  <span class="separator faq-separator"></span>
   						   </div>
               {% endfor %}
             </div>
@@ -54,4 +43,4 @@ $(document).ready(function(){
       {% endfor %}
     </section>
   </div>
-</div>    
+</div>

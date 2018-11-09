@@ -18,7 +18,7 @@ toc:
       - page: Attributes
         url: /attributes.html
       - page: Controlled Vocabularies
-        url: /controlled-vocabs.html
+        url: /vocabs.html
       - page: XML Schema
         url: /xsd.html
       - page: Data Model Visualization
