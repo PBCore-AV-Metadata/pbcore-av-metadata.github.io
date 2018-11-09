@@ -4,12 +4,8 @@ layout: element-groups
 permalink: /elements.html
 ---
 
-<h1>Elements</h1>
+<h2 class="green title">Elements</h2>
 
-<ul>
-  {% for element in site.elements %}
-    <li>
-      <h2><a href="{{ element.url }}">{{ element.name }}</a></h2>
-    </li>
-  {% endfor %}
-</ul>
+PBCore is made up of elements, which can be organized into three main groups: Root Elements, Asset Elements, Instantiation Elements.
+
+<a href="{{ site.url }}/elements/element-hierarchy.html"><button class="pb-button-element-hierarchy">VIEW ELEMENTS IN XML HIERARCHICAL ORDER</button></a>
