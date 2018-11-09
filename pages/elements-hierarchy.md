@@ -1,0 +1,93 @@
+---
+title: Element Hierarchy
+layout: element-groups
+permalink: /element-hierarchy.html
+---
+
+<h2 class="green title">Element Hierarchy</h2>
+
+Elements in an XML document must appear in a certain order and hierarchy. The hierarchy for a PBCore 2.1 pbcoreDescriptionDocument is as follows.
+
+- pbcoreDescriptionDocument
+  - pbcoreAssetType
+  - pbcoreAssetDate
+  - pbcoreIdentifier
+  - pbcoreTitle
+  - pbcoreSubject
+  - pbcoreDescription
+  - pbcoreGenre
+  - pbcoreRelation
+    - pbcoreRelationType
+    - pbcoreRelationIdentifier
+  - pbcoreCoverage
+    - coverage
+    - coverageType
+  - pbcoreAudienceLevel
+  - pbcoreAudienceRating
+  - pbcoreCreator
+    - creator
+    - creatorRole
+  - pbcoreContributor
+    - contributor
+    - contributorRole
+  - pbcorePublisher
+    - publisher
+    - publisherRole
+  - pbcoreRightsSummary
+    - rightsSummary
+    - rightsLink
+    - rightsEmbedded
+  - pbcoreInstantiation
+    - instantiationIdentifier
+    - instantiationDate
+    - instantiationDimensions
+    - instantiationPhysical
+    - instantiationDigital
+    - instantiationStandard
+    - instantiationLocation
+    - instantiationMediaType
+    - instantiationGenerations
+    - instantiationFileSize
+    - instantiationTimeStart
+    - instantiationDuration
+    - instantiationDataRate
+    - instantiationColors
+    - instantiationTracks
+    - instantiationChannelConfiguration
+    - instantiationLanguage
+    - instantiationAlternativeModes
+    - instantiationEssenceTrack
+      - essenceTrackType
+      - essenceTrackIdentifier
+      - essenceTrackStandard
+      - essenceTrackEncoding
+      - essenceTrackDataRate
+      - essenceTrackFrameRate
+      - essenceTrackPlaybackSpeed
+      - essenceTrackSamplingRate
+      - essenceTrackBitDepth
+      - essenceTrackFrameSize
+      - essenceTrackAspectRatio
+      - essenceTrackTimeStart
+      - essenceTrackDuration
+      - essenceTrackLanguage
+      - essenceTrackAnnotation
+      - essenceTrackExtension
+    - instantiationRelation
+      - instantiationRelationType
+      - instantiationRelationIdentifier
+    - instantiationRights
+      - rightsSummary
+      - rightsLink
+      - rightsEmbedded
+    - instantiationAnnotation
+    - instantiationPart
+    - instantiationExtension
+- pbcoreAnnotation
+- pbcorePart
+- pbcoreExtension
+  - extensionWrap
+    - extensionElement
+    - extensionValue
+    - extensionAuthorityUsed
+  - extensionEmbedded
