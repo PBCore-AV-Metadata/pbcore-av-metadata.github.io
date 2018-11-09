@@ -2,5 +2,5 @@
 name: extensionValue
 ---
 ~~~~
-extensionValue>WNET.org</extensionValue>
+<extensionValue>WNET.org</extensionValue>
 ~~~~

@@ -112,8 +112,10 @@ elementgroups:
             url: /elements/instantiationmediatype
           - name: instantiationGenerations
             url: /elements/instantiationgenerations
-          - name: instantiationFileSize
+          - name: instantiationTimeStart
             url: /elements/instantiationtimestart
+          - name: instantiationFileSize
+            url: /elements/instantiationfilesize
           - name: instantiationDuration
             url: /elements/instantiationduration
           - name: instantiationDataRate
@@ -140,7 +142,7 @@ elementgroups:
               - name: essenceTrackEncoding
                 url: /elements/essencetrackencoding
               - name: essenceTrackDataRate
-                url: /elements/essencetrackdatadate
+                url: /elements/essencetrackdatarate
               - name: essenceTrackFrameRate
                 url: /elements/essencetrackframerate
               - name: essenceTrackPlaybackSpeed
