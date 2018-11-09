@@ -8,8 +8,8 @@ toc:
         url: /faqs.html
       - page: Glossary
         url: /glossary.html
-      - page: Steering Committee
-        url: /steering.html
+      - page: Credits
+        url: /credits.html
   - title: Schema
     color: green
     subfolderitems:

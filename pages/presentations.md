@@ -3,7 +3,7 @@ title: PBCore Presentations
 layout: default
 permalink: /presentations.html
 ---
-<h2 class="red">Presentations</h2>
+<h2 class="red title">Presentations</h2>
 
 "More About PBCore: Using instantiationLocation and pbcoreExtension." Presented by Sadie Roosa and Morgan Morel in 2016: https://vimeo.com/168933596
 
