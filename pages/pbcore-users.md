@@ -8,7 +8,6 @@ permalink: /pbcore-users.html
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sem ac diam venenatis pellentesque. Ut eget elit sit amet odio euismod aliquet. Praesent ac neque vitae elit mollis varius sit amet in metus. Aenean interdum, tortor nec volutpat efficitur, mauris erat laoreet risus, nec congue quam mauris nec justo. Maecenas non erat massa. Ut et euismod est. Integer consectetur pellentesque libero ac lobortis. Mauris fringilla varius purus in mattis. Nunc laoreet id ante non lobortis. Duis leo diam, maximus ut massa a, hendrerit aliquam nisi. Quisque lorem neque, ullamcorper sed enim in, accumsan iaculis ex. Curabitur id feugiat lacus. Integer a eros ac eros tempor imperdiet sed vel dolor. Ut nibh nisl, iaculis ut dapibus eu, molestie in elit. Aenean ipsum neque, auctor a semper eget, mattis quis velit. Suspendisse potenti.
 
-
 <section class="grey text-center" style="margin-bottom: 4%">
 
   <div class="row">

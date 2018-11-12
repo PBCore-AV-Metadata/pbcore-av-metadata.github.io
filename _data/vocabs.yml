@@ -1,26 +1,26 @@
 - name: pbcoreAssetType Element
-  url: /vocabs/pbcoreassettype.html
+  url: /pbcore-controlled-vocabularies/pbcoreassettype.html
 - name: dateType Attribute
-  url: /vocabs/datetype.html
+  url: /pbcore-controlled-vocabularies/datetype.html
 - name: descriptionType Attribute
-  url: /vocabs/descriptiontype.html
+  url: /pbcore-controlled-vocabularies/descriptiontype.html
 - name: titleType Attribute
-  url: /vocabs/titletype.html
+  url: /pbcore-controlled-vocabularies/titletype.html
 - name: pbcoreRelationType Element
-  url: /vocabs/pbcorerelationtype.html
+  url: /pbcore-controlled-vocabularies/pbcorerelationtype.html
 - name: instantiationRelationType Element
-  url: /vocabs/instantiationrelationtype.html
+  url: /pbcore-controlled-vocabularies/instantiationrelationtype.html
 - name: creatorRole and contributorRole Element
-  url: /vocabs/role.html
+  url: /pbcore-controlled-vocabularies/role.html
 - name: publisherRole Element
-  url: /vocabs/publisherrole.html
+  url: /pbcore-controlled-vocabularies/publisherrole.html
 - name: instantiationPhysical Audio
-  url: /vocabs/instantiationphysical_audio.html
+  url: /pbcore-controlled-vocabularies/instantiationphysical_audio.html
 - name: instantiationPhysical Film
-  url: /vocabs/instantiationphysical_film.html
+  url: /pbcore-controlled-vocabularies/instantiationphysical_film.html
 - name: instantiationPhysical Video
-  url: /vocabs/instantiationphysical_video.html
+  url: /pbcore-controlled-vocabularies/instantiationphysical_video.html
 - name: instantiationMediaType Element
-  url: /vocabs/instantiationmediatype.html
+  url: /pbcore-controlled-vocabularies/instantiationmediatype.html
 - name: instantiationGenerations Element
-  url: /vocabs/instantiationgenerations.html
+  url: /pbcore-controlled-vocabularies/instantiationgenerations.html

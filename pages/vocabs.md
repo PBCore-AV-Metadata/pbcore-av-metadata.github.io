@@ -1,7 +1,7 @@
 ---
 title: Controlled Vocabularies
 layout: default
-permalink: /vocabs.html
+permalink: /pbcore-controlled-vocabularies.html
 ---
 <div class="row">
   <div class="col-md-3">

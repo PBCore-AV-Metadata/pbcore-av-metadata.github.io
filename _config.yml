@@ -31,7 +31,7 @@ plugins:
 collections:
   elements:
     output: true
-  vocabs:
+  pbcore-controlled-vocabularies:
     output: true
   sample_records:
     output: true
@@ -43,7 +43,7 @@ defaults:
       layout: "element"
   - scope:
       path: ""
-      type: "sample_records"
+      type: "pbcore-controlled-vocabularies"
     values:
       layout: "vocab"
   - scope:
