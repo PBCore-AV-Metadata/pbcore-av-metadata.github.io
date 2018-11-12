@@ -278,9 +278,9 @@ h2.med-title {
 }
 
 #getting-started {
-  background-image: url("/assets/images/01_getting_started_flag_box.png");
+  background-image: url("/assets/images/flag-wide.png");
   background-repeat: no-repeat;
-  background-size: 1125px;
+  background-size: contain;
   background-position: center;
   color: #fff;
 }
@@ -292,10 +292,24 @@ h2.med-title {
 }
 
 #accessing-tools {
-  background-image: url("/assets/images/01_accessing_tools_box.png");
+  background-image: url("/assets/images/tools-wide.png");
   background-repeat: no-repeat;
-  background-size: 1125px;
-  background-position: center
+  background-size: cover;
+  background-position: top left;
+}
+
+#attributes-defined {
+  background-image: url('/assets/images/attribute-wide.png');
+  background-position: left top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#who-uses-pbcore {
+  background-image: url('/assets/images/signal-wide.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .pb-button {
