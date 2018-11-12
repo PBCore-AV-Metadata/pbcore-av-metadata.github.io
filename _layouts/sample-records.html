@@ -19,7 +19,7 @@ layout: default
   </div>
 </div>
 
-<div class="row">
+<div class="row" style="max-height: 70vh;">
 
   <div class="col-md-3 text-center no-padding black-border" style="border-right: 0px;">
 
@@ -42,9 +42,9 @@ layout: default
     </div>
 
     <div class="row">
-      <div class="col-md-12 no-padding">
+      <div class="col-md-12 no-padding" style=" overflow-y: hidden;">
 
-        <span style="margin-top:1em; display: block;">
+        <span style="margin-top:1em; display: block; padding: 6%; overflow-y: scroll; max-height: 50vh;">
 
           {% for rec in page.children %}
 
@@ -92,9 +92,14 @@ layout: default
       XML FORMAT
     </div>
 
-    <div class="row">
-      <div class="col-md-12">
-        {{ content }}
+    <div class="row" style="margin-left:0;margin-right:0;">
+      <div class="" style=" max-height: 50vh;padding-left: 0;padding-right: 0;overflow-y: scroll;">
+
+        <pre >
+          <code class="xml"style="overflow-y: auto;overflow-x: auto;">
+            {{content}}
+          </code>
+        </pre>
         <!-- use xml formatter to get indentation, change line breaks to brs, escape html entities, turn &ltbr&gt back into <br> -->
       </div>
     </div>
