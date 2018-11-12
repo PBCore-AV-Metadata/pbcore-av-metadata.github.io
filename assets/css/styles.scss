@@ -592,7 +592,18 @@ span.definition-icon {
   float: left;
   height: 40px;
   width: 40px;
+  position: relative;
   background-size: contain;
+}
+
+.def-attributes {
+  top: 0.7em;
+  margin-right: 0.5em;
+}
+
+.def-elements {
+  top: -0.3em;
+  margin-right: 0.5em;
 }
 
 .attribute-name {

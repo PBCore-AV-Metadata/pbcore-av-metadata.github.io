@@ -36,6 +36,20 @@
         }
       });
 
+      var accordion_ids=Cookies.get('accordionDisplay');
+      if (accordion_ids!=null) {
+          //show the open_accordions visible group
+          $(accordion_ids).collapse("show");
+      }
+
+      $(document).on('shown.bs.collapse hidden.bs.collapse', function() {
+        var active_accs = $("div.elements.collapse.show[id^=collapse]")
+        var active_ids = $.map(active_accs, function(ele){
+          return '#' + ele.id;
+        }).join(',');
+
+        Cookies.set('accordionDisplay', active_ids)
+      });
     });
 
   </script>

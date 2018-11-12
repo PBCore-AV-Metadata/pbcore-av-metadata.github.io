@@ -6,6 +6,8 @@
   <a class="green small-text open" id="expand-all">
     <img class="expand-elements-icon" src="/assets/images/icons/expand-elements.png" alt="">
     Expand all subelements
+
+    <span style="min-height: 1px; display: block;"></span>
   </a>
 
   <div id="element-accordion" class="">
@@ -18,7 +20,7 @@
           </a>
         </h4>
       </div>
-      <div id="collapseRoot" class="collapse show" aria-labelledby="headingRoot">
+      <div id="collapseRoot" class="collapse elements show" aria-labelledby="headingRoot">
         <div class="card-body sidebar-indent">
           {% for item in site.data.elements.elementgroups %}
             {% if item.group == "Root" %}
@@ -42,7 +44,7 @@
           </a>
         </h4>
       </div>
-      <div id="collapseAsset" class="collapse show" aria-labelledby="headingAsset">
+      <div id="collapseAsset" class="collapse elements show" aria-labelledby="headingAsset">
         <div class="card-body sidebar-indent">
           {% for item in site.data.elements.elementgroups %}
             {% if item.group == "Asset" %}
@@ -59,7 +61,7 @@
                           </a>
                         </h5>
                       </div>
-                      <div id="collapse{{ i }}" class="collapse" aria-labelledby="heading{{ i }}">
+                      <div id="collapse{{ i }}" class="collapse elements" aria-labelledby="heading{{ i }}">
                         <div class="card-body sidebar-indent">
                           {% for level2 in level1.elements %}
                             {% if level2.elements %}
@@ -74,7 +76,7 @@
                                       </a>
                                     </h5>
                                   </div>
-                                  <div id="collapse{{ i }}" class="collapse" aria-labelledby="heading{{ i }}">
+                                  <div id="collapse{{ i }}" class="collapse elements" aria-labelledby="heading{{ i }}">
                                     <div class="card-body sidebar-indent">
                                       {% for level3 in level2.elements %}
                                         <h5 class="card-guy">
@@ -116,7 +118,7 @@
           </a>
         </h4>
       </div>
-      <div id="collapseInstantiation" class="collapse show" aria-labelledby="headingInstantiation">
+      <div id="collapseInstantiation" class="collapse elements show" aria-labelledby="headingInstantiation">
         <div class="card-body sidebar-indent">
           {% for item in site.data.elements.elementgroups %}
             {% if item.group == "Instantiation" %}
@@ -134,7 +136,7 @@
 
                         </h5>
                       </div>
-                      <div id="collapse{{ i }}" class="collapse" aria-labelledby="heading{{ i }}">
+                      <div id="collapse{{ i }}" class="collapse elements" aria-labelledby="heading{{ i }}">
                         <div class="card-body ">
                           {% for level2 in level1.elements %}
                             {% if level2.elements %}
@@ -149,7 +151,7 @@
                                       </a>
                                     </h5>
                                   </div>
-                                  <div id="collapse{{ i }}" class="collapse" aria-labelledby="heading{{ i }}">
+                                  <div id="collapse{{ i }}" class="collapse elements" aria-labelledby="heading{{ i }}">
                                     <div class="card-body sidebar-indent">
                                       {% for level3 in level2.elements %}
                                         {% if level3.elements %}
@@ -164,7 +166,7 @@
                                                   </a>
                                                 </h5>
                                               </div>
-                                              <div id="collapse{{ i }}" class="collapse" aria-labelledby="heading{{ i }}">
+                                              <div id="collapse{{ i }}" class="collapse elements" aria-labelledby="heading{{ i }}">
                                                 <div class="card-body sidebar-indent">
                                                   {% for level4 in level3.elements %}
                                                     <h5 class="card-guy">

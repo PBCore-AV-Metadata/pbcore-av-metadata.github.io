@@ -7,7 +7,7 @@ layout: default
   </div>
   <div class="col-md-9">
 
-    <span class="definition-icon"></span>
+    <span class="definition-icon def-elements"></span>
 
     <h3 class="green">Elements defined</h3>
 
@@ -48,7 +48,7 @@ layout: default
           <li>
             <span class="bolder attribute-name">{{ subelement.name }}: </span>
             <span class="attribute-note">{{ subelement.note }}</span>
-            | <span class="attribute-def">{{ site.data.attributes[subelement.name].definition }}</span>
+            | <span class="attribute-def">{{ site.data.element_defs[subelement.name].definition }}</span>
           </li>
         {% endfor %}
       </ul>
