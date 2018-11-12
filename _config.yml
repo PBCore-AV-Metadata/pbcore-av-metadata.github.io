@@ -33,7 +33,7 @@ collections:
     output: true
   pbcore-controlled-vocabularies:
     output: true
-  sample_records:
+  sample-records:
     output: true
 defaults:
   - scope:
@@ -48,9 +48,9 @@ defaults:
       layout: "vocab"
   - scope:
       path: ""
-      type: "sample_records"
+      type: "sample-records"
     values:
-      layout: "sample_records"
+      layout: "sample-records"
   - scope:
       path: ""
     values:

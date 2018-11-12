@@ -30,7 +30,7 @@ permalink: /sample-records.html
 
     <div class="row">
       <div class="col-md-12">
-        {% include sample_records_list.html %}
+        {% include sample-records-list.html %}
       </div>
     </div>
   </div>
@@ -51,7 +51,7 @@ permalink: /sample-records.html
 
         <span style="margin-top:1em; display: block;">
 
-          {% for rec in site.data.sample_records.children %}
+          {% for rec in site.data.sample-records.children %}
 
             <span class="{{rec.color}}">
               {{ rec.label }}:
