@@ -42,23 +42,20 @@ children: Instantiation Document
             text: Magnetic track on film
             color: blue
 ---
-<pre>
-  <code class="xml">
-    &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;<br>
-    &lt;pbcoreInstantiationDocument xmlns=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace.html&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace.html https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd&quot;&gt;<br>
-      &lt;instantiationIdentifier source=&quot;Barcode&quot;&gt;7005732&lt;/instantiationIdentifier&gt;<br>
-      &lt;instantiationDate&gt;1950-01-03&lt;/instantiationDate&gt;<br>
-      &lt;instantiationPhysical source=&quot;PBCore instantiationPysical Film&quot; ref=&quot;http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#35mmFilm&quot;&gt;35mm film&lt;/instantiationPhysical&gt;<br>
-      &lt;instantiationLocation&gt;WGBH Vault&lt;/instantiationLocation&gt;<br>
-      &lt;instantiationMediaType&gt;Moving Image&lt;/instantiationMediaType&gt;<br>
-      &lt;instantiationGenerations&gt;Master&lt;/instantiationGenerations&gt;<br>
-      &lt;instantiationEssenceTrack&gt;<br>
-        &lt;essenceTrackType&gt;Audio&lt;/essenceTrackType&gt;<br>
-        &lt;essenceTrackAnnotation&gt;Magnetic track on film&lt;/essenceTrackAnnotation&gt;<br>
-      &lt;/instantiationEssenceTrack&gt;<br>
-      &lt;instantiationEssenceTrack&gt;<br>
-        &lt;essenceTrackType/&gt;<br>
-      &lt;/instantiationEssenceTrack&gt;<br>
-    &lt;/pbcoreInstantiationDocument&gt;<br>
-  </code>
-</pre>
+
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;<br>
+&lt;pbcoreInstantiationDocument xmlns=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace.html&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace.html https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd&quot;&gt;<br>
+  &lt;instantiationIdentifier source=&quot;Barcode&quot;&gt;7005732&lt;/instantiationIdentifier&gt;<br>
+  &lt;instantiationDate&gt;1950-01-03&lt;/instantiationDate&gt;<br>
+  &lt;instantiationPhysical source=&quot;PBCore instantiationPysical Film&quot; ref=&quot;http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#35mmFilm&quot;&gt;35mm film&lt;/instantiationPhysical&gt;<br>
+  &lt;instantiationLocation&gt;WGBH Vault&lt;/instantiationLocation&gt;<br>
+  &lt;instantiationMediaType&gt;Moving Image&lt;/instantiationMediaType&gt;<br>
+  &lt;instantiationGenerations&gt;Master&lt;/instantiationGenerations&gt;<br>
+  &lt;instantiationEssenceTrack&gt;<br>
+    &lt;essenceTrackType&gt;Audio&lt;/essenceTrackType&gt;<br>
+    &lt;essenceTrackAnnotation&gt;Magnetic track on film&lt;/essenceTrackAnnotation&gt;<br>
+  &lt;/instantiationEssenceTrack&gt;<br>
+  &lt;instantiationEssenceTrack&gt;<br>
+    &lt;essenceTrackType/&gt;<br>
+  &lt;/instantiationEssenceTrack&gt;<br>
+&lt;/pbcoreInstantiationDocument&gt;<br>
