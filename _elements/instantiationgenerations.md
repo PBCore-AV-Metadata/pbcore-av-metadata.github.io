@@ -13,10 +13,15 @@ controlled-vocabs:
   - vocab: <a href="#">PBCore's instantiationGenerations Vocabulary</a> (recommended)
   - vocab: <a href="http://id.loc.gov/vocabulary/graphicMaterials.html">Thesaurus for Graphic Materials</a>
 ---
-~~~~
-<instantiationGenerations source="PBCore instantiationGenerations" ref="http://metadataregistry.org/concept/show/id/2294.html">Master: green label</instantiationGenerations>
-~~~~
+<pre>
+  <code>
+    &lt;instantiationGenerations source=&quot;PBCore instantiationGenerations&quot; ref=&quot;http://metadataregistry.org/concept/show/id/2294.html&quot;&gt;Master: green label&lt;/instantiationGenerations&gt;
+  </code>
+</pre>
 
-~~~~
-<instantiationGenerations source="PBCore instantiationGenerations" ref="http://metadataregistry.org/concept/show/id/2372.html">Sound effects</instantiationGenerations>
-~~~~
+
+<pre>
+  <code>
+    &lt;instantiationGenerations source=&quot;PBCore instantiationGenerations&quot; ref=&quot;http://metadataregistry.org/concept/show/id/2372.html&quot;&gt;Sound effects&lt;/instantiationGenerations&gt;
+  </code>
+</pre>

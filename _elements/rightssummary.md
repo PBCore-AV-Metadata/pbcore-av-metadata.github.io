@@ -10,14 +10,18 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<pbcoreRightsSummary>
-<rightsSummary source="Teachers' Domain" ref="http://www.teachersdomain.org/licenses/download-and-share/1.0/" version="1.0">Download and Share</rightsSummary>
-</pbcoreRightsSummary>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreRightsSummary&gt;<br>
+    &lt;rightsSummary source=&quot;Teachers' Domain&quot; ref=&quot;http://www.teachersdomain.org/licenses/download-and-share/1.0/&quot; version=&quot;1.0&quot;&gt;Download and Share&lt;/rightsSummary&gt;<br>
+    &lt;/pbcoreRightsSummary&gt;<br>
+  </code>
+</pre>
 
-~~~~
-<pbcoreRightsSummary>
-<rightsSummary source="Creative Commons" ref="http://creativecommons.org/licenses/by/3.0" version="3.0">CC BY 3.0</rightsSummary>
-</pbcoreRightsSummary>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreRightsSummary&gt;<br>
+    &lt;rightsSummary source=&quot;Creative Commons&quot; ref=&quot;http://creativecommons.org/licenses/by/3.0&quot; version=&quot;3.0&quot;&gt;CC BY 3.0&lt;/rightsSummary&gt;<br>
+    &lt;/pbcoreRightsSummary&gt;<br>
+  </code>
+</pre>

@@ -32,9 +32,12 @@ subelements:
   - name: essenceTrackExtension
     note: optional
 ---
-~~~~
-<instantiationEssenceTrack>
-<!-- No data here directly; it's within sub-elements instead -->
-     <essenceTrackType>Video</essenceTrackType>
-</instantiationEssenceTrack>
-~~~~
+
+<pre>
+  <code>
+    &lt;instantiationEssenceTrack&gt;<br>
+      &lt;!-- No data here directly; it's within sub-elements instead --&gt;<br>
+      &lt;essenceTrackType&gt;Video&lt;/essenceTrackType&gt;<br>
+    &lt;/instantiationEssenceTrack&gt;<br>
+  </code>
+</pre>

@@ -10,22 +10,33 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<essenceTrackType>Video</essenceTrackType>
-~~~~
 
-~~~~
-<essenceTrackType>DVS</essenceTrackType>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackType&gt;Video&lt;/essenceTrackType&gt;
+  </code>
+</pre>
 
-~~~~
-<essenceTrackType>Audio</essenceTrackType>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackType&gt;DVS&lt;/essenceTrackType&gt;
+  </code>
+</pre>
 
-~~~~
-<essenceTrackType>CC</essenceTrackType>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackType&gt;Audio&lt;/essenceTrackType&gt;
+  </code>
+</pre>
 
-~~~~
-<essenceTrackType>Text</essenceTrackType>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackType&gt;CC&lt;/essenceTrackType&gt;
+  </code>
+</pre>
+
+<pre>
+  <code>
+    &lt;essenceTrackType&gt;Text&lt;/essenceTrackType&gt;
+  </code>
+</pre>

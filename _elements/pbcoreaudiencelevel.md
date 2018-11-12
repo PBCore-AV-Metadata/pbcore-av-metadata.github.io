@@ -14,16 +14,21 @@ controlled-vocabs:
   - vocab: <a href="https://www.ebu.ch/metadata/cs/web/ebu_IntendedAudienceCodeCS_p.xml.htm">EBU Intended Audience Code</a>
   - vocab: <a href="http://cv.iptc.org/newscodes/ofinterestto/">IPTC NewsCodes Of Interest To</a>
 ---
-~~~~
-<pbcoreAudienceLevel source="PBCore audienceLevel" ref="http://pbcore.org/vocabularies/pbcoreAudienceLevel#general">General</pbcoreAudienceLevel>
-~~~~
 
+<pre>
+  <code>
+    &lt;pbcoreAudienceLevel source=&quot;PBCore audienceLevel&quot; ref=&quot;http://pbcore.org/vocabularies/pbcoreAudienceLevel#general&quot;&gt;General&lt;/pbcoreAudienceLevel&gt;
+  </code>
+</pre>
 
-~~~~
-<pbcoreAudienceLevel source="EBU Intended Audience Code" ref="http://www.ebu.ch/metadata/cs/web/ebu_IntendedAudienceCodeCS_p.xml.htm">Empty Nester</pbcoreAudienceLevel>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreAudienceLevel source=&quot;EBU Intended Audience Code&quot; ref=&quot;http://www.ebu.ch/metadata/cs/web/ebu_IntendedAudienceCodeCS_p.xml.htm&quot;&gt;Empty Nester&lt;/pbcoreAudienceLevel&gt;
+  </code>
+</pre>
 
-
-~~~~
-<pbcoreAudienceLevel source="PBS Teachers" annotation="for educational use">K-2</pbcoreAudienceLevel>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreAudienceLevel source=&quot;PBS Teachers&quot; annotation=&quot;for educational use&quot;&gt;K-2&lt;/pbcoreAudienceLevel&gt;
+  </code>
+</pre>

@@ -12,14 +12,26 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<essenceTrackFrameRate unitsOfMeasure="fps" annotation="interlaced">29.97</essenceTrackFrameRate>
-~~~~
+<pre>
+  <code>
+    &lt;essenceTrackFrameRate unitsOfMeasure=&quot;fps&quot; annotation=&quot;interlaced&quot;&gt;<br>
+      29.97<br>
+    &lt;/essenceTrackFrameRate&gt;<br>
+  </code>
+</pre>
 
-~~~~
-<essenceTrackFrameRate unitsOfMeasure="ips">3 3/4</essenceTrackFrameRate>
-~~~~
+<pre>
+  <code>
+  &lt;essenceTrackFrameRate unitsOfMeasure=&quot;ips&quot;&gt;<br>
+  3 3/4<br>
+  &lt;/essenceTrackFrameRate&gt;<br>
+  </code>
+</pre>
 
-~~~~
-<essenceTrackFrameRate unitsOfMeasure="fps" annotation="progressive">50</essenceTrackFrameRate>
-~~~~
+<pre>
+  <code>
+  &lt;essenceTrackFrameRate unitsOfMeasure=&quot;fps&quot; annotation=&quot;progressive&quot;&gt;<br>
+  50<br>
+  &lt;/essenceTrackFrameRate&gt;<br>
+  </code>
+</pre>

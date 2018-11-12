@@ -34,7 +34,7 @@ essenceTrackDuration:
     Best practice is to use a timestamp format such as HH:MM:SS[:|;]FF or HH:MM:SS.mmm or S.mmm.
   usage: optional, not repeatable
 essenceTrackEncoding:
-  definition: <strong>essenceTrackEncoding<strong> identifies how the actual information in an instantiation is compressed, interpreted, or formulated using a particular scheme. Identifying the encoding used is beneficial for a number of reasons, including as a way to achieve reversible compression; for the construction of document indices to facilitate searching and access; or for efficient distribution of the information across data networks with differing bandwidths or pipeline capacities. Human-readable encoding value should be placed here. Use @ref to identify the codec ID.
+  definition: <strong>essenceTrackEncoding</strong> identifies how the actual information in an instantiation is compressed, interpreted, or formulated using a particular scheme. Identifying the encoding used is beneficial for a number of reasons, including as a way to achieve reversible compression; for the construction of document indices to facilitate searching and access; or for efficient distribution of the information across data networks with differing bandwidths or pipeline capacities. Human-readable encoding value should be placed here. Use @ref to identify the codec ID.
   best-practice: Use @source to describe the type of encoding reference used, such as fourcc. In @ref, use a URI/URL from the source to identify the codec utilized by its container format.
   usage: optional, not repeatable
 essenceTrackExtension:

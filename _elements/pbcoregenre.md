@@ -21,16 +21,21 @@ controlled-vocabs:
   - vocab: <a href="http://cv.iptc.org/newscodes/genre/">IPTC NewsCodes Genres</a>
   - vocab: <a href="http://id.loc.gov/vocabulary/graphicMaterials.html">Library of Congress for Graphic Materials</a>
 ---
-~~~~
-<pbcoreGenre source="PBCore pbcoreGenre" ref="http://metadataregistry.org/concept/show/id/2449.html">History</pbcoreGenre>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreGenre source=&quot;PBCore pbcoreGenre&quot; ref=&quot;http://metadataregistry.org/concept/show/id/2449.html&quot;&gt;History&lt;/pbcoreGenre&gt;
+  </code>
+</pre>
+
+<pre>
+  <code>
+    &lt;pbcoreGenre source=&quot;EBU Content Genre&quot; ref=&quot;http://www.ebu.ch/metadata/cs/web/ebu_ContentGenreCS_p.xml.htm&quot;&gt;Goat roping&lt;/pbcoreGenre&gt;
+  </code>
+</pre>
 
 
-~~~~
-<pbcoreGenre source="EBU Content Genre" ref="http://www.ebu.ch/metadata/cs/web/ebu_ContentGenreCS_p.xml.htm">Goat roping</pbcoreGenre>
-~~~~
-
-
-~~~~
-<pbcoreGenre source="TGM" ref="http://id.loc.gov/vocabulary/graphicMaterials/tgm003474.html">Educational/cultural films & video</pbcoreGenre>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreGenre source=&quot;TGM&quot; ref=&quot;http://id.loc.gov/vocabulary/graphicMaterials/tgm003474.html&quot;&gt;Educational/cultural films &amp; video&lt;/pbcoreGenre&gt;
+  </code>
+</pre>

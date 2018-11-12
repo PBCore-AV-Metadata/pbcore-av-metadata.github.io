@@ -10,10 +10,16 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<instantiationAlternativeModes>SAP in English</instantiationAlternativeModes>
-~~~~
 
-~~~~
-<instantiationAlternativeModes>fre</instantiationAlternativeModes>
-~~~~
+<pre>
+  <code>
+    &lt;instantiationAlternativeModes&gt;SAP in English&lt;/instantiationAlternativeModes&gt;
+  </code>
+</pre>
+
+
+<pre>
+  <code>
+    &lt;instantiationAlternativeModes&gt;fre&lt;/instantiationAlternativeModes&gt;
+  </code>
+</pre>

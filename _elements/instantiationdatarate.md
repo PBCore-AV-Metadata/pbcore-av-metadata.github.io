@@ -12,10 +12,15 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<instantiationDataRate unitsOfMeasure="kbps">56</instantiationDataRate>
-~~~~
 
-~~~~
-<instantiationDataRate unitsOfMeasure="Mbit/s">27</instantiationDataRate>
-~~~~
+<pre>
+  <code>
+    &lt;instantiationDataRate unitsOfMeasure=&quot;kbps&quot;&gt;56&lt;/instantiationDataRate&gt;
+  </code>
+</pre>
+
+<pre>
+  <code>
+    &lt;instantiationDataRate unitsOfMeasure=&quot;Mbit/s&quot;&gt;27&lt;/instantiationDataRate&gt;
+  </code>
+</pre>

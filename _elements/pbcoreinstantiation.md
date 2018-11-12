@@ -57,10 +57,12 @@ subelements:
   - name: instantiationExtension
     note: optional
 ---
-~~~~
-<pbcoreInstantiation>
-<!-- No data here directly; it's within sub-elements instead -->
-       <instantiationIdentifier>123456</instantiationIdentifier>
-       <instantiationLocation>Shelf 46, Row 3</instantiationLocation>
-</pbcoreInstantiation>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreInstantiation&gt;<br>
+    &lt;!-- No data here directly; it's within sub-elements instead --&gt;<br>
+           &lt;instantiationIdentifier&gt;123456&lt;/instantiationIdentifier&gt;<br>
+           &lt;instantiationLocation&gt;Shelf 46, Row 3&lt;/instantiationLocation&gt;<br>
+    &lt;/pbcoreInstantiation&gt;<br>
+  </code>
+</pre>

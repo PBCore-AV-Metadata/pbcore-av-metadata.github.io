@@ -1,6 +1,9 @@
 ---
 name: extensionValue
 ---
-~~~~
-<extensionValue>WNET.org</extensionValue>
-~~~~
+
+<pre>
+  <code>
+    &lt;extensionValue&gt;WNET.org&lt;/extensionValue&gt;
+  </code>
+</pre>

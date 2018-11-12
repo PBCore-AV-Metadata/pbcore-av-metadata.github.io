@@ -15,9 +15,11 @@ subelements:
   - name: rightsEmbedded
     note: optional
 ---
-~~~~
-<instantiationRights startTime="00:00:10" endTime="00:10:00">
-<!-- No data here directly; it's within sub-elements instead -->
-     <rightsSummary>Donation agreement provides rights to give access to users on premises</rightsSummary>
-</instantiationRights>
-~~~~
+<pre>
+  <code>
+    &lt;instantiationRights startTime=&quot;00:00:10&quot; endTime=&quot;00:10:00&quot;&gt;<br>
+      &lt;!-- No data here directly; it's within sub-elements instead --&gt;<br>
+      &lt;rightsSummary&gt;Donation agreement provides rights to give access to users on premises&lt;/rightsSummary&gt;<br>
+    &lt;/instantiationRights&gt;<br>
+  </code>
+</pre>

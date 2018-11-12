@@ -10,7 +10,12 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<!-- Example usage for digital (file-based) instantiation with a video essence track. -->
-<essenceTrackStandard source="PBCore essenceTrack/video" ref="http://pbcore.org/vocabularies/essenceTrackStandard/video%23ntsc">NTSC</essenceTrackStandard>
-~~~~
+
+<pre>
+  <code>
+    &lt;!-- Example usage for digital (file-based) instantiation with a video essence track. --&gt;<br>
+    &lt;essenceTrackStandard source=&quot;PBCore essenceTrack/video&quot; ref=&quot;http://pbcore.org/vocabularies/essenceTrackStandard/video%23ntsc&quot;&gt;<br>
+    NTSC<br>
+    &lt;/essenceTrackStandard&gt;<br>
+  </code>
+</pre>

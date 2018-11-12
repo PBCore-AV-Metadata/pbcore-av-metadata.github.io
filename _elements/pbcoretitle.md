@@ -26,14 +26,20 @@ attributes:
   - name: timeAnnotation
     note: optional
 ---
-~~~~
-<pbcoreTitle titleType="Full">NOVA: Pocahontas Revealed</pbcoreTitle>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreTitle titleType=&quot;Full&quot;&gt;NOVA: Pocahontas Revealed&lt;/pbcoreTitle&gt;
+  </code>
+</pre>
 
-~~~~
-<pbcoreTitle titleType="Program">Pocahontas Revealed</pbcoreTitle>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreTitle titleType=&quot;Program&quot;&gt;Pocahontas Revealed&lt;/pbcoreTitle&gt;
+  </code>
+</pre>
 
-~~~~
-<pbcoreTitle titleType="Series">NOVA</pbcoreTitle>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreTitle titleType=&quot;Series&quot;&gt;NOVA&lt;/pbcoreTitle&gt;
+  </code>
+</pre>

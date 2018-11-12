@@ -15,11 +15,15 @@ controlled-vocabs:
   - vocab: <a href="http://www.tvguidelines.org/ratings.htm">TV Parental Guidlines</a>
   - vocab: <a href="https://en.wikipedia.org/wiki/TV_parental_guidelines_(US)">TV Parental Guidelines on Wikipedia</a> (recommended)
 ---
-~~~~
-<pbcoreAudienceRating source="MPAA Movie Ratings">G</pbcoreAudienceRating>
-~~~~
 
+<pre>
+  <code>
+    &lt;pbcoreAudienceRating source=&quot;MPAA Movie Ratings&quot;&gt;G&lt;/pbcoreAudienceRating&gt;
+  </code>
+</pre>
 
-~~~~
-<pbcoreAudienceRating source="TV Parental Guidelines" ref="http://www.tvguidelines.org/ratings.htm">TV-Y7-FV</pbcoreAudienceRating>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreAudienceRating source=&quot;TV Parental Guidelines&quot; ref=&quot;http://www.tvguidelines.org/ratings.htm&quot;&gt;TV-Y7-FV&lt;/pbcoreAudienceRating&gt;
+  </code>
+</pre>

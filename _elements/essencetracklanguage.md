@@ -12,14 +12,19 @@ attributes:
 controlled-vocabs:
   - vocab: PBCore requires the use of the <a href="www.loc.gov/standards/iso639-2/">ISO 639.2</a> or <a href="https://iso639-3.sil.org/code_tables/639/data">ISO 639.3</a> 3-letter language codes.
 ---
-~~~~
-<!-- Multiple language codes in one element value separated by a semicolon. Not recommended, but valid. -->
-<essenceTrackLanguage source="ISO 639.2" ref="http://www.loc.gov/standards/iso639-2/php/code_list.php">eng;fre</essenceTrackLanguage>
-~~~~
+<pre>
+  <code>
+    &lt;!-- Multiple language codes in one element value separated by a semicolon. Not recommended, but valid. --&gt;<br>
+    &lt;essenceTrackLanguage source=&quot;ISO 639.2&quot; ref=&quot;http://www.loc.gov/standards/iso639-2/php/code_list.php&quot;&gt;<br>
+      eng;fre<br>
+    &lt;/essenceTrackLanguage&gt;<br>
+  </code>
+</pre>
 
-
-~~~~
-<!-- Individual language codes (with ref to code URI) for each language. Recommended. -->
-<essenceTrackLanguage source="IS0 639.2" ref="http://id.loc.gov/vocabulary/iso639-2/eng">eng</essenceTrackLanguage>
-<essenceTrackLanguage source="ISO 639.2" ref="http://id.loc.gov/vocabulary/iso639-2/fra"></essenceTrackLanguage>
-~~~~
+<pre>
+  <code>
+    &lt;!-- Individual language codes (with ref to code URI) for each language. Recommended. --&gt;<br>
+    &lt;essenceTrackLanguage source=&quot;IS0 639.2&quot; ref=&quot;http://id.loc.gov/vocabulary/iso639-2/eng&quot;&gt;eng&lt;/essenceTrackLanguage&gt;<br>
+    &lt;essenceTrackLanguage source=&quot;ISO 639.2&quot; ref=&quot;http://id.loc.gov/vocabulary/iso639-2/fra&quot;&gt;&lt;/essenceTrackLanguage&gt;<br>
+  </code>
+</pre>

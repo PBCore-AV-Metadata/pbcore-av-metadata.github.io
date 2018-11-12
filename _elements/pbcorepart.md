@@ -57,15 +57,17 @@ subelements:
   - name: pbcoreExtension
     note: optional
 ---
-~~~~
-<pbcoreDescriptionDocument>
-<pbcoreIdentifier source="WGBH">NATPRO_NOVA</pbcoreIdentifier>
-<pbcoreTitle titleType="Series" source="PBCore Controlled Vocabulary" version="2.0">NOVA</pbcoreTitle>
-    <pbcorePart>
-    <!-- No data here directly; it's within sub-elements instead -->
-        <pbcoreIdentifier source="WGBH"  annotation="this relates to other data about the NOVA series">NATPRO_NOVA</pbcoreIdentifier>
-        <pbcoreIdentifier source="WGBH" ref="http://www.pbs.org/wgbh/pages/NOVA/programs/" annotation="this identifies this program in the series">NOLA78334</pbcoreIdentifier>
-        <pbcoreTitle titleType="Program" source="WGBH" version="2011" annotation="this is the 2011/02/01 broadcast title">TU9</pbcoreTitle>
-    </pbcorePart>
-</pbcoreDescriptionDocument>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreDescriptionDocument&gt;<br>
+    &lt;pbcoreIdentifier source=&quot;WGBH&quot;&gt;NATPRO_NOVA&lt;/pbcoreIdentifier&gt;<br>
+    &lt;pbcoreTitle titleType=&quot;Series&quot; source=&quot;PBCore Controlled Vocabulary&quot; version=&quot;2.0&quot;&gt;NOVA&lt;/pbcoreTitle&gt;<br>
+        &lt;pbcorePart&gt;<br>
+        &lt;!-- No data here directly; it's within sub-elements instead --&gt;<br>
+            &lt;pbcoreIdentifier source=&quot;WGBH&quot;  annotation=&quot;this relates to other data about the NOVA series&quot;&gt;NATPRO_NOVA&lt;/pbcoreIdentifier&gt;<br>
+            &lt;pbcoreIdentifier source=&quot;WGBH&quot; ref=&quot;http://www.pbs.org/wgbh/pages/NOVA/programs/&quot; annotation=&quot;this identifies this program in the series&quot;&gt;NOLA78334&lt;/pbcoreIdentifier&gt;<br>
+            &lt;pbcoreTitle titleType=&quot;Program&quot; source=&quot;WGBH&quot; version=&quot;2011&quot; annotation=&quot;this is the 2011/02/01 broadcast title&quot;&gt;TU9&lt;/pbcoreTitle&gt;<br>
+        &lt;/pbcorePart&gt;<br>
+    &lt;/pbcoreDescriptionDocument&gt;<br>
+  </code>
+</pre>

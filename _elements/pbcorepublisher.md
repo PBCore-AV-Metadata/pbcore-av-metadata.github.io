@@ -6,15 +6,17 @@ subelements:
   - name: publisherRole
     note: optional
 ---
-~~~~
-<pbcorePublisher>
-<!-- No data here directly; it's within sub-elements instead -->
-        <publisher>WGBH Educational Foundation</publisher>
-        <publisherRole>Copyright Holder</publisherRole>
-</pbcorePublisher>
+<pre>
+  <code>
+    &lt;pbcorePublisher&gt;<br>
+    &lt;!-- No data here directly; it's within sub-elements instead --&gt;<br>
+      &lt;publisher&gt;WGBH Educational Foundation&lt;/publisher&gt;<br>
+      &lt;publisherRole&gt;Copyright Holder&lt;/publisherRole&gt;<br>
+    &lt;/pbcorePublisher&gt;<br>
 
-<pbcorePublisher>
-        <publisher>Public Broadcasting Service</publisher>
-        <publisherRole>Distributor</publisherRole>
-</pbcorePublisher>
-~~~~
+    &lt;pbcorePublisher&gt;<br>
+      &lt;publisher&gt;Public Broadcasting Service&lt;/publisher&gt;<br>
+      &lt;publisherRole&gt;Distributor&lt;/publisherRole&gt;<br>
+    &lt;/pbcorePublisher&gt;<br>
+  </code>
+</pre>

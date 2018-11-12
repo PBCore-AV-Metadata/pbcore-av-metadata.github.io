@@ -10,15 +10,21 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<pbcoreRelation>
-     <pbcoreRelationType>Is Part Of</pbcoreRelationType>
-     <pbcoreRelationIdentifier>NOVA</pbcoreRelationIdentifier>
-</pbcoreRelation>
-~~~~
-~~~~
-<pbcoreRelation>
-     <pbcoreRelationType>Is Part Of</pbcoreRelationType
-     <pbcoreRelationIdentifier>8796896</pbcoreRelationIdentifier>
-</pbcoreRelation>
-~~~~
+
+<pre>
+  <code>
+    &lt;pbcoreRelation&gt;<br>
+      &lt;pbcoreRelationType&gt;Is Part Of&lt;/pbcoreRelationType&gt;<br>
+      &lt;pbcoreRelationIdentifier&gt;NOVA&lt;/pbcoreRelationIdentifier&gt;<br>
+    &lt;/pbcoreRelation&gt;<br>
+  </code>
+</pre>
+
+<pre>
+  <code>
+    &lt;pbcoreRelation&gt;<br>
+      &lt;pbcoreRelationType&gt;Is Part Of&lt;/pbcoreRelationType&gt;<br>
+      &lt;pbcoreRelationIdentifier&gt;8796896&lt;/pbcoreRelationIdentifier&gt;<br>
+    &lt;/pbcoreRelation&gt;<br>
+  </code>
+</pre>

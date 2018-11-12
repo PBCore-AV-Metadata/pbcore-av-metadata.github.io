@@ -12,8 +12,10 @@ attributes:
   - name: annotation
     note: optional
 ---
-~~~~
-<pbcoreAnnotation>This is the edited version produced for the Digital Learning Library</pbcoreAnnotation>
-<pbcoreAnnotation>Voiceover replaced 20020302.</pbcoreAnnotation>
-<pbcoreAnnotation>Handle with care, tape appears to be shedding.</pbcoreAnnotation>
-~~~~
+<pre>
+  <code>
+    &lt;pbcoreAnnotation&gt;This is the edited version produced for the Digital Learning Library&lt;/pbcoreAnnotation&gt;<br>
+    &lt;pbcoreAnnotation&gt;Voiceover replaced 20020302.&lt;/pbcoreAnnotation&gt;<br>
+    &lt;pbcoreAnnotation&gt;Handle with care, tape appears to be shedding.&lt;/pbcoreAnnotation&gt;<br>
+  </code>
+</pre>
