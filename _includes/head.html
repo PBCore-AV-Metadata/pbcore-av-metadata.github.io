@@ -25,6 +25,17 @@
         }
       })
 
+      $('#expand-all').click(function() {
+        console.log('hey dummy')
+        if($(this).hasClass('open')){
+          $('.collapse').collapse('hide');
+          $(this).removeClass('open').addClass('closed');
+        } else {
+          $('.collapse').collapse('show');
+          $(this).removeClass('closed').addClass('open');
+        }
+      });
+
     });
 
   </script>

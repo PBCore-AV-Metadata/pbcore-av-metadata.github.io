@@ -225,6 +225,10 @@ h2.med-title {
   padding: 10px 10px;
 }
 
+.small-text {
+  font-size: 12px;
+}
+
 .red {
   color: $red;
 }
@@ -234,7 +238,7 @@ h2.med-title {
 }
 
 .green {
-  color: $green;
+  color: $green !important;
 }
 
 .white {
@@ -658,6 +662,10 @@ div.spacing {
   background-image: url("/assets/images/05_arrow_up_menu-button_rollover.png");
 }
 
+.sidebar-nav {
+  border-right: 1px solid black;
+}
+
 .sidebar-nav h4 {
   font: Roboto;
   font-size: 17px;
@@ -708,8 +716,17 @@ div.card-header.top {
 
 .card.separator {
   border-radius: 0;
-  border-right: 1px solid black !important;
-  border-right: 1px solid black !important;
+}
+
+#expand-all {
+  margin-left: 4%;
+}
+
+.expand-elements-icon {
+  width: 1.3em;
+  max-width: 1.3em;
+  height: 1.3em;
+  max-height: 1.3em;
 }
 
 .tree-item {

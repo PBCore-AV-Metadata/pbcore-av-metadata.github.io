@@ -24,25 +24,13 @@ permalink: /sample-records.html
 <div class="row">
 
   <div class="col-md-3 text-center">
-    <h2 class="med-title red">
-      Sample Records
-    </h2>
+    <div class="red-back white text-center" style="height: 2.4em; font-size: 19px;">
+      SAMPLE RECORDS
+    </div>
 
     <div class="row">
-      <div class="col-md-12 med-text">
-        <p>
-          Description
-        </p>
-        <p>
-          Description
-        </p>
-        <p>
-          Description
-        </p>
-        <p>
-          Description
-        </p>
-
+      <div class="col-md-12">
+        {% include sample_records_list.html %}
       </div>
     </div>
   </div>
@@ -63,7 +51,7 @@ permalink: /sample-records.html
 
         <span style="margin-top:1em; display: block;">
 
-          {% for rec in site.data.sample_records %}
+          {% for rec in site.data.sample_records.children %}
 
             <span class="{{rec.color}}">
               {{ rec.label }}:
