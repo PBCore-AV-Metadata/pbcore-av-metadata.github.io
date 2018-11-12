@@ -548,6 +548,7 @@ h2.med-title {
 }
 
 .card {
+
   border: 0px !important;
 }
 
@@ -768,4 +769,12 @@ code[class*="language-"] {
   background-color: transparent;
   padding: 8px;
   border: 2px solid black;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.black-border {
+  border: 1px solid #000;
 }
