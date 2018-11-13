@@ -43,7 +43,7 @@ children:
             text: Person
             color: green
       - label: DESCRIPTION
-        text: FRONTLINE marks the 40th anniversary of President Kennedy’s assassination with an encore broadcast of Who Was Lee Harvey Oswald? — an investigative biography of the man at the center of the political crime of the century. The three-hour documentary special traces Oswald’s life from his boyhood to that fateful day in Dallas on Nov. 22, 1963, posing a number of questions: Was Oswald the emotionally disturbed “lone gunman”? Was he one of two gunmen that day in Dallas? Or was he an unwitting scapegoat for the real assassins?
+        text: FRONTLINE marks the 40th anniversary of President Kennedy’s assassination with an encore broadcast of Who Was Lee Harvey Oswald? — an investigative biography of the man at the center of the political crime of the century. The three-hour documentary special traces Oswald’s life from his boyhood to that fateful day in Dallas on Nov. 22, 1963, posing a number of questions - Was Oswald the emotionally disturbed “lone gunman”? Was he one of two gunmen that day in Dallas? Or was he an unwitting scapegoat for the real assassins?
         color: blue
       - label: GENRE
         text: Documentary

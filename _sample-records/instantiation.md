@@ -1,5 +1,6 @@
 ---
-children: Instantiation Document
+name: Instantiation Document
+children:
   - label: INSTANTIATION DOCUMENT
     color: blue
     children:
