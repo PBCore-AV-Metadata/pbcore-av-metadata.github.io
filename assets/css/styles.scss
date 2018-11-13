@@ -8,6 +8,7 @@ $red: #f5463e;
 $green: #36b431;
 $dark-grey: #4d4d4d;
 $grey: #eee;
+$yellow: #ff0;
 
 body {color: #333;
     font-family: 'Roboto', sans-serif;
@@ -791,4 +792,13 @@ code[class*="language-"] {
 
 .black-border {
   border: 1px solid #000;
+}
+
+.highlight {
+  background-color: $yellow;
+  color: #000;
+}
+
+.sample-rec {
+  padding: 4%;
 }
