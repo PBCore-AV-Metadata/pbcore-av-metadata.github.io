@@ -16,7 +16,7 @@ elementgroups:
       - name: pbcoreIdentifier
         url: /elements/pbcoreidentifier
       - name: pbcoreTitle
-        url: /elements/pbcoreidentifier
+        url: /elements/pbcoretitle
       - name: pbcoreSubject
         url: /elements/pbcoresubject
       - name: pbcoreDescription

@@ -19,7 +19,7 @@ children:
             text: Lucasfilm
             color: green
       - label: TITLE
-        text: Star Wars: A New Hope
+        text: Star Wars - A New Hope
         color: blue
         children:
           - label: Title type

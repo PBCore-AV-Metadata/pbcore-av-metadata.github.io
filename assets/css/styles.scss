@@ -1,7 +1,6 @@
 ---
 ---
-
-@import url(//fonts.googleapis.com/css?family=Roboto|Roboto+Slab);
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
 
 $blue: #358ff2;
 $red: #f5463e;
@@ -16,7 +15,7 @@ body {color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto+Slab', serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 p {
@@ -799,6 +798,25 @@ code[class*="language-"] {
   color: #000;
 }
 
+.ele-highlight {
+  // text-align: center;
+  // padding: 5%  5% 5% 0 ;
+  padding: 5%;
+  background-color: $yellow;
+  color: #000;
+}
+
+.ele-title-highlight {
+  padding: 1.4%;
+  background-color: $yellow;
+  color: #000;
+}
+
 .sample-rec {
   padding: 4%;
+}
+
+
+.sample-rec-wide {
+  padding: 1.4%;
 }

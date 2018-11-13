@@ -1,5 +1,6 @@
 ---
-children: Collection Document
+name: Collection Document
+children:
   - label: COLLECTION DOCUMENT
     color: blue
     children:
