@@ -25,7 +25,8 @@
           {% for item in site.data.elements.elementgroups %}
             {% if item.group == "Root" %}
               {% for level1 in item.elements %}
-                <h5 class="card-guy">
+                {% assign thisurl = level1.url | append: '.html' %}
+                <h5 class="card-guy {% if page.url == thisurl %}highlight{% endif %}">
                   <a href="{{ site.url }}{{level1.url}}">
                     {{ level1.name }}
                   </a>
