@@ -820,3 +820,8 @@ code[class*="language-"] {
 .sample-rec-wide {
   padding: 1.4%;
 }
+
+.carousel-item {
+  min-height: 100%;
+  background-color: $grey
+}
