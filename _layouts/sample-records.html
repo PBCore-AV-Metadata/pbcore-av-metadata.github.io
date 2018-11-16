@@ -71,6 +71,20 @@ layout: default
                         <span class="{{rec3.color}}">
                           {{ rec3.label }}:
                         </span> {{ rec3.text }}
+
+                        {% if rec3.children %}
+                        
+                          {% for rec4 in rec3.children %}
+                            <span class="indent-1 tree-item">
+
+                              <span class="{{rec4.color}}">
+                                {{ rec4.label }}:
+                              </span> {{ rec4.text }}
+
+                            </span>
+                          {% endfor %}
+
+                        {% endif %}
                       </span>
                     {% endfor %}
 

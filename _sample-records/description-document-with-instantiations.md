@@ -57,32 +57,32 @@ children:
               - label: Portrayal
                 text: Luke Skywalker
                 color: green
+      - label: CONTRIBUTOR
+        color: blue
+        children:
           - label: CONTRIBUTOR
+            text: Fisher, Carrie
+            color: blue
+          - label: CONTRIBUTOR ROLE
+            text: Actor
             color: blue
             children:
-              - label: CONTRIBUTOR
-                text: Fisher, Carrie
-                color: blue
-              - label: CONTRIBUTOR ROLE
-                text: Actor
-                color: blue
-                children:
-                  - label: Portrayal
-                    text: Princess Leia Organa
-                    color: green
+              - label: Portrayal
+                text: Princess Leia Organa
+                color: green
+      - label: CONTRIBUTOR
+        color: blue
+        children:
           - label: CONTRIBUTOR
+            text: Ford, Harrison
+            color: blue
+          - label: CONTRIBUTOR ROLE
+            text: Actor
             color: blue
             children:
-              - label: CONTRIBUTOR
-                text: Ford, Harrison
-                color: blue
-              - label: CONTRIBUTOR ROLE
-                text: Actor
-                color: blue
-                children:
-                  - label: Portrayal
-                    text: Han Solo
-                    color: green
+              - label: Portrayal
+                text: Han Solo
+                color: green
           - label: INSTANTIATION
             color: blue
             children:
