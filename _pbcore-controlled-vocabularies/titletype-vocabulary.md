@@ -1,5 +1,5 @@
 ---
-name: titleType Attribute Vocabulary
+name: titleType Vocabulary
 element:
 attribute: titleType
 terms:

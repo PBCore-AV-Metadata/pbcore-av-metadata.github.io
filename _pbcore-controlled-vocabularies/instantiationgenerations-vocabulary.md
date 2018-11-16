@@ -1,5 +1,5 @@
 ---
-name: instantiationGenerations Element Vocabulary
+name: instantiationGenerations Vocabulary
 element: instantiationGenerations
 attribute:
 terms:

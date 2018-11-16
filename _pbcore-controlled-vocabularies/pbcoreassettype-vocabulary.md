@@ -1,5 +1,5 @@
 ---
-name: pbcoreAssetType Element Vocabulary
+name: pbcoreAssetType Vocabulary
 element: pbcoreAssetType
 attribute:
 terms:

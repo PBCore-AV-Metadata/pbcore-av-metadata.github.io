@@ -1,5 +1,5 @@
 ---
-name: publisherRole Element Vocabulary
+name: publisherRole Vocabulary
 element: publisherRole
 attribute:
 terms:

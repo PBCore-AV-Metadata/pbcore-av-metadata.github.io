@@ -1,26 +1,29 @@
-- name: pbcoreAssetType Element
-  url: /pbcore-controlled-vocabularies/pbcoreassettype.html
-- name: dateType Attribute
-  url: /pbcore-controlled-vocabularies/datetype.html
-- name: descriptionType Attribute
-  url: /pbcore-controlled-vocabularies/descriptiontype.html
-- name: titleType Attribute
-  url: /pbcore-controlled-vocabularies/titletype.html
-- name: pbcoreRelationType Element
-  url: /pbcore-controlled-vocabularies/pbcorerelationtype.html
-- name: instantiationRelationType Element
-  url: /pbcore-controlled-vocabularies/instantiationrelationtype.html
-- name: creatorRole and contributorRole Element
-  url: /pbcore-controlled-vocabularies/role.html
-- name: publisherRole Element
-  url: /pbcore-controlled-vocabularies/publisherrole.html
-- name: instantiationPhysical Audio
-  url: /pbcore-controlled-vocabularies/instantiationphysical_audio.html
-- name: instantiationPhysical Film
-  url: /pbcore-controlled-vocabularies/instantiationphysical_film.html
-- name: instantiationPhysical Video
-  url: /pbcore-controlled-vocabularies/instantiationphysical_video.html
-- name: instantiationMediaType Element
-  url: /pbcore-controlled-vocabularies/instantiationmediatype.html
-- name: instantiationGenerations Element
-  url: /pbcore-controlled-vocabularies/instantiationgenerations.html
+- name: pbcoreAssetType
+  url: /pbcore-controlled-vocabularies/pbcoreassettype-vocabulary.html
+- name: dateType
+  url: /pbcore-controlled-vocabularies/datetype-vocabulary.html
+- name: descriptionType
+  url: /pbcore-controlled-vocabularies/descriptiontype-vocabulary.html
+- name: titleType
+  url: /pbcore-controlled-vocabularies/titletype-vocabulary.html
+- name: pbcoreRelationType
+  url: /pbcore-controlled-vocabularies/pbcorerelationtype-vocabulary.html
+- name: instantiationRelationType
+  url: /pbcore-controlled-vocabularies/instantiationrelationtype-vocabulary.html
+- name: creatorRole and contributorRole
+  url: /pbcore-controlled-vocabularies/creatorrole-and-contributorrole-vocabulary.html
+- name: publisherRole
+  url: /pbcore-controlled-vocabularies/publisherrole-vocbaualry.html
+- name: >
+    instantiationPhysical: Audio
+  url: /pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary.html
+- name: >
+    instantiationPhysical: Film
+  url: /pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary.html
+- name: >
+    instantiationPhysical: Video
+  url: /pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary.html
+- name: instantiationMediaType
+  url: /pbcore-controlled-vocabularies/instantiationmediatype-vocabulary.html
+- name: instantiationGenerations
+  url: /pbcore-controlled-vocabularies/instantiationgenerations-vocabulary.html

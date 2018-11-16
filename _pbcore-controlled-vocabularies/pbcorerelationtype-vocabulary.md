@@ -1,5 +1,5 @@
 ---
-name: pbcoreRelationType Element Vocabulary
+name: pbcoreRelationType Vocabulary
 element: pbcoreRelationType
 attribute:
 terms:

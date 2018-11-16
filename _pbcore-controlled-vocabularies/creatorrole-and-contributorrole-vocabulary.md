@@ -1,5 +1,5 @@
 ---
-name: creatorRole and contributorRole Element Vocabulary
+name: creatorRole and contributorRole Vocabulary
 element: creatorRole, contributorRole
 attribute:
 terms:

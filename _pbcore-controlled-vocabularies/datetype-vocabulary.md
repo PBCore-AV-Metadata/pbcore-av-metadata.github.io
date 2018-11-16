@@ -1,5 +1,6 @@
 ---
-name: dateType Attribute Vocabulary
+name: >
+  @dateType Vocabulary
 element:
 attribute: dateType
 terms:

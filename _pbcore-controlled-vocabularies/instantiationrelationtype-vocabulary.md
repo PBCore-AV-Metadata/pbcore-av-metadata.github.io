@@ -1,5 +1,5 @@
 ---
-name: instantiationRelationType Element Vocabulary
+name: instantiationRelationType Vocabulary
 element: instantiationRelationType
 attribute:
 terms:

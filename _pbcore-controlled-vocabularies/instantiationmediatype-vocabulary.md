@@ -1,5 +1,5 @@
 ---
-name: instantiationMediaType Element Vocabulary
+name: instantiationMediaType Vocabulary
 element: instantiationMediaType
 attribute:
 terms:
