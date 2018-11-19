@@ -15,8 +15,14 @@
     $(document).ready(function() {
       hljs.configure({useBR: true});hljs.initHighlightingOnLoad();
 
-      $('.element-arrow-icon, .faq-arrow-icon').click(function(e){
-        var start = $(this).hasClass('element-arrow-icon') ? 'element-' : '';
+      $('.element-arrow-icon, .faq-arrow-icon, .pres-arrow-icon').click(function(e){
+        var start = ''
+        if($(this).hasClass('element-arrow-icon')){
+          var start = 'element-'
+        }
+        else if($(this).hasClass('pres-arrow-icon')){
+          var start = 'pres-'
+        }
         if($(this).hasClass(start+'arrow-down')){
           $(this).removeClass(start+'arrow-down').addClass(start+'arrow-up')
         }

@@ -15,7 +15,7 @@ permalink: /presentations.html
 
           <div class="card-header" id="presentation{{ i }}" style="border-bottom: 1px solid black !important; padding: 7px;">
               <a class="red collapsed" data-toggle="collapse" href="#pres-collapse{{i}}" aria-expanded="false" aria-controls="pres-collapse{{i}}">
-                <span class="faq-arrow-icon arrow-down"></span>
+                <span class="pres-arrow-icon pres-arrow-down"></span>
                 <p><span class="black"><strong>{{ block.title }}</strong></span> {{ block.presenters}}: {{ block.link}}</p>
 
               </a>
