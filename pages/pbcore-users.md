@@ -11,34 +11,34 @@ While not a comprehensive list of all PBCore users, this page includes real-worl
 <section class="grey" style="margin-bottom: 4%">
 
   <div class="row">
-    {% for item in site.data.pbcore_users.users %}
-      {% capture thecycle %}{% cycle 'left', 'right' %}{% endcapture %}
-
       <div class="col-md-6">
         <ul class="pb-list">
-          {% if thecycle == 'left' %}
+          {% for item in site.data.pbcore_users.users %}
+            {% if item.column == 'left' %}
               <li>
                 <a href="#{{ item.id }}">
                   <p class="pb-user-list">{{ item.user }}</p>
                 </a>
               </li>
             {% endif %}
-          </ul>
-        </div>
+          {% endfor %}
+        </ul>
+      </div>
 
-        <div class="col-md-6">
-          <ul class="pb-list">
-            {% if thecycle == 'right' %}
-                <li>
-                  <a href="#{{ item.id }}">
-                    <p class="pb-user-list">{{ item.user }}</p>
-                  </a>
-                </li>
-              {% endif %}
-            </ul>
-          </div>
+      <div class="col-md-6">
+        <ul class="pb-list">
+          {% for item in site.data.pbcore_users.users %}
+            {% if item.column == 'right' %}
+              <li>
+                <a href="#{{ item.id }}">
+                  <p class="pb-user-list">{{ item.user }}</p>
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
 
-    {% endfor %}
   </div>
 
 </section>

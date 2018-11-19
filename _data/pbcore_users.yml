@@ -1,18 +1,6 @@
 users:
-  - user: George Blood, LP
-    id: george-blood-lp
-    logo-file: george-blood-lp.png
-    title: |
-      The Freedom to Be Flexible: How George Blood, LP Uses PBCore
-    statement: |
-      <h4>The Initial Issues</h4>
-      <p>George Blood LP is a digitization vendor that specializes in archival audio, film and video preservation. Naturally, this means that there are many files and metadata moving through the company’s system. Employees at George Blood needed an additional standard to design and create metadata records that would meet each client’s specific needs, such as helping the documentation fit with an existing database, or including detailed source and copyright information.</p>
-      <h4>Key Benefits of PBCore</h4>
-      <p>PBCore's flexibility means that it can address the archiving standards of companies across many industries. Since George Blood serves various organizations with different library conventions, the company uses a few different standards for the records it produces for clients. The company needed one that played well with different library conventions, and PBCore was one of the standards that was particularly good at addressing that need.</p>
-      <h4>The Outcome</h4>
-      <p>Today, George Blood employees create PBCore documents as part of their file transfer and finishing process. Using PBCore impressed upon the company how flexible the schema is and how that's beneficial to different organizations; two libraries may use the exact same field in entirely different ways, and PBCore can allow for that.</p>
-      <p>This is particularly important because some organizations adhere to library conventions that were established before PBCore even existed. In other cases, an organization might be particularly conscious of attributing a source or adding copyright information, and PBCore documents are befitting places to put that information.</p>
   - user: Lousiana Public Broadcasting
+    column: left
     id: louisiana-public-broadcasting
     logo-file: lpb.jpg
     title: |
@@ -26,7 +14,22 @@ users:
       <p>In 2010, LPB developed its own PBCore-based MySQL database thanks to a planning grant from the Institute of Museum and Library Services. This laid the foundation for the Louisiana Digital Media Archive, LPB's joint project with the Louisiana State Archives. Using PBCore gave LPB and the Louisiana State Archives the ability to catalog all of their video assets in a joint database.</p>
       <p>On the front-end, the public is now able to find and access video content in multiple places. For example, LPB shares content with AAPB, and users can discover content through AAPB, which links directly to the Louisiana Digital Media Archive where users can watch the assets. The content can appear in multiple places, and users can still find it with ease—a feature that perfectly addressed the organization’s needs.</p>
       <p>The way that LPB uses PBCore represents precisely how public media should be shared: simply, broadly, and consistently.</p>
+  - user: George Blood, LP
+    column: right
+    id: george-blood-lp
+    logo-file: george-blood-lp.png
+    title: |
+      The Freedom to Be Flexible: How George Blood, LP Uses PBCore
+    statement: |
+      <h4>The Initial Issues</h4>
+      <p>George Blood LP is a digitization vendor that specializes in archival audio, film and video preservation. Naturally, this means that there are many files and metadata moving through the company’s system. Employees at George Blood needed an additional standard to design and create metadata records that would meet each client’s specific needs, such as helping the documentation fit with an existing database, or including detailed source and copyright information.</p>
+      <h4>Key Benefits of PBCore</h4>
+      <p>PBCore's flexibility means that it can address the archiving standards of companies across many industries. Since George Blood serves various organizations with different library conventions, the company uses a few different standards for the records it produces for clients. The company needed one that played well with different library conventions, and PBCore was one of the standards that was particularly good at addressing that need.</p>
+      <h4>The Outcome</h4>
+      <p>Today, George Blood employees create PBCore documents as part of their file transfer and finishing process. Using PBCore impressed upon the company how flexible the schema is and how that's beneficial to different organizations; two libraries may use the exact same field in entirely different ways, and PBCore can allow for that.</p>
+      <p>This is particularly important because some organizations adhere to library conventions that were established before PBCore even existed. In other cases, an organization might be particularly conscious of attributing a source or adding copyright information, and PBCore documents are befitting places to put that information.</p>
   - user: AVP
+    column: left
     id: avp
     logo-file: avp.png
     title: |
@@ -41,6 +44,7 @@ users:
       <p>AVP uses PBCore as a consistent standard when identifying the core fields a client might need in a data model.  During the consultation process, AVP references PBCore alongside the client’s local needs in order to recommend fields and vocabularies the organization should consider including in their cataloging templates.</p>
       <p>Additionally, users often want their chosen application to extract technical metadata from their files upon ingest. AVP will then use PBCore’s technical (instantiation and essence track) elements as a reference to check whether the system will extract those required attributes; this also ensures that any tool that’s being used has the necessary functionalities. By using PBCore as a consistent reference, AVP gives its clients products and suggestions that will help them truly capitalize on their asset management systems.</p>
   - user: Wisconsin Public Television
+    column: right
     id: wisconsin-public-television
     logo-file: wpt.jpg
     title: |
@@ -56,6 +60,7 @@ users:
       <p>PBCore allows WPT to see which tape was digitized for preservation, when, to what formats, and more. Since an asset can be exported to more formats and more places than ever, PBCore’s ability to allow records of digitized media to be connected to records of the original media has never been more valuable.</p>
       <p>Fourteen years ago, WPT was searching for a system that would stand the test of time. It looks like the organization has found it.</p>
   - user: American Archive of Public Broadcasting
+    column: left
     id: aapb
     logo-file: aapb.png
     title: |
