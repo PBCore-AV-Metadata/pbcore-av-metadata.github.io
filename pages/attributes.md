@@ -13,7 +13,9 @@ permalink: /attributes.html
         <div class="row">
           <div class="col-md-3">
 
-            <p class="bold attribute-name">{{ item[0] }}: </p>
+            <a href="item[0]">
+              <p class="bold attribute-name">{{ item[0] }}: </p>
+            </a>
           </div>
           <div class="separator col-md-9">
             <p class="definition">{{ item[1].definition }}</p>

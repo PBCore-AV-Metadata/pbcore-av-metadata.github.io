@@ -8,7 +8,7 @@ permalink: /pbcore-users.html
 
 While not a comprehensive list of all PBCore users, this page includes real-world examples of how various institutions find value in implementing PBCore – as the underlying structure for a database, an import/export format, a conceptual model, and more. If you’re interested in contributing a case study to highlight how your institution implements PBCore, contact us at PBCoreInfo@wgbh.org.
 
-<section class="grey text-center" style="margin-bottom: 4%">
+<section class="grey" style="margin-bottom: 4%">
 
   <div class="row">
     {% for item in site.data.pbcore_users.users %}
@@ -19,7 +19,7 @@ While not a comprehensive list of all PBCore users, this page includes real-worl
           {% if thecycle == 'left' %}
               <li>
                 <a href="#{{ item.id }}">
-                  <img id="{{ item.id }}" style="width: 75%; display: block;" src="/assets/images/{{ item.logo-file }}" alt="{{item.user}} logo">
+                  <p class="pb-user-list">{{ item.user }}</p>
                 </a>
               </li>
             {% endif %}
@@ -31,7 +31,7 @@ While not a comprehensive list of all PBCore users, this page includes real-worl
             {% if thecycle == 'right' %}
                 <li>
                   <a href="#{{ item.id }}">
-                    <img id="{{ item.id }}" style="width: 75%; display: block;" src="/assets/images/{{ item.logo-file }}" alt="{{item.user}} logo">
+                    <p class="pb-user-list">{{ item.user }}</p>
                   </a>
                 </li>
               {% endif %}
@@ -48,7 +48,7 @@ While not a comprehensive list of all PBCore users, this page includes real-worl
 {% for item in site.data.pbcore_users.users %}
   <div class="row">
     <div class="col-md-12">
-      <img id="{{ item.id }}" style="width: 100%; display: block;" src="/assets/images/{{ item.logo-file }}" alt="{{item.user}} logo">
+      <img id="{{ item.id }}" style="width: 100%; display: block; border: 2px solid black;" src="/assets/images/{{ item.logo-file }}" alt="{{item.user}} logo">
     </div>
   </div>
 

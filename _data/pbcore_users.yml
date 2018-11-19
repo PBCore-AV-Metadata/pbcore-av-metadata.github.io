@@ -26,6 +26,20 @@ users:
       <p>In 2010, LPB developed its own PBCore-based MySQL database thanks to a planning grant from the Institute of Museum and Library Services. This laid the foundation for the Louisiana Digital Media Archive, LPB's joint project with the Louisiana State Archives. Using PBCore gave LPB and the Louisiana State Archives the ability to catalog all of their video assets in a joint database.</p>
       <p>On the front-end, the public is now able to find and access video content in multiple places. For example, LPB shares content with AAPB, and users can discover content through AAPB, which links directly to the Louisiana Digital Media Archive where users can watch the assets. The content can appear in multiple places, and users can still find it with ease—a feature that perfectly addressed the organization’s needs.</p>
       <p>The way that LPB uses PBCore represents precisely how public media should be shared: simply, broadly, and consistently.</p>
+  - user: AVP
+    id: avp
+    logo-file: avp.png
+    title: |
+      Check, Please: How AVP Uses PBCore
+    statement: |
+      <h4>The Initial Issues</h4>
+      <p>VP is an information management consulting and software development firm, which has participated in development of PBCore since its earliest days. As there is an ongoing need for standardized fields, vocabulary, and a data model specific to audiovisual materials, AVP has found PBCore to be applicable to numerous scenarios, from custom software development, to integration and data exchange between systems.</p>
+      <p>One example of how AVP works with clients is helping select, develop, and /or configure systems to manage information about media assets, such as digital asset management systems or custom databases. These systems typically allow organizations to define their own custom metadata models, but most organizations managing audiovisual materials need to capture a certain core set of information that they can build off of to fulfill their local requirements.</p>
+      <h4>Key Benefits of PBCore</h4>
+      <p>PBCore’s flexibility makes it compatible with different descriptive systems, and it is optimized for organizing audiovisual assets. This particular strength can address the needs of organizations that are working to determine what is important when creating their metadata models.</p>
+      <h4>The Outcome</h4>
+      <p>AVP uses PBCore as a consistent standard when identifying the core fields a client might need in a data model.  During the consultation process, AVP references PBCore alongside the client’s local needs in order to recommend fields and vocabularies the organization should consider including in their cataloging templates.</p>
+      <p>Additionally, users often want their chosen application to extract technical metadata from their files upon ingest. AVP will then use PBCore’s technical (instantiation and essence track) elements as a reference to check whether the system will extract those required attributes; this also ensures that any tool that’s being used has the necessary functionalities. By using PBCore as a consistent reference, AVP gives its clients products and suggestions that will help them truly capitalize on their asset management systems.</p>
   - user: Wisconsin Public Television
     id: wisconsin-public-television
     logo-file: wpt.jpg
