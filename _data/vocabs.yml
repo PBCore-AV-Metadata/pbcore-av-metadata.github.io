@@ -1,11 +1,14 @@
 - name: pbcoreAssetType
   url: /pbcore-controlled-vocabularies/pbcoreassettype-vocabulary.html
-- name: dateType
+- name: >
+    @dateType
   url: /pbcore-controlled-vocabularies/datetype-vocabulary.html
-- name: descriptionType
-  url: /pbcore-controlled-vocabularies/descriptiontype-vocabulary.html
-- name: titleType
+- name: >
+    @titleType
   url: /pbcore-controlled-vocabularies/titletype-vocabulary.html
+- name: >
+    @descriptionType
+  url: /pbcore-controlled-vocabularies/descriptiontype-vocabulary.html
 - name: pbcoreRelationType
   url: /pbcore-controlled-vocabularies/pbcorerelationtype-vocabulary.html
 - name: instantiationRelationType
@@ -13,7 +16,7 @@
 - name: creatorRole and contributorRole
   url: /pbcore-controlled-vocabularies/creatorrole-and-contributorrole-vocabulary.html
 - name: publisherRole
-  url: /pbcore-controlled-vocabularies/publisherrole-vocbaualry.html
+  url: /pbcore-controlled-vocabularies/publisherrole-vocabulary.html
 - name: >
     instantiationPhysical: Audio
   url: /pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary.html

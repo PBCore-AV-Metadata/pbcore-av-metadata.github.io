@@ -1,5 +1,6 @@
 ---
-name: descriptionType Vocabulary
+name: >
+  @descriptionType Vocabulary
 element:
 attribute: descriptionType
 terms:

@@ -1,8 +1,12 @@
-- title: Full PBCore Spreadsheet Template1
-  text: Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah
-- title: Full PBCore Spreadsheet Template2
-  text: Boop Bopop Boop Bopop Boop Bopop Boop Bopop Boop Bopop Boop Bopop Boop Bopop Boop Bopop
-- title: Full PBCore Spreadsheet Template3
-  text: Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah
-- title: Full PBCore Spreadsheet Template
-  text: Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah Blah blah blah blah
+- title: Simple PBCore Spreadsheet Template
+  download: /assets/downloads/pbcore_simple_template.xlsx
+  text: >
+    This template is designed to provide the simplest version of PBCore for inventory purposes. It contains the most commonly used elements and attributes, with minimal repetition. The template includes controlled vocabularies on the second tab, and a "Help" page on the third tab that provides instructions for how to customize the template by repeating fields and expanding controlled vocabularies. This template cannot be used with the PBCore Cataloging Tool.
+- title: Full PBCore Spreadsheet Template - Collapsed
+  download: /assets/downloads/pbcore_cataloging_tool_compliant_spreadsheet_collapsed.xlsx
+  text: >
+    This template is identical to the Full PBCore Cataloging Spreadsheet Template, but has most repeated element fields and attribute fields collapsed and hidden from the user's view for a simpler experience. These repeated element and attribute fields can be re-expanded using Excel's "unhide" ability. To use this template with the <a href="cataloging-tool.html">PBCore Cataloging Tool</a>, re-expand all elements once the inventory is completed, and then save as a CSV file.
+- title: Full PBCore Spreadsheet Template - Expanded
+  download: /assets/downloads/pbcore_cataloging_tool_compliant_spreadsheet_expanded.xlsx
+  text: >
+    This template represents PBCore to the fullest extent possible in a flat spreadsheet format, including multiple repititions of each repeatable element and all possible attributes. The spreadsheet has elements and attributes listed on the first tab, and PBCore controlled vocabularies listed on the second tab. This template is designed for use with the <a href="cataloging-tool.html">PBCore Cataloging Tool</a>, when saved as a CSV file.

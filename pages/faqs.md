@@ -17,16 +17,16 @@ permalink: /faqs.html
               {% for entry in item.questions %}
                 {% assign i = i|plus:1 %}
       						<div class="card">
-      							<div class="card-header" id="heading{{ i }}">
+      							<div class="card-header" id="faq-heading{{ i }}">
       								<h5 class="mb-0">
-      							     <a class="collapsed" data-toggle="collapse" href="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
+      							     <a class="collapsed" data-toggle="collapse" href="#faq-collapse{{ i }}" aria-expanded="false" aria-controls="faq-collapse{{ i }}">
                           <span class="faq-arrow-icon arrow-down"></span>
                           <span class="bold">Q: </span>
                           {{ entry.question }}
       							     </a>
       						     </h5>
       						  </div>
-  							    <div id="collapse{{ i }}" class="collapse fade" aria-labelledby="heading{{ i }}">
+  							    <div id="faq-collapse{{ i }}" class="collapse fade" aria-labelledby="faq-heading{{ i }}">
   								     <div class="card-body indent-4">
                         <span class="faq-answer">
                           <span class="bold faq-answer-a">A: </span>
