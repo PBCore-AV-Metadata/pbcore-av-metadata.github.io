@@ -17,9 +17,9 @@ permalink: /spreadsheet-templates.html
   </div>
 
   <div class="col-md-6">
-    <button type="button" class="pb-button pb-button-who" name="button" style="padding:2.4%;">
-      TUTORIAL
-    </button>
+    <a href="{{site.url}}/tutorials.html">
+      <button type="button" class="pb-button pb-button-who" name="button">TUTORIAL</button>
+    </a>
   </div>
 </div>
 
