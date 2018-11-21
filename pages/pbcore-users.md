@@ -11,6 +11,7 @@ While not a comprehensive list of all PBCore users, this page includes real-worl
 <section class="grey" style="margin-bottom: 4%">
 
   <div class="row">
+
       <div class="col-md-6">
         <ul class="pb-list">
           {% for item in site.data.pbcore_users.users %}
