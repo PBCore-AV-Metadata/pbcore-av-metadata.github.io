@@ -1,13 +1,75 @@
 users:
-  - user: American Public Media
-    id: american-public-media
-    logo-file: logo-test.png
-    statement: American Public Media loves pbcore. They think it's the best. lorem ipsum lorem ipsum
-  - user: New York Public Media
-    id: new-york-public-media
-    logo-file: logo-test.png
-    statement: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sem ac diam venenatis pellentesque. Ut eget elit sit amet odio euismod aliquet. Praesent ac neque vitae elit mollis varius sit amet in metus. Aenean interdum, tortor nec volutpat efficitur, mauris erat laoreet risus, nec congue quam mauris nec justo. Maecenas non erat massa. Ut et euismod est. Integer consectetur pellentesque libero ac lobortis. Mauris fringilla varius purus in mattis. Nunc laoreet id ante non lobortis. Duis leo diam, maximus ut massa a, hendrerit aliquam nisi. Quisque lorem neque, ullamcorper sed enim in, accumsan iaculis ex. Curabitur id feugiat lacus. Integer a eros ac eros tempor imperdiet sed vel dolor. Ut nibh nisl, iaculis ut dapibus eu, molestie in elit. Aenean ipsum neque, auctor a semper eget, mattis quis velit. Suspendisse potenti.
-  - user: Smithsonian
-    id: smithsonian
-    logo-file: logo-test.png
-    statement: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sem ac diam venenatis pellentesque. Ut eget elit sit amet odio euismod aliquet. Praesent ac neque vitae elit mollis varius sit amet in metus. Aenean interdum, tortor nec volutpat efficitur, mauris erat laoreet risus, nec congue quam mauris nec justo. Maecenas non erat massa. Ut et euismod est. Integer consectetur pellentesque libero ac lobortis. Mauris fringilla varius purus in mattis. Nunc laoreet id ante non lobortis. Duis leo diam, maximus ut massa a, hendrerit aliquam nisi. Quisque lorem neque, ullamcorper sed enim in, accumsan iaculis ex. Curabitur id feugiat lacus. Integer a eros ac eros tempor imperdiet sed vel dolor. Ut nibh nisl, iaculis ut dapibus eu, molestie in elit. Aenean ipsum neque, auctor a semper eget, mattis quis velit. Suspendisse potenti.
+  - user: Lousiana Public Broadcasting
+    column: left
+    id: louisiana-public-broadcasting
+    logo-file: lpb.jpg
+    title: |
+      Share and Share Alike: How Louisiana Public Broadcasting Uses PBCore
+    statement: |
+      <h4>The Initial Issues</h4>
+      <p>Like many media organizations, Louisiana Public Broadcasting (LPB) had a lot of assets but didn’t have a system for organizing them. That system also had to have a way for LPB to share those assets with other media organizations, along with the ability to share media with the public.</p>
+      <h4>Key Benefits of PBCore</h4>
+      <p>Two of PBCore's strengths are its flexibility and the ease with which PBCore metadata can be shared between parties—qualities that are particularly important for media organizations that exchange data. Additionally, the American Archive for Public Broadcasting (AAPB) was a key party that LPB wanted to share data with, and the AAPB had already been using PBCore.</p>
+      <h4>The Outcome</h4>
+      <p>In 2010, LPB developed its own PBCore-based MySQL database thanks to a planning grant from the Institute of Museum and Library Services. This laid the foundation for the Louisiana Digital Media Archive, LPB's joint project with the Louisiana State Archives. Using PBCore gave LPB and the Louisiana State Archives the ability to catalog all of their video assets in a joint database.</p>
+      <p>On the front-end, the public is now able to find and access video content in multiple places. For example, LPB shares content with AAPB, and users can discover content through AAPB, which links directly to the Louisiana Digital Media Archive where users can watch the assets. The content can appear in multiple places, and users can still find it with ease—a feature that perfectly addressed the organization’s needs.</p>
+      <p>The way that LPB uses PBCore represents precisely how public media should be shared: simply, broadly, and consistently.</p>
+  - user: George Blood, LP
+    column: right
+    id: george-blood-lp
+    logo-file: george-blood-lp.png
+    title: |
+      The Freedom to Be Flexible: How George Blood, LP Uses PBCore
+    statement: |
+      <h4>The Initial Issues</h4>
+      <p>George Blood LP is a digitization vendor that specializes in archival audio, film and video preservation. Naturally, this means that there are many files and metadata moving through the company’s system. Employees at George Blood needed an additional standard to design and create metadata records that would meet each client’s specific needs, such as helping the documentation fit with an existing database, or including detailed source and copyright information.</p>
+      <h4>Key Benefits of PBCore</h4>
+      <p>PBCore's flexibility means that it can address the archiving standards of companies across many industries. Since George Blood serves various organizations with different library conventions, the company uses a few different standards for the records it produces for clients. The company needed one that played well with different library conventions, and PBCore was one of the standards that was particularly good at addressing that need.</p>
+      <h4>The Outcome</h4>
+      <p>Today, George Blood employees create PBCore documents as part of their file transfer and finishing process. Using PBCore impressed upon the company how flexible the schema is and how that's beneficial to different organizations; two libraries may use the exact same field in entirely different ways, and PBCore can allow for that.</p>
+      <p>This is particularly important because some organizations adhere to library conventions that were established before PBCore even existed. In other cases, an organization might be particularly conscious of attributing a source or adding copyright information, and PBCore documents are befitting places to put that information.</p>
+  - user: AVP
+    column: left
+    id: avp
+    logo-file: avp.png
+    title: |
+      Check, Please: How AVP Uses PBCore
+    statement: |
+      <h4>The Initial Issues</h4>
+      <p>VP is an information management consulting and software development firm, which has participated in development of PBCore since its earliest days. As there is an ongoing need for standardized fields, vocabulary, and a data model specific to audiovisual materials, AVP has found PBCore to be applicable to numerous scenarios, from custom software development, to integration and data exchange between systems.</p>
+      <p>One example of how AVP works with clients is helping select, develop, and /or configure systems to manage information about media assets, such as digital asset management systems or custom databases. These systems typically allow organizations to define their own custom metadata models, but most organizations managing audiovisual materials need to capture a certain core set of information that they can build off of to fulfill their local requirements.</p>
+      <h4>Key Benefits of PBCore</h4>
+      <p>PBCore’s flexibility makes it compatible with different descriptive systems, and it is optimized for organizing audiovisual assets. This particular strength can address the needs of organizations that are working to determine what is important when creating their metadata models.</p>
+      <h4>The Outcome</h4>
+      <p>AVP uses PBCore as a consistent standard when identifying the core fields a client might need in a data model.  During the consultation process, AVP references PBCore alongside the client’s local needs in order to recommend fields and vocabularies the organization should consider including in their cataloging templates.</p>
+      <p>Additionally, users often want their chosen application to extract technical metadata from their files upon ingest. AVP will then use PBCore’s technical (instantiation and essence track) elements as a reference to check whether the system will extract those required attributes; this also ensures that any tool that’s being used has the necessary functionalities. By using PBCore as a consistent reference, AVP gives its clients products and suggestions that will help them truly capitalize on their asset management systems.</p>
+  - user: Wisconsin Public Television
+    column: right
+    id: wisconsin-public-television
+    logo-file: wpt.jpg
+    title: |
+      Mapping for the Future: How Wisconsin Public Television Uses PBCore
+    statement: |
+      <h4>The Initial Issues</h4>
+      <p>Until 2004, Wisconsin Public Television had been using Microsoft Access to track its assets. However, the software has its limits, and WPT needed a future-proof system for handling its metadata.</p>
+      <h4>Key Benefits of PBCore</h4>
+      <p>PBCore’s ability to track technical “instantiation” metadata helps organizations keep track of the types and characteristics of digital files they are managing over time. This is important for media organizations that need to store, manage, preserve and provide access to large amounts of digital data.</p>
+      <h4>The Outcome</h4>
+      <p>WPT started using PBCore in 2004 for its metadata.</p>
+      <p>The organization also implemented the Archival Management System (AMS), a piece of technology that was developed by the Corporation for Public Broadcasting and consulting firm AVP for the American Archive of Public Broadcasting. The AMS is built on PBCore, which is why WPT chose to use PBCore to track preservation digitization (the process of digitizing assets for archival purposes and for long-term access and use).</p>
+      <p>PBCore allows WPT to see which tape was digitized for preservation, when, to what formats, and more. Since an asset can be exported to more formats and more places than ever, PBCore’s ability to allow records of digitized media to be connected to records of the original media has never been more valuable.</p>
+      <p>Fourteen years ago, WPT was searching for a system that would stand the test of time. It looks like the organization has found it.</p>
+  - user: American Archive of Public Broadcasting
+    column: left
+    id: aapb
+    logo-file: aapb.png
+    title: |
+      Meeting Halfway: How the American Archive for Public Broadcasting Uses PBCore
+    statement: |
+      <h4>The Initial Issues</h4>
+      <p>The American Archive for Public Broadcasting (AAPB) had unique requirements for a database to store its assets. The database needed a low barrier of entry, particularly since the AAPB would be working with institutions that had varying amounts of information on their assets. Additionally, the database would need to have detailed fields that researchers and contributing organizations use to access asset information.</p>
+      <h4>Key Benefits of PBCore</h4>
+      <p>PBCore’s flexibility gives organizations the opportunity to fill out as much or as little information as they have for any given asset. Stations and producers won’t always have all of the details about their assets, but PBCore can receive a wide range of available asset information.</p>
+      <h4>The Outcome</h4>
+      <p>The AAPB used PBCore as a basis for the data tables underlying its existing database, the Archival Management System (AMS) 1. Thanks to PBCore, the AAPB can ask station partners to provide anywhere from just a few key fields of metadata to detailed descriptive and technical information—nearly anything will easily map into the system. With PBCore, the AAPB can also track digitized instantiations in the AMS and link any new digital files created to the descriptive asset records.</p>
+      <p>Now that the AAPB is developing the AMS 2, the organization is still using the PBCore data model, albeit using RDF-structured metadata rather than a mysql database. To represent PBCore as RDF, the AAPB is using EBUCore, Dublin Core RDF, and other properties. (Information about the AAPB’s PBCore-based RDF data model can be found on the Mappings page.) Partners find that submitting PBCore XML and PBCore-compliant spreadsheets is still an easy and flexible away to contribute data to the AAPB, which is why spreadsheets and XML will remain the primary import and export formats with this new system. PBCore consistently meets the AAPB’s partners where they are, and that collaboration strengthens and expands our public media ecosystem.</p>

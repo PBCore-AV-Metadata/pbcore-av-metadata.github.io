@@ -13,13 +13,13 @@ permalink: /spreadsheet-templates.html
 
 <div class="row">
   <div class="col-md-6 med-text">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere, odio at suscipit tincidunt, dolor tortor laoreet mi, vitae placerat tortor velit sit amet risus.
+    PBCore Spreadsheet Templates can be used to capture PBCore metadata in an easy human-readable format when creating an inventory of assets and/or instantiations.
   </div>
 
   <div class="col-md-6">
-    <button type="button" class="pb-button pb-button-who" name="button" style="padding:2.4%;">
-      TUTORIAL
-    </button>
+    <a href="{{site.url}}/tutorials.html">
+      <button type="button" class="pb-button pb-button-who" name="button">TUTORIAL</button>
+    </a>
   </div>
 </div>
 
@@ -29,13 +29,14 @@ permalink: /spreadsheet-templates.html
   <div class="col-md-9">
 
     {% for block in site.data.spreadsheets %}
-
-      <span class="spread-title white dark-grey-back med-text">
-        <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;">
-        {{ block.title }}
-      </span>
+      <a href="{{ site.url }}{{ block.download }}" download>
+        <span class="spread-title white dark-grey-back med-text">
+          <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;">
+          {{ block.title }}
+        </span>
+      </a>
       <span class="med-text spread-body">
-        {{ block.text }}
+        {{ block.text | markdownify }}
       </span>
     {% endfor %}
   </div>

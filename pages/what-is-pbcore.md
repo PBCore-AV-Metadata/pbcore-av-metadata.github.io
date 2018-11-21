@@ -12,7 +12,10 @@ permalink: /what-is-pbcore.html
     </h2>
 
     <p>
-      Pbcore is DOPE.
+      PBCore is a way to organize information about audiovisual content. PBCore records can easily be shared, allowing information about media assets and collections to be exchanged between organizations and media systems.
+    </p>
+    <p>
+      Public broadcasting communities in the United States originally developed PBCore so that producers and local stations could better share, manage and preserve their media. Since then, a growing number of moving image archives and media organizations outside of public broadcasting have also adopted PBCore to manage their audiovisual assets and collections. 
     </p>
 
     <p>

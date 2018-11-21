@@ -105,16 +105,10 @@ a:hover {
 .footer-msg {
   font-size: 12px;
   font-weight: bold;
-}
-
-.footer-copyright {
-  font-size: 48px;
-  font-weight: bold;
-}
-
-.footer-copyright-sub {
-  color: #ccc;
-  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 1em;
 }
 
 .footer-brand {
@@ -313,8 +307,8 @@ h2.med-title {
 }
 
 .pb-button {
-  padding-left: 1.8%;
-  padding-right: 1.8%;
+  padding-left: 6%;
+  padding-right: 6%;
   padding-top: 1.2%;
   padding-bottom: 1.2%;
 }
@@ -331,15 +325,15 @@ h2.med-title {
 }
 
 .pb-button-getting {
-  background-color: #ccc;
+  background-color: white;
   border: 1px #000 solid;
-  color: #222;
+  color: $blue;
 }
 
 .pb-button-getting:hover {
-  background-color: #222;
+  background-color: $blue;
   border: 1px #000 solid;
-  color: #ccc;
+  color: white;
 }
 
 .pb-button-who {
@@ -557,6 +551,31 @@ h2.med-title {
   background-image: url("/assets/images/03_faqs_arrow_up_icon_rollover.png");
 }
 
+.pres-arrow-icon {
+  background-repeat: no-repeat;
+  float: left;
+  height: 20px;
+  width: 30px;
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.pres-arrow-down {
+  background-image: url("/assets/images/pres_arrow_down_icon.png");
+}
+
+.pres-arrow-up {
+  background-image: url("/assets/images/pres_arrow_up_icon.png");
+}
+
+.pres-arrow-down:hover {
+  background-image: url("/assets/images/pres_arrow_down_icon_rollover.png");
+}
+
+.pres-arrow-up:hover {
+  background-image: url("/assets/images/pres_arrow_up_icon_rollover.png");
+}
+
 .accordion {
   margin-bottom: 60px;
 }
@@ -622,8 +641,13 @@ span.definition-icon {
 }
 
 .attribute-name {
-  // text-align: right !important;
+  text-align: right !important;
   font-size: 18px;
+}
+
+.vocab-term {
+  font-size: 18px;
+  color: black;
 }
 
 .attribute-note {
@@ -819,4 +843,20 @@ code[class*="language-"] {
 
 .sample-rec-wide {
   padding: 1.4%;
+}
+
+.carousel-item {
+  min-height: 100%;
+  background-color: $grey;
+}
+
+.pb-user-list {
+  color: black;
+  text-align: left;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
 }

@@ -12,8 +12,7 @@ permalink: /attributes.html
       <li>
         <div class="row">
           <div class="col-md-3">
-
-            <p class="bold attribute-name">{{ item[0] }}: </p>
+              <p id="{{ item[0] }}" class="bold attribute-name">{{ item[0] }}: </p>
           </div>
           <div class="separator col-md-9">
             <p class="definition">{{ item[1].definition }}</p>
