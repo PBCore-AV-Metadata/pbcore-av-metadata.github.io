@@ -6,10 +6,10 @@ permalink: /news.html
 
 <h2 class="dark-grey title">PBCore News and Updates</h2>
 
-<ul>
+<ul class="pb-list">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       {{ post.excerpt }}
     </li>
   {% endfor %}
