@@ -23,23 +23,18 @@ layout: default
       </div>
     </div>
 
-    {% if page.terms %}
-      <h3 class="green">Terms</h3>
+    <h3 class="green">Terms</h3>
 
-      <ul class="attribute-container" style="padding-left: 1em;">
-        {% for term in page.terms %}
-          <li>
-            <div class="bolder attribute-name">{{ term.term }}:</div>
-            <div class="attribute-note">{{ term.definition }}</div>
-          </li>
-        {% endfor %}
-      </ul>
-    {% else %}
+    <ul class="attribute-container" style="padding-left: 1em;">
+      {% for term in page.terms %}
+        <li>
+          <div id="{{term.id}}" class="bolder vocab-term">{{ term.term }}:</div>
+          <div class="attribute-note">{{ term.definition }}</div>
+        </li>
+      {% endfor %}
+    </ul>
 
-      <p>This text shalln't EVER APPEAR.</p>
-    {% endif %}
-
-    <!-- <h3 class="green">Example</h3> -->
     {{ content }}
+    <p>View on the <a class="green" href="{{ page.omr-link }}">Open Metadata Registry</a></p>
   </div>
 </div>

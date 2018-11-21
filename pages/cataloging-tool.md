@@ -19,7 +19,7 @@ permalink: /cataloging-tool.html
     <p>
       The PBCore Cataloging Tool is designed to be used in conjunction with the PBCore Spreadsheet Templates, and can import and export metadata in the full PBCore Spreadsheet Template format.*
     </p>
-    <button>Tutorial</button>
+    <button class="pb-button pb-button-who">Tutorial</button>
   </div>
 
   <div class="col-md-6">

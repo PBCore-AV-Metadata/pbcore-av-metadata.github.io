@@ -649,8 +649,11 @@ span.definition-icon {
 .attribute-name {
   text-align: right !important;
   font-size: 18px;
-  color: black;
+}
 
+.vocab-term {
+  font-size: 18px;
+  color: black;
 }
 
 .attribute-note {
@@ -856,4 +859,10 @@ code[class*="language-"] {
 .pb-user-list {
   color: black;
   text-align: left;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
 }
