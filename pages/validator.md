@@ -10,7 +10,7 @@ The PBCore Validator can tell you if a PBCore xml file that you have is valid. W
 
 The Validator takes one xml file at a time, which you can either upload from your local machine or copy and paste into a window. You can then set which version of PBCore you want to validate against.
 
-<a href="{{site.url}}/tutorials.html">
+<a href="http://pbcore-validator.herokuapp.com/">
   <button type="button" class="pb-button pb-button-who" name="button">TRY THE VALIDATOR</button>
 </a>
 
