@@ -42,10 +42,19 @@ permalink: /cataloging-tool.html
         </li>
       </ul>
 
-      <button type="button" name="button" class="pb-button pb-button-tools">
+      <a href="/assets/downloads/PBCore-2.1.pkg" download>
+      <button style="margin:3px;" type="button" name="button" class="pb-button pb-button-tools">
         <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;">
-        Download Cataloging Tool for Mac or PC
+        Download Cataloging Tool for Mac
       </button>
+      </a>
+
+      <a href="/assets/downloads/PBCore-2.1.exe" download>
+      <button style="margin:3px;" type="button" name="button" class="pb-button pb-button-tools">
+        <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;">
+        Download Cataloging Tool for PC
+      </button>
+      </a>
 
       <p style="margin-top:4%; margin-left:4%;">
         * Please note that the Cataloging Tool currently will only work with the full PBCore Spreadsheet Template and not the abbreviated version or instantiation-only version.
@@ -105,7 +114,7 @@ permalink: /cataloging-tool.html
 
 <div class="row" style="margin-top:4%;">
   <div class="col-md-12 med-text">
-    <a href="/userdocumentation" class="red">
+    <a href="/assets/downloads/PBCore_Cataloging_Tool_Documentation.pdf" download class="red">
       Download complete user documentation
     </a>
   </div>

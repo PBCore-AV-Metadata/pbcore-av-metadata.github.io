@@ -10,3 +10,7 @@
   download: /assets/downloads/pbcore_cataloging_tool_compliant_spreadsheet_expanded.xlsx
   text: >
     This template represents PBCore to the fullest extent possible in a flat spreadsheet format, including multiple repititions of each repeatable element and all possible attributes. The spreadsheet has elements and attributes listed on the first tab, and PBCore controlled vocabularies listed on the second tab. This template is designed for use with the <a href="cataloging-tool.html">PBCore Cataloging Tool</a>, when saved as a CSV file.
+- title: Instantiation Inventory Spreadsheet Template
+  download: /assets/downloads/pbcore_multiple_instantiation_spreadsheet.xlsx
+  text: >
+    This template is designed to create inventories that might include multiple copies of the same assets. The first sheet is for recording the information about each instantiation, the second sheet is for recording the Intellection Content information. The Instantiations can be linked to their Assets by the foreign key column on each sheet.
