@@ -1,6 +1,7 @@
 ---
 name: instantiationPhysical Video Vocabulary
-element: instantiationPhysical
+usage: >
+  for <a href="elements/instantiationphysical">instantiationPhysical</a>
 omr-link: http://metadataregistry.org/concept/list/page/1/vocabulary_id/464.html
 terms:
   - term: Videocassette

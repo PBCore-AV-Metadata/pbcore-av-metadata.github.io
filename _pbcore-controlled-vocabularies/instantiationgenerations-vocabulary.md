@@ -1,6 +1,7 @@
 ---
 name: instantiationGenerations Vocabulary
-element: instantiationGenerations
+usage: >
+  for <a href="/elements/instantiationgenerations">instantiationGenerations</a>
 omr-link: http://metadataregistry.org/concept/list/page/1/vocabulary_id/466.html
 terms:
   - term: A-B rolls

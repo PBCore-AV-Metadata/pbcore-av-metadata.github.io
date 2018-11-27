@@ -1,6 +1,7 @@
 ---
 name: publisherRole Vocabulary
-element: publisherRole
+usage: >
+  for <a href="elements/publisherrole">publisherRole</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/461.html
 terms:
   - term: Distributor

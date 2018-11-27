@@ -1,6 +1,7 @@
 ---
 name: instantiationPhysical Film Vocabulary
-element: instantiationPhysical
+usage: >
+  for <a href="elements/instantiationphysical">instantiationPhysical</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/463.html
 terms:
   - term: Film

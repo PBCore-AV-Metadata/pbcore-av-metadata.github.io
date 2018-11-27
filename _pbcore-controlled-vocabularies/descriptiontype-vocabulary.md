@@ -1,7 +1,8 @@
 ---
 name: >
   @descriptionType Vocabulary
-attribute: descriptionType
+usage: >
+  for @descriptionType as an attribute on <a href="/elements/pbcoredescription">pbcoreDescription</a>
 omr-link: http://metadataregistry.org/concept/list/page/1/vocabulary_id/456.html
 terms:
   - term: Abstract

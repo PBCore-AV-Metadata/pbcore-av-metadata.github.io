@@ -1,7 +1,7 @@
 ---
 name: pbcoreAssetType Vocabulary
-element: pbcoreAssetType
-attribute:
+usage: >
+  for <a href="elements/pbcoreassettype">pbcoreAssetType</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/454.html
 terms:
   - term: Album

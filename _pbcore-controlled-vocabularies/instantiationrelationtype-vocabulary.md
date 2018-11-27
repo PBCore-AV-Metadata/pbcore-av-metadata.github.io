@@ -1,6 +1,7 @@
 ---
 name: instantiationRelationType Vocabulary
-element: instantiationRelationType
+usage: >
+  for <a href="elements/instantiationrelationtype">instantiationRelationType</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/459.html
 terms:
   - term: Is Clone Of

@@ -30,14 +30,3 @@ subelements:
     &lt;/pbcoreExtension&gt;<br>
   </code>
 </pre>
-
-
-<pbcoreExtension>
-<!-- No data here directly; it's within sub-elements instead -->
-    <extensionWrap>
-         <extensionElement>RightsHolderName</extensionElement>
-         <extensionValue>WNET.org</extensionValue>
-         <extensionAuthorityUsed>http://www.loc.gov/standards/rights/METSRights.xsd</extensionAuthorityUsed>
-     </extensionWrap>   
-</pbcoreExtension>
-~~~~

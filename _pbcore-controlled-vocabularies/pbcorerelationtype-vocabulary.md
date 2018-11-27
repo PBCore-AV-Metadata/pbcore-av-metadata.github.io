@@ -1,6 +1,7 @@
 ---
 name: pbcoreRelationType Vocabulary
-element: pbcoreRelationType
+usage: >
+  for <a href="elements/pbcorerelationtype">pbcoreRelationType</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/458.html
 terms:
   - term: Has Derivative

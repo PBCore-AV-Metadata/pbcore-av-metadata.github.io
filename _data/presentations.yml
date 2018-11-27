@@ -1,55 +1,56 @@
 - title: >
     "More About PBCore: Using instantiationLocation and pbcoreExtension."
   presenters: >
-    Presented by Sadie Roosa and Morgan Morel in 2016: https://vimeo.com/168933596
+    Presented by Sadie Roosa and Morgan Morel in 2016
+  link: https://vimeo.com/168933596
   embed: >
     <iframe src="https://player.vimeo.com/video/168933596" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/168933596">More About PBCore: Using instantiationLocation and pbcoreExtension Webinar | Recording from 05/25/16</a> from <a href="https://vimeo.com/aapb">American Archive</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 - title: >
     “PBCore RDF Ontology Hackathon”.
   presenters: Presented by Casey Davis at the 2015 Code4Lib conference in Portland, Oregon
-  link: <http://www.slideshare.net/WGBH_Archives/pbcore-rdf-ontology-hackathon-code4lib-2015>
+  link: http://www.slideshare.net/WGBH_Archives/pbcore-rdf-ontology-hackathon-code4lib-2015
   embed: >
     <iframe src="//www.slideshare.net/slideshow/embed_code/key/mohLkxfrbHvkJq" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/WGBH_Archives/pbcore-rdf-ontology-hackathon-code4lib-2015" title="PBCore RDF Ontology Hackathon | Code4Lib 2015" target="_blank">PBCore RDF Ontology Hackathon | Code4Lib 2015</a> </strong> from <strong><a href="https://www.slideshare.net/WGBH_Archives" target="_blank">WGBH Media Library and Archives</a></strong> </div>
 
 - title: >
     "PBCore: A How-to and Why-to Webinar Recording."
   presenters: Presented by Casey Davis, Maureen McCormick, Sadie Roosa, and Morgan Morel in 2014
-  link: <https://vimeo.com/109940772>
+  link: https://vimeo.com/109940772
   embed: >
     <iframe src="https://player.vimeo.com/video/109940772" width="640" height="308" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p><a href="https://vimeo.com/109940772">PBCore: A How-to and Why-to Webinar | Recording from 10/23/14</a> from <a href="https://vimeo.com/aapb">American Archive</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 - title: >
     "Pursuing PBCore: The Revitalization of a Schema and Community.”
   presenters: Presented by Jessica Bitely, Jack Brighton, Mary Miller, John Passmore, Dave MacCarn, and Casey Davis at the 2014 AMIA conference
-  link: <http://www.slideshare.net/pbcore/pursuing-pbcore-the-revitalization-of-a-schema-and-community-amia-2014>
+  link: http://www.slideshare.net/pbcore/pursuing-pbcore-the-revitalization-of-a-schema-and-community-amia-2014
   embed: >
     <iframe src="//www.slideshare.net/slideshow/embed_code/key/Bc0hdauq0S3nys" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/pbcore/pursuing-pbcore-the-revitalization-of-a-schema-and-community-amia-2014" title="Pursuing PBCore: The Revitalization of a Schema and Community (AMIA 2014)" target="_blank">Pursuing PBCore: The Revitalization of a Schema and Community (AMIA 2014)</a> </strong> from <strong><a href="https://www.slideshare.net/pbcore" target="_blank">pbcore</a></strong> </div>
 
 - title: >
     “Implementing Metadata Standards for a Digital Audiovisual Preservation Repository”.
   presenters: Presentation by Kara Van Malssen in 2011
-  link: <http://www.slideshare.net/kvanmalssen/implementing-metadata-standards-for-a-digital-audiovisual-preservation-repository>
+  link: http://www.slideshare.net/kvanmalssen/implementing-metadata-standards-for-a-digital-audiovisual-preservation-repository
   embed: >
     <iframe src="//www.slideshare.net/slideshow/embed_code/key/lySwQeTDB0jKub" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kvanmalssen/implementing-metadata-standards-for-a-digital-audiovisual-preservation-repository" title="Implementing Metadata Standards for a Digital Audiovisual Preservation Repository" target="_blank">Implementing Metadata Standards for a Digital Audiovisual Preservation Repository</a> </strong> from <strong><a href="https://www.slideshare.net/kvanmalssen" target="_blank">Kara Van Malssen</a></strong> </div>
 
 - title: >
     “Intro to PBCore Zen."
   presenters: Workshop presented by Jack Brighton at the 2011 AMIA conference
-  link: <http://www.slideshare.net/JackBrighton/intro-to-pbcore-zen-pbcore-workshop-amia-2011-jack-brighton>
+  link: http://www.slideshare.net/JackBrighton/intro-to-pbcore-zen-pbcore-workshop-amia-2011-jack-brighton
   embed: >
     <iframe src="//www.slideshare.net/slideshow/embed_code/key/6oZl7FPEGmOM77" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/JackBrighton/intro-to-pbcore-zen-pbcore-workshop-amia-2011-jack-brighton" title="Intro to PBCore Zen, PBCore workshop, AMIA 2011 - jack brighton" target="_blank">Intro to PBCore Zen, PBCore workshop, AMIA 2011 - jack brighton</a> </strong> from <strong><a href="https://www.slideshare.net/JackBrighton" target="_blank">Jack Brighton</a></strong> </div>
 
 - title: >
     “PBCore: Overview."
   presenters: Presentation by Dave MacCarn at the AMIA Open Source Solutions meeting in 2009
-  link: <http://www.slideshare.net/cmichael/pbcore-overview>
+  link: http://www.slideshare.net/cmichael/pbcore-overview
   embed: >
     <iframe src="//www.slideshare.net/slideshow/embed_code/key/ylgvLSbO6irhK6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/cmichael/pbcore-overview" title="PBCore: Overview" target="_blank">PBCore: Overview</a> </strong> from <strong><a href="https://www.slideshare.net/cmichael" target="_blank">Courtney Michael</a></strong> </div>
 
 - title: >
     “PBCore, METS, PREMIS, MODS, METSRights, Oh My!”
   presenters: Presentation by Kara Van Malssen at 2008 AMIA conference
-  link: <http://www.slideshare.net/kvanmalssen/pbcore-mets-premis-mods-metsrightsoh-my>
+  link: http://www.slideshare.net/kvanmalssen/pbcore-mets-premis-mods-metsrightsoh-my
   embed: >
     <iframe src="//www.slideshare.net/slideshow/embed_code/key/jzhrVWUXUEbDDq" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/kvanmalssen/pbcore-mets-premis-mods-metsrightsoh-my" title="PBCore, METS, PREMIS, MODS, METSRights...oh my!" target="_blank">PBCore, METS, PREMIS, MODS, METSRights...oh my!</a> </strong> from <strong><a href="https://www.slideshare.net/kvanmalssen" target="_blank">Kara Van Malssen</a></strong> </div>

@@ -1,6 +1,7 @@
 ---
 name: instantiationMediaType Vocabulary
-element: instantiationMediaType
+usage: >
+  for <a href="/elements/instantiationmediatype">instantiationMediaType</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/465.html
 terms:
   - term: Moving Image
