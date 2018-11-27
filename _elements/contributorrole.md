@@ -2,7 +2,7 @@
 name: contributorRole
 attributes:
   - name: portrayal
-    name: optional
+    note: optional
   - name: source
     note: optional
   - name: ref

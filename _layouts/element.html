@@ -56,6 +56,17 @@ layout: default
       <p>This element does not have any subelements.</p>
     {% endif %}
 
+    {% if page.controlled-vocabs %}
+      <h3 class="green">Controlled Vocabularies</h3>
+      <ul class="pb-list">
+        {% for item in page.controlled-vocabs %}
+          <li class="black">
+            {{ item.vocab }}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
     <h3 class="green">Example</h3>
 
     {{ content }}

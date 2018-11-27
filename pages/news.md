@@ -11,6 +11,7 @@ permalink: /news.html
     <li>
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       {{ post.excerpt }}
+      <p><a href="{{ post.url }}" class="blue light">Read more...</a></p>
     </li>
   {% endfor %}
 </ul>

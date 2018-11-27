@@ -2,7 +2,7 @@
 name: instantiationFileSize
 attributes:
   - name: unitsOfMeasure
-    name: optional
+    note: optional
   - name: source
     note: optional
   - name: ref

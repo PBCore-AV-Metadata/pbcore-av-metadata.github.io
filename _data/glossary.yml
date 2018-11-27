@@ -28,6 +28,6 @@
 - term: Schema
   definition: An XML schema lays out rules for structuring an XML document in a specific way. The PBCore schema specifies how PBCore information should be written in XML so that people and machines can consistently understand the information contained in PBCore documents by referencing the schema.
 - term: XML (Extensible Markup Language)
-  definition: a (markup language)[https://en.wikipedia.org/wiki/Markup_language] that defines a set of rules for encoding documents in a (format)[https://en.wikipedia.org/wiki/File_format] that is readable by both humans and machines. It is defined by the (W3C)[https://en.wikipedia.org/wiki/World_Wide_Web_Consortium]‘s (XML)[https://en.wikipedia.org/wiki/XML] 1.0 Specification and by several other related specifications.
+  definition: a [markup language](https://en.wikipedia.org/wiki/Markup_language) that defines a set of rules for encoding documents in a [format](https://en.wikipedia.org/wiki/File_format) that is readable by both humans and machines. It is defined by the [W3C](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium)‘s [XML](https://en.wikipedia.org/wiki/XML) 1.0 Specification and by several other related specifications.
 - term: XSD (XML Schema Definition)
   definition: the document that defines an XML schema. It can be used to validate other XML documents to make sure that they are complying with the rules of the schema.

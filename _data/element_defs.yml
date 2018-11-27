@@ -190,7 +190,7 @@ pbcoreAnnotation:
   definition: <strong>pbcoreAnnotation</strong> allows the addition of any supplementary information about the metadata used to describe the PBCore record. pbcoreAnnotation clarifies element values, terms, descriptors, and vocabularies that may not be otherwise sufficiently understood.
   usage: optional, repeatable
 pbcoreAssetDate:
-  definition: <strong>pbcoreAssetDate</strongDate> is intended to reflect dates associated with the Intellectual Content.
+  definition: <strong>pbcoreAssetDate</strong> is intended to reflect dates associated with the Intellectual Content.
   best-practice: By contrast, instantiationDate is intended to reflect date information for the specific instance. For instance, if you have a VHS copy of Gone With The Wind, the pbcoreAssetDate would be 1939, while the instantiationDate of the VHS copy could be 1985. pbcoreAssetDate may also be used to reflect availability dates, etc. Date types should be specified using the @dateType attribute.  Dates or time-based events related to the content of the asset, on the other hand, would be described in the ‘coverage’ element — so, while the storyline of Gone with the Wind takes place in the nineteenth century, this information should be noted in the Coverage field, not the assetDate field.  Best practice is to use ISO 8601 or some other date/time standard if possible.
   usage: optional, repeatable
 pbcoreAssetType:
@@ -253,10 +253,10 @@ pbcoreRelation:
   definition: <strong>pbcoreRelation</strong> contains the pbcoreRelationType and pbcoreRelationIdentifier elements. In order to properly use these two elements they must be nested with the pbcoreRelation element, and pbcoreRelation must contain both pbcoreRelationType and pbcoreRelationIdentifier if it is included.
   usage: optional, repeatable
 pbcoreRelationIdentifier:
-  definition: pbcoreRelationIdentifier contains the identifier of the related asset. In the case that the related asset has a PBCore record, this identifier should correspond with the pbcoreIdentifier of the related asset. However, it is possible to use this element with a record that isn’t in PBCore, in which case the source attribute should identify the source of the identifier.
+  definition: <strong>pbcoreRelationIdentifier</strong> contains the identifier of the related asset. In the case that the related asset has a PBCore record, this identifier should correspond with the pbcoreIdentifier of the related asset. However, it is possible to use this element with a record that isn’t in PBCore, in which case the source attribute should identify the source of the identifier.
   usage: required within relationType, not repeatable
 pbcoreRelationType:
-  definition: pbcoreRelationType describes the relationship between the asset being describe by the PBCore document and any other asset. Ideally it would contain text from a controlled vocabulary for describing relationships. There is some depth to what a relationship could be. The assets can be related as different episodes in a series, different tapes in a box set, or different versions of an original, among others.
+  definition: <strong>pbcoreRelationType</strong> describes the relationship between the asset being describe by the PBCore document and any other asset. Ideally it would contain text from a controlled vocabulary for describing relationships. There is some depth to what a relationship could be. The assets can be related as different episodes in a series, different tapes in a box set, or different versions of an original, among others.
   best-practice: The assets may be related in that they are different discrete parts of a single intellectual unit, one may be a derivative of another, or they may be different versions that are distinct enough to be described as separate assets.
   usage: required within pbcoreRelation, not repeatable
 pbcoreRightsSummary:

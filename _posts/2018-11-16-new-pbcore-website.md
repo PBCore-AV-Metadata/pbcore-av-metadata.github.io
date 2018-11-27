@@ -23,4 +23,4 @@ If you’re already familiar with PBCore, check out our new pages and features, 
 
 As the PBCore Development and Training Project continues, we’ll be adding more content to the site, including more video tutorials, updated external tool integrations, information about upcoming workshops, and more. We’d also love to feature more case studies and sample records, so please [contact us]({{site.url}}/contact.html) if you have any PBCore-related content that you’d like to share!
 
-Thanks to everyone who’s made the new website possible, including the PBCore Development and Training Project Advisory Board; Dr. Rong Tang and the Simmons Usability Lab; and the WGBH Creative team. The old site remains live at <v2.pbcore.org>
+Thanks to everyone who’s made the new website possible, including the PBCore Development and Training Project Advisory Board; Dr. Rong Tang and the Simmons Usability Lab; and the WGBH Creative team.

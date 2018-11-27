@@ -62,6 +62,8 @@ partTypeSource:
   definition: The partTypeVersion attribute is used to identify any version information about the authority or convention used to express data of the attribute partType. Can be used as an attribute of the pbcorePart element.
 portrayal:
   definition: The portrayal attribute identifies any roles or characters performed by a contributor. Can be used as an attribute of the contributorRole element.
+profile:
+  definition: The profile attribute is used to further quantify the profile of the container format (e.g. Op1a). Can be used as a notes field to include any additional information about the element or associated attributes.
 ref:
   definition: The ref attribute is used to supply a source’s URI for the value of the element. Can be used as an attribute of any element.
   best-practice: Attribute ref can be used to point to a term in a controlled vocabulary, or a URI associated with a source.

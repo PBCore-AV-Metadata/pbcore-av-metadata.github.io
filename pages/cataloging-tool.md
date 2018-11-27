@@ -19,6 +19,13 @@ permalink: /cataloging-tool.html
     <p>
       The PBCore Cataloging Tool is designed to be used in conjunction with the PBCore Spreadsheet Templates, and can import and export metadata in the full PBCore Spreadsheet Template format.*
     </p>
+
+    <p>
+      <a href="/assets/downloads/PBCore_Cataloging_Tool_Documentation.pdf" download class="red">
+        Download complete user documentation
+      </a>
+    </p>
+
     <a href="{{site.url}}/tutorials.html"><button class="pb-button pb-button-who">Tutorial</button></a>
   </div>
 
@@ -27,21 +34,21 @@ permalink: /cataloging-tool.html
       Advanced Features
     </h3>
 
+    <ul class="catalog-list">
+      <li>
+        Ability to batch add metadata across multiple records
+      </li>
+
+      <li>
+        Ability to save and fill out template records that include all desired element and attribute
+      </li>
+
+      <li>
+        Ability to conduct search queries on all PBCore records within designated folders
+      </li>
+    </ul>
+
     <span class="med-text">
-      <ul class="catalog-list">
-        <li>
-          Ability to batch add metadata across multiple records
-        </li>
-
-        <li>
-          Ability to save and fill out template records that include all desired element and attribute
-        </li>
-
-        <li>
-          Ability to conduct search queries on all PBCore records within designated folders
-        </li>
-      </ul>
-
       <a href="/assets/downloads/PBCore-2.1.pkg" download>
       <button style="margin:3px;" type="button" name="button" class="pb-button pb-button-tools">
         <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;">
@@ -55,11 +62,11 @@ permalink: /cataloging-tool.html
         Download Cataloging Tool for PC
       </button>
       </a>
-
-      <p style="margin-top:4%; margin-left:4%;">
-        * Please note that the Cataloging Tool currently will only work with the full PBCore Spreadsheet Template and not the abbreviated version or instantiation-only version.
-      </p>
     </span>
+    <p style="margin-top:4%; margin-left:4%;">
+      * Please note that the Cataloging Tool currently will only work with the full PBCore Spreadsheet Template and not the abbreviated version or instantiation-only version.
+    </p>
+
   </div>
 </div>
 
@@ -112,16 +119,8 @@ permalink: /cataloging-tool.html
   </div>
 </div>
 
-<div class="row" style="margin-top:4%;">
-  <div class="col-md-12 med-text">
-    <a href="/assets/downloads/PBCore_Cataloging_Tool_Documentation.pdf" download class="red">
-      Download complete user documentation
-    </a>
-  </div>
-</div>
-
 <div class="row"  style="margin-top:4%;">
-  <div class="col-md-12 med-text">
+  <div class="col-md-12">
     The PBCore Cataloging Tool is an open-source tool written in Java. We welcome contributions, suggestions, and review! Code available here: <a class="red" href="https://github.com/WGBH/PBCore-Cataloging-Tool">https://github.com/WGBH/PBCore-Cataloging-Tool</a>
   </div>
 </div>

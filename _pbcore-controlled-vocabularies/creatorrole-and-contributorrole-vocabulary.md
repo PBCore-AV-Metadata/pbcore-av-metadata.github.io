@@ -1,6 +1,7 @@
 ---
 name: creatorRole and contributorRole Vocabulary
-element: creatorRole, contributorRole
+usage: >
+  for <a href="/elements/creatorrole">creatorRole</a> and <a href="/elements/contributorrole">contributorRole</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/460.html
 terms:
   - term: Actor
