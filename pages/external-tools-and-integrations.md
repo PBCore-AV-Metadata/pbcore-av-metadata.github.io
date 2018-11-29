@@ -12,7 +12,7 @@ Many software maintained and supported by external organizations supports the ex
 
 MediaInfo is an open-source tool that creates technical metadata documentation for video and audio files, such as format, codec ids duration, bit rate, bit depth, chroma subsampling, channels, etc. MediaInfo supports many types of metadata outputs, including PBCore 1.2 and PBCore 2.1. To download MediaInfo, visit <https://mediaarea.net/en/MediaInfo/Download>
 
-MediaInfo's PBCore export creates PBCore InstantiationDocuments that are constructed from information gathered by MediaInfoLib. Additional metadata that is included in an Instantiation document but may not be reportable by MediaInfo (such as instantiationGenerations and instantiationLocation) can also be added to the created PBCore documents.
+MediaInfo's PBCore export creates PBCore InstantiationDocuments that are constructed from information gathered by MediaInfoLib. Additional metadata that is included in an Instantiation document but may not be reportable by MediaInfo (such as instantiationGenerations and instantiationLocation) can also be added to the created PBCore documents. Read more about using MediaInfo's PBCore export <a href="/2018/11/28/pbcore-audiovisual-tricks.html">here</a>. 
 
 The development of MediaInfo’s PBCore 2.1 export was funded by the NEH as part of the PBCore Development and Training Project.
 
