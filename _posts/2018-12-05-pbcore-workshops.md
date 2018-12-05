@@ -27,4 +27,4 @@ Up to ten attendees will be selected to receive travel funding to attend this wo
    
 **Travel funding applications must be received by December 31, 2018.** Applicants will be notified by January 18, 2019. Questions can be directed to rebecca_fraimow@wgbh.org
  
-The workshops will also be free and open to additional attendees beyond the ten who are selected to receive funding, but space may be limited; if you are interested in reserving space in one of the workshops but do not want to apply for a travel scholarship, please let us know by January 18th so we can plan accordingly. 
+The workshops will also be free and open to additional attendees beyond the ten who are selected to receive funding, but space may be limited; if you are interested in reserving space in one of the workshops but do not want to apply for a travel scholarship, please let us know by December 31 so we can plan accordingly. 
