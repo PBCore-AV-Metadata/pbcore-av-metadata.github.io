@@ -74,7 +74,7 @@ layout: default
     <div class="col-md-4">
       <a href="{{ site.url }}/cataloging-tool.html"><button class="pb-button pb-button-tools" style="margin-bottom: 1em;">Cataloging Tool</button></a>
       <a href="{{ site.url }}/spreadsheet-templates.html"><button class="pb-button pb-button-tools" style="margin-bottom: 1em;">Spreadsheet Templates</button></a>
-      <a href="{{ site.url}}/external-tools-and-integration.html"><button class="pb-button pb-button-tools">Other PBCore Tools</button></a>
+      <a href="{{ site.url}}/external-tools-and-integrations.html"><button class="pb-button pb-button-tools">Other PBCore Tools</button></a>
     </div>
   </div>
 </section>
