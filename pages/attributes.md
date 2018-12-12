@@ -1,6 +1,7 @@
 ---
 title: Attributes
 layout: default
+section: Schema
 permalink: /attributes.html
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: PBCore Cataloging Tool
 layout: default
+section: Resources
 permalink: /cataloging-tool.html
 ---
 <div class="row">

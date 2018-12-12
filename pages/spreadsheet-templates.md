@@ -1,6 +1,7 @@
 ---
 title: Spreadsheet Templates
 layout: default
+section: Resources
 permalink: /spreadsheet-templates.html
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: Credits
 layout: default
+section: About
 permalink: /credits.html
 ---
 <h2 class="blue title">Credits</h2>

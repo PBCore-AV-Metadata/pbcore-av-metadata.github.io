@@ -1,6 +1,7 @@
 ---
 title: PBCore User Groups
 layout: default
+section: Community
 permalink: /user-groups.html
 ---
 

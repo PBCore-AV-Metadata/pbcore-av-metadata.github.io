@@ -1,6 +1,7 @@
 ---
 title: Frequently Asked Questions
 layout: default
+section: About
 permalink: /faqs.html
 ---
 

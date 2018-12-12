@@ -1,6 +1,7 @@
 ---
 title: Controlled Vocabularies
 layout: default
+section: Schema
 permalink: /pbcore-controlled-vocabularies.html
 ---
 <div class="row">

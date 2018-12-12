@@ -1,6 +1,7 @@
 ---
 title: Element Hierarchy
 layout: element-groups
+section: Schema
 permalink: elements/element-hierarchy.html
 ---
 

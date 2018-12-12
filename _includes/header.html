@@ -10,9 +10,19 @@
 
         <li class="nav-item dropdown menu_about">
 
-          <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
-            About
-          </a>
+          {% if page.section == "About" %}
+
+            <a class="nav-link nav-underline-blue" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+
+          {% else %}
+
+            <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+
+          {% endif %}
 
           <div class="dropdown-menu menu_about" aria-labelledby="navbarDropdownMenuLink">
             {% for item in site.data.nav.toc %}
@@ -27,9 +37,19 @@
 
         <li class="nav-item dropdown menu_schema">
 
-          <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
-            Schema
-          </a>
+          {% if page.section == "Schema" %}
+
+            <a class="nav-link nav-underline-green" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              Schema
+            </a>
+
+          {% else %}
+
+            <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              Schema
+            </a>
+
+          {% endif %}
 
           <div class="dropdown-menu menu_schema" aria-labelledby="navbarDropdownMenuLink">
             {% for item in site.data.nav.toc %}
@@ -43,9 +63,21 @@
         </li>
 
         <li class="nav-item dropdown menu_resources">
-          <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
-            Resources
-          </a>
+
+          {% if page.section == "Resources" %}
+
+            <a class="nav-link nav-underline-red" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              Resources
+            </a>
+
+          {% else %}
+
+            <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              Resources
+            </a>
+
+          {% endif %}
+
           <div class="dropdown-menu menu_resources" aria-labelledby="navbarDropdownMenuLink">
             {% for item in site.data.nav.toc %}
               {% if item.title == "Resources" %}
@@ -58,9 +90,21 @@
         </li>
 
         <li class="nav-item dropdown menu_community">
-          <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
-            Community
-          </a>
+
+          {% if page.section == "Community" %}
+
+            <a class="nav-link nav-underline-grey" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              Community
+            </a>
+
+          {% else %}
+
+            <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              Community
+            </a>
+
+          {% endif %}
+
           <div class="dropdown-menu menu_community" aria-labelledby="navbarDropdownMenuLink">
             {% for item in site.data.nav.toc %}
               {% if item.title == "Community" %}

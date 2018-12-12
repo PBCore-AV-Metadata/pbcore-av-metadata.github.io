@@ -1,6 +1,7 @@
 ---
 title: Contact Us
 layout: default
+section: Community
 permalink: /contact.html
 ---
 

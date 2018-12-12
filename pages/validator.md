@@ -1,6 +1,7 @@
 ---
 title: PBCore Validator
 layout: default
+section: Resources
 permalink: /validator.html
 ---
 

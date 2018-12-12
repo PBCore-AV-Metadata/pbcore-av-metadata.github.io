@@ -1,6 +1,7 @@
 ---
 title: PBCore XML Schema
 layout: default
+section: Schema
 permalink: /xsd.html
 ---
 

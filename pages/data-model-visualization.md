@@ -1,6 +1,7 @@
 ---
 title: Data Model Visualization
 layout: default
+section: Schema
 permalink: /data-model.html
 ---
 <div class="row">

@@ -1,6 +1,7 @@
 ---
 title: Elements
 layout: element-groups
+section: Schema
 permalink: /elements.html
 ---
 
