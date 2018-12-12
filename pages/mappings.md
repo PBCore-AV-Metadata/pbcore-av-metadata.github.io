@@ -35,4 +35,4 @@ EBUCore is supported by the European Broadcasting Union; this mapping refers to 
 <h3 class="red title">Credits</h3>
 Thanks to the following people for their work on the PBCore and MARC mapping: Danielle Calle, Rebecca Fraimow, Rebecca Guenther, Annie Schweikert, and Sigridur R. Sigurthorsdottir.
 
-Thanks to the following people for their work on the PBCore XML/RDF mapping: Glenn Clatworthy, Jean-Pierre Evain, Tessa Fallon, Rebecca Fraimow, Peggy Griesinger, Julie Hardesty, Sadie Roosa, Kara Van Malssen and the members of the PBCore and EBUCore communities who contributed to <a href="https://www.ebu.ch/metadata/ontologies/ebucore/">EBUCore 1.9</a>
+Thanks to the following people for their work on the PBCore XML/RDF mapping: the members of the PBCore-EBUCore RDF Working Group; the members of the PBCore and EBUCore communities who contributed to <a href="https://www.ebu.ch/metadata/ontologies/ebucore/">EBUCore 1.9</a>; and the members of the <a href="https://github.com/WGBH-MLA/ams">AMS 2</a> project team.

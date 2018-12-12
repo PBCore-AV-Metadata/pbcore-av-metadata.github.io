@@ -1,5 +1,5 @@
 - term: Asset
-  definition: A single piece of content, such as a program, clip, or episode. One asset may exist in many different forms (for example, on DVD, on a U-matic tape in English, and on a VHS tape in French). If the content is the same, those would all be considered instantiations of the same asset.
+  definition: A single piece of content, such as a program, clip, or episode. One asset may exist in many different forms (for example, on DVD, on a U-matic tape in English, and on a VHS tape in French). If the content is the same, those would all be considered <a href="/elements/pbcoreinstantiation">instantiations</a> of the same asset.
 - term: Attribute
   definition: >
     A structure used to describe or provide more information about the data contained in an element. Within the context of XML, attributes are stored within the value of an element.
