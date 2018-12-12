@@ -13,7 +13,7 @@ permalink: /spreadsheet-templates.html
 </div>
 
 <div class="row">
-  <div class="col-md-6 med-text">
+  <div class="col-md-6">
     PBCore Spreadsheet Templates can be used to capture PBCore metadata in an easy human-readable format when creating an inventory of assets and/or instantiations.
   </div>
 
@@ -36,7 +36,7 @@ permalink: /spreadsheet-templates.html
           {{ block.title }}
         </span>
       </a>
-      <span class="med-text spread-body">
+      <span class="spread-body">
         {{ block.text | markdownify }}
       </span>
     {% endfor %}

@@ -7,6 +7,9 @@ permalink: /attributes.html
 
 <span class="definition-icon def-attributes"></span>
 <h2 class="green bold">Attributes Defined</h2>
+
+Attributes are a way to structure additional types of information that PBCore records can include, which specifically used to further clarify the information you provide as a value to an element.
+
 <div id="attributes-defined" class="attribute-list">
   <ul>
     {% for item in site.data.attributes%}

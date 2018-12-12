@@ -92,7 +92,7 @@ elementgroups:
   - group: Instantiation
     elements:
       - name: pbcoreInstantiation
-        url: /elements/pbcoreInstantiation
+        url: /elements/pbcoreinstantiation
         elements:
           - name: instantiationIdentifer
             url: /elements/instantiationidentifier

@@ -20,7 +20,7 @@ layout: default
     </div>
 
     <div class="col-md-2">
-      <a href="{{ site.url }}/what-is-pbcore.html"><button class="pb-button pb-button-learn" style="padding:8%;">Learn More</button></a>
+      <a href="{{ site.url }}/what-is-pbcore.html"><button class="pb-button pb-button-learn" style="padding:8%;">LEARN MORE</button></a>
     </div>
 
     <div class="col-md-1 icon-col" >

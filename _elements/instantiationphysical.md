@@ -26,7 +26,7 @@ controlled-vocabs:
   <code>
     &lt;instantiationPhysical&gt;Shellac disc&lt;/instantiationPhysical&gt;
   </code>
-</pre
+</pre>
 
 <pre>
   <code>
