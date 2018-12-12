@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: coverage
 attributes:
   - name: source

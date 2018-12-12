@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: essenceTrackPlaybackSpeed
 attributes:
   - name: unitsOfMeasure

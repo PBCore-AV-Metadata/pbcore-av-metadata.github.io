@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationEssenceTrack
 subelements:
   - name: essenceTrackType

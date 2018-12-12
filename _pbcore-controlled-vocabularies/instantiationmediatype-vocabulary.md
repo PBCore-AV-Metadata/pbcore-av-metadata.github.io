@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationMediaType Vocabulary
 usage: >
   for <a href="/elements/instantiationmediatype">instantiationMediaType</a>

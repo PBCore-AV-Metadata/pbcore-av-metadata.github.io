@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: rightsLink
 attributes:
   - name: source

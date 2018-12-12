@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: essenceTrackBitDepth
 attributes:
   - name: unitsOfMeasure

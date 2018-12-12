@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationPhysical
 attributes:
   - name: source

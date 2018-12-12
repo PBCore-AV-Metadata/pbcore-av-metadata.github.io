@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcorePublisher
 subelements:
   - name: publisher

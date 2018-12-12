@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: essenceTrackSamplingRate
 attributes:
   - name: unitsOfMeasure

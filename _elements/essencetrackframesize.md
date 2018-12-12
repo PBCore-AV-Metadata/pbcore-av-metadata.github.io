@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: essenceTrackFrameSize
 attributes:
   - name: unitsOfMeasure

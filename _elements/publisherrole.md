@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: publisherRole
 attributes:
   - name: source

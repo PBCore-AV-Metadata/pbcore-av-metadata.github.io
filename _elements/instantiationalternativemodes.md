@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationAlternativeModes
 attributes:
   - name: source

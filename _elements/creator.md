@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: creator
 attributes:
   - name: affiliation

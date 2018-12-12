@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcoreRelation
 subelements:
   - name: pbcoreRelationType

@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: extensionEmbedded
 attributes:
   - name: source

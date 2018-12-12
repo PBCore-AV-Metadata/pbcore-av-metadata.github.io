@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationDimensions
 attributes:
   - name: unitsOfMeasure

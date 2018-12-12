@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "PBCore Audiovisual Tricks"
+section: Community
 excerpt-separator: <span class="end-blurb"></span>
 ---
 

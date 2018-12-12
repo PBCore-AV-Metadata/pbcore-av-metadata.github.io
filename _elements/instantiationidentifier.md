@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationIdentifier
 attributes:
   - name: source

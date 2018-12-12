@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcorePart
 attributes:
   - name: partType
