@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: essenceTrackExtension
 subelements:
   - name: extensionWrap

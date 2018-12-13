@@ -1,4 +1,5 @@
 ---
+section: Resources
 name: Description Document
 children:
   - label: DESCRIPTION DOCUMENT

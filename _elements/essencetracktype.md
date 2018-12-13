@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: essenceTrackType
 attributes:
   - name: source

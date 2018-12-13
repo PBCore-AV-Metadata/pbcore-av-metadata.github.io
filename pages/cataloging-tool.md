@@ -1,6 +1,7 @@
 ---
 title: PBCore Cataloging Tool
 layout: default
+section: Resources
 permalink: /cataloging-tool.html
 ---
 <div class="row">
@@ -17,12 +18,12 @@ permalink: /cataloging-tool.html
       a spreadsheet.
     </p>
     <p>
-      The PBCore Cataloging Tool is designed to be used in conjunction with the PBCore Spreadsheet Templates, and can import and export metadata in the full PBCore Spreadsheet Template format.*
+      The PBCore Cataloging Tool is designed to be used in conjunction with the PBCore Spreadsheet Templates, and can import and export metadata in the <a href="/spreadsheet-templates.html">full PBCore Spreadsheet Template format</a>.*
     </p>
 
     <p>
       <a href="/assets/downloads/PBCore_Cataloging_Tool_Documentation.pdf" download class="red">
-        Download complete user documentation
+        Download complete user documentation.
       </a>
     </p>
 
@@ -64,14 +65,14 @@ permalink: /cataloging-tool.html
       </a>
     </span>
     <p style="margin-top:4%; margin-left:4%;">
-      * Please note that the Cataloging Tool currently will only work with the full PBCore Spreadsheet Template and not the abbreviated version or instantiation-only version.
+      * Please note that the Cataloging Tool currently will only work with the <a href="/spreadsheet-templates.html">full PBCore Spreadsheet Template</a> and not the abbreviated version or instantiation-only version.
     </p>
 
   </div>
 </div>
 
 <div class="row">
-  <div class="col-md-10">
+  <div class="col-md-8">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

@@ -1,6 +1,7 @@
 ---
 title: PBCore Users
 layout: default
+section: Community
 permalink: /pbcore-users.html
 ---
 

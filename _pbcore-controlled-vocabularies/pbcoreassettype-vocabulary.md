@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcoreAssetType Vocabulary
 usage: >
   for <a href="elements/pbcoreassettype">pbcoreAssetType</a>

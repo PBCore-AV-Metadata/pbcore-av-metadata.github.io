@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcoreDescriptionDocument
 attributes:
   - name: xmlns

@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: essenceTrackEncoding
 attributes:
   - name: source

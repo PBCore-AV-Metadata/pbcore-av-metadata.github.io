@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: >
   @titleType Vocabulary
 usage: >

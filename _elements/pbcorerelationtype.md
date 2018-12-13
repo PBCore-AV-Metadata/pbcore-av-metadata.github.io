@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcoreRelationType
 attributes:
   - name: source

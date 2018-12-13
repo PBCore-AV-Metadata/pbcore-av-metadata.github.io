@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationGenerations Vocabulary
 usage: >
   for <a href="/elements/instantiationgenerations">instantiationGenerations</a>

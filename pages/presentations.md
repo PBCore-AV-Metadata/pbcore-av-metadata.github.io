@@ -1,6 +1,7 @@
 ---
 title: PBCore Presentations
 layout: default
+section: Resources
 permalink: /presentations.html
 ---
 <h2 class="red title">Presentations</h2>

@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationGenerations
 attributes:
   - name: source

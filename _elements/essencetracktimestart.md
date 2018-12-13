@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: essenceTrackTimeStart
 attributes:
   - name: source

@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationDigital
 attributes:
   - name: source

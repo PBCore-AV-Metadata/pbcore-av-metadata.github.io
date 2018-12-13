@@ -1,4 +1,5 @@
 ---
+section: Resources
 name: Description Document with Instantiations
 children:
   - label: DESCRIPTION DOCUMENT

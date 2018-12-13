@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcoreDescription
 attributes:
   - name: descriptionType

@@ -1,4 +1,5 @@
 ---
+section: Resources
 name: Collection Document
 children:
   - label: COLLECTION DOCUMENT

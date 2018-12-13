@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationRelationType Vocabulary
 usage: >
   for <a href="elements/instantiationrelationtype">instantiationRelationType</a>

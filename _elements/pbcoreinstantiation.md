@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcoreInstantiation
 attributes:
   - name: startTime

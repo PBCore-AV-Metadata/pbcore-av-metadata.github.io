@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: creatorRole and contributorRole Vocabulary
 usage: >
   for <a href="/elements/creatorrole">creatorRole</a> and <a href="/elements/contributorrole">contributorRole</a>

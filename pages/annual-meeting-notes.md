@@ -1,6 +1,7 @@
 ---
 title: Annual Meeting Notes
 permalink: /annual-meeting-notes.html
+section: Community
 layout: default
 ---
 

@@ -1,4 +1,5 @@
 ---
+section: Resources
 name: Instantiation Document
 children:
   - label: INSTANTIATION DOCUMENT

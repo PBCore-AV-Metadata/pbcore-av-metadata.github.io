@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcoreExtension
 subelements:
   - name: extensionWrap

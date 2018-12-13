@@ -1,6 +1,7 @@
 ---
 title: Glossary
 layout: default
+section: About
 permalink: /glossary.html
 ---
 <div class="container-fluid bg-gray" id="glossary">

@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcoreRightsSummary
 attributes:
   - name: startTime

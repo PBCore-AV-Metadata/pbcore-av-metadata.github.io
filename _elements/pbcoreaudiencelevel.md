@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcoreAudienceLevel
 attributes:
   - name: source

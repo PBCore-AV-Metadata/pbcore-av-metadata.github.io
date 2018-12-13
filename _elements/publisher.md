@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: publisher
 attributes:
   - name: affiliation

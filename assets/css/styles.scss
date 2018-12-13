@@ -597,7 +597,7 @@ h2.med-title {
   display: inline;
 }
 
-.faq-answer {
+.faq-answer span{
  font-weight: 100;
 }
 
@@ -864,4 +864,20 @@ code[class*="language-"] {
 .main-col-margin {
   margin-left: 5vw;
   margin-right: 5vw;
+}
+
+.nav-underline-blue {
+  border-bottom: 5px solid $blue
+}
+
+.nav-underline-green {
+  border-bottom: 5px solid $green
+}
+
+.nav-underline-red {
+  border-bottom: 5px solid $red
+}
+
+.nav-underline-grey {
+  border-bottom: 5px solid $dark-grey
 }

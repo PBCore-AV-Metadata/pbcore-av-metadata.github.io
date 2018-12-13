@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationPhysical Audio Vocabulary
 usage: >
   for <a href="elements/instantiationphysical">instantiationPhysical</a>

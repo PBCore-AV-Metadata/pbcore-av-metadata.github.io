@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationTracks
 attributes:
   - name: source

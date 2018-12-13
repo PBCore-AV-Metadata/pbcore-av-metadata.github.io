@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: coverageType
 controlled-vocabs:
   - vocab: <a href="#">PBCore's coverageType Vocabulary (required)</a>

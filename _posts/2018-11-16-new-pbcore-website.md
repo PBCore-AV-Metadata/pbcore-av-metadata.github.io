@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "New PBCore Website"
+section: Community
 excerpt-separator: <span class="end-blurb"></span>
 ---
 

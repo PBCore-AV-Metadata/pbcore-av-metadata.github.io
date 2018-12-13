@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcoreRelationType Vocabulary
 usage: >
   for <a href="elements/pbcorerelationtype">pbcoreRelationType</a>
