@@ -73,3 +73,55 @@ users:
       <h4>The Outcome</h4>
       <p>The AAPB used PBCore as a basis for the data tables underlying its existing database, the Archival Management System (AMS) 1. Thanks to PBCore, the AAPB can ask station partners to provide anywhere from just a few key fields of metadata to detailed descriptive and technical information—nearly anything will easily map into the system. With PBCore, the AAPB can also track digitized instantiations in the AMS and link any new digital files created to the descriptive asset records.</p>
       <p>Now that the AAPB is developing the AMS 2, the organization is still using the PBCore data model, albeit using RDF-structured metadata rather than a mysql database. To represent PBCore as RDF, the AAPB is using EBUCore, Dublin Core RDF, and other properties. (Information about the AAPB’s PBCore-based RDF data model can be found on the Mappings page.) Partners find that submitting PBCore XML and PBCore-compliant spreadsheets is still an easy and flexible away to contribute data to the AAPB, which is why spreadsheets and XML will remain the primary import and export formats with this new system. PBCore consistently meets the AAPB’s partners where they are, and that collaboration strengthens and expands our public media ecosystem.</p>
+  - user: Maryland Institute for Technology in the Humanities
+    column: right
+    id: mith
+    logo-file: mith.png
+    title: |
+      Putting Aside Differences: How the Maryland Institute for Technology in the Humanities Uses PBCore
+    statement: |
+      <h4>The Initial Issues</h4>
+      <p>The Maryland Institute for Technology in the Humanities (MITH) has been working with other organizations on a project called Unlocking the Airwaves. The goal of the project is to create an online resource for the exploration of the radio and paper collections owned by the National Association of Educational Broadcasters (NAEB). To do this properly, MITH needed a way of supporting linked data methods so that the organization could combine multiple different descriptive systems.</p>
+      <h4>Key Benefits of PBCore</h4>
+      <p>PBCore makes it easy to link data methods and tools so that researchers have a useful and cohesive resource. Moreover, although it’s optimized for audiovisual assets, PBCore also makes it possible to catalog papers as well, and being able to do that was important for addressing NAEB’s needs. .</p>
+      <h4>The Outcome</h4>
+      <p>MITH ended up using PBCore to start creating a data model with linked data approaches and formats. This arrangement allowed the online portal to use this information in a way that still retained the semantics and provenance of the original data. This ability to create a usable profile from multiple different descriptive systems—and to do so with a relatively low entry barrier—is one of PBCore’s strengths, and it ensures that MITH will have a flexible and robust system that will resist obsolescence.</p>
+  - user: Northeast Historic Film
+    column: left
+    id: nhf
+    logo-file: nhf.png
+    title: |
+      Northeast Historic Film's Hidden Collections Catalog
+    statement: |
+      <h4>How We Use PBCore</h4>
+      <p>Northeast Historic Film was awarded a grant from the Council on Library and Information Resources Hidden Collections program in 2010 to create descriptive records for 50 film collections (8mm, 16mm, 35mm) identified as significant moving image archival documents relating to work and labor in the first half of the 20th century.</p>
+      <p>The reels hold hidden research materials from 50 previously uncataloged donations among the 800 collections gathered at the northern New England archives in Bucksport, Maine. Examples of the materials include a 1921 film depicting small boats created by marine architect Norman Skene (author of Elements of Yacht Design); workers in the A.S. Hinds cosmetics factory in Portland, Maine, by Charles B. Hinds; and film from the American Writing Paper Company, Holyoke, Mass., intertitled in Spanish and English by Visugraphic Pictures.</p>
+      <p>To accomplish the Hidden Collections Project, Northeast Historic Film needed a new asset management system to hold both collection-level and item-level information. CollectiveAccess was chosen as a new central metadata repository. This repository would have to accommodate the eventual migration of about 25,000 existing records stored in a legacy ProCite database, and also work for original archival description using DACS for finding aids (collection level description) and PBCore for the approximately 1000 reels in the 50 collections of work life. The project staff found that CollectiveAccess was a powerful system for describing collections, but was not yet configured as an item-level PBCore cataloging tool. Early in the year, staff catalogers and interns were easily creating new finding aids and publishing them to the Web, while PBCore cataloging took place in an interim tool built on the ExpressionEngine CMS.</p>
+      <p>Thus there were two migration challenges: all the newly written metadata from ExpressionEngine, to be followed by the mass of heritage metadata. Because PBCore provides a well-formed data structure recognizable by CollectiveAccess, once the data export to PBCore XML records was accomplished, the importing process was simple.</p>
+      <h4>Why We Use PBCore</h4>
+      <p>Karan Sheldon, co-founder of Northeast Historic Film, explains the reasons for using PBCore in this project: “NHF has managed our collections over more than 20 years largely through item-level description, which allowed us to find specific people, places, things, and activities, in tens of thousands of reels. Item-level description is a given for our survival. We need to be able to migrate the detailed descriptions of the reels into a data structure that will efficiently track new forms of the work (new preservation copies, digital surrogates, and unknown future forms), without having to redo all the work we’ve done so far.”</p>
+  - user: Smithsonian Channel
+    column: right
+    id: smithsonian-channel
+    logo-file: smithsonian.png
+    title: |
+      PBCore at Smithsonian Channel
+    statement: |
+      <h4>How We Use PBCore</h4>
+      <p>Smithsonian Channel formed in 2005 as a joint venture between Showtime Networks and the Smithsonian Institution.  In 2007 they began broadcasting of their original content inspired by the museums and research facilities. The Library and Archives includes a mix of tape-based and file-based HD formats of raw footage for original programs as well as production elements and the finished products themselves. Karma joined in 2011 with the task of figuring out what the channel had and how to preserve it and make it accessible for re-use.</p>
+      <p>Karma first focused on establishing a basic database that would allow production staff to locate re-usable footage. Their in-house, unique database, SCOUT, is built on CollectiveAccess and is fairly simple. Currently, works and instantiations exist in one record and technical and descriptive metadata are tied together with PBCore acting as the consultant for controlled vocabulary and many elements. The team picks and chooses specific PBCore elements and vocabulary and modifies others to suit their collection. Elements that help to describe pieces of the broadcast production process are especially helpful. </p> 
+      <h4>PBCore for Descriptive Cataloging</h4>
+      <p>SCOUT now contains Work records for all of Smithsonian Channel's broadcast programs, as well as raw footage and other re-usable assets. The Work records include summary program descriptions, keywords (drawn from an in-house controlled vocabulary), delivery date (when the program was considered final in the system), premiere date, credits, rights notes, and some other internal categories. PBCore allows Smithsonian Channel to clearly specify a variety of 'dates' associated with each program, as well as detailed and specific credits.</p>
+      <p>SCOUT also includes records for hundreds of re-usable public domain assets. Smithsonian Channel does a lot of archive-based programming, so having good decriptions of relevan assets to re-use saves production teams time and money. These Work records include summary description, timecode-based detailed description (when warranted), keywords, date shot, source, source URL, and rights notes.</p>
+      <p>PBCore-based technical fields for records in SCOUT include video format (whether physical or digital), frame size (aka resolution), frame rate, color, and any technical notes. Adding field footage and program masters in UHD (Ultra HD) has meant adding a slew of new values to the controlled vocabulary for frame size.</p>
+  - user: South Side Home Movie Project
+    column: left
+    id: sshmp
+    logo-file: sshmp.png
+    title: |
+      Using PBCore in Collective Access at the South Side Home Movie Project
+    statement: |
+      <h4>How We Use PBCore</h4>
+      <p>The South Side Home Movie Project uses a custom installation profile based off of one the Academy Film Archive made available for public use. Included in this profile was the PBCORE metadata schema. Project Manager Candace Ming says, "Initially I felt that PBCORE, a schema made specifically for broadcast content, would be too robust for effectively cataloging home movies. However, after viewing the profile and fields further I realized that it’s specificity and granularity were just what was needed to capture all of the disparate information essential to home movies."</p>
+      <h4>PBCore for Descriptive Cataloging</h4>
+      <p>Candace reports: "Currently I use both the Physical and Digital format fields, the Duration Field, the colors field and the audio standards field to describe the physical properties of our holdings. Additionally, I found that the Description field with its various abilities to not only describe the basic content of a home movie, but also transcripts and anecdotal comments was incredibly helpful. Obviously, we don’t use all of the fields in the PBCORE profile since many don’t apply, but for those we do use I’ve found that the granularity is particularly helpful and PBCORE is incredibly easy to implement."
