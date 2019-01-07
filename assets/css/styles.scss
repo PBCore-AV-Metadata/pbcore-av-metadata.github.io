@@ -865,3 +865,36 @@ code[class*="language-"] {
   margin-left: 5vw;
   margin-right: 5vw;
 }
+
+.pbcore-logo {
+  margin-left:5.7%;
+  margin-bottom:2.0%;
+  overflow-y:visible;
+  z-index: 10000;
+}
+
+.navbar-nav {
+  margin-left:6.1%;
+  bottom: 0;
+  position: absolute;
+}
+
+@media only screen and (max-width: 667px) {
+  .pbcore-logo {
+    float:left;
+    position: relative;
+    display: block;
+  }
+  ul.navbar-nav {
+    float:left;
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+
+  .nav-item {
+    display: block;
+    width:100%;
+    float: left;
+  }  
+}
