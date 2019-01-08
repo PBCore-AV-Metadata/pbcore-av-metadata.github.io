@@ -878,12 +878,64 @@ code[class*="language-"] {
   bottom: 0;
   position: absolute;
 }
+/*
+@media only screen and (max-width: 560px) {
+  .primary_nav_container {  
+    min-height: 10em;
+    height: 28vw;
+  }
+}*/
+.main-content {
+  margin-top:8vh;
+}
 
-@media only screen and (max-width: 667px) {
-  .pbcore-logo {
-    float:left;
+@media (max-width: 568px) {
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  div.container, div.container-fluid, div.col-10.mx-auto {
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: center;
+  }
+
+  div.card-header {
+    margin: 0;
+    padding: 0;
+  }
+
+  div.card-body {
+    text-align: center;
+    margin-left: 2em;
+  }
+
+  .card-body p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .indent-1, .indent-2, .indent-3, .indent-4 {
+    margin: 0;
+  }
+  .container section {
+    padding: 0;
+  }
+
+  .main-content {
+    /*margin-top:62vw;*/
+    margin-top:24vh;
+  }
+  #navbar-collapse {
+    margin-bottom: 55vw;
+  }
+
+  div#navDropdown div.pbcore-logo, div#navDropdown {
+    height: 2em;
+    float:none;
     position: relative;
     display: block;
+    margin-left:auto;
+    margin-right:auto;
   }
   ul.navbar-nav {
     float:left;
@@ -895,6 +947,64 @@ code[class*="language-"] {
   .nav-item {
     display: block;
     width:100%;
-    float: left;
+    background-color: #f8f9fa!important
   }  
+
+  div.dropdown-menu a.dropdown-item {
+    z-index: 3001;
+    position: relative;
+  }
+
+.primary_nav_container {
+  padding: 0;
+  overflow-y: visible;
+  position: fixed;
+  z-index: 2001;
+  top: 0;
+  left: 0;
+  background: #f2f2f2;
+  min-height: 18em;
+  height: 55vw;
+  width: 100%;
+
+  a {
+    font-size: 30px;
+    width: 100%;
+    height: 2em;
+  }
+
+  img {
+    height: 4em;
+    float:none;
+    position: relative;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;  
+  }
+
+  .pbcore-logo {
+    margin: 0;
+  }
+
+  .navbar-collapse ul {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+
+    li {
+
+      a {
+      display: block;
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 32px;
+      padding: 0 15px;
+      }
+    }
+  }
 }
+
+}
+
