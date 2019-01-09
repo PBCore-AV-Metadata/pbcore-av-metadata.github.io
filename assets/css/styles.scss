@@ -304,6 +304,10 @@ h2.med-title {
   line-height: 1.5em;
 }
 
+.faq-text {
+  font-size: 1.25rem;
+}
+
 #accessing-tools {
   background-image: url("/assets/images/tools-wide.png");
   background-repeat: no-repeat;
@@ -517,7 +521,8 @@ h2.med-title {
 }
 
 .bolder {
-  font-weight: bolder;
+  font-family: 'Roboto Slab'; 
+  font-weight: bold;
 }
 
 .light {

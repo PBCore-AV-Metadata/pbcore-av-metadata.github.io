@@ -22,7 +22,7 @@ layout: default
 
     <p><span class="green">Usage: </span><span>{{ site.data.element_defs[page.name].usage }}</span></p>
 
-    <h3 class="green">Attributes</h3>
+    <h3 class="green bold">Attributes</h3>
 
     {% if page.attributes %}
       <ul class="attribute-container">
@@ -40,7 +40,7 @@ layout: default
       <p>This element cannot have any attributes.</p>
     {% endif %}
 
-    <h3 class="green">Subelements</h3>
+    <h3 class="green bold">Subelements</h3>
 
     {% if page.subelements %}
       <ul class="attribute-container">
@@ -57,7 +57,7 @@ layout: default
     {% endif %}
 
     {% if page.controlled-vocabs %}
-      <h3 class="green">Controlled Vocabularies</h3>
+      <h3 class="green bold">Controlled Vocabularies</h3>
       <ul class="pb-list">
         {% for item in page.controlled-vocabs %}
           <li class="black">
@@ -67,7 +67,7 @@ layout: default
       </ul>
     {% endif %}
 
-    <h3 class="green">Example</h3>
+    <h3 class="green bold">Example</h3>
 
     {{ content }}
   </div>

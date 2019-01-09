@@ -5,7 +5,7 @@ section: Community
 permalink: /pbcore-users.html
 ---
 
-<h2 class="title dark-grey">Who uses PBCore?</h2>
+<h2 class="title bold dark-grey">Who uses PBCore?</h2>
 
 While not a comprehensive list of all PBCore users, this page includes real-world examples of how various institutions find value in implementing PBCore – as the underlying structure for a database, an import/export format, a conceptual model, and more. If you’re interested in contributing a case study to highlight how your institution implements PBCore, contact us at PBCoreInfo@wgbh.org.
 
@@ -58,7 +58,7 @@ While not a comprehensive list of all PBCore users, this page includes real-worl
     <div class="col-md-1">
     </div>
     <div class="col-md-10">
-      <h3>{{ item.title }}</h3>
+      <h3 class="bold">{{ item.title }}</h3>
           <p>{{ item.statement}}</p>
     </div>
     <div class="col-md-1">

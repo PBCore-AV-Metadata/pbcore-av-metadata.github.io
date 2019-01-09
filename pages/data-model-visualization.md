@@ -6,7 +6,7 @@ permalink: /data-model.html
 ---
 <div class="row">
   <div class="col-md-12">
-    <h2 class="green title">PBCore Data Model Visualization</h2>
+    <h2 class="green title bold">PBCore Data Model Visualization</h2>
   </div>
 </div>
 

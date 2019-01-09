@@ -16,12 +16,12 @@ Attributes are a way to structure additional types of information that PBCore re
       <li>
         <div class="row">
           <div class="col-md-3">
-              <p id="{{ item[0] }}" class="bold attribute-name">{{ item[0] }}: </p>
+              <p id="{{ item[0] }}" class="bolder attribute-name">{{ item[0] }}: </p>
           </div>
           <div class="separator col-md-9">
             <p class="definition">{{ item[1].definition }}</p>
             {% if item[1].best-practice %}
-              <p class="light"><span class="green bold">Best Practice:</span> {{ item[1].best-practice}}</p>
+              <p class="light"><span class="green bolder">Best Practice:</span> {{ item[1].best-practice}}</p>
             {% endif %}
           </div>
         </div>

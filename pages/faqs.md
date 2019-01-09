@@ -11,7 +11,7 @@ permalink: /faqs.html
   		<section>
       {% assign i = 0 %}
        {% for item in site.data.faqs %}
-  			<div class="row">
+  			<div class="row faq-text">
   				<div class="col-10 mx-auto">
             <h2 class="mb-4 faq-section-header">{{ item.section }}</h2>
   					<div class="accordion" id="faq-accordion{{ i }}">
