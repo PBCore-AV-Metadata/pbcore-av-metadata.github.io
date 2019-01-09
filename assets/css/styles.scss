@@ -26,6 +26,10 @@ a:hover {
   text-decoration: none;
 }
 
+#navbarNavDropdown {
+  position: relative;
+}
+
 .primary_nav_container {
   position: fixed;
   z-index: 2001;
@@ -51,7 +55,7 @@ a:hover {
   	position: relative;
   	margin: 0;
   	padding: 0;
-    bottom: 0;
+    bottom: -2.8vh;
 
 
     li {
@@ -873,17 +877,19 @@ code[class*="language-"] {
   margin-bottom:0.2%;
   overflow-y:visible;
   z-index: 10000;
-}
-
-.navbar-nav {
-  margin-left:6.1%;
-  bottom: 0;
-  position: absolute;
+  display: block;
+  bottom: 0 !important;
 }
 
 .main-content {
   margin-top:8vh;
 }
+
+/*
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 @media (max-width: 568px) {
   .dropdown:hover>.dropdown-menu {
@@ -920,10 +926,10 @@ code[class*="language-"] {
   .main-content {
     margin-top:24vh;
   }
-  #navbar-collapse {
+/*  #navbar-collapse {
     margin-bottom: 55vw;
   }
-
+*/
   ul.navbar-nav {
     float:left;
     position: relative;
