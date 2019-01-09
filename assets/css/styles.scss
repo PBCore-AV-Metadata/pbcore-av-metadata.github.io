@@ -1,11 +1,12 @@
 ---
 ---
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,700');
 
 $blue: #358ff2;
 $red: #f5463e;
 $green: #36b431;
 $dark-grey: #4d4d4d;
+$med-grey: #666;
 $grey: #eee;
 $yellow: #ff0;
 
@@ -297,8 +298,12 @@ h2.med-title {
 
 #getting-started p {
   color: #ffffff;
-  font-size: 21px;
   padding: 10px 10px;
+}
+
+.index-text {
+  font-size: 1.3em;
+  line-height: 1.5em;
 }
 
 #accessing-tools {
@@ -323,6 +328,8 @@ h2.med-title {
 }
 
 .pb-button {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
   padding-left: 6%;
   padding-right: 6%;
   padding-top: 1.2%;
@@ -332,18 +339,18 @@ h2.med-title {
 .pb-button-learn {
   background-color: #fff;
   border: 1px #000 solid;
-  color: $blue;
+  color: $med-grey;
 }
 
 .pb-button-learn:hover {
-  background-color: $blue;
+  background-color: $med-grey;
   color: #fff;
 }
 
 .pb-button-getting {
   background-color: white;
   border: 1px #000 solid;
-  color: $blue;
+  color: #000;
 }
 
 .pb-button-getting:hover {
