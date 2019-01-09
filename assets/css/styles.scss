@@ -37,35 +37,45 @@ a:hover {
   left: 0;
   /*padding: 0;*/
   background: #f2f2f2;
-  height: 10vh;
+  height: 14.8vh;
   width: 100%;
 
   a {
     font-size: 30px
   }
 
+  .pbcore-logo {
+    margin-left:5vw;
+    margin-top: 4.2vh;
+    padding-bottom:11.2vh;
+    overflow-y:visible;
+    display: block;
+    position: absolute;
+  }
+
   img {
     float: left;
-    width: 120px;
+    width: 150px;
     object-fit: contain;
   }
 
   .navbar-collapse ul {
-  	list-style: none;
-  	position: relative;
-  	margin: 0;
-  	padding: 0;
-    bottom: -2.8vh;
+    list-style: none;
+    position: relative;
+    margin: 0;
+    margin-left: 6%;
+    padding: 0;
+    bottom: -5.3vh;
 
 
     li {
 
       a {
-    	display: block;
-    	text-decoration: none;
-    	font-size: 16px;
-    	line-height: 32px;
-    	padding: 0 15px;
+      display: block;
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 32px;
+      padding: 0 15px;
       }
     }
   }
@@ -603,7 +613,7 @@ h2.med-title {
   display: inline;
 }
 
-.faq-answer span{
+.faq-answer {
  font-weight: 100;
 }
 
@@ -796,7 +806,7 @@ code[class*="language-"] {
 }
 
 .navbar-nav li {
-  margin-right: 12%;
+  margin-right: 3.2%;
 }
 
 .vocab-text {
@@ -872,15 +882,6 @@ code[class*="language-"] {
   margin-right: 5vw;
 }
 
-.pbcore-logo {
-  margin-left:5.7%;
-  margin-bottom:0.2%;
-  overflow-y:visible;
-  z-index: 10000;
-  display: block;
-  bottom: 0 !important;
-}
-
 .main-content {
   margin-top:8vh;
 }
@@ -888,7 +889,7 @@ code[class*="language-"] {
 /*
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXMOBILEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
 @media (max-width: 568px) {
@@ -956,8 +957,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     top: 0;
     left: 0;
     background: #f2f2f2;
-    min-height: 14em;
-    height: 55vw;
+    min-height: 10em;
+    height: 35vw;
     width: 100%;
 
     a {
@@ -967,7 +968,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     }
 
     img {
-      height: 2em;
+      height: 1.6em;
       float:none;
       position: relative;
       display: block;
@@ -976,6 +977,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     }
 
     .pbcore-logo {
+      height: 2em;
+      padding: 0;
       margin: 0;
     }
 
@@ -998,7 +1001,10 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
       }
     }
   }
+
 }
+
+
 
 .nav-underline-blue {
   border-bottom: 5px solid $blue
