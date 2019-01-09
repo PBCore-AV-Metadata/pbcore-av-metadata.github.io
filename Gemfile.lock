@@ -67,8 +67,12 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.8.4)
   jekyll-feed (~> 0.6)
+  jekyll-seo-tag
   minima (~> 2.0)
   tzinfo-data
+
+RUBY VERSION
+   ruby 2.5.1p57
 
 BUNDLED WITH
    1.16.5
