@@ -1,6 +1,7 @@
 ---
 title: Asset Elements
 layout: element-groups
+section: Schema
 permalink: elements/asset.html
 ---
 

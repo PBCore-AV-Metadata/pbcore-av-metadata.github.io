@@ -1,6 +1,7 @@
 ---
 title: What is PBCore
 layout: default
+section: About
 permalink: /what-is-pbcore.html
 ---
 <div class="row">

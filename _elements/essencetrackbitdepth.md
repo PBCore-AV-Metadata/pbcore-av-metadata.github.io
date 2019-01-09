@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: essenceTrackBitDepth
 attributes:
   - name: unitsOfMeasure
@@ -14,12 +15,12 @@ attributes:
 ---
 <pre>
   <code>
-    &lt;essenceTrackBitDepth&gt;8&lt;essenceTrackBitDepth&gt;
+    &lt;essenceTrackBitDepth&gt;8&lt;/essenceTrackBitDepth&gt;
   </code>
 </pre>
 
 <pre>
   <code>
-    &lt;essenceTrackBitDepth annotation=&quot;color&quot;&gt;10&lt;essenceTrackBitDepth&gt;
+    &lt;essenceTrackBitDepth annotation=&quot;color&quot;&gt;10&lt;/essenceTrackBitDepth&gt;
   </code>
 </pre>

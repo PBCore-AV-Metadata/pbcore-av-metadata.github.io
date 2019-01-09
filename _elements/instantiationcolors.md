@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationColors
 attributes:
   - name: source

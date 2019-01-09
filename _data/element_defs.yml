@@ -18,7 +18,7 @@ creatorRole:
   usage: optional, repeatable
 essenceTrackAnnotation:
   definition: <strong>essenceTrackAnnotation</strong> can store any supplementary information about a track or the metadata used to describe it. It clarifies element values, terms, descriptors, and vocabularies that may not be otherwise sufficiently understood.
-  usage: repeatable
+  usage: optional, repeatable
 essenceTrackAspectRatio:
   definition: <strong>essenceTrackAspectRatio</strong> indicates the ratio of horizontal to vertical proportions in the display of a static image or moving image.
   usage: optional, not repeatable
@@ -27,6 +27,10 @@ essenceTrackBitDepth:
   usage: optional, not repeatable
 essenceTrackBitDepth:
   definition: <strong>essenceTrackBitDepth</strong> specifies how much data is sampled when information is digitized, encoded, or converted for an instantiation (specifically, audio, video, or image). Bit depth is measured in bits and generally implies an arbitrary perception of quality during playback of an instantiation (the higher the bit depth, the greater the fidelity).
+  usage: optional, not repeatable
+essenceTrackDataRate:
+  definition: <strong>essenceTrackDataRate</strong> measures the amount of data used per time interval for encoded data. The data rate can be calculated by dividing the total data size of the track's encoded data by a time unit.
+  best-practice: By default use bytes per second. Otherwise, this should be expressed as numerical data, with the units of measure declared in the unitsOfMeasure attribute.
   usage: optional, not repeatable
 essenceTrackDuration:
   definition: <strong>essenceTrackDuration</strong> provides a timestamp for the overall length or duration of a track. It represents the track playback time.

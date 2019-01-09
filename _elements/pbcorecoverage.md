@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcoreCoverage
 subelements:
   - name: coverage

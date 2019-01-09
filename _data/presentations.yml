@@ -1,4 +1,11 @@
 - title: >
+    "Metadata Grand Unified Theory: PBCore, EBUCore, and the Semantic Web."
+  presenters: Presented by Casey Davis, Jack Brighton, Rebecca Fraimow, Jean-Pierre Evain, and Morgan Morel at the 2016 AMIA conference
+  link: https://www.youtube.com/watch?v=waWARnndbdM&feature=youtu.be
+  embed: >
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/waWARnndbdM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- title: >
     "More About PBCore: Using instantiationLocation and pbcoreExtension."
   presenters: >
     Presented by Sadie Roosa and Morgan Morel in 2016

@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationPart
 attributes:
   - name: startTime

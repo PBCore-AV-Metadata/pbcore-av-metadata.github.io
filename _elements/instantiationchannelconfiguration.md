@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationChannelConfiguration
 attributes:
   - name: source

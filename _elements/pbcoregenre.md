@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcoreGenre
 attributes:
   - name: source

@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationDate
 attributes:
   - name: dateType

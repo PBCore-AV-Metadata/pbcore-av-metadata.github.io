@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationMediaType
 attributes:
   - name: source

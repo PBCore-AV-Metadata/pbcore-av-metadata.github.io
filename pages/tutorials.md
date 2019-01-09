@@ -1,6 +1,7 @@
 ---
 title: PBCore Tutorials
 layout: default
+section: Resources
 permalink: /tutorials.html
 ---
 

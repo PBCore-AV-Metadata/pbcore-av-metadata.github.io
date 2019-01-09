@@ -1,6 +1,7 @@
 ---
 title: Controlled Vocabularies
 layout: default
+section: Schema
 permalink: /pbcore-controlled-vocabularies.html
 ---
 <div class="row">
@@ -14,6 +15,9 @@ permalink: /pbcore-controlled-vocabularies.html
     </p>
     <p>
       PBCore Controlled Vocabularies include the agreed-upon spelling and formatting for each term, a definition, and a Unique Resource Identifier (or URI). The vocabularies provide only the terms that the community has determined are most widely used and shared, and are not 100% comprehensive. PBCore does not maintain controlled vocabularies for elements that have strong vocabulary options maintained by other authorities. Element pages contain links to relevant external vocabularies, where applicable.
+    </p>
+    <p>
+      To view the terms and definitions for each vocabulary, click on the name of the controlled vocabulary on the left of the screen.
     </p>
   </div>
 </div>

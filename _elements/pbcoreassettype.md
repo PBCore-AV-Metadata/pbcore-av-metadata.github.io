@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcoreAssetType
 attributes:
   - name: source

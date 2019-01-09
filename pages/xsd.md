@@ -1,6 +1,7 @@
 ---
 title: PBCore XML Schema
 layout: default
+section: Schema
 permalink: /xsd.html
 ---
 
@@ -8,7 +9,7 @@ permalink: /xsd.html
 
 PBCore is a metadata standard designed to describe media, both digital and analog. The PBCore XML Schema Definition (XSD) defines the structure and content of PBCore. The current release (PBCore 2.1) can be viewed at our [GitHub repository](https://github.com/WGBH/PBCore_2.1/) or you can <a href="/assets/downloads/PBCore_2.1-master.zip" download>download</a> the .xsd file.
 
-PBCore 2.1 was created by the public broadcasting community in the United States of America for use by public broadcasters and others. PBCore is built on the foundation of the Dublin Core (ISO 15836), an international standard for resource discovery. PBCore was developed with funding provided by the Corporation for Public Broadcasting and is maintained by WGBH.
+PBCore 2.1 was created by the public broadcasting community in the United States of America for use by public broadcasters and others. PBCore is built on the foundation of the Dublin Core (ISO 15836), an international standard for resource discovery. PBCore was developed with funding provided by the Corporation for Public Broadcasting and is maintained by WGBH with support and guidance from the AMIA PBCore Advisory Sub-Committee.
 
 <h3>Structure</h3>
 

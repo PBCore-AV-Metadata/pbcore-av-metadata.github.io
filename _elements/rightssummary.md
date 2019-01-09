@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: rightsSummary
 attributes:
   - name: source

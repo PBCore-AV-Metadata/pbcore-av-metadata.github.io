@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: contributor
 attributes:
   - name: affiliation

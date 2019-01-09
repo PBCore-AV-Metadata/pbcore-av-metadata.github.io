@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: contributorRole
 attributes:
   - name: portrayal

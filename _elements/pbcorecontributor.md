@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcoreContributor
 subelements:
   - name: contributor

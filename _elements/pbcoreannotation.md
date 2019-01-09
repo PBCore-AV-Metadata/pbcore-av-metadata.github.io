@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcoreAnnotation
 attributes:
   - name: annotationType

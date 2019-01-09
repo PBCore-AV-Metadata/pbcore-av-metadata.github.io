@@ -1,6 +1,7 @@
 ---
 title: Root Elements
 layout: element-groups
+section: Schema
 permalink: elements/root.html
 ---
 

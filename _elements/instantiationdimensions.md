@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationDimensions
 attributes:
   - name: unitsOfMeasure
@@ -20,13 +21,13 @@ attributes:
 
 <pre>
   <code>
-    &lt;instantiationDimensions unitsofmeasure=&quot;pixels&quot;&gt;100x200&lt;/instantiationDimensions&gt;
+    &lt;instantiationDimensions unitsOfMeasure=&quot;pixels&quot;&gt;100x200&lt;/instantiationDimensions&gt;
   </code>
 </pre>
 
 
 <pre>
   <code>
-    &lt;instantiationDimensions unitsofmeasure=&quot;inches&quot;&gt;5x7&lt;/instantiationDimensions&gt;
+    &lt;instantiationDimensions unitsOfMeasure=&quot;inches&quot;&gt;5x7&lt;/instantiationDimensions&gt;
   </code>
 </pre>

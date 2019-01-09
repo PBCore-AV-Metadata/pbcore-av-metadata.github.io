@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationExtension
 subelements:
   - name: extensionWrap

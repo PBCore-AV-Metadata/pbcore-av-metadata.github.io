@@ -1,6 +1,7 @@
 ---
 title: Instantiation Elements
 layout: element-groups
+section: Schema
 permalink: elements/instantiation.html
 ---
 

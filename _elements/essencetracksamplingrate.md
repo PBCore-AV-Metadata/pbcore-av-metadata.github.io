@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: essenceTrackSamplingRate
 attributes:
   - name: unitsOfMeasure
@@ -14,7 +15,7 @@ attributes:
 ---
 <pre>
   <code>
-    &lt;essenceTrackSamplingRate unitsOfMeasure=&quot;kHz&quot;&gt;44.1&lt;essenceTrackSamplingRate&gt;
+    &lt;essenceTrackSamplingRate unitsOfMeasure=&quot;kHz&quot;&gt;44.1&lt;/essenceTrackSamplingRate&gt;
   </code>
 </pre>
 

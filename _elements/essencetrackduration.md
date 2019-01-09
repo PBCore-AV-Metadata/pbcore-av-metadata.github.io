@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: essenceTrackDuration
 attributes:
   - name: source

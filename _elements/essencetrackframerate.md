@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: essenceTrackFrameRate
 attributes:
   - name: unitsOfMeasure

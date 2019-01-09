@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: instantiationDataRate
 attributes:
   - name: unitsOfMeasure

@@ -1,6 +1,7 @@
 ---
 title: News and Updates
 layout: default
+section: Community
 permalink: /news.html
 ---
 

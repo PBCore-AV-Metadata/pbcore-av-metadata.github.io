@@ -12,7 +12,7 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="{{ site.url }}">Home</a>
+            <a href="/">Home</a>
           </li>
           {% for item in site.data.nav.toc %}
             {% if item.title == "About" %}
@@ -85,11 +85,11 @@
 
     <div class="row">
       <div class="col-md-6" style="top: -1.2em;">
-        <img class="footer-brand" src="/assets/images/pbcore-logo.png"/>
+        <a href="/"><img class="footer-brand" src="/assets/images/pbcore-logo.png"/></a>
       </div>
 
       <div class="col-md-6 footer-msg">
-        PBCore, the Public Broadcasting Metadata Dictionary, is licensed under a Creative Commons Attribution 4.0 International license.
+        PBCore is licensed under a Creative Commons Attribution 4.0 International license.
       </div>
     </div>
 

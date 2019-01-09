@@ -1,6 +1,7 @@
 ---
 title: License
 layout: default
+section: About
 permalink: /license.html
 ---
 

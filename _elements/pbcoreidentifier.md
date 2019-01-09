@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: pbcoreIdentifier
 attributes:
   - name: source

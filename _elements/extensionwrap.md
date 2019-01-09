@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: extensionWrap
 attributes:
   - name: source

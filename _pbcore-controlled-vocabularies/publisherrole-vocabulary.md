@@ -1,4 +1,5 @@
 ---
+section: Schema
 name: publisherRole Vocabulary
 usage: >
   for <a href="elements/publisherrole">publisherRole</a>
