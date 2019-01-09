@@ -1,6 +1,7 @@
 ---
 ---
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 $blue: #358ff2;
 $red: #f5463e;
@@ -12,15 +13,12 @@ $yellow: #ff0;
 
 body {color: #333;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     padding-top: 66px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif;
-}
-
-p {
-    line-height: 20px;
 }
 
 a:hover {

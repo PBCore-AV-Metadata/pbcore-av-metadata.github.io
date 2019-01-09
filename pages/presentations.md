@@ -4,7 +4,7 @@ layout: default
 section: Resources
 permalink: /presentations.html
 ---
-<h2 class="red title">Presentations</h2>
+<h2 class="red title bold">Presentations</h2>
 {% assign i = 0 %}
 <div class="row">
   <div class="col-10 mx-auto">

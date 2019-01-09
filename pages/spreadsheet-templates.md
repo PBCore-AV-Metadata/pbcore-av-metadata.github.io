@@ -8,12 +8,12 @@ permalink: /spreadsheet-templates.html
 <div class="row">
   <div class="col-md-12">
 
-    <h2 class="title red">Spreadsheet Templates</h2>
+    <h2 class="title red bold">Spreadsheet Templates</h2>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-6 index-text">
     PBCore Spreadsheet Templates can be used to capture PBCore metadata in an easy human-readable format when creating an inventory of assets and/or instantiations.
   </div>
 

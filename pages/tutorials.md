@@ -5,7 +5,7 @@ section: Resources
 permalink: /tutorials.html
 ---
 
-<h2 class="red title">Tutorials</h2>
+<h2 class="red title bold">Tutorials</h2>
 <p>These short video tutorials provide introductions to many of PBCore's key concepts, as well as the basic steps to get started using many of the PBCore tools. We are in the process creating more tutorials which we will post here soon.</p>
 {% assign i = 0 %}
 <div class="row">

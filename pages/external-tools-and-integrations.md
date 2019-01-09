@@ -5,7 +5,7 @@ section: Resources
 permalink: /external-tools-and-integrations.html
 ---
 
-<h2 class="red title">External Tools and Integrations</h2>
+<h2 class="red title bold">External Tools and Integrations</h2>
 
 Many software maintained and supported by external organizations supports the export and management of PBCore metadata. If you manage software that supports PBCore and you would like to have it included on this list, please contact PBCoreInfo@wgbh.org.
 
