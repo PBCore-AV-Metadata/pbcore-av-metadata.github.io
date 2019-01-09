@@ -31,8 +31,9 @@ a:hover {
   z-index: 2001;
   top: 0;
   left: 0;
+  /*padding: 0;*/
   background: #f2f2f2;
-  height: 14vh;
+  height: 10vh;
   width: 100%;
 
   a {
@@ -41,7 +42,7 @@ a:hover {
 
   img {
     float: left;
-    width: 150px;
+    width: 120px;
     object-fit: contain;
   }
 
@@ -50,6 +51,7 @@ a:hover {
   	position: relative;
   	margin: 0;
   	padding: 0;
+    bottom: 0;
 
 
     li {
@@ -868,7 +870,7 @@ code[class*="language-"] {
 
 .pbcore-logo {
   margin-left:5.7%;
-  margin-bottom:2.0%;
+  margin-bottom:0.2%;
   overflow-y:visible;
   z-index: 10000;
 }
@@ -922,14 +924,6 @@ code[class*="language-"] {
     margin-bottom: 55vw;
   }
 
-  div#navDropdown div.pbcore-logo, div#navDropdown {
-    height: 2em;
-    float:none;
-    position: relative;
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-  }
   ul.navbar-nav {
     float:left;
     position: relative;
@@ -956,7 +950,7 @@ code[class*="language-"] {
   top: 0;
   left: 0;
   background: #f2f2f2;
-  min-height: 18em;
+  min-height: 14em;
   height: 55vw;
   width: 100%;
 
@@ -967,7 +961,7 @@ code[class*="language-"] {
   }
 
   img {
-    height: 4em;
+    height: 2em;
     float:none;
     position: relative;
     display: block;
