@@ -9,7 +9,7 @@ permalink: /pbcore-users.html
 
 While not a comprehensive list of all PBCore users, this page includes real-world examples of how various institutions find value in implementing PBCore – as the underlying structure for a database, an import/export format, a conceptual model, and more. If you’re interested in contributing a case study to highlight how your institution implements PBCore, contact us at PBCoreInfo@wgbh.org.
 
-<section class="grey" style="margin-bottom: 4%">
+<section id="pbcore-users" class="" style="margin-bottom: 4%; background-color: #ddd;">
 
   <div class="row">
 
