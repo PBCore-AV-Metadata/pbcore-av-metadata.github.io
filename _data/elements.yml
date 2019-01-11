@@ -88,7 +88,7 @@ elementgroups:
               - name: extensionAuthorityUsed
                 url: /elements/extensionauthorityused
           - name: extensionEmbedded
-            url: /elements/extensionEmbedded
+            url: /elements/extensionembedded
   - group: Instantiation
     elements:
       - name: pbcoreInstantiation
