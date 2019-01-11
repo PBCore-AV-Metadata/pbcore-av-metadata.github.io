@@ -839,6 +839,10 @@ code[class*="language-"] {
   padding: 0;
 }
 
+.no-margin {
+  margin: 0;
+}
+
 .black-border {
   border: 1px solid #000;
 }
@@ -892,8 +896,16 @@ code[class*="language-"] {
   margin-right: 5vw;
 }
 
+.sample-records-doc {
+  margin-top: 4%;
+}
+
 .main-content {
   margin-top:9vh;
+}
+
+.sample-records-container {
+   width: 75%;
 }
 
 /*
@@ -902,7 +914,32 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXMOBILEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
-@media (max-width: 568px) {
+@media (max-width: 768px) {
+ .footer-margin {
+    margin-top: 65vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .sample-records-doc {
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  .main-col-margin {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .sample-records-container {
+     width: 100%;
+  }
+
   .dropdown:hover>.dropdown-menu {
     display: block;
   }
@@ -959,6 +996,10 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     position: relative;
   }
 
+  .primary_footer_container {
+    margin-top: 70vh;
+  }
+
   .primary_nav_container {
     padding: 0;
     overflow-y: visible;
@@ -1013,8 +1054,6 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
   }
 
 }
-
-
 
 .nav-underline-blue {
   border-bottom: 5px solid $blue
