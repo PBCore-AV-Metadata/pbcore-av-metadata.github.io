@@ -29,6 +29,14 @@ a:hover {
   position: relative;
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: #000;
+  width: 4em;
+  height: 4em;
+  margin: 2%;
+
+}
+
 .primary_nav_container {
   position: fixed;
   z-index: 2001;
