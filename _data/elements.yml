@@ -126,7 +126,7 @@ elementgroups:
             url: /elements/instantiationtracks
           - name: instantiationChannelConfiguration
             url: /elements/instantiationchannelconfiguration
-          - name: instantiationLangauge
+          - name: instantiationLanguage
             url: /elements/instantiationlanguage
           - name: instantiationAlternativeModes
             url: /elements/instantiationalternativemodes
