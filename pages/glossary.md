@@ -5,7 +5,7 @@ section: About
 permalink: /glossary.html
 ---
 <div class="container-fluid bg-gray" id="glossary">
-  <h1>Glossary</h1>
+  <h1 class="title bold">Glossary</h1>
   	<div class="container">
   		<section>
         <div class="row">

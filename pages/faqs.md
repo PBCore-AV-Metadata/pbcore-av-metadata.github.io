@@ -6,7 +6,7 @@ permalink: /faqs.html
 ---
 
 <div class="container-fluid faq" id="faq">
-  <h1>Frequently Asked Questions</h1>
+  <h1 class="title bold">Frequently Asked Questions</h1>
   	<div class="container">
   		<section>
       {% assign i = 0 %}

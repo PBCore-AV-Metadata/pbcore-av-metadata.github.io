@@ -4,7 +4,7 @@ layout: default
 section: Schema
 permalink: /pbcore-controlled-vocabularies.html
 ---
-<div class="row">
+<div class="row" style="margin-top: 4%;">
   <div class="col-md-3">
     {% include vocab_sidebar.html %}
   </div>

@@ -5,7 +5,7 @@ section: Community
 permalink: /news.html
 ---
 
-<h2 class="dark-grey title">PBCore News and Updates</h2>
+<h2 class="dark-grey title bold">PBCore News and Updates</h2>
 
 <ul class="pb-list">
   {% for post in site.posts %}
