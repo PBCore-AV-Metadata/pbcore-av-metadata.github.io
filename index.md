@@ -8,15 +8,33 @@ layout: default
 
   <div class="row">
     <div class="col-md-1 icon-col">
-      <span data-toggle="tooltip" data-placement="bottom" title="A guideline for cataloging or describing audiovisual content (as a content standard)" class="big-icon cataloging"></span>
+      <span data-toggle="tooltip" data-placement="bottom" title="A guideline for cataloging or describing audiovisual content (as a content standard)" class="big-icon tooltip-parent cataloging">
+        <div class="tooltip-arrow hidden">
+          <div class="tooltip-interior">
+            A guideline for cataloging or describing audiovisual content (as a content standard)
+          </div>
+        </div>
+      </span>
     </div>
 
     <div class="col-md-1 icon-col" >
-      <span data-toggle="tooltip" data-placement="bottom" title="A model for building custom databases/applications" class="big-icon databases"></span>
+      <span data-toggle="tooltip" data-placement="bottom" title="A model for building custom databases/applications" class="big-icon tooltip-parent databases">
+        <div class="tooltip-arrow hidden">
+          <div class="tooltip-interior">
+            A model for building custom databases/applications
+          </div>
+        </div>
+      </span>
     </div>
 
     <div class="col-md-1 icon-col" >
-      <span data-toggle="tooltip" data-placement="bottom" title="A guideline for identifying a set of vocabularies for fields describing AV assets" class="big-icon vocabularies"></span>
+      <span data-toggle="tooltip" data-placement="bottom" title="A guideline for identifying a set of vocabularies for fields describing AV assets" class="big-icon tooltip-parent vocabularies">
+        <div class="tooltip-arrow hidden">
+          <div class="tooltip-interior">
+            A guideline for identifying a set of vocabularies for fields describing AV assets
+          </div>
+        </div>        
+      </span>
     </div>
 
     <div class="col-md-2">
@@ -24,15 +42,37 @@ layout: default
     </div>
 
     <div class="col-md-1 icon-col" >
-      <span data-toggle="tooltip" data-placement="bottom" title="A data model for a configurable collection management system (Omeka, Collective Access, etc.) " class="big-icon collection_management"></span>
+      <span data-toggle="tooltip" data-placement="bottom" title="A data model for a configurable collection management system (Omeka, Collective Access, etc.) " class="big-icon tooltip-parent collection_management">
+        <div class="tooltip-arrow hidden">
+          <div class="tooltip-interior">
+            A data model for a configurable collection management system (Omeka, Collective Access, etc.)
+          </div>
+        </div>
+
+      </span>
     </div>
 
     <div class="col-md-1 icon-col" >
-      <span data-toggle="tooltip" data-placement="bottom" title="An exchange (import or export) mechanism between applications" class="big-icon exchange"></span>
+      <span data-toggle="tooltip" data-placement="bottom" title="An exchange (import or export) mechanism between applications" class="big-icon tooltip-parent exchange">
+        <div class="tooltip-arrow hidden">
+          <div class="tooltip-interior">
+            An exchange (import or export) mechanism between applications
+          </div>
+        </div>        
+
+      </span>
     </div>
 
     <div class="col-md-1 icon-col" >
-      <span data-toggle="tooltip" data-placement="bottom" title="A guideline for creating inventory spreadsheets" class="big-icon spreadsheets"></span>
+      <span data-toggle="tooltip" data-placement="bottom" title="A guideline for creating inventory spreadsheets" class="big-icon tooltip-parent spreadsheets">
+        <div class="tooltip-arrow hidden">
+          <div class="tooltip-interior">
+            A guideline for creating inventory spreadsheets
+          </div>
+        </div>
+
+
+      </span>
     </div>
 
   </div>

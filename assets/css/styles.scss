@@ -468,30 +468,76 @@ h2.med-title {
 .spreadsheets {
   background-image: url("/assets/images/icons/spreadsheets.png")
 }
-//
-// .cataloging:hover {
-//   background-image: url("/assets/images/icons/cataloging_select.png")
-// }
-//
-// .databases:hover {
-//   background-image: url("/assets/images/icons/databases_select.png")
-// }
-//
-// .vocabularies:hover {
-//   background-image: url("/assets/images/icons/vocabularies_select.png")
-// }
-//
-// .collection_management:hover {
-//   background-image: url("/assets/images/icons/collection_management_select.png")
-// }
-//
-// .exchange:hover {
-//   background-image: url("/assets/images/icons/exchange_select.png")
-// }
-//
-// .spreadsheets:hover {
-//   background-image: url("/assets/images/icons/spreadsheets_select.png")
-// }
+
+.cataloging:hover {
+  background-image: url("/assets/images/icons/cataloging_select.png")
+}
+
+.databases:hover {
+  background-image: url("/assets/images/icons/databases_select.png")
+}
+
+.vocabularies:hover {
+  background-image: url("/assets/images/icons/vocabularies_select.png")
+}
+
+.collection_management:hover {
+  background-image: url("/assets/images/icons/collection_management_select.png")
+}
+
+.exchange:hover {
+  background-image: url("/assets/images/icons/exchange_select.png")
+}
+
+.spreadsheets:hover {
+  background-image: url("/assets/images/icons/spreadsheets_select.png")
+}
+/*
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 0.8em solid transparent;
+  border-right: 0.8em solid transparent;
+  
+  border-bottom: 0.8em solid black;
+}*/
+
+/*background-color: #fff; padding: 20%; overflow: visible; width: 150px; bottom: -8vh; left: -5vh; position:relative; border: 1px solid black;*/
+
+.tooltip-parent:hover .hidden {
+  display:block;
+}
+
+.hidden {
+  display: none;
+}
+
+.tooltip-arrow {
+  z-index: 10000;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url('/assets/images/tooltip-box.png');
+  padding-top: 43%;
+  padding-bottom: 16%;
+  padding-left: 8%;
+  padding-right: 8%;
+  font-size: 0.8em;
+  font-weight: 700;
+  overflow: visible;
+  width: 12em;
+  /*height: 6em;*/
+  bottom: -7.5vh;
+  left: -4.5vh;
+  position:relative;
+}
+
+.tooltip-interior {
+  margin-top: 25%;
+  /*padding-left: 4%;*/
+  display: inline;
+}
+
 
 .indent-1 {
   margin-left: 1em;
