@@ -43,7 +43,7 @@ layout: default
 
     <div class="col-md-1 icon-col" >
       <span data-toggle="tooltip" data-placement="bottom" title="A data model for a configurable collection management system (Omeka, Collective Access, etc.) " class="big-icon tooltip-parent collection_management">
-        <div class="tooltip-arrow hidden">
+        <div class="tooltip-arrow hidden" style="padding-top: 42%;">
           <div class="tooltip-interior">
             A data model for a configurable collection management system (Omeka, Collective Access, etc.)
           </div>

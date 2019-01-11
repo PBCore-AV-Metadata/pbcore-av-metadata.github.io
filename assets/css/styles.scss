@@ -517,8 +517,8 @@ h2.med-title {
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-image: url('/assets/images/tooltip-box.png');
-  padding-top: 43%;
+  background-image: url('/assets/images/tooltip-box2.png');
+  padding-top: 50%;
   padding-bottom: 16%;
   padding-left: 8%;
   padding-right: 8%;
@@ -526,16 +526,18 @@ h2.med-title {
   font-weight: 700;
   overflow: visible;
   width: 12em;
-  /*height: 6em;*/
+  height: 10em;
   bottom: -7.5vh;
   left: -4.5vh;
   position:relative;
 }
 
 .tooltip-interior {
-  margin-top: 25%;
+  word-break: break-word;
+  /*margin-top: 25%;*/
   /*padding-left: 4%;*/
-  display: inline;
+  vertical-align: middle;
+  display: flex;
 }
 
 
