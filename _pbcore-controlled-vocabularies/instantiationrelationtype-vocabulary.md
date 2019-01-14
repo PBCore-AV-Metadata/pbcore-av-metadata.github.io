@@ -35,4 +35,5 @@ terms:
   - term: Is Replaced By
     id: IsReplacedBy
     definition: The instantiation being described is being substituted for by the instantiation being pointed to in the relation element (for example, because it has been deaccessioned.)
+uri: /pbcore-controlled-vocabularies/instantiationrelationtype-vocabulary
 ---

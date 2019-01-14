@@ -95,5 +95,5 @@ terms:
   - term: Wire recording
     id: WireRecording
     definition: A wire-based magnetic analog audio format.
-
+uri: /pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary
 ---

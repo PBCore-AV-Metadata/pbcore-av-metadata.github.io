@@ -11,4 +11,5 @@ terms:
   - term: Audio
     id: Audio
     definition: Time-based media material experienced through sound, without a visual component, such as music recordings or radio programs.
+uri: /pbcore-controlled-vocabularies/instantiationmediatype-vocabulary
 ---

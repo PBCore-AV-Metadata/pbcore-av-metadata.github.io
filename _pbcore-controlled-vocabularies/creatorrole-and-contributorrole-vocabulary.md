@@ -164,4 +164,5 @@ terms:
   - term: Writer
     id: Writer
     definition: Person who created or contributed to the script of a production; usually involved with the production as a work-for-hire.
+uri: /pbcore-controlled-vocabularies/creatorrole-and-contributorrole-vocabulary
 ---

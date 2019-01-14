@@ -116,4 +116,5 @@ terms:
   - term: Work track
     id: WorkTrack
     definition: A rough edit of a soundtrack which the editor uses to develop the final soundtrack.
+uri: /pbcore-controlled-vocabularies/instantiationgenerations-vocabulary
 ---
