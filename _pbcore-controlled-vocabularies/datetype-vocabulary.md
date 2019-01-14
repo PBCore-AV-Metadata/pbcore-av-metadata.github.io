@@ -108,5 +108,6 @@ terms:
   - term: webcast
     id: webcast
     definition: Date on which the asset or instantiation was webcast.
-uri: /pbcore-controlled-vocabularies/datetype-vocabulary
+uri: /pbcore-controlled-vocabularies/datetype-vocabulary/
+permalink: /pbcore-controlled-vocabularies/datetype-vocabulary/
 ---

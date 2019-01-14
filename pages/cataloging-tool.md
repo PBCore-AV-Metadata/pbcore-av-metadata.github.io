@@ -22,7 +22,7 @@ permalink: /cataloging-tool.html
     </p>
 
     <p>
-      <a href="/assets/downloads/PBCore_Cataloging_Tool_Documentation.pdf" download class="red">
+      <a href="/assets/downloads/PBCore_Cataloging_Tool_Documentation.pdf" download>
         Download complete user documentation.
       </a>
     </p>
@@ -122,6 +122,6 @@ permalink: /cataloging-tool.html
 
 <div class="row"  style="margin-top:4%;">
   <div class="col-md-12">
-    The PBCore Cataloging Tool is an open-source tool written in Java. We welcome contributions, suggestions, and review! Code available here: <a class="red" href="https://github.com/WGBH/PBCore-Cataloging-Tool">https://github.com/WGBH/PBCore-Cataloging-Tool</a>
+    The PBCore Cataloging Tool is an open-source tool written in Java. We welcome contributions, suggestions, and review! Code available here: <a href="https://github.com/WGBH/PBCore-Cataloging-Tool">https://github.com/WGBH/PBCore-Cataloging-Tool</a>
   </div>
 </div>

@@ -35,5 +35,6 @@ terms:
   - term: 70mm film
     id: 70mmFilm
     definition: A gauge of moving image printed on celluloid, 70mm in width.
-uri: /pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary
+uri: /pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/
+permalink: /pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/
 ---

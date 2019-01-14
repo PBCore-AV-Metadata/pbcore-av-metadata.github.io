@@ -14,5 +14,6 @@ terms:
   - term: Publisher
     id: Publisher
     definition: Person or corporate entity responsible for making a production available.
-uri: /pbcore-controlled-vocabularies/publisherrole-vocabulary
+uri: /pbcore-controlled-vocabularies/publisherrole-vocabulary/
+permalink: /pbcore-controlled-vocabularies/publisherrole-vocabulary/
 ---

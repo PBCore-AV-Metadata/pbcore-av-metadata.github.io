@@ -17,6 +17,23 @@ body {color: #333;
     padding-top: 66px;
 }
 
+.red-link a {
+  color: $red;
+}
+
+.blue-link a {
+  color: $blue;
+}
+
+.green-link a {
+  color: $green;
+}
+
+.dark-grey-link a {
+  color: $dark-grey;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif;
 }
