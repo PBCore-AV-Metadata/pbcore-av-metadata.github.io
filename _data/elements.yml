@@ -88,7 +88,7 @@ elementgroups:
               - name: extensionAuthorityUsed
                 url: /elements/extensionauthorityused
           - name: extensionEmbedded
-            url: /elements/extensionEmbedded
+            url: /elements/extensionembedded
   - group: Instantiation
     elements:
       - name: pbcoreInstantiation
@@ -126,7 +126,7 @@ elementgroups:
             url: /elements/instantiationtracks
           - name: instantiationChannelConfiguration
             url: /elements/instantiationchannelconfiguration
-          - name: instantiationLangauge
+          - name: instantiationLanguage
             url: /elements/instantiationlanguage
           - name: instantiationAlternativeModes
             url: /elements/instantiationalternativemodes

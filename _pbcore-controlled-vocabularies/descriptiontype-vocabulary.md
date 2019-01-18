@@ -78,4 +78,6 @@ terms:
   - term: Transcript
     id: Transcript
     definition: A written document of the audio component of an audio or audiovisual asset.
+uri: /pbcore-controlled-vocabularies/descriptiontype-vocabulary/
+permalink: /pbcore-controlled-vocabularies/descriptiontype-vocabulary/
 ---

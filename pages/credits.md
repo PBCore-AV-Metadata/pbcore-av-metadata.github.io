@@ -4,7 +4,7 @@ layout: default
 section: About
 permalink: /credits.html
 ---
-<h2 class="blue title">Credits</h2>
+<h2 class="blue title bold">Credits</h2>
 
 The PBCore website and the tools it features were made possible by the generous support of the National Endowment for the Humanities (NEH) and key contributions from many individuals and organizations, including WGBH Media Library and Archives, the Simmons Usability Lab, WGBH Creative, MediaArea, Myers Infosys, Digital Bedrock, and the members of the PBCore Development and Training Project Advisory Board: Rebecca Guenther, Julie Hardesty, Morgan Morel, and Kara Van Malssen.
 

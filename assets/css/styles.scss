@@ -1,29 +1,57 @@
 ---
 ---
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 $blue: #358ff2;
 $red: #f5463e;
 $green: #36b431;
 $dark-grey: #4d4d4d;
+$med-grey: #666;
 $grey: #eee;
 $yellow: #ff0;
 
 body {color: #333;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     padding-top: 66px;
 }
+
+.red-link a {
+  color: $red;
+}
+
+.blue-link a {
+  color: $blue;
+}
+
+.green-link a {
+  color: $green;
+}
+
+.dark-grey-link a {
+  color: $dark-grey;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif;
 }
 
-p {
-    line-height: 20px;
-}
-
 a:hover {
   text-decoration: none;
+}
+
+#navbarNavDropdown {
+  position: relative;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: #ddd;
+  width: 3em;
+  height: 3em;
+  margin: 2%;
+
 }
 
 .primary_nav_container {
@@ -31,35 +59,52 @@ a:hover {
   z-index: 2001;
   top: 0;
   left: 0;
+  /*padding: 0;*/
   background: #f2f2f2;
-  height: 14vh;
+  height: 14.8vh;
+  min-height: 7.2vw;
   width: 100%;
 
   a {
     font-size: 30px
   }
 
+  .pbcore-logo {
+    margin-left:5vw;
+    margin-top: 4.2vh;
+    margin-bottom: -2em;
+    padding-bottom:11.2vh;
+    overflow-y:visible;
+    display: block;
+    position: absolute;
+  }
+
   img {
     float: left;
-    width: 150px;
+    /*width: 150px;*/
+    width: 14vh;
+    min-width: 4em;
     object-fit: contain;
+    /*height: ;*/
   }
 
   .navbar-collapse ul {
-  	list-style: none;
-  	position: relative;
-  	margin: 0;
-  	padding: 0;
-
+    list-style: none;
+    position: relative;
+    margin: 0;
+    margin-left: 6%;
+    padding: 0;
+    /*top: 1.53vw;*/
+    bottom: -3.4em;
 
     li {
 
       a {
-    	display: block;
-    	text-decoration: none;
-    	font-size: 16px;
-    	line-height: 32px;
-    	padding: 0 15px;
+      display: block;
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 32px;
+      padding: 0 15px;
       }
     }
   }
@@ -281,8 +326,16 @@ h2.med-title {
 
 #getting-started p {
   color: #ffffff;
-  font-size: 21px;
   padding: 10px 10px;
+}
+
+.index-text {
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.faq-text {
+  font-size: 1.25rem;
 }
 
 #accessing-tools {
@@ -306,7 +359,16 @@ h2.med-title {
   background-repeat: no-repeat;
 }
 
+#pbcore-users {
+  background-image: url('/assets/images/broadcast-wide.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .pb-button {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
   padding-left: 6%;
   padding-right: 6%;
   padding-top: 1.2%;
@@ -327,7 +389,7 @@ h2.med-title {
 .pb-button-getting {
   background-color: white;
   border: 1px #000 solid;
-  color: $blue;
+  color: #000;
 }
 
 .pb-button-getting:hover {
@@ -428,30 +490,78 @@ h2.med-title {
 .spreadsheets {
   background-image: url("/assets/images/icons/spreadsheets.png")
 }
-//
-// .cataloging:hover {
-//   background-image: url("/assets/images/icons/cataloging_select.png")
-// }
-//
-// .databases:hover {
-//   background-image: url("/assets/images/icons/databases_select.png")
-// }
-//
-// .vocabularies:hover {
-//   background-image: url("/assets/images/icons/vocabularies_select.png")
-// }
-//
-// .collection_management:hover {
-//   background-image: url("/assets/images/icons/collection_management_select.png")
-// }
-//
-// .exchange:hover {
-//   background-image: url("/assets/images/icons/exchange_select.png")
-// }
-//
-// .spreadsheets:hover {
-//   background-image: url("/assets/images/icons/spreadsheets_select.png")
-// }
+
+.cataloging:hover {
+  background-image: url("/assets/images/icons/cataloging_select.png")
+}
+
+.databases:hover {
+  background-image: url("/assets/images/icons/databases_select.png")
+}
+
+.vocabularies:hover {
+  background-image: url("/assets/images/icons/vocabularies_select.png")
+}
+
+.collection_management:hover {
+  background-image: url("/assets/images/icons/collection_management_select.png")
+}
+
+.exchange:hover {
+  background-image: url("/assets/images/icons/exchange_select.png")
+}
+
+.spreadsheets:hover {
+  background-image: url("/assets/images/icons/spreadsheets_select.png")
+}
+/*
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 0.8em solid transparent;
+  border-right: 0.8em solid transparent;
+  
+  border-bottom: 0.8em solid black;
+}*/
+
+/*background-color: #fff; padding: 20%; overflow: visible; width: 150px; bottom: -8vh; left: -5vh; position:relative; border: 1px solid black;*/
+
+.tooltip-parent:hover .hidden {
+  display:block;
+}
+
+.hidden {
+  display: none;
+}
+
+.tooltip-arrow {
+  z-index: 10000;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url('/assets/images/tooltip-box2.png');
+  padding-top: 50%;
+  padding-bottom: 16%;
+  padding-left: 8%;
+  padding-right: 8%;
+  font-size: 0.8em;
+  font-weight: 700;
+  overflow: visible;
+  width: 12em;
+  height: 10em;
+  bottom: -7.5vh;
+  left: -4.5vh;
+  position:relative;
+}
+
+.tooltip-interior {
+  word-break: break-word;
+  /*margin-top: 25%;*/
+  /*padding-left: 4%;*/
+  vertical-align: middle;
+  display: flex;
+}
+
 
 .indent-1 {
   margin-left: 1em;
@@ -496,7 +606,8 @@ h2.med-title {
 }
 
 .bolder {
-  font-weight: bolder;
+  font-family: 'Roboto Slab'; 
+  font-weight: bold;
 }
 
 .light {
@@ -597,7 +708,7 @@ h2.med-title {
   display: inline;
 }
 
-.faq-answer span{
+.faq-answer {
  font-weight: 100;
 }
 
@@ -790,7 +901,7 @@ code[class*="language-"] {
 }
 
 .navbar-nav li {
-  margin-right: 12%;
+  margin-right: 3.2%;
 }
 
 .vocab-text {
@@ -811,6 +922,10 @@ code[class*="language-"] {
 
 .no-padding {
   padding: 0;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 .black-border {
@@ -864,6 +979,165 @@ code[class*="language-"] {
 .main-col-margin {
   margin-left: 5vw;
   margin-right: 5vw;
+}
+
+.sample-records-doc {
+  margin-top: 4%;
+}
+
+.main-content {
+  margin-top:9vh;
+}
+
+.sample-records-container {
+   width: 75%;
+}
+
+/*
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXMOBILEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+@media (min-width: 698px) and (max-width: 768px){
+  .pb-button-tools {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .sample-records-doc {
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  .main-col-margin {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .sample-records-container {
+     width: 100%;
+  }
+
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  div.container, div.container-fluid, div.col-10.mx-auto {
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: center;
+  }
+
+  div.card-header {
+    margin: 0;
+    padding: 0;
+  }
+
+  div.card-body {
+    text-align: center;
+    margin-left: 2em;
+  }
+
+  .card-body p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .indent-1, .indent-2, .indent-3, .indent-4 {
+    margin: 0;
+  }
+  .container section {
+    padding: 0;
+  }
+
+  .main-content {
+    margin-top:12vh;
+  }
+/*  #navbar-collapse {
+    margin-bottom: 55vw;
+  }
+*/
+  ul.navbar-nav {
+    float:left;
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+
+  .nav-item {
+    display: block;
+    width:100%;
+    background-color: #f8f9fa!important
+  }  
+
+  div.dropdown-menu a.dropdown-item {
+    z-index: 3001;
+    position: relative;
+  }
+
+  .primary_footer_container {
+    margin-top: 70vh;
+  }
+
+  .primary_nav_container {
+    padding: 0;
+    overflow-y: visible;
+    position: fixed;
+    z-index: 2001;
+    top: 0;
+    left: 0;
+    background: #f2f2f2;
+    min-height: 10em;
+    height: 35vw;
+    width: 100%;
+
+    a {
+      font-size: 30px;
+      width: 100%;
+      height: 2em;
+    }
+
+    img {
+      height: 1.6em;
+      float:none;
+      position: relative;
+      display: block;
+      margin-left:auto;
+      margin-right:auto;  
+    }
+
+    .pbcore-logo {
+      height: 2em;
+      padding: 0;
+      margin: 0;
+    }
+
+    .navbar-collapse ul {
+      list-style: none;
+      position: relative;
+      margin: 0;
+      padding: 0;
+
+
+      li {
+
+        a {
+        display: block;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 32px;
+        padding: 0 15px;
+        }
+      }
+    }
+  }
+
 }
 
 .nav-underline-blue {

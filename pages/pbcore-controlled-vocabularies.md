@@ -4,12 +4,12 @@ layout: default
 section: Schema
 permalink: /pbcore-controlled-vocabularies.html
 ---
-<div class="row">
+<div class="row" style="margin-top: 4%;">
   <div class="col-md-3">
     {% include vocab_sidebar.html %}
   </div>
   <div class="col-md-9">
-    <h2 class="green title">PBCore Controlled Vocabularies</h2>
+    <h2 class="green title bold">PBCore Controlled Vocabularies</h2>
     <p>
       PBCore Controlled Vocabularies are sets of predefined, community-standardized terms for concepts related to audiovisual and broadcast collections. These terms can be used as drop-down value lists in a database or spreadsheet to ensure consistency in terminology, formatting and spelling, both internally and when exchanging information with outside organizations.
     </p>

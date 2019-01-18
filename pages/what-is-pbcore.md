@@ -5,12 +5,12 @@ section: About
 permalink: /what-is-pbcore.html
 ---
 <div class="row">
-  <h2 class="blue title">
+  <h2 class="blue title bold">
     What is PBCore?
   </h2>
 </div>
 
-<div class="row">
+<div class="row index-text">
   <div class="col-md-6">
 
     <p>

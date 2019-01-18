@@ -5,7 +5,7 @@ section: Community
 permalink: /user-groups.html
 ---
 
-<h2 class="dark-grey title">PBCore User Groups</h2>
+<h2 class="dark-grey title bold">PBCore User Groups</h2>
 
 To find and consult with fellow PBCore users, you can join the PBCore Google Group at [https://groups.google.com/forum/#!forum/pbcore-talk](https://groups.google.com/forum/#!forum/pbcore-talk).
 

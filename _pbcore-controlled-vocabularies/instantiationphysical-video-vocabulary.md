@@ -143,4 +143,6 @@ terms:
   - term: VX
     id: VX
     definition: A cassette-based 1/2-inch analog videotape format.
+uri: /pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/
+permalink: /pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/
 ---

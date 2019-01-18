@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<div class="row">
-  <div class="col-md-3">
+<div class="row" style="margin-top: 4%">
+  <div class="col-lg-3 col-md-4">
     {% include vocab_sidebar.html %}
   </div>
-  <div class="col-md-9">
+  <div class="col-lg-9 col-md-8">
 
     <div class="row">
       <div class="col-md-12">
@@ -14,9 +14,13 @@ layout: default
     </div>
 
     <div class="row" style="margin-top: 1em; margin-bottom: 1em; padding-left: 1em; font-size: 18px;">
+
       <div class="col-md-12">
-          <span class="green">Usage: </span><span>{{ page.usage }}</span>
+        <span class="green">Usage: </span><span>{{ page.usage }}</span>
       </div>
+      <div class="col-md-12">
+        <span class="green">URI: </span><span>{{ page.uri }}</span>
+      </div>      
     </div>
 
     <h3 class="green">Terms</h3>

@@ -5,7 +5,7 @@ section: Schema
 permalink: /xsd.html
 ---
 
-<h2 class="green title">PBCore XML Schema</h2>
+<h2 class="green title bold">PBCore XML Schema</h2>
 
 PBCore is a metadata standard designed to describe media, both digital and analog. The PBCore XML Schema Definition (XSD) defines the structure and content of PBCore. The current release (PBCore 2.1) can be viewed at our [GitHub repository](https://github.com/WGBH/PBCore_2.1/) or you can <a href="/assets/downloads/PBCore_2.1-master.zip" download>download</a> the .xsd file.
 

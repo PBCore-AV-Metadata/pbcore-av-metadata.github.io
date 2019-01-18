@@ -1,12 +1,14 @@
 <header>
-  <nav class="primary_nav_container navbar navbar-expand-xl navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand-xs navbar-light bg-light" style="min-height:9em;height:9em;">
+  <meta name="viewport" content="width=device-width">
+  <nav class="primary_nav_container navbar navbar-expand-xl navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand-xs navbar-light bg-light">
 
     <div class="navbar-collapse" id="navbarNavDropdown">
 
-      <div style="margin-left:5.7%; margin-bottom:2.0%;overflow-y:visible; z-index: 10000;">
-          <a href="/"><img src="/assets/images/pbcore-logo.png" alt=""></a>
+      <div class="pbcore-logo" style="width: 100%;">
+        <a href="{{ site.url }}"><img class="pbcore-logo-img" src="/assets/images/pbcore-logo.png" alt=""></a>
       </div>
-      <ul style="margin-left:6.1%; bottom: 0; position: absolute;" class="navbar-nav">
+
+      <ul class="navbar-nav" style="width: 100%;">
 
         <li class="nav-item dropdown menu_about">
 
@@ -66,7 +68,7 @@
 
           {% if page.section == "Resources" %}
 
-            <a class="nav-link nav-underline-red" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-lin nav-underline-red" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
               Resources
             </a>
 

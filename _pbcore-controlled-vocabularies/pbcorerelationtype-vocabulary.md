@@ -29,4 +29,6 @@ terms:
   - term: Is Version Of
     id: IsVersionOf
     definition: The asset being described is an alternate intellectual version (for example, a different edit, or in a different language) of the resource being pointed to by this relation element. Use this if the asset being described is not the ‘official’ or ‘master’ version of the asset; if it is the master version, use ‘Has Version.’
+uri: /pbcore-controlled-vocabularies/pbcorerelationtype-vocabulary/
+permalink: /pbcore-controlled-vocabularies/pbcorerelationtype-vocabulary/
 ---

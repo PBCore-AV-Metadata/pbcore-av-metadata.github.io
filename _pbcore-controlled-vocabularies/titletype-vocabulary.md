@@ -30,4 +30,6 @@ terms:
   - term: Subseries
     id: Subseries
     definition: The title of set of episodes that makes up its own series, which is broadcast under an umbrella series with its own branding.
+uri: /pbcore-controlled-vocabularies/titletype-vocabulary/
+permalink: /pbcore-controlled-vocabularies/titletype-vocabulary/
 ---
