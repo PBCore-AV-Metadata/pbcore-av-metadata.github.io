@@ -23,13 +23,14 @@ layout: default
       </div>      
     </div>
 
-    <h3 class="green">Terms</h3>
+    <h3 class="black">Terms <a href="{{page.download}}" download>(download)</a></h3>
 
     <ul class="attribute-container" style="padding-left: 1em;">
       {% for term in page.terms %}
         <li>
           <div id="{{term.id}}" class="bolder vocab-term">{{ term.term }}:</div>
-          <div class="attribute-note">{{ term.definition }}</div>
+          <div class="attribute-note">Definition: <span class="black">{{ term.definition }}</span></div>
+          <div class="attribute-note">URI: <span class="black">{{site.url}}{{page.url}}#{{ term.id }}</span></div>
         </li>
       {% endfor %}
     </ul>

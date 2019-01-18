@@ -4,6 +4,7 @@ name: instantiationGenerations Vocabulary
 usage: >
   for <a href="/elements/instantiationgenerations">instantiationGenerations</a>
 omr-link: http://metadataregistry.org/concept/list/page/1/vocabulary_id/466.html
+download: /assets/downloads/pbcore_instantiationgenerations_vocabulary.xlsx
 terms:
   - term: A-B rolls
     id: ABRolls
