@@ -14,7 +14,7 @@ terms:
   - term: 1 inch audio tape
     id: 1InchAudioTape
     definition: An open reel analog audiotape format.
-  - term: 1/2 inch aduio cassette
+  - term: 1/2 inch audio cassette
     id: HalfInchAudioTape
     definition: An open reel analog audiotape format.
   - term: 1/4 inch audio cassette
