@@ -4,6 +4,7 @@ name: creatorRole and contributorRole Vocabulary
 usage: >
   for <a href="/elements/creatorrole">creatorRole</a> and <a href="/elements/contributorrole">contributorRole</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/460.html
+download: /assets/downloads/pbcore_creatorandcontributorrole_vocabulary.xlsx
 terms:
   - term: Actor
     id: Actor
@@ -87,7 +88,7 @@ terms:
     id: Guest
     definition: Person who is invited to appear on one or several episodes of a television show, but is not a regular part of the cast or crew.
   - term: Host
-    id: Guest
+    id: Host
     definition: Person who introduces a television or radio program, presents the various program elements, and interviews any guests.
   - term: Interviewee
     id: Interviewee

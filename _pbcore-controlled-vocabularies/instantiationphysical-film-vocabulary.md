@@ -4,6 +4,7 @@ name: instantiationPhysical Film Vocabulary
 usage: >
   for <a href="elements/instantiationphysical">instantiationPhysical</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/463.html
+download: /assets/downloads/pbcore_instantiationphysicalfilm_vocabulary.xlsx
 terms:
   - term: Film
     id: Film

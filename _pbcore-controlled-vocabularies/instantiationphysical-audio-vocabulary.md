@@ -4,6 +4,7 @@ name: instantiationPhysical Audio Vocabulary
 usage: >
   for <a href="elements/instantiationphysical">instantiationPhysical</a>
 omr-link: http://metadataregistry.org/concept/list/page/1/vocabulary_id/462.html
+download: /assets/downloads/pbcore_instantiationphysicalaudio_vocabulary.xlsx
 terms:
   - term: Open reel audiotape
     id: OpenReelAudiotape
