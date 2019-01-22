@@ -33,6 +33,13 @@ body {color: #333;
   color: $dark-grey;
 }
 
+.green-link a.uri-link {
+  color: black;
+}
+
+.green-link a.uri-link:hover {
+  color: $green;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif;

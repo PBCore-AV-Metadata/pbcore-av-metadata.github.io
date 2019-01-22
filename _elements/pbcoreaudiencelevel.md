@@ -10,10 +10,6 @@ attributes:
     note: optional
   - name: annotation
     note: optional
-controlled-vocabs:
-  - vocab: <a href="#">PBCore's pbcoreAudienceLevel Vocabulary</a>
-  - vocab: <a href="https://www.ebu.ch/metadata/cs/web/ebu_IntendedAudienceCodeCS_p.xml.htm">EBU Intended Audience Code</a>
-  - vocab: <a href="http://cv.iptc.org/newscodes/ofinterestto/">IPTC NewsCodes Of Interest To</a>
 ---
 
 <pre>

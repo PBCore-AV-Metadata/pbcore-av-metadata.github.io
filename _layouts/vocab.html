@@ -19,7 +19,7 @@ layout: default
         <span class="green">Usage: </span><span>{{ page.usage }}</span>
       </div>
       <div class="col-md-12">
-        <span class="green">URI: </span><span>{{ page.uri }}</span>
+        <span class="green">URI: </span><span><a class="uri-link" href="{{ site.url | append: page.uri }}">{{ "pbcore.org" | append: page.uri }}</a></span>
       </div>      
     </div>
 
@@ -30,7 +30,7 @@ layout: default
         <li>
           <div id="{{term.id}}" class="bolder vocab-term">{{ term.term }}:</div>
           <div class="attribute-note">Definition: <span class="black">{{ term.definition }}</span></div>
-          <div class="attribute-note">URI: <span class="black">{{site.url}}{{page.url}}#{{ term.id }}</span></div>
+          <div class="attribute-note">URI: <span class="black"><a class="uri-link" href="{{ site.url }}{{page.url}}#{{ term.id }}">{{ "pbcore.org" }}{{page.url}}#{{ term.id }}</a></span></div>
         </li>
       {% endfor %}
     </ul>
