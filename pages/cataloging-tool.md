@@ -3,6 +3,7 @@ title: PBCore Cataloging Tool
 layout: default
 section: Resources
 permalink: /cataloging-tool.html
+keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging Tool"]
 ---
 <div class="row">
   <div class="col-md-12">
@@ -13,7 +14,7 @@ permalink: /cataloging-tool.html
 </div>
 <div class="row">
   <div class="col-md-6 index-text" style="margin-bottom: 4%;">
-    <p class=""> 
+    <p class="">
       The PBCore Cataloging Tool is designed to support the creation, editing, and export of moving image-related inventory metadata as PBCore XML records. With a user-friendly data entry interface and full support of all PBCore elements and attributes, the tool makes creating valid PBCore XML documents as easy as filling out
       a spreadsheet.
     </p>

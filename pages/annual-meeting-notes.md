@@ -3,6 +3,7 @@ title: Annual Meeting Notes
 permalink: /annual-meeting-notes.html
 section: Community
 layout: default
+keywords: ["Community", "AMIA", "PBCore Advisory Subcommittee"]
 ---
 
 <h2 class="dark-grey title bold">Annual Meeting Notes</h2>

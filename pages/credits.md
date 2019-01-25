@@ -3,6 +3,7 @@ title: Credits
 layout: default
 section: About
 permalink: /credits.html
+keywords: ["About", "Credits", "Community"]
 ---
 <h2 class="blue title bold">Credits</h2>
 

@@ -3,6 +3,7 @@ title: PBCore XML Schema
 layout: default
 section: Schema
 permalink: /xsd.html
+keywords: ["Schema", "Elements", "Attributes", "XML", "Structure", "Revisions", "GitHub"]
 ---
 
 <h2 class="green title bold">PBCore XML Schema</h2>

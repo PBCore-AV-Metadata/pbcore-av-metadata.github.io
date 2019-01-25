@@ -3,6 +3,7 @@ title: News and Updates
 layout: default
 section: Community
 permalink: /news.html
+keywords: ["Community", "Blog"]
 ---
 
 <h2 class="dark-grey title bold">PBCore News and Updates</h2>

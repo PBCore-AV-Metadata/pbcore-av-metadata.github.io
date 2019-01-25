@@ -3,6 +3,7 @@ title: Elements
 layout: element-groups
 section: Schema
 permalink: /elements.html
+keywords: ["Schema", "Elements", "XML", "Creating Records"]
 ---
 
 <h2 class="green title bold">Elements</h2>

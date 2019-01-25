@@ -3,6 +3,7 @@ title: External Tools and Integrations
 layout: default
 section: Resources
 permalink: /external-tools-and-integrations.html
+keywords: ["Resources", "Tools", "Cataloging", "Creating Records", "Databases", "Data Management", "Technical Metadata", "MediaInfo", "ProTrack", "Collective Access", "Omeka"]
 ---
 
 <h2 class="red title bold">External Tools and Integrations</h2>

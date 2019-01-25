@@ -3,6 +3,7 @@ title: Glossary
 layout: default
 section: About
 permalink: /glossary.html
+keywords: ["About", "Getting Started", "Glossary"]
 ---
 <div class="container-fluid bg-gray" id="glossary">
   <h1 class="title bold">Glossary</h1>

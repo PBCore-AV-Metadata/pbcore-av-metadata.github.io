@@ -3,6 +3,7 @@ title: Spreadsheet Templates
 layout: default
 section: Resources
 permalink: /spreadsheet-templates.html
+keywords: ["Resources", "Tools", "Inventory", "Cataloging", "Spreadsheet Templates"]
 ---
 
 <div class="row">
