@@ -18,9 +18,6 @@ layout: default
       <div class="col-md-12">
         <span class="green">Usage: </span><span>{{ page.usage }}</span>
       </div>
-      <div class="col-md-12">
-        <span class="green">URI: </span><span>{{ page.uri }}</span>
-      </div>      
     </div>
 
     <h3 class="black">Terms <a href="{{page.download}}" download>(download)</a></h3>
@@ -30,10 +27,10 @@ layout: default
         <li>
           <div id="{{term.id}}" class="bolder vocab-term">{{ term.term }}:</div>
           <div class="attribute-note">Definition: <span class="black">{{ term.definition }}</span></div>
-          <div class="attribute-note">URI: <span class="black">{{site.url}}{{page.url}}#{{ term.id }}</span></div>
+          <div class="attribute-note">URI: <span class="black"><a class="uri-link" href="http://pbcore.org{{page.url}}#{{ term.id }}">{{ "http://pbcore.org" }}{{page.url}}#{{ term.id }}</a></span></div>
         </li>
       {% endfor %}
-    </ul>
+    </ul
 
     {{ content }}
     <p>View on the <a class="green" href="{{ page.omr-link }}">Open Metadata Registry</a></p>
