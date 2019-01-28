@@ -80,7 +80,7 @@ a:hover {
     margin-left:5vw;
     margin-top: 4.2vh;
     margin-bottom: -2em;
-    padding-bottom:11.2vh;
+    bottom: 1em;
     overflow-y:visible;
     display: block;
     position: absolute;
@@ -114,6 +114,12 @@ a:hover {
       line-height: 32px;
       padding: 0 15px;
       }
+    }
+
+    .browse-pages {
+      right: 0;
+      position: absolute;
+      /*margin-right: 0;*/
     }
   }
 }
@@ -1065,7 +1071,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
   }
 
   .main-content {
-    margin-top:16vh;
+    margin-top:17vh;
   }
 /*  #navbar-collapse {
     margin-bottom: 55vw;
@@ -1095,7 +1101,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     top: 0;
     left: 0;
     background: #f2f2f2;
-    min-height: 10em;
+    min-height: 12em;
     height: 35vw;
     width: 100%;
 
@@ -1115,7 +1121,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     }
 
     .pbcore-logo {
-      height: 2em;
+      height: 9em;
       padding: 0;
       margin: 0;
     }
@@ -1144,6 +1150,12 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
         line-height: 32px;
         padding: 0 15px;
         }
+      }
+
+      .browse-pages {
+        right: auto;
+        position: relative;
+        /*margin-right: 0;*/
       }
     }
   }

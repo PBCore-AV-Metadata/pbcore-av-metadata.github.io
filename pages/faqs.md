@@ -3,6 +3,7 @@ title: Frequently Asked Questions
 layout: default
 section: About
 permalink: /faqs.html
+keywords: ["About", "Introduction", "Getting Started", "FAQs", "Implementation"]
 ---
 
 <div class="container-fluid faq" id="faq">

@@ -3,6 +3,7 @@ title: Controlled Vocabularies
 layout: default
 section: Schema
 permalink: /pbcore-controlled-vocabularies.html
+keywords: ["Schema", "Controlled Vocabularies", "XML", "Creating Records"]
 ---
 <div class="row" style="margin-top: 4%;">
   <div class="col-md-3">

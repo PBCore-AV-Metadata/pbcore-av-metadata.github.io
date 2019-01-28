@@ -3,6 +3,7 @@ title: What is PBCore
 layout: default
 section: About
 permalink: /what-is-pbcore.html
+keywords: ["About", "Introduction", "Getting Started", "Key Functions"]
 ---
 <div class="row">
   <h2 class="blue title bold">

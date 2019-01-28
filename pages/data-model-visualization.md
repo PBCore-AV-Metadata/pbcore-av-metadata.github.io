@@ -3,6 +3,7 @@ title: Data Model Visualization
 layout: default
 section: Schema
 permalink: /data-model.html
+keywords: ["Schema", "Elements", "XML", "Structure", "Learning Tools"]
 ---
 <div class="row">
   <div class="col-md-12">

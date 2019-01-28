@@ -3,6 +3,7 @@ title: PBCore Users
 layout: default
 section: Community
 permalink: /pbcore-users.html
+keywords: ["Community", "Learning Tools", "Case Studies"]
 ---
 
 <h2 class="title bold dark-grey">Who uses PBCore?</h2>

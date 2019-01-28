@@ -3,6 +3,7 @@ title: PBCore Validator
 layout: default
 section: Resources
 permalink: /validator.html
+keywords: ["Resources", "Tools", "Quality Control"]
 ---
 
 <h2 class="red title bold">PBCore XML Validator</h2>

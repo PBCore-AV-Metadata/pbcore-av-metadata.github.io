@@ -3,6 +3,7 @@ title: License
 layout: default
 section: About
 permalink: /license.html
+keywords: ["About"]
 ---
 
 <h2 class="blue title">License</h2>

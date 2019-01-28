@@ -3,6 +3,7 @@ title: PBCore User Groups
 layout: default
 section: Community
 permalink: /user-groups.html
+keywords: ["Community", "AMIA", "PBCore Google Group", "PBCore Advisory Subcommittee"]
 ---
 
 <h2 class="dark-grey title bold">PBCore User Groups</h2>

@@ -3,6 +3,7 @@ title: Attributes
 layout: default
 section: Schema
 permalink: /attributes.html
+keywords: ["Schema", "Attributes", "XML", "Creating Records"]
 ---
 
 <span class="definition-icon def-attributes"></span>

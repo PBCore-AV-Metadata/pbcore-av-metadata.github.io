@@ -1,6 +1,7 @@
 ---
 title: PBCore Metadata Standard
 layout: default
+keywords: ["Introduction", "Getting Started"]
 ---
 <section id="what-is-pbcore" class="">
   <h2 class="blue title">What is PBCore?</h2>
