@@ -33,25 +33,3 @@ layout: page
     {% endfor %}
   </ul>
 </div>
-
-<script>
-$('document').ready(function() {
-  $('button.select_page_list').click(function(e) {
-    // Remove the 'active' class for all buttons, before adding it back to the
-    // one that was just clicked
-    $('button.select_page_list').each(function(i) {
-      $(this).removeClass('active')
-    });
-    $button = $(e.target)
-    $button.addClass('active')
-    $('.page_list').each(function (index) {
-      $page_list = $(this)
-      if ( $button.val() == $page_list.data('pages_listed_by') ) {
-        $page_list.show()
-      } else {
-        $page_list.hide()
-      }
-    })
-  });
-});
-</script>
