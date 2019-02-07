@@ -72,6 +72,15 @@ a:hover {
   min-height: 9em;
   width: 100%;
 
+  div.gs-title {
+    height: 2em;
+  }
+
+  a.gs-title {
+    height: 2em;
+  }
+
+
   a {
     font-size: 30px
   }
@@ -117,10 +126,27 @@ a:hover {
     }
 
     .browse-pages {
-      right: 0;
+      right: 22vw;
       position: absolute;
       /*margin-right: 0;*/
     }
+
+    .search {
+      right: 0;
+      /*right: 8%;*/
+      top: -0.8em;
+      position: absolute;
+      
+      div.search-div div {
+        border: 0;
+        
+        div.gsc-control-cse {
+          background-color: transparent;
+          width: 20vw;
+        }
+      }
+    }
+
   }
 }
 
@@ -1013,6 +1039,12 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXMOBILEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 
+@media (min-width: 576px) and (max-width: 810px) {
+  .search, .browse-pages {
+    display: none;
+  }
+}
+
 @media (min-width: 698px) and (max-width: 768px){
   .pb-button-tools {
     width: 100%;
@@ -1071,7 +1103,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
   }
 
   .main-content {
-    margin-top:17vh;
+    margin-top:21vh;
   }
 /*  #navbar-collapse {
     margin-bottom: 55vw;
@@ -1101,7 +1133,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     top: 0;
     left: 0;
     background: #f2f2f2;
-    min-height: 12em;
+    min-height: 14em;
     height: 35vw;
     width: 100%;
 
@@ -1112,7 +1144,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     }
 
     img {
-      height: 1.6em;
+      height: 1.4em;
       float:none;
       position: relative;
       display: block;
@@ -1121,7 +1153,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
     }
 
     .pbcore-logo {
-      height: 9em;
+      height: 13em;
       padding: 0;
       margin: 0;
     }
@@ -1149,6 +1181,25 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
         font-size: 16px;
         line-height: 32px;
         padding: 0 15px;
+        }
+      }
+
+      .search {
+        right: auto;
+        position: relative;
+        margin-top: 3%;
+
+        div.search-div div {
+          border: 0;
+
+          div.gsc-control-cse {
+            background-color: transparent;
+            width: 100%;
+          }
+
+          div.gsc-results-wrapper-overlay {
+            /*background-color: white !important;*/
+          }
         }
       }
 
