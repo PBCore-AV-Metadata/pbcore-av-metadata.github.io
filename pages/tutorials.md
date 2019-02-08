@@ -19,17 +19,19 @@ keywords: ["Resources", "Getting Started", "Key Functions", "Tutorials", "Learni
         {% for block in group.tutorials %}
           {% assign i = i|plus:1 %}
 
-          {{site.url}}
-          {{site.base-url}}
           <div class="card">
 
             <div class="card-header" id="tutorial{{ i }}" style="padding:1em;">
-              <a class="collapsed" data-toggle="collapse" href="#tutorial-collapse{{i}}" aria-expanded="false" aria-controls="tutorial-collapse{{i}}">
+              <span class="collapsed" data-toggle="collapse" href="#tutorial-collapse{{i}}" aria-expanded="false" aria-controls="tutorial-collapse{{i}}">
 
                 <span class="pres-arrow-icon pres-arrow-down"></span>
-                <a href="#{{ block.id }}" id="{{ block.id}}"><span class="red">{{ block.title }}</span><span class="black"> - {{ block.description }}</span></a>
-
-              </a>
+              
+                <a href="#{{ block.id }}" id="{{ block.id }}">
+                  <span class="red">{{ block.title }}</span>
+                  <span class="black"> - {{ block.description }}</span>
+                </a>
+              </span>
+              
             </div>
 
             <div id="tutorial-collapse{{i}}" class="collapse fade" aria-labelled by="tutorial{{ i }}">
