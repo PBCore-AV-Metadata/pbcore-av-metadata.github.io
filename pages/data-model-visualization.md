@@ -2,7 +2,7 @@
 title: Data Model Visualization
 layout: default
 section: Schema
-permalink: /data-model.html
+permalink: /data-model
 keywords: ["Schema", "Elements", "XML", "Structure", "Learning Tools"]
 ---
 <div class="row">

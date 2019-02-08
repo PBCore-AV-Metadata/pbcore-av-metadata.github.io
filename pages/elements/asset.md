@@ -2,7 +2,7 @@
 title: Asset Elements
 layout: element-groups
 section: Schema
-permalink: elements/asset.html
+permalink: elements/asset
 ---
 
 <h2 class="ele-title-highlight">Asset Elements</h2>

@@ -32,7 +32,7 @@
       embed: >
         <iframe src="https://player.vimeo.com/video/313425962" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 - section: PBCore Cataloging Tool
-  description: These videos walkthrough setting up and using key features in the <a href="/cataloging-tool.html">PBCore Cataloging Tool</a>.
+  description: These videos walkthrough setting up and using key features in the <a href="/cataloging-tool">PBCore Cataloging Tool</a>.
   tutorials:
     - title: Introduction
       id: tool-intro

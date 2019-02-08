@@ -2,7 +2,7 @@
 title: Elements
 layout: element-groups
 section: Schema
-permalink: /elements.html
+permalink: /elements
 keywords: ["Schema", "Elements", "XML", "Creating Records"]
 ---
 

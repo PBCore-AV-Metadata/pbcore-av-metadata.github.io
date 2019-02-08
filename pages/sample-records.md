@@ -2,7 +2,7 @@
 title: Sample PBCore Records
 layout: default
 section: Resources
-permalink: /sample-records.html
+permalink: /sample-records
 keywords: ["Resources", "Creating Records", "Learning Tools", "Case Studies"]
 ---
 <div class="row" style="margin-bottom:3.6em;">
@@ -31,6 +31,6 @@ keywords: ["Resources", "Creating Records", "Learning Tools", "Case Studies"]
       SAMPLE RECORDS
     </div>
 
-    {% include sample-records-list.html %}
+    {% include sample-records-list %}
   </div>
 </div>

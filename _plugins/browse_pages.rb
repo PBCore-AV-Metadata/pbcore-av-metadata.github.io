@@ -22,7 +22,7 @@ module Jekyll
       # and page data for displaying the keyword index.
       # @return [Jekyll::PageWithoutAFile] the page for browsing pages
       def browse_pages_page
-        PageWithoutAFile.new(site, site.source, '', 'browse_pages.html').tap do |page|
+        PageWithoutAFile.new(site, site.source, '', 'browse_pages').tap do |page|
           page.data['layout'] = 'browse_pages'
           page.data['page_info_by_title'] = page_info_by_title
           page.data['page_info_by_keyword'] = page_info_by_keyword
@@ -43,8 +43,8 @@ module Jekyll
       #   {
       #     keyword: 'example',
       #     pages: [
-      #       { title: 'First Page', link: 'first_page.html' },
-      #       { title: 'Second Page', link: 'second_page.html' }
+      #       { title: 'First Page', link: 'first_page' },
+      #       { title: 'Second Page', link: 'second_page' }
       #     ]
       #   }
       # @reuturn [Array<Hash>] a sorted array of hashes.

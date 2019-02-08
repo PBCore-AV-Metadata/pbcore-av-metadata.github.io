@@ -2,7 +2,7 @@
 title: PBCore Mappings to Other Standards
 layout: default
 section: Resources
-permalink: /mappings.html
+permalink: /mappings
 keywords: ["Resources", "Tools", "Metadata Mapping", "MARC", "RDF", "EBUCore", "Extensions"]
 ---
 

@@ -19,7 +19,7 @@ subelements:
       &lt;coverageType annotation=&quot;current&quot;&gt;Temporal&lt;/coverageType&gt;<br>
     &lt;/pbcoreCoverage&gt;<br>
     &lt;pbcoreCoverage&gt;<br>
-      &lt;coverage source=&quot;GeoNames&quot; ref=&quot;http://www.geonames.org/maps/google_37.208_-76.774.html&quot;&gt;Jamestown, VA&lt;/coverage&gt;<br>
+      &lt;coverage source=&quot;GeoNames&quot; ref=&quot;http://www.geonames.org/maps/google_37.208_-76.774&quot;&gt;Jamestown, VA&lt;/coverage&gt;<br>
       &lt;coverageType&gt;Spatial&lt;/coverageType&gt;<br>
     &lt;/pbcoreCoverage&gt;<br>
     &lt;pbcoreCoverage&gt;<br>

@@ -2,7 +2,7 @@
 title: PBCore Validator
 layout: default
 section: Resources
-permalink: /validator.html
+permalink: /validator
 keywords: ["Resources", "Tools", "Quality Control"]
 ---
 
@@ -12,6 +12,6 @@ keywords: ["Resources", "Tools", "Quality Control"]
   <button type="button" class="pb-button pb-button-who" name="button">TRY THE VALIDATOR</button>
 </a>
 
-<a href="{{site.url}}/tutorials.html">
+<a href="{{site.url}}/tutorials">
   <button type="button" class="pb-button pb-button-who" name="button">TUTORIAL</button>
 </a>

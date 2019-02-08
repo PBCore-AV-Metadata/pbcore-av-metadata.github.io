@@ -2,7 +2,7 @@
 title: PBCore Tutorials
 layout: default
 section: Resources
-permalink: /tutorials.html
+permalink: /tutorials
 keywords: ["Resources", "Getting Started", "Key Functions", "Tutorials", "Learning Tools", "Creating Records", "Cataloging", "Spreadsheet Templates", "Cataloging Tool", "Controlled Vocabularies", "Extensions"]
 ---
 

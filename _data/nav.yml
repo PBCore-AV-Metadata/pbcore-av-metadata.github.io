@@ -3,55 +3,55 @@ toc:
     color: blue
     subfolderitems:
       - page: What is PBCore?
-        url: /what-is-pbcore.html
+        url: /what-is-pbcore
       - page: FAQs
-        url: /faqs.html
+        url: /faqs
       - page: Glossary
-        url: /glossary.html
+        url: /glossary
       - page: Credits
-        url: /credits.html
+        url: /credits
   - title: Schema
     color: green
     subfolderitems:
       - page: Elements
-        url: /elements.html
+        url: /elements
       - page: Attributes
-        url: /attributes.html
+        url: /attributes
       - page: Controlled Vocabularies
-        url: /pbcore-controlled-vocabularies.html
+        url: /pbcore-controlled-vocabularies
       - page: XML Schema
-        url: /xsd.html
+        url: /xsd
       - page: Data Model Visualization
-        url: /data-model.html
+        url: /data-model
   - title: Resources
     color: red
     subfolderitems:
       - page: Cataloging Tool
-        url: /cataloging-tool.html
+        url: /cataloging-tool
       - page: Spreadsheet Templates
-        url: /spreadsheet-templates.html
+        url: /spreadsheet-templates
       - page: PBCore XML Validator
-        url: /validator.html
+        url: /validator
       - page: External Tools/Integrations
-        url: /external-tools-and-integrations.html
+        url: /external-tools-and-integrations
       - page: Mappings
-        url: /mappings.html
+        url: /mappings
       - page: Sample Records
-        url: /sample-records.html
+        url: /sample-records
       - page: Tutorials
-        url: /tutorials.html
+        url: /tutorials
       - page: Presentations
-        url: /presentations.html
+        url: /presentations
   - title: Community
     color: grey
     subfolderitems:
       - page: PBCore Users
-        url: /pbcore-users.html
+        url: /pbcore-users
       - page: User Groups
-        url: /user-groups.html
+        url: /user-groups
       - page: Annual Meeting Notes
-        url: /annual-meeting-notes.html
+        url: /annual-meeting-notes
       - page: News and Updates
-        url: /news.html
+        url: /news
       - page: Contact Us
-        url: /contact.html
+        url: /contact

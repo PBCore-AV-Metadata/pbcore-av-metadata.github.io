@@ -2,7 +2,7 @@
 title: What is PBCore
 layout: default
 section: About
-permalink: /what-is-pbcore.html
+permalink: /what-is-pbcore
 keywords: ["About", "Introduction", "Getting Started", "Key Functions"]
 ---
 <div class="row">

@@ -2,7 +2,7 @@
 title: Contact Us
 layout: default
 section: Community
-permalink: /contact.html
+permalink: /contact
 keywords: ["Community", "Contact"]
 keywords: ["About"]
 ---

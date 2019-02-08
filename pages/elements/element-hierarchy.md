@@ -2,7 +2,7 @@
 title: Element Hierarchy
 layout: element-groups
 section: Schema
-permalink: elements/element-hierarchy.html
+permalink: elements/element-hierarchy
 ---
 
 <h2 class="green title">Element Hierarchy</h2>
