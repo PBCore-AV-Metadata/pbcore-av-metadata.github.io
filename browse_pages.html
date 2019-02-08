@@ -1,0 +1,1414 @@
+
+
+
+<!doctype html>
+<html>
+  <head>
+    <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/assets/css/styles.css"/>
+
+  <link href="/assets/css/a11y-dark.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="/assets/highlight.pack.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      hljs.configure({useBR: true});hljs.initHighlightingOnLoad();
+
+      $('.element-arrow-icon, .faq-arrow-icon, .pres-arrow-icon').click(function(e){
+        var start = ''
+        if($(this).hasClass('element-arrow-icon')){
+          var start = 'element-'
+        }
+        else if($(this).hasClass('pres-arrow-icon')){
+          var start = 'pres-'
+        }
+        if($(this).hasClass(start+'arrow-down')){
+          $(this).removeClass(start+'arrow-down').addClass(start+'arrow-up')
+        }
+        else if($(this).hasClass(start+'arrow-up')){
+          $(this).removeClass(start+'arrow-up').addClass(start+'arrow-down')
+        }
+      })
+
+      $('#expand-all').click(function() {
+        console.log('hey dummy')
+        if($(this).hasClass('open')){
+          $('.collapse').collapse('hide');
+          $(this).removeClass('open').addClass('closed');
+        } else {
+          $('.collapse').collapse('show');
+          $(this).removeClass('closed').addClass('open');
+        }
+      });
+
+      var accordion_ids=Cookies.get('accordionDisplay');
+      if (accordion_ids!=null) {
+          //show the open_accordions visible group
+          $(accordion_ids).collapse("show");
+      }
+
+      $(document).on('shown.bs.collapse hidden.bs.collapse', function() {
+        var active_accs = $("div.elements.collapse.show[id^=collapse]")
+        var active_ids = $.map(active_accs, function(ele){
+          return '#' + ele.id;
+        }).join(',');
+
+        Cookies.set('accordionDisplay', active_ids)
+      });
+
+      $('button.select_page_list').click(function(e) {
+        console.log("I run this")
+        // Remove the 'active' class for all buttons, before adding it back to the
+        // one that was just clicked
+        $('button.select_page_list').each(function(i) {
+          $(this).removeClass('active')
+        });
+        $button = $(e.target)
+        $button.addClass('active')
+        $('.page_list').each(function (index) {
+          $page_list = $(this)
+          if ( $button.val() == $page_list.data('pages_listed_by') ) {
+            $page_list.show()
+          } else {
+            $page_list.hide()
+          }
+        })
+      });
+    });
+
+  </script>
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="PBCore Metadata Standard" />
+  <!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>PBCore Metadata Standard | PBCore is a cataloging standard for the description of audiovisual content, a data sharing tool, and much more. Since its development in the early 2000s, dozens of organizations have been using PBCore’s comprehensive and flexible features for their archiving needs.</title>
+<meta name="generator" content="Jekyll v3.8.4" />
+<meta property="og:title" content="PBCore Metadata Standard" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="PBCore is a cataloging standard for the description of audiovisual content, a data sharing tool, and much more. Since its development in the early 2000s, dozens of organizations have been using PBCore’s comprehensive and flexible features for their archiving needs." />
+<meta property="og:description" content="PBCore is a cataloging standard for the description of audiovisual content, a data sharing tool, and much more. Since its development in the early 2000s, dozens of organizations have been using PBCore’s comprehensive and flexible features for their archiving needs." />
+<link rel="canonical" href="http://localhost:4000/browse_pages.html" />
+<meta property="og:url" content="http://localhost:4000/browse_pages.html" />
+<meta property="og:site_name" content="PBCore Metadata Standard" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/browse_pages.html","headline":"PBCore Metadata Standard","description":"PBCore is a cataloging standard for the description of audiovisual content, a data sharing tool, and much more. Since its development in the early 2000s, dozens of organizations have been using PBCore’s comprehensive and flexible features for their archiving needs.","@type":"WebPage","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="main-col-margin" >
+
+        <div class="row">
+          <div class="col-md-12">
+            <header>
+  <meta name="viewport" content="width=device-width">
+  <nav class="primary_nav_container navbar navbar-expand-xl navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand-xs navbar-light bg-light">
+
+    <div class="navbar-collapse" id="navbarNavDropdown">
+
+      <div class="pbcore-logo" style="width: 100%;">
+        <a href="http://pbcore.org/"><img class="pbcore-logo-img" src="/assets/images/pbcore-logo.png" alt=""></a>
+      </div>
+
+
+      <ul class="navbar-nav" style="width: 100%;">
+
+        <li class="nav-item dropdown menu_about">
+
+          
+
+            <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+
+          
+
+          <div class="dropdown-menu menu_about" aria-labelledby="navbarDropdownMenuLink">
+            
+              
+                
+                  <a class="dropdown-item" href="http://localhost:4000/what-is-pbcore.html">What is PBCore?</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/faqs.html">FAQs</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/glossary.html">Glossary</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/credits.html">Credits</a>
+                
+              
+            
+              
+            
+              
+            
+              
+            
+          </div>
+        </li>
+
+        <li class="nav-item dropdown menu_schema">
+
+          
+
+            <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              Schema
+            </a>
+
+          
+
+          <div class="dropdown-menu menu_schema" aria-labelledby="navbarDropdownMenuLink">
+            
+              
+            
+              
+                
+                  <a class="dropdown-item" href="http://localhost:4000/elements.html">Elements</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/attributes.html">Attributes</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/pbcore-controlled-vocabularies.html">Controlled Vocabularies</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/xsd.html">XML Schema</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/data-model.html">Data Model Visualization</a>
+                
+              
+            
+              
+            
+              
+            
+          </div>
+        </li>
+
+        <li class="nav-item dropdown menu_resources">
+
+          
+
+            <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              Resources
+            </a>
+
+          
+
+          <div class="dropdown-menu menu_resources" aria-labelledby="navbarDropdownMenuLink">
+            
+              
+            
+              
+            
+              
+                
+                  <a class="dropdown-item" href="http://localhost:4000/cataloging-tool.html">Cataloging Tool</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/spreadsheet-templates.html">Spreadsheet Templates</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/validator.html">PBCore XML Validator</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/external-tools-and-integrations.html">External Tools/Integrations</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/mappings.html">Mappings</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/sample-records.html">Sample Records</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/tutorials.html">Tutorials</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/presentations.html">Presentations</a>
+                
+              
+            
+              
+            
+          </div>
+        </li>
+
+        <li class="nav-item dropdown menu_community">
+
+          
+
+            <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              Community
+            </a>
+
+          
+
+          <div class="dropdown-menu menu_community" aria-labelledby="navbarDropdownMenuLink">
+            
+              
+            
+              
+            
+              
+            
+              
+                
+                  <a class="dropdown-item" href="http://localhost:4000/pbcore-users.html">PBCore Users</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/user-groups.html">User Groups</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/annual-meeting-notes.html">Annual Meeting Notes</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/news.html">News and Updates</a>
+                
+                  <a class="dropdown-item" href="http://localhost:4000/contact.html">Contact Us</a>
+                
+              
+            
+          </div>
+        </li>
+
+
+
+        <li class="nav-item browse-pages">
+          <a href="/browse_pages" class="nav-link">
+            Browse Pages
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
+
+</header>
+
+          </div>
+        </div>
+
+        <div class="row ">
+          <div class="col-md-12 main-content" style=" margin-bottom:3.6em;">
+            <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title"></h1>
+  </header>
+
+  <div class="post-content">
+    <div id="page_lists">
+  <h1>Browse pages by:
+    <span class="select_page_list">
+      <button class="select_page_list active" value="title">Title</button>
+      <button class="select_page_list" value="keyword">Keyword</button>
+    </span>
+  </h1>
+
+  <dl class="page_list by_title" data-pages_listed_by="title">
+    
+      <dt><a class="page_title" href="/annual-meeting-notes.html">Annual Meeting Notes</a></dt>
+    
+      <dt><a class="page_title" href="elements/asset.html">Asset Elements</a></dt>
+    
+      <dt><a class="page_title" href="/attributes.html">Attributes</a></dt>
+    
+      <dt><a class="page_title" href="/contact.html">Contact Us</a></dt>
+    
+      <dt><a class="page_title" href="/pbcore-controlled-vocabularies.html">Controlled Vocabularies</a></dt>
+    
+      <dt><a class="page_title" href="/credits.html">Credits</a></dt>
+    
+      <dt><a class="page_title" href="/data-model.html">Data Model Visualization</a></dt>
+    
+      <dt><a class="page_title" href="elements/element-hierarchy.html">Element Hierarchy</a></dt>
+    
+      <dt><a class="page_title" href="/elements.html">Elements</a></dt>
+    
+      <dt><a class="page_title" href="/external-tools-and-integrations.html">External Tools and Integrations</a></dt>
+    
+      <dt><a class="page_title" href="/faqs.html">Frequently Asked Questions</a></dt>
+    
+      <dt><a class="page_title" href="/glossary.html">Glossary</a></dt>
+    
+      <dt><a class="page_title" href="elements/instantiation.html">Instantiation Elements</a></dt>
+    
+      <dt><a class="page_title" href="/license.html">License</a></dt>
+    
+      <dt><a class="page_title" href="/news.html">News and Updates</a></dt>
+    
+      <dt><a class="page_title" href="/xsd/pbcore-2.0.xsd">PBCore 2.0 XSD</a></dt>
+    
+      <dt><a class="page_title" href="/xsd/pbcore-2.1.xsd">PBCore 2.1 XSD</a></dt>
+    
+      <dt><a class="page_title" href="/cataloging-tool.html">PBCore Cataloging Tool</a></dt>
+    
+      <dt><a class="page_title" href="/mappings.html">PBCore Mappings to Other Standards</a></dt>
+    
+      <dt><a class="page_title" href="/">PBCore Metadata Standard</a></dt>
+    
+      <dt><a class="page_title" href="/presentations.html">PBCore Presentations</a></dt>
+    
+      <dt><a class="page_title" href="/tutorials.html">PBCore Tutorials</a></dt>
+    
+      <dt><a class="page_title" href="/user-groups.html">PBCore User Groups</a></dt>
+    
+      <dt><a class="page_title" href="/pbcore-users.html">PBCore Users</a></dt>
+    
+      <dt><a class="page_title" href="/validator.html">PBCore Validator</a></dt>
+    
+      <dt><a class="page_title" href="/xsd.html">PBCore XML Schema</a></dt>
+    
+      <dt><a class="page_title" href="elements/root.html">Root Elements</a></dt>
+    
+      <dt><a class="page_title" href="/sample-records.html">Sample PBCore Records</a></dt>
+    
+      <dt><a class="page_title" href="/spreadsheet-templates.html">Spreadsheet Templates</a></dt>
+    
+      <dt><a class="page_title" href="/what-is-pbcore.html">What is PBCore</a></dt>
+    
+  </dl>
+
+  <dl class="page_list by_keyword" style="display: none;" data-pages_listed_by="keyword">
+    
+      <div class="keyword_group">
+        <dt class="keyword">About</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/contact.html">Contact Us</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/credits.html">Credits</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/faqs.html">Frequently Asked Questions</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/glossary.html">Glossary</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/license.html">License</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/what-is-pbcore.html">What is PBCore</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">AMIA</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/annual-meeting-notes.html">Annual Meeting Notes</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/presentations.html">PBCore Presentations</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/user-groups.html">PBCore User Groups</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Attributes</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/attributes.html">Attributes</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/xsd.html">PBCore XML Schema</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Blog</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/news.html">News and Updates</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Case Studies</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/pbcore-users.html">PBCore Users</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/sample-records.html">Sample PBCore Records</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Cataloging</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/cataloging-tool.html">PBCore Cataloging Tool</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/external-tools-and-integrations.html">External Tools and Integrations</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/spreadsheet-templates.html">Spreadsheet Templates</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/tutorials.html">PBCore Tutorials</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Cataloging Tool</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/cataloging-tool.html">PBCore Cataloging Tool</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/tutorials.html">PBCore Tutorials</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Code4Lib</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/presentations.html">PBCore Presentations</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Collective Access</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/external-tools-and-integrations.html">External Tools and Integrations</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Community</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/annual-meeting-notes.html">Annual Meeting Notes</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/credits.html">Credits</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/news.html">News and Updates</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/pbcore-users.html">PBCore Users</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/user-groups.html">PBCore User Groups</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Controlled Vocabularies</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/pbcore-controlled-vocabularies.html">Controlled Vocabularies</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/tutorials.html">PBCore Tutorials</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Creating Records</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/attributes.html">Attributes</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/cataloging-tool.html">PBCore Cataloging Tool</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/elements.html">Elements</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/external-tools-and-integrations.html">External Tools and Integrations</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/pbcore-controlled-vocabularies.html">Controlled Vocabularies</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/sample-records.html">Sample PBCore Records</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/tutorials.html">PBCore Tutorials</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Credits</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/credits.html">Credits</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Data Management</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/external-tools-and-integrations.html">External Tools and Integrations</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Databases</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/external-tools-and-integrations.html">External Tools and Integrations</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">EBUCore</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/mappings.html">PBCore Mappings to Other Standards</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Elements</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/data-model.html">Data Model Visualization</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/elements.html">Elements</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/xsd.html">PBCore XML Schema</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Extensions</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/mappings.html">PBCore Mappings to Other Standards</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/presentations.html">PBCore Presentations</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/tutorials.html">PBCore Tutorials</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">FAQs</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/faqs.html">Frequently Asked Questions</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Getting Started</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/faqs.html">Frequently Asked Questions</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/glossary.html">Glossary</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/">PBCore Metadata Standard</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/tutorials.html">PBCore Tutorials</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/what-is-pbcore.html">What is PBCore</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">GitHub</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/xsd.html">PBCore XML Schema</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Glossary</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/glossary.html">Glossary</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Implementation</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/faqs.html">Frequently Asked Questions</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Introduction</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/faqs.html">Frequently Asked Questions</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/">PBCore Metadata Standard</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/what-is-pbcore.html">What is PBCore</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Inventory</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/spreadsheet-templates.html">Spreadsheet Templates</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Key Functions</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/tutorials.html">PBCore Tutorials</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/what-is-pbcore.html">What is PBCore</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Learning Tools</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/data-model.html">Data Model Visualization</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/pbcore-users.html">PBCore Users</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/presentations.html">PBCore Presentations</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/sample-records.html">Sample PBCore Records</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/tutorials.html">PBCore Tutorials</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">MARC</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/mappings.html">PBCore Mappings to Other Standards</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">MediaInfo</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/external-tools-and-integrations.html">External Tools and Integrations</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Metadata Mapping</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/mappings.html">PBCore Mappings to Other Standards</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Omeka</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/external-tools-and-integrations.html">External Tools and Integrations</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">PBCore Advisory Subcommittee</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/annual-meeting-notes.html">Annual Meeting Notes</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/user-groups.html">PBCore User Groups</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">PBCore Google Group</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/user-groups.html">PBCore User Groups</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Presentations</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/presentations.html">PBCore Presentations</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">ProTrack</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/external-tools-and-integrations.html">External Tools and Integrations</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Quality Control</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/validator.html">PBCore Validator</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">RDF</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/mappings.html">PBCore Mappings to Other Standards</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Resources</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/cataloging-tool.html">PBCore Cataloging Tool</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/external-tools-and-integrations.html">External Tools and Integrations</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/mappings.html">PBCore Mappings to Other Standards</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/presentations.html">PBCore Presentations</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/sample-records.html">Sample PBCore Records</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/spreadsheet-templates.html">Spreadsheet Templates</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/tutorials.html">PBCore Tutorials</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/validator.html">PBCore Validator</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Revisions</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/xsd.html">PBCore XML Schema</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Schema</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/attributes.html">Attributes</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/data-model.html">Data Model Visualization</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/elements.html">Elements</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/pbcore-controlled-vocabularies.html">Controlled Vocabularies</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/xsd.html">PBCore XML Schema</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Spreadsheet Templates</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/spreadsheet-templates.html">Spreadsheet Templates</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/tutorials.html">PBCore Tutorials</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Structure</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/data-model.html">Data Model Visualization</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/xsd.html">PBCore XML Schema</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Technical Metadata</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/external-tools-and-integrations.html">External Tools and Integrations</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Tools</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/cataloging-tool.html">PBCore Cataloging Tool</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/external-tools-and-integrations.html">External Tools and Integrations</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/mappings.html">PBCore Mappings to Other Standards</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/spreadsheet-templates.html">Spreadsheet Templates</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/validator.html">PBCore Validator</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Tutorials</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/tutorials.html">PBCore Tutorials</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">Webinars</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/presentations.html">PBCore Presentations</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+      <div class="keyword_group">
+        <dt class="keyword">XML</dt>
+        <dd>
+          <ul>
+            
+              <li>
+                <a class="page_title" href="/attributes.html">Attributes</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/data-model.html">Data Model Visualization</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/elements.html">Elements</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/pbcore-controlled-vocabularies.html">Controlled Vocabularies</a>
+              </li>
+            
+              <li>
+                <a class="page_title" href="/xsd.html">PBCore XML Schema</a>
+              </li>
+            
+          </ul>
+        </dd>
+      </div>
+    
+  </ul>
+</div>
+
+  </div>
+
+</article>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 no-padding footer-margin">
+          <footer class="page-footer font-small indigo">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left" style="margin-top:1%;">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-3 ">
+        <!-- Links -->
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          
+            
+              
+                <li>
+                  <a href="http://localhost:4000/what-is-pbcore.html">What is PBCore?</a>
+                </li>
+              
+                <li>
+                  <a href="http://localhost:4000/faqs.html">FAQs</a>
+                </li>
+              
+                <li>
+                  <a href="http://localhost:4000/glossary.html">Glossary</a>
+                </li>
+              
+                <li>
+                  <a href="http://localhost:4000/credits.html">Credits</a>
+                </li>
+              
+            
+          
+            
+          
+            
+          
+            
+          
+          <li>
+            <a href="http://localhost:4000/license.html">License Details</a>
+          </li>
+        </ul>
+
+      </div>
+
+      <!-- Grid column -->
+      <div class="col-md-3 ">
+
+        <!-- Links -->
+        <ul class="list-unstyled">
+          
+            
+          
+            
+            
+            <li><a href="http://localhost:4000/elements.html">Elements</a></li>
+            
+            <li><a href="http://localhost:4000/attributes.html">Attributes</a></li>
+            
+            <li><a href="http://localhost:4000/pbcore-controlled-vocabularies.html">Controlled Vocabularies</a></li>
+            
+            <li><a href="http://localhost:4000/xsd.html">XML Schema</a></li>
+            
+            <li><a href="http://localhost:4000/data-model.html">Data Model Visualization</a></li>
+            
+            
+          
+            
+          
+            
+          
+        </ul>
+      </div>
+
+      <!-- Grid column -->
+      <div class="col-md-3 ">
+
+        <!-- Links -->
+
+        <ul class="list-unstyled">
+          
+            
+          
+            
+          
+            
+            
+            <li><a href="http://localhost:4000/cataloging-tool.html">Cataloging Tool</a></li>
+            
+            <li><a href="http://localhost:4000/spreadsheet-templates.html">Spreadsheet Templates</a></li>
+            
+            <li><a href="http://localhost:4000/validator.html">PBCore XML Validator</a></li>
+            
+            <li><a href="http://localhost:4000/external-tools-and-integrations.html">External Tools/Integrations</a></li>
+            
+            <li><a href="http://localhost:4000/mappings.html">Mappings</a></li>
+            
+            <li><a href="http://localhost:4000/sample-records.html">Sample Records</a></li>
+            
+            <li><a href="http://localhost:4000/tutorials.html">Tutorials</a></li>
+            
+            <li><a href="http://localhost:4000/presentations.html">Presentations</a></li>
+            
+            
+          
+            
+          
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <div class="col-md-3 ">
+
+        <!-- Links -->
+
+        <ul class="list-unstyled">
+          
+            
+          
+            
+          
+            
+          
+            
+            
+            <li><a href="http://localhost:4000/pbcore-users.html">PBCore Users</a></li>
+            
+            <li><a href="http://localhost:4000/user-groups.html">User Groups</a></li>
+            
+            <li><a href="http://localhost:4000/annual-meeting-notes.html">Annual Meeting Notes</a></li>
+            
+            <li><a href="http://localhost:4000/news.html">News and Updates</a></li>
+            
+            <li><a href="http://localhost:4000/contact.html">Contact Us</a></li>
+            
+            
+          
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+    <div class="row">
+      <div class="col-md-6" style="top: -1.2em;">
+        <a href="/"><img class="footer-brand" src="/assets/images/pbcore-logo.png"/></a>
+      </div>
+
+      <div class="col-md-6 footer-msg">
+        PBCore is licensed under a Creative Commons Attribution 4.0 International license.
+      </div>
+    </div>
+
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+
+  <!-- Copyright -->
+</footer>
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

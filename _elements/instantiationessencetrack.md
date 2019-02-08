@@ -4,6 +4,8 @@ name: instantiationEssenceTrack
 subelements:
   - name: essenceTrackType
     note: optional
+  - name: essenceTrackIdentifier
+    note: optional    
   - name: essenceTrackStandard
     note: optional
   - name: essenceTrackEncoding

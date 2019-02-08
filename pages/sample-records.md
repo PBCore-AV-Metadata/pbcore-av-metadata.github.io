@@ -31,6 +31,6 @@ keywords: ["Resources", "Creating Records", "Learning Tools", "Case Studies"]
       SAMPLE RECORDS
     </div>
 
-    {% include sample-records-list %}
+    {% include sample-records-list.html %}
   </div>
 </div>
