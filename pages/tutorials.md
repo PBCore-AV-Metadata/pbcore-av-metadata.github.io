@@ -24,7 +24,7 @@ keywords: ["Resources", "Getting Started", "Key Functions", "Tutorials", "Learni
                 <a class="collapsed" data-toggle="collapse" href="#tutorial-collapse{{i}}" aria-expanded="false" aria-controls="tutorial-collapse{{i}}">
 
                   <span class="pres-arrow-icon pres-arrow-down"></span>
-                  <p><span class="red">{{ block.title }}</span><span class="black"> - {{ block.description }}</span></p>
+                  <p><span id="{{ block.id}}" class="red">{{ block.title }}</span><span class="black"> - {{ block.description }}</span></p>
 
                 </a>
             </div>
