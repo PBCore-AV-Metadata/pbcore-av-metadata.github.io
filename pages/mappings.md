@@ -27,7 +27,7 @@ This mapping includes all PBCore elements, with the exception of Extension eleme
 
 Because RDF is not hierarchical, we recommend that Assets, Instantiations, and Essence Tracks each exist as separate RDF objects. Links between Assets and Instantiations can be expressed using dc:hasFormat and dc:isFormatOf; links between Instantiations and EssenceTracks can be expressed using ebucore:hasTrack and ebucore:isTrackOf.
 
-Download a <a href="/assets/downloads/PBCore-RDF_data_modeling worksheet.xlsx" download>simple mapping</a>.
+Download a <a href="/assets/downloads/PBCore-RDF_data_modeling%20worksheet_updated.xlsx" download>simple mapping</a>.
 
 Any RDF implementation will vary based on the specific needs of the institution and the use case. EBUCore also encourages uses to define their own subclasses and subproperties as required for their specific business needs. To demonstrate the decision-making required around indexing, presentation, and local properties, we have also included <a href="https://docs.google.com/spreadsheets/d/1nk4dDClDl_vAXF-1VrMI9jPi9lA9jdUWdIRdQ-gPk-w/edit?usp=sharing">an example of the full data modeling worksheet</a> used to determine properties and behavior for the American Archive of Public Broadcasting’s PBCore-based metadata management system.
 
