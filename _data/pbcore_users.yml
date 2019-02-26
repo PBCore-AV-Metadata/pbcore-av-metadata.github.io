@@ -100,7 +100,7 @@ users:
       <p>Thus there were two migration challenges: all the newly written metadata from ExpressionEngine, to be followed by the mass of heritage metadata. Because PBCore provides a well-formed data structure recognizable by CollectiveAccess, once the data export to PBCore XML records was accomplished, the importing process was simple.</p>
       <h4>Why We Use PBCore</h4>
       <p>Karan Sheldon, co-founder of Northeast Historic Film, explains the reasons for using PBCore in this project: “NHF has managed our collections over more than 20 years largely through item-level description, which allowed us to find specific people, places, things, and activities, in tens of thousands of reels. Item-level description is a given for our survival. We need to be able to migrate the detailed descriptions of the reels into a data structure that will efficiently track new forms of the work (new preservation copies, digital surrogates, and unknown future forms), without having to redo all the work we’ve done so far.”</p>
- - user: Smithsonian Channel
+  - user: Smithsonian Channel
     column: right
     id: smithsonian-channel
     logo-file: smithsonian.png
@@ -124,4 +124,17 @@ users:
       <h4>How We Use PBCore</h4>
       <p>The South Side Home Movie Project uses a custom installation profile based off of one the Academy Film Archive made available for public use. Included in this profile was the PBCORE metadata schema. Project Manager Candace Ming says, "Initially I felt that PBCORE, a schema made specifically for broadcast content, would be too robust for effectively cataloging home movies. However, after viewing the profile and fields further I realized that it’s specificity and granularity were just what was needed to capture all of the disparate information essential to home movies."</p>
       <h4>PBCore for Descriptive Cataloging</h4>
-      <p>Candace reports: "Currently I use both the Physical and Digital format fields, the Duration Field, the colors field and the audio standards field to describe the physical properties of our holdings. Additionally, I found that the Description field with its various abilities to not only describe the basic content of a home movie, but also transcripts and anecdotal comments was incredibly helpful. Obviously, we don’t use all of the fields in the PBCORE profile since many don’t apply, but for those we do use I’ve found that the granularity is particularly helpful and PBCORE is incredibly easy to implement."
+      <p>Candace reports: "Currently I use both the Physical and Digital format fields, the Duration Field, the colors field and the audio standards field to describe the physical properties of our holdings. Additionally, I found that the Description field with its various abilities to not only describe the basic content of a home movie, but also transcripts and anecdotal comments was incredibly helpful. Obviously, we don’t use all of the fields in the PBCORE profile since many don’t apply, but for those we do use I’ve found that the granularity is particularly helpful and PBCORE is incredibly easy to implement.</p>
+  - user: California Revealed
+    column: right
+    id: california-revealed
+    logo-file: california-revealed.png
+    title: |
+      PBCore at California Revealed 
+    statement: |
+      <h4>How We Use PBCore</h4>
+      <p>California Revealed (formerly California Audiovisual Preservation Project) has been using PBCore to organize descriptive, rights, and technical metadata about the audiovisual objects that they preserve since the project's beginning in 2010. California Revealed is looking forward to using PBCore 2.1 in their latest round of digitization and will soon automate the ingest of metadata into our repository using PBCore XML files created by their digitization vendors.</p>
+      <h4>Benefits of PBCore</h4>
+      <p>As a project which collaborates with hundreds of cultural heritage institutions to preserve and facilitate access to their audiovisual media, the benefits of a standardized metadata schema specialized for audiovisual recordings has been enormously helpful.</p>
+
+
