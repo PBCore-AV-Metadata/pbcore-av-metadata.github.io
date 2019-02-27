@@ -3,7 +3,7 @@ section: Schema
 name: instantiationMediaType Vocabulary
 usage: >
   for <a href="/elements/instantiationmediatype">instantiationMediaType</a>
-omr-link: http://metadataregistry.org/concept/list/vocabulary_id/465.html
+omr-link: http://metadataregistry.org/concept/list/vocabulary_id/465
 download: /assets/downloads/pbcore_instantiationmediatype_vocabulary.xlsx
 terms:
   - term: Moving Image

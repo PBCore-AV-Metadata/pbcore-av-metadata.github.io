@@ -2,7 +2,7 @@
 title: Instantiation Elements
 layout: element-groups
 section: Schema
-permalink: elements/instantiation.html
+permalink: elements/instantiation
 ---
 
 <h2 class="ele-title-highlight">Instantiation Elements</h2>

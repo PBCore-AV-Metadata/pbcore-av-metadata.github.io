@@ -23,6 +23,6 @@ controlled-vocabs:
 
 <pre>
   <code>
-    &lt;pbcoreAssetType source=&quot;pbcoreAssetType&quot; ref=&quot;http://metadataregistry.org/concept/show/id/1627.html&quot;&gt;Story&lt;/pbcoreAssetType&gt;
+    &lt;pbcoreAssetType source=&quot;pbcoreAssetType&quot; ref=&quot;http://metadataregistry.org/concept/show/id/1627&quot;&gt;Story&lt;/pbcoreAssetType&gt;
   </code>
 </pre>

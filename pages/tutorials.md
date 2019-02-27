@@ -2,7 +2,7 @@
 title: PBCore Tutorials
 layout: default
 section: Resources
-permalink: /tutorials.html
+permalink: /tutorials
 keywords: ["Resources", "Getting Started", "Key Functions", "Tutorials", "Learning Tools", "Creating Records", "Cataloging", "Spreadsheet Templates", "Cataloging Tool", "Controlled Vocabularies", "Extensions"]
 ---
 
@@ -18,15 +18,20 @@ keywords: ["Resources", "Getting Started", "Key Functions", "Tutorials", "Learni
 
         {% for block in group.tutorials %}
           {% assign i = i|plus:1 %}
+
           <div class="card">
 
             <div class="card-header" id="tutorial{{ i }}" style="padding:1em;">
-                <a class="collapsed" data-toggle="collapse" href="#tutorial-collapse{{i}}" aria-expanded="false" aria-controls="tutorial-collapse{{i}}">
+              <span class="collapsed" data-toggle="collapse" href="#tutorial-collapse{{i}}" aria-expanded="false" aria-controls="tutorial-collapse{{i}}">
 
-                  <span class="pres-arrow-icon pres-arrow-down"></span>
-                  <p><span class="red">{{ block.title }}</span><span class="black"> - {{ block.description }}</span></p>
-
+                <span class="pres-arrow-icon pres-arrow-down"></span>
+              
+                <a href="#{{ block.id }}" id="{{ block.id }}">
+                  <span class="red">{{ block.title }}</span>
+                  <span class="black"> - {{ block.description }}</span>
                 </a>
+              </span>
+              
             </div>
 
             <div id="tutorial-collapse{{i}}" class="collapse fade" aria-labelled by="tutorial{{ i }}">

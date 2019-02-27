@@ -2,7 +2,7 @@
 title: Spreadsheet Templates
 layout: default
 section: Resources
-permalink: /spreadsheet-templates.html
+permalink: /spreadsheet-templates
 keywords: ["Resources", "Tools", "Inventory", "Cataloging", "Spreadsheet Templates"]
 ---
 
@@ -19,7 +19,7 @@ keywords: ["Resources", "Tools", "Inventory", "Cataloging", "Spreadsheet Templat
   </div>
 
   <div class="col-md-6">
-    <a href="{{site.url}}/tutorials.html">
+    <a href="{{site.url}}/tutorials">
       <button type="button" class="pb-button pb-button-who" name="button">TUTORIAL</button>
     </a>
   </div>

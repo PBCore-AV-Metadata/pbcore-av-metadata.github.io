@@ -2,7 +2,7 @@
 title: Attributes
 layout: default
 section: Schema
-permalink: /attributes.html
+permalink: /attributes
 keywords: ["Schema", "Attributes", "XML", "Creating Records"]
 ---
 

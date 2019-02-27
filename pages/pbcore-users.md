@@ -2,7 +2,7 @@
 title: PBCore Case Studies
 layout: default
 section: Community
-permalink: /pbcore-users.html
+permalink: /pbcore-users
 keywords: ["Community", "Learning Tools", "Case Studies"]
 ---
 

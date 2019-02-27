@@ -24,9 +24,9 @@ subelements:
 ---
 <pre>
   <code>
-    &lt;pbcoreCollection xmlns=&quot;http://pbcore.org/PBCore/PBCoreNamespace.html&quot;
+    &lt;pbcoreCollection xmlns=&quot;http://pbcore.org/PBCore/PBCoreNamespace&quot;
         xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
-        xsi:schemaLocation=&quot;http://pbcore.org/PBCore/PBCoreNamespace.html http://pbcore.org/xsd/pbcore-2.0.xsd&quot;&gt;
+        xsi:schemaLocation=&quot;http://pbcore.org/PBCore/PBCoreNamespace http://pbcore.org/xsd/pbcore-2.0.xsd&quot;&gt;
         &lt;pbcoreDescriptionDocument&gt;<br>
             &lt;pbcoreIdentifier source=&quot;NOLA Code&quot;&gt;AMEX000102&lt;/pbcoreIdentifier&gt;<br>
             &lt;pbcoreTitle titleType=&quot;Full&quot;&gt;American Experience: Radio Bikini&lt;/pbcoreTitle&gt;<br>

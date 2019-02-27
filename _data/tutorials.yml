@@ -2,53 +2,65 @@
   description: These videos walkthrough the basic concepts used in PBCore and how to implement them in metadata records.
   tutorials:
     - title: PBCore Structure
+      id: structure
       description: Explains the components of a PBCore record
       embed: >
         <iframe src="https://player.vimeo.com/video/313029784" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     - title: Making an Asset Record
+      id: asset-record
       description: Explains the parts of an Asset record and how to implement them
       embed: >
         <iframe src="https://player.vimeo.com/video/312733511" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     - title: Using Instantiations and Essence Tracks
+      id: instantiations
       description: Explains how to track physical and digital copies of an asset in PBCore records
       embed: >
         <iframe src="https://player.vimeo.com/video/313027511" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     - title: Using PBCore Extensions
+      id: extensions
       description: Explains how to keep metadata that doesn't traditionally fit into a PBCore record in your PBCore records.
       embed: >
         <iframe src="https://player.vimeo.com/video/312996232" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     - title: PBCore Controlled Vocabularies
+      id: vocabs
       description: Explains what controlled vocabularies are and how to use them in PBCore records
       embed: >
         <iframe src="https://player.vimeo.com/video/313002298" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     - title: Using Other Terms with PBCore Controlled Vocabularies
+      id: expanded-vocabs
       description: Explains how to add additional terms to controlled vocabularies to meet local needs
       embed: >
         <iframe src="https://player.vimeo.com/video/313425962" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 - section: PBCore Cataloging Tool
-  description: These videos walkthrough setting up and using key features in the <a href="/cataloging-tool.html">PBCore Cataloging Tool</a>.
+  description: These videos walkthrough setting up and using key features in the <a href="/cataloging-tool">PBCore Cataloging Tool</a>.
   tutorials:
     - title: Introduction
+      id: tool-intro
       description: Introduces the PBCore Cataloging Tool and how to set it up
       embed: >
         <iframe src="https://player.vimeo.com/video/303077604" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     - title: How to Search
+      id: tool-search
       description: Explains how to search records in the PBCore Cataloging Tool
       embed: >
         <iframe src="https://player.vimeo.com/video/303075285" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     - title: Controlled Vocabularies
+      id: tool-vocabs
       description: Explains how to use and update controlled vocabulaires in the PBCore Cataloging Tool
       embed: >
         <iframe src="https://player.vimeo.com/video/303075963" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     - title: Using Spreadsheets
+      id: tool-spreadsheets
       description: Explains how to export and import data in CSV format, so that you have have your data as a spreadsheet
       embed: >
         <iframe src="https://player.vimeo.com/video/313430728" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     - title: Template Records
+      id: tool-templates
       description: Explains how to make a template records for more efficient cataloging in the PBCore Cataloging Tool
       embed: >
         <iframe src="https://player.vimeo.com/video/313254772" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     - title: Batch Editing
+      id: tool-batch
       description: Explains how to add the same new value to many records at the same time in  the PBCore Cataloging Tool
       embed: >
         <iframe src="https://player.vimeo.com/video/313427056" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

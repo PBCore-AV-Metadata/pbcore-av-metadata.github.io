@@ -16,7 +16,7 @@ controlled-vocabs:
 ---
 <pre>
   <code>
-    &lt;instantiationMediaType source=&quot;PBCore instantiationMediaType&quot; ref=&quot;http://metadataregistry.org/concept/show/id/1491.html&quot;&gt;<br>
+    &lt;instantiationMediaType source=&quot;PBCore instantiationMediaType&quot; ref=&quot;http://metadataregistry.org/concept/show/id/1491&quot;&gt;<br>
     Moving Image<br>
     &lt;/instantiationMediaType&gt;<br>
   </code>

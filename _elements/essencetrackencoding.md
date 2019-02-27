@@ -19,7 +19,7 @@ controlled-vocabs:
 
 <pre>
   <code>
-    &lt;essenceTrackEncoding source=&quot;PBCore essenceTrackEncoding&quot; ref=&quot;http://metadataregistry.org/concept/show/id/2889.html&quot;&gt;<br>
+    &lt;essenceTrackEncoding source=&quot;PBCore essenceTrackEncoding&quot; ref=&quot;http://metadataregistry.org/concept/show/id/2889&quot;&gt;<br>
     H.264/MPEG-4 AVC: QuickTime H.264<br>
     &lt;/essenceTrackEncoding&gt;<br>
   </code>

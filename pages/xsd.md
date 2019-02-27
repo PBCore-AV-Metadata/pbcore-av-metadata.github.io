@@ -2,7 +2,7 @@
 title: PBCore XML Schema
 layout: default
 section: Schema
-permalink: /xsd.html
+permalink: /xsd
 keywords: ["Schema", "Elements", "Attributes", "XML", "Structure", "Revisions", "GitHub"]
 ---
 
@@ -16,9 +16,9 @@ PBCore 2.1 was created by the public broadcasting community in the United States
 
 PBCore 2.1 is made up of 15 containers and 82 elements, and makes use of 49 XML attributes. Attributes are used to further qualify or describe the elements and their values. Not all attributes can be used to describe every element. On this site, each element has a page which describes what attributes can be used with that element.
 
-Within a PBCore XML Document, the order and structure of the elements is determined by the XSD. Elements must included in the correct order, or the XML document will not validate. You can find a listing of the correct order of subelements in PBCore on the [Elements Hierarchy]({{ site.url }}/elements-hierarchy.html) page.
+Within a PBCore XML Document, the order and structure of the elements is determined by the XSD. Elements must included in the correct order, or the XML document will not validate. You can find a listing of the correct order of subelements in PBCore on the [Elements Hierarchy]({{ site.url }}/elements-hierarchy) page.
 
-For a glossary of terms used in the PBCore schema, visit the [Glossary]({{ site.url }}/glossary.html) page on this site.
+For a glossary of terms used in the PBCore schema, visit the [Glossary]({{ site.url }}/glossary) page on this site.
 
 <h3>Revisions from PBCore 2.0 to PBCore 2.1</h3>
 

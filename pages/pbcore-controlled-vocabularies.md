@@ -2,7 +2,7 @@
 title: Controlled Vocabularies
 layout: default
 section: Schema
-permalink: /pbcore-controlled-vocabularies.html
+permalink: /pbcore-controlled-vocabularies
 keywords: ["Schema", "Controlled Vocabularies", "XML", "Creating Records"]
 ---
 <div class="row" style="margin-top: 4%;">

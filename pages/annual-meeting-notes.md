@@ -1,6 +1,6 @@
 ---
 title: Annual Meeting Notes
-permalink: /annual-meeting-notes.html
+permalink: /annual-meeting-notes
 section: Community
 layout: default
 keywords: ["Community", "AMIA", "PBCore Advisory Subcommittee"]
