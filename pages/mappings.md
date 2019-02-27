@@ -3,9 +3,10 @@ title: PBCore Mappings to Other Standards
 layout: default
 section: Resources
 permalink: /mappings.html
+keywords: ["Resources", "Tools", "Metadata Mapping", "MARC", "RDF", "EBUCore", "Extensions"]
 ---
 
-<h2 class="red title">Mappings</h2>
+<h2 class="red title bold">Mappings</h2>
 
 <h3>PBCore and MARC</h3>
 This documentation below provides recommendations for converting from the PBCore metadata standard to the MARC 21 Format for Bibliographic Data. Since MARC has more fields than PBCore, there may be multiple recommendations for the same PBCore element, depending on context and desired level of detail. The documentation includes recommendations for both simple and complex mappings. MARC 21 fields are listed by field number with specific subfields if applicable.

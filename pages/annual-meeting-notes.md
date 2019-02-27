@@ -3,9 +3,10 @@ title: Annual Meeting Notes
 permalink: /annual-meeting-notes.html
 section: Community
 layout: default
+keywords: ["Community", "AMIA", "PBCore Advisory Subcommittee"]
 ---
 
-<h2 class="dark-grey title">Annual Meeting Notes</h2>
+<h2 class="dark-grey title bold">Annual Meeting Notes</h2>
 
 <p>The PBCore Advisory Sub-Committee of the Association of Moving Image Archivists (AMIA) Cataloging and Metadata Committee holds its annual meeting at the <a href="http://www.amiaconference.net/">Association of Moving Image Archivists (AMIA) conference</a> to discuss PBCore’s development over the preceding year and make a plan for the year ahead. Although the meeting is held at AMIA, non-AMIA members with an interest in PBCore are welcome to participate remotely.</p>
 

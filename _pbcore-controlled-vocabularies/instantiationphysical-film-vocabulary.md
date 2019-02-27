@@ -4,6 +4,7 @@ name: instantiationPhysical Film Vocabulary
 usage: >
   for <a href="elements/instantiationphysical">instantiationPhysical</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/463.html
+download: /assets/downloads/pbcore_instantiationphysicalfilm_vocabulary.xlsx
 terms:
   - term: Film
     id: Film
@@ -35,4 +36,6 @@ terms:
   - term: 70mm film
     id: 70mmFilm
     definition: A gauge of moving image printed on celluloid, 70mm in width.
+uri: /pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/
+permalink: /pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/
 ---

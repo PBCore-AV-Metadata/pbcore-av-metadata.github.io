@@ -3,11 +3,12 @@ title: Sample PBCore Records
 layout: default
 section: Resources
 permalink: /sample-records.html
+keywords: ["Resources", "Creating Records", "Learning Tools", "Case Studies"]
 ---
-<div class="row" style="margin-top:3.6em; margin-bottom:3.6em;">
+<div class="row" style="margin-bottom:3.6em;">
   <div class="col-md-6">
 
-    <h2 class="red title">
+    <h2 class="red title bold">
       Sample Records
     </h2>
 

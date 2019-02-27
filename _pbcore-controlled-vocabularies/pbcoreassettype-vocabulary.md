@@ -4,11 +4,13 @@ name: pbcoreAssetType Vocabulary
 usage: >
   for <a href="elements/pbcoreassettype">pbcoreAssetType</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/454.html
+download: /assets/downloads/pbcore_pbcoreassettype_vocabulary.xlsx
 terms:
   - term: Album
     id: Album
     definition: A collection of recordings issued as a single item on CD, record, or another medium.
   - term: Animation
+    id: Animation
     definition: A moving image production element created from static drawings or objects.
   - term: Clip
     id: Clip
@@ -46,4 +48,6 @@ terms:
   - term: Subseries
     id: Subseries
     definition: A set of episodes that makes up its own series, which is broadcast under an umbrella series with its own branding.
+uri: /pbcore-controlled-vocabularies/pbcoreassettype-vocabulary/
+permalink: /pbcore-controlled-vocabularies/pbcoreassettype-vocabulary/
 ---

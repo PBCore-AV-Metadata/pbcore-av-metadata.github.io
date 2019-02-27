@@ -5,6 +5,7 @@ name: >
 usage: >
   for @titleType as an attribute on <a href="{{site.url}}/elements/pbcoretitle">pbcoreTitle</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/457.html
+download: /assets/downloads/pbcore_titletype_vocabulary.xlsx
 terms:
   - term: Album
     id: Album
@@ -30,4 +31,6 @@ terms:
   - term: Subseries
     id: Subseries
     definition: The title of set of episodes that makes up its own series, which is broadcast under an umbrella series with its own branding.
+uri: /pbcore-controlled-vocabularies/titletype-vocabulary/
+permalink: /pbcore-controlled-vocabularies/titletype-vocabulary/
 ---

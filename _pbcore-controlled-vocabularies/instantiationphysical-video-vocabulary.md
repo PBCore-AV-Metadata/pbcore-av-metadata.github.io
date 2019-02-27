@@ -4,6 +4,7 @@ name: instantiationPhysical Video Vocabulary
 usage: >
   for <a href="elements/instantiationphysical">instantiationPhysical</a>
 omr-link: http://metadataregistry.org/concept/list/page/1/vocabulary_id/464.html
+download: /assets/downloads/pbcore_instantiationphysicalvideo_vocabulary.xlsx
 terms:
   - term: Videocassette
     id: Videocassette
@@ -143,4 +144,6 @@ terms:
   - term: VX
     id: VX
     definition: A cassette-based 1/2-inch analog videotape format.
+uri: /pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/
+permalink: /pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/
 ---

@@ -4,6 +4,7 @@ name: instantiationGenerations Vocabulary
 usage: >
   for <a href="/elements/instantiationgenerations">instantiationGenerations</a>
 omr-link: http://metadataregistry.org/concept/list/page/1/vocabulary_id/466.html
+download: /assets/downloads/pbcore_instantiationgenerations_vocabulary.xlsx
 terms:
   - term: A-B rolls
     id: ABRolls
@@ -116,4 +117,6 @@ terms:
   - term: Work track
     id: WorkTrack
     definition: A rough edit of a soundtrack which the editor uses to develop the final soundtrack.
+uri: /pbcore-controlled-vocabularies/instantiationgenerations-vocabulary/
+permalink: /pbcore-controlled-vocabularies/instantiationgenerations-vocabulary/
 ---

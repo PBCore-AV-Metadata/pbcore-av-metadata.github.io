@@ -1,32 +1,32 @@
 - name: pbcoreAssetType
-  url: /pbcore-controlled-vocabularies/pbcoreassettype-vocabulary.html
+  url: /pbcore-controlled-vocabularies/pbcoreassettype-vocabulary/
 - name: >
     @dateType
-  url: /pbcore-controlled-vocabularies/datetype-vocabulary.html
+  url: /pbcore-controlled-vocabularies/datetype-vocabulary/
 - name: >
     @titleType
-  url: /pbcore-controlled-vocabularies/titletype-vocabulary.html
+  url: /pbcore-controlled-vocabularies/titletype-vocabulary/
 - name: >
     @descriptionType
-  url: /pbcore-controlled-vocabularies/descriptiontype-vocabulary.html
+  url: /pbcore-controlled-vocabularies/descriptiontype-vocabulary/
 - name: pbcoreRelationType
-  url: /pbcore-controlled-vocabularies/pbcorerelationtype-vocabulary.html
+  url: /pbcore-controlled-vocabularies/pbcorerelationtype-vocabulary/
 - name: instantiationRelationType
-  url: /pbcore-controlled-vocabularies/instantiationrelationtype-vocabulary.html
+  url: /pbcore-controlled-vocabularies/instantiationrelationtype-vocabulary/
 - name: creatorRole and contributorRole
-  url: /pbcore-controlled-vocabularies/creatorrole-and-contributorrole-vocabulary.html
+  url: /pbcore-controlled-vocabularies/creatorrole-and-contributorrole-vocabulary/
 - name: publisherRole
-  url: /pbcore-controlled-vocabularies/publisherrole-vocabulary.html
+  url: /pbcore-controlled-vocabularies/publisherrole-vocabulary/
 - name: >
     instantiationPhysical: Audio
-  url: /pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary.html
+  url: /pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/
 - name: >
     instantiationPhysical: Film
-  url: /pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary.html
+  url: /pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/
 - name: >
     instantiationPhysical: Video
-  url: /pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary.html
+  url: /pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/
 - name: instantiationMediaType
-  url: /pbcore-controlled-vocabularies/instantiationmediatype-vocabulary.html
+  url: /pbcore-controlled-vocabularies/instantiationmediatype-vocabulary/
 - name: instantiationGenerations
-  url: /pbcore-controlled-vocabularies/instantiationgenerations-vocabulary.html
+  url: /pbcore-controlled-vocabularies/instantiationgenerations-vocabulary/

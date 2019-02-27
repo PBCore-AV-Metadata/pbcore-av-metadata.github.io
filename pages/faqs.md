@@ -3,15 +3,16 @@ title: Frequently Asked Questions
 layout: default
 section: About
 permalink: /faqs.html
+keywords: ["About", "Introduction", "Getting Started", "FAQs", "Implementation"]
 ---
 
 <div class="container-fluid faq" id="faq">
-  <h1>Frequently Asked Questions</h1>
+  <h1 class="title bold">Frequently Asked Questions</h1>
   	<div class="container">
   		<section>
       {% assign i = 0 %}
        {% for item in site.data.faqs %}
-  			<div class="row">
+  			<div class="row faq-text">
   				<div class="col-10 mx-auto">
             <h2 class="mb-4 faq-section-header">{{ item.section }}</h2>
   					<div class="accordion" id="faq-accordion{{ i }}">

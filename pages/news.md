@@ -3,9 +3,10 @@ title: News and Updates
 layout: default
 section: Community
 permalink: /news.html
+keywords: ["Community", "Blog"]
 ---
 
-<h2 class="dark-grey title">PBCore News and Updates</h2>
+<h2 class="dark-grey title bold">PBCore News and Updates</h2>
 
 <ul class="pb-list">
   {% for post in site.posts %}

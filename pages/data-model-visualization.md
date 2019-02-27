@@ -3,10 +3,11 @@ title: Data Model Visualization
 layout: default
 section: Schema
 permalink: /data-model.html
+keywords: ["Schema", "Elements", "XML", "Structure", "Learning Tools"]
 ---
 <div class="row">
   <div class="col-md-12">
-    <h2 class="green title">PBCore Data Model Visualization</h2>
+    <h2 class="green title bold">PBCore Data Model Visualization</h2>
   </div>
 </div>
 

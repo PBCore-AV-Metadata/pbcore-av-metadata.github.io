@@ -1,6 +1,5 @@
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title }}</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
@@ -55,6 +54,25 @@
         }).join(',');
 
         Cookies.set('accordionDisplay', active_ids)
+      });
+
+      $('button.select_page_list').click(function(e) {
+        console.log("I run this")
+        // Remove the 'active' class for all buttons, before adding it back to the
+        // one that was just clicked
+        $('button.select_page_list').each(function(i) {
+          $(this).removeClass('active')
+        });
+        $button = $(e.target)
+        $button.addClass('active')
+        $('.page_list').each(function (index) {
+          $page_list = $(this)
+          if ( $button.val() == $page_list.data('pages_listed_by') ) {
+            $page_list.show()
+          } else {
+            $page_list.hide()
+          }
+        })
       });
     });
 

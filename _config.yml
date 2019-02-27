@@ -16,9 +16,7 @@
 title: PBCore Metadata Standard
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  PBCore is a cataloging standard for the description of audiovisual content, a data sharing tool, and much more. Since its development in the early 2000s, dozens of organizations have been using PBCore's comprehensive and flexible features for their archiving needs.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -28,6 +26,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 collections:
   elements:
     output: true
@@ -67,3 +66,5 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+github_pages_save_generated_files: ['browse_pages.html']

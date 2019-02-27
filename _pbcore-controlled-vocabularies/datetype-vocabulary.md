@@ -5,6 +5,7 @@ name: >
 usage: >
   for @dateType as an attribute on <a href="{{site.url}}/elements/pbcoreassetdate">pbcoreAssetDate</a> or <a href="{{site.url}}/elements/instantiationdate">instantiationDate</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/455.html
+download: /assets/downloads/pbcore_datetype_vocabulary.xlsx
 terms:
   - term: accepted
     id: accepted
@@ -108,4 +109,6 @@ terms:
   - term: webcast
     id: webcast
     definition: Date on which the asset or instantiation was webcast.
+uri: /pbcore-controlled-vocabularies/datetype-vocabulary/
+permalink: /pbcore-controlled-vocabularies/datetype-vocabulary/
 ---

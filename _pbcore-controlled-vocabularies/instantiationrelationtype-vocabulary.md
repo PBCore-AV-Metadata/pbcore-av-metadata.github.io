@@ -4,6 +4,7 @@ name: instantiationRelationType Vocabulary
 usage: >
   for <a href="elements/instantiationrelationtype">instantiationRelationType</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/459.html
+download: /assets/downloads/pbcore_instantiationrelationtype_vocabulary.xlsx
 terms:
   - term: Is Clone Of
     id: IsCloneOf
@@ -35,4 +36,6 @@ terms:
   - term: Is Replaced By
     id: IsReplacedBy
     definition: The instantiation being described is being substituted for by the instantiation being pointed to in the relation element (for example, because it has been deaccessioned.)
+uri: /pbcore-controlled-vocabularies/instantiationrelationtype-vocabulary/
+permalink: /pbcore-controlled-vocabularies/instantiationrelationtype-vocabulary/
 ---

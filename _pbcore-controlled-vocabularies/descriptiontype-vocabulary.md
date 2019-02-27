@@ -5,6 +5,7 @@ name: >
 usage: >
   for @descriptionType as an attribute on <a href="/elements/pbcoredescription">pbcoreDescription</a>
 omr-link: http://metadataregistry.org/concept/list/page/1/vocabulary_id/456.html
+download: /assets/downloads/pbcore_descriptiontype_vocabulary.xlsx
 terms:
   - term: Abstract
     id: Abstract
@@ -78,4 +79,6 @@ terms:
   - term: Transcript
     id: Transcript
     definition: A written document of the audio component of an audio or audiovisual asset.
+uri: /pbcore-controlled-vocabularies/descriptiontype-vocabulary/
+permalink: /pbcore-controlled-vocabularies/descriptiontype-vocabulary/
 ---

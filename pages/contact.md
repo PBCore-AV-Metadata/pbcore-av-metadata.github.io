@@ -3,9 +3,11 @@ title: Contact Us
 layout: default
 section: Community
 permalink: /contact.html
+keywords: ["Community", "Contact"]
+keywords: ["About"]
 ---
 
-<h2 class="dark-grey title">Contact Us</h2>
+<h2 class="dark-grey title bold">Contact Us</h2>
 
 <p>If you have questions about PBCore or any of the information on this website, please contact us with your question at PBCoreInfo@wgbh.org.
 
