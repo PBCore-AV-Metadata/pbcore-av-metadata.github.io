@@ -3,7 +3,7 @@ title: PBCore Presentations
 layout: default
 section: Resources
 permalink: /presentations.html
-keywords: ["Resources", "Learning Tools", "Presentations", "Extensions", "AMIA", "Code4Lib", "Webinars"]
+keywords: ["Resources", "Learning Tools", "Presentations", "Extensions", "Association of Moving Image Archivists (AMIA)", "Code4Lib", "Webinars"]
 ---
 <h2 class="red title bold">Presentations</h2>
 {% assign i = 0 %}

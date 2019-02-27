@@ -3,7 +3,7 @@ title: PBCore Mappings to Other Standards
 layout: default
 section: Resources
 permalink: /mappings.html
-keywords: ["Resources", "Tools", "Metadata Mapping", "MARC", "RDF", "EBUCore", "Extensions"]
+keywords: ["Resources", "Tools", "Metadata Mapping", "MARC Metadata Standard", "Resource Description Framework (RDF)", "EBUCore", "Extensions", "IPTC (International Press Telecommunications Council)"]
 ---
 
 <h2 class="red title bold">Mappings</h2>
