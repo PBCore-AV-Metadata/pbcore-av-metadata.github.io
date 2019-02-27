@@ -1,12 +1,13 @@
 ---
-title: PBCore Users
+title: PBCore Case Studies
 layout: default
 section: Community
 permalink: /pbcore-users.html
 keywords: ["Community", "Learning Tools", "Case Studies"]
 ---
 
-<h2 class="title bold dark-grey">Who uses PBCore?</h2>
+
+<h2 class="title dark-grey">PBCore Case Studies</h2>
 
 While not a comprehensive list of all PBCore users, this page includes real-world examples of how various institutions find value in implementing PBCore – as the underlying structure for a database, an import/export format, a conceptual model, and more. If you’re interested in contributing a case study to highlight how your institution implements PBCore, contact us at PBCoreInfo@wgbh.org.
 

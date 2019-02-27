@@ -1,4 +1,11 @@
 - title: >
+    "Intro to PBCore."
+  presenters: Presented by Rebecca Fraimow at the 2018 AMIA conference
+  link: https://www.slideshare.net/pbcore/pbcore-workshop-slides
+  embed: >
+    <iframe width="560" height="315" src="https://www.slideshare.net/pbcore/pbcore-workshop-slides" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- title: >
     "Metadata Grand Unified Theory: PBCore, EBUCore, and the Semantic Web."
   presenters: Presented by Casey Davis, Jack Brighton, Rebecca Fraimow, Jean-Pierre Evain, and Morgan Morel at the 2016 AMIA conference
   link: https://www.youtube.com/watch?v=waWARnndbdM&feature=youtu.be
