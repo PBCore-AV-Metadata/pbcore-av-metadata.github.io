@@ -13,7 +13,7 @@ attributes:
 controlled-vocabs:
   - vocab: <a href="https://en.wikipedia.org/wiki/Motion_picture_content_rating_system#United_States">Motion Picture Association of America Classification & Rating Administration</a>
   - vocab: <a href="https://en.wikipedia.org/wiki/Motion_picture_content_rating_system#United_States">MPAA on Wikipedia</a> (recommended)
-  - vocab: <a href="http://www.tvguidelines.org/ratings.htm">TV Parental Guidlines</a>
+  - vocab: <a href="http://www.tvguidelines.org/ratings.html">TV Parental Guidelines</a>
   - vocab: <a href="https://en.wikipedia.org/wiki/TV_parental_guidelines_(US)">TV Parental Guidelines on Wikipedia</a> (recommended)
 ---
 
