@@ -2,7 +2,7 @@
 title: Credits
 layout: default
 section: About
-permalink: /credits.html
+permalink: /credits
 keywords: ["About", "Credits", "Community"]
 ---
 <h2 class="blue title bold">Credits</h2>

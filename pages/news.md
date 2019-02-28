@@ -2,7 +2,7 @@
 title: News and Updates
 layout: default
 section: Community
-permalink: /news.html
+permalink: /news
 keywords: ["Community", "Blog"]
 ---
 

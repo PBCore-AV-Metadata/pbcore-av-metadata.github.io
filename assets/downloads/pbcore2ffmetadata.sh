@@ -20,7 +20,7 @@ _construct_ffmetadata_line(){
     metadata_key="${1}"
     relative_xpath="${2}"
     # this next line uses xmlstarlet to extract request pbcore values
-    metadata_value="$(xml sel -N p="http://www.pbcore.org/PBCore/PBCoreNamespace.html" -T -t -m //p:pbcoreDescriptionDocument[1] -v "${relative_xpath}" "${PBCORE_IN}")"
+    metadata_value="$(xml sel -N p="http://www.pbcore.org/PBCore/PBCoreNamespace" -T -t -m //p:pbcoreDescriptionDocument[1] -v "${relative_xpath}" "${PBCORE_IN}")"
     # if a metadata value is available then express it with the metadata key, else say nothing
     if [[ -n  "${metadata_value}" ]] ; then
         echo "${metadata_key}=${metadata_value}"

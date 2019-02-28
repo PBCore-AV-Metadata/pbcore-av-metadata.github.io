@@ -2,7 +2,7 @@
 title: License
 layout: default
 section: About
-permalink: /license.html
+permalink: /license
 keywords: ["About"]
 ---
 

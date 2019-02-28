@@ -2,7 +2,7 @@
 title: Root Elements
 layout: element-groups
 section: Schema
-permalink: elements/root.html
+permalink: elements/root
 ---
 
 <h2 class="ele-title-highlight">Root Elements</h2>

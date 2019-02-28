@@ -59,7 +59,7 @@ subelements:
 <pre>
   <code>
     &lt;!--?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?--&gt;<br>
-    &lt;pbcoreInstantiationDocument xmlns=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace.html&quot;
+    &lt;pbcoreInstantiationDocument xmlns=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace&quot;
         xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
         xsi:schemaLocation=&quot;http://pbcore.org/xsd/pbcore-2.1.xsd&quot;&gt;<br>
         &lt;instantiationIdentifier source=&quot;McHale University&quot;&gt;MCU_v0123_01&lt;/instantiationIdentifier&gt;<br>

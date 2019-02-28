@@ -2,7 +2,7 @@
 title: PBCore Cataloging Tool
 layout: default
 section: Resources
-permalink: /cataloging-tool.html
+permalink: /cataloging-tool
 keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging Tool"]
 ---
 <div class="row">
@@ -19,7 +19,7 @@ keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging T
       a spreadsheet.
     </p>
     <p>
-      The PBCore Cataloging Tool is designed to be used in conjunction with the PBCore Spreadsheet Templates, and can import and export metadata in the <a href="/spreadsheet-templates.html">full PBCore Spreadsheet Template format</a>.*
+      The PBCore Cataloging Tool is designed to be used in conjunction with the PBCore Spreadsheet Templates, and can import and export metadata in the <a href="/spreadsheet-templates">full PBCore Spreadsheet Template format</a>.*
     </p>
 
     <p>
@@ -28,7 +28,7 @@ keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging T
       </a>
     </p>
 
-    <a href="{{site.url}}/tutorials.html"><button class="pb-button pb-button-who">Tutorial</button></a>
+    <a href="{{site.url}}/tutorials"><button class="pb-button pb-button-who">Tutorial</button></a>
   </div>
 
   <div class="col-md-6">
@@ -66,7 +66,7 @@ keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging T
       </a>
     </span>
     <p style="margin-top:4%; margin-left:4%;">
-      * Please note that the Cataloging Tool currently will only work with the <a href="/spreadsheet-templates.html">full PBCore Spreadsheet Template</a> and not the abbreviated version or instantiation-only version.
+      * Please note that the Cataloging Tool currently will only work with the <a href="/spreadsheet-templates">full PBCore Spreadsheet Template</a> and not the abbreviated version or instantiation-only version.
     </p>
 
   </div>

@@ -4,7 +4,7 @@ name: >
   @titleType Vocabulary
 usage: >
   for @titleType as an attribute on <a href="{{site.url}}/elements/pbcoretitle">pbcoreTitle</a>
-omr-link: http://metadataregistry.org/concept/list/vocabulary_id/457.html
+omr-link: http://metadataregistry.org/concept/list/vocabulary_id/457
 download: /assets/downloads/pbcore_titletype_vocabulary.xlsx
 terms:
   - term: Album

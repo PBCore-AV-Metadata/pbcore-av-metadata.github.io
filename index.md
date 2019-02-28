@@ -39,7 +39,7 @@ keywords: ["Introduction", "Getting Started"]
     </div>
 
     <div class="col-md-2">
-      <a href="{{ site.url }}/what-is-pbcore.html"><button class="pb-button pb-button-learn" style="padding:5% 17% 5% 17%;">LEARN MORE</button></a>
+      <a href="{{ site.url }}/what-is-pbcore"><button class="pb-button pb-button-learn" style="padding:5% 17% 5% 17%;">LEARN MORE</button></a>
     </div>
 
     <div class="col-md-1 icon-col" >
@@ -92,9 +92,9 @@ keywords: ["Introduction", "Getting Started"]
     </div>
 
     <div class="col-md-4">
-      <a href="{{ site.url }}/tutorials.html"><button class="pb-button pb-button-getting" style="margin-bottom: 1em;">Tutorial: PBCore 101</button></a>
-      <a href="{{ site.url }}/faqs.html"><button class="pb-button pb-button-getting" style="margin-bottom: 1em;">Frequently Asked Questions</button></a>
-      <a href="{{ site.url}}/sample-records.html"><button class="pb-button pb-button-getting">Sample Records</button></a>
+      <a href="{{ site.url }}/tutorials"><button class="pb-button pb-button-getting" style="margin-bottom: 1em;">Tutorial: PBCore 101</button></a>
+      <a href="{{ site.url }}/faqs"><button class="pb-button pb-button-getting" style="margin-bottom: 1em;">Frequently Asked Questions</button></a>
+      <a href="{{ site.url}}/sample-records"><button class="pb-button pb-button-getting">Sample Records</button></a>
     </div>
   </div>
 
@@ -102,7 +102,7 @@ keywords: ["Introduction", "Getting Started"]
 <section id="who-uses-pbcore" class="dark-grey">
   <h2 class="title red" style="font-weight: light!important;">Who uses PBCore?</h2>
   <p class="index-text">Louisiana Public Broadcasting, the American Archive of Public Broadcasting, and other organizations have chosen PBCore for its focus on audiovisual content and the ease with which they can share their records. Take a look at how people use PBCore, and find out how it can help you.</p>
-  <a href="{{ site.url }}/pbcore-users.html"><button class="pb-button pb-button-who">LEARN MORE</button></a>
+  <a href="{{ site.url }}/pbcore-users"><button class="pb-button pb-button-who">LEARN MORE</button></a>
 </section>
 <section id="accessing-tools" class="grey-back">
   <h2 class="red med-title bold">Accessing Tools and Delving Deep</h2>
@@ -113,13 +113,13 @@ keywords: ["Introduction", "Getting Started"]
     </div>
 
     <div class="col-md-4">
-      <a href="{{ site.url }}/cataloging-tool.html"><button class="pb-button pb-button-tools" style="margin-bottom: 1em;">Cataloging Tool</button></a>
-      <a href="{{ site.url }}/spreadsheet-templates.html"><button class="pb-button pb-button-tools" style="margin-bottom: 1em;">Spreadsheet Templates</button></a>
-      <a href="{{ site.url}}/external-tools-and-integrations.html"><button class="pb-button pb-button-tools">Other PBCore Tools</button></a>
+      <a href="{{ site.url }}/cataloging-tool"><button class="pb-button pb-button-tools" style="margin-bottom: 1em;">Cataloging Tool</button></a>
+      <a href="{{ site.url }}/spreadsheet-templates"><button class="pb-button pb-button-tools" style="margin-bottom: 1em;">Spreadsheet Templates</button></a>
+      <a href="{{ site.url}}/external-tools-and-integrations"><button class="pb-button pb-button-tools">Other PBCore Tools</button></a>
     </div>
   </div>
 </section>
 
 <section>
-  <a href="{{ site.url }}/contact.html"><button class="pb-button pb-button-learn">CONTACT US</button></a>
+  <a href="{{ site.url }}/contact"><button class="pb-button pb-button-learn">CONTACT US</button></a>
 </section>

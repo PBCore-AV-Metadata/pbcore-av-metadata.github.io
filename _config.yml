@@ -67,4 +67,4 @@ defaults:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-github_pages_save_generated_files: ['browse_pages.html']
+github_pages_save_generated_files: ['browse_pages']

@@ -2,12 +2,12 @@
 title: Frequently Asked Questions
 layout: default
 section: About
-permalink: /faqs.html
+permalink: /faqs
 keywords: ["About", "Introduction", "Getting Started", "FAQs", "Implementation"]
 ---
 
 <div class="container-fluid faq" id="faq">
-  <h1 class="title bold">Frequently Asked Questions</h1>
+  <h2 class="title bold">Frequently Asked Questions</h2>
   	<div class="container">
   		<section>
       {% assign i = 0 %}

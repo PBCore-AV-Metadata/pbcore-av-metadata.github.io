@@ -2,7 +2,7 @@
 title: PBCore Presentations
 layout: default
 section: Resources
-permalink: /presentations.html
+permalink: /presentations
 keywords: ["Resources", "Learning Tools", "Presentations", "Extensions", "AMIA", "Code4Lib", "Webinars"]
 ---
 <h2 class="red title bold">Presentations</h2>

@@ -2,11 +2,11 @@
 title: Glossary
 layout: default
 section: About
-permalink: /glossary.html
+permalink: /glossary
 keywords: ["About", "Getting Started", "Glossary"]
 ---
 <div class="container-fluid bg-gray" id="glossary">
-  <h1 class="title bold">Glossary</h1>
+  <h2 class="title bold">Glossary</h2>
   	<div class="container">
   		<section>
         <div class="row">

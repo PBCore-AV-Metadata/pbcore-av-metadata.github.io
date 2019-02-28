@@ -74,6 +74,14 @@
           }
         })
       });
+
+      // show tutorials via #link
+      var ref = window.location.href;
+      var hashlink = ref.slice(ref.lastIndexOf("#"));
+      if(ref.includes('tutorials') && hashlink) {
+       $(hashlink).parent().parent().next('div.collapse').collapse('toggle');;
+      }
+
     });
 
   </script>
