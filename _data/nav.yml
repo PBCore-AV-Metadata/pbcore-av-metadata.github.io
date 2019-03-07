@@ -47,6 +47,8 @@ toc:
     subfolderitems:
       - page: PBCore Users
         url: /pbcore-users
+      - page: Contribute
+        url: /contribute
       - page: User Groups
         url: /user-groups
       - page: Annual Meeting Notes

@@ -3,8 +3,7 @@ title: Contact Us
 layout: default
 section: Community
 permalink: /contact
-keywords: ["Community", "Contact"]
-keywords: ["About"]
+keywords: ["Community", "Contact", "Github", "About"]
 ---
 
 <h2 class="dark-grey title bold">Contact Us</h2>

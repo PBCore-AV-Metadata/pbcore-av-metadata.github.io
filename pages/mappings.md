@@ -3,7 +3,7 @@ title: PBCore Mappings to Other Standards
 layout: default
 section: Resources
 permalink: /mappings
-keywords: ["Resources", "Tools", "Metadata Mapping", "MARC", "RDF", "EBUCore", "Extensions"]
+keywords: ["Resources", "Tools", "Metadata Mapping", "MARC Metadata Standard", "Resource Description Framework (RDF)", "EBUCore", "Extensions", "International Press Telecommunications Council (IPTC)", "Preservation Metadata Implementation Strategies (PREMIS)"]
 ---
 
 <h2 class="red title bold">Mappings</h2>
@@ -19,6 +19,12 @@ Download the <a href="/assets/downloads/pbcore-marc-mapping-20180430.xlsx" downl
 
 MARC 21 is supported by the Library of Congress; this mapping refers to <a href="https://www.loc.gov/marc/bibliographic/">the 1999 edition, Update No. 27.</a>
 
+<h3>PBCore and PREMIS</h3>
+Although PBCore does not specifically address the preservation or continued access of the assets it describes, the community recognizes the value of storing this data in a standardized way. One of the most common ways to do this is through the use of <a href="https://www.loc.gov/standards/premis/">PREMIS</a> (Preservation Metadata Implementation Strategies), which is the de facto international standard for metadata to support the preservation of digital objects and ensure their long-term usability. PREMIS is purposely not designed to describe specific formats; it includes semantic units for properties all digital objects share , and leaves the more format specific properties to be described by format specialized standards. There are multiple ways that users of PBCore and PREMIS can combine the specialties of both standards to robustly describe the technical intricacies of AV assets and the information needed to preserve and access them.
+
+Documentation provided <a href="/assets/downloads/PBCore_PREMIS_Implementations_and_Mappings.pdf">here</a> includes mappings between PREMIS entities and PBCore root elements, mappings between PREMIS semantic units and PBCore elements and attributes, and implementation options for using PREMIS and PBCore together.
+
+Download the entire zipped directory of documentation and examples <a href="/assets/downloads/PBCore_and_PREMIS.zip" download>here</a>.
 
 <h3>PBCore XML-RDF (EBUCore/Dublin Core/DC Terms/SKOS)</h3>
 
@@ -35,8 +41,8 @@ Any RDF implementation will vary based on the specific needs of the institution 
 EBUCore is supported by the European Broadcasting Union; this mapping refers to <a href="https://www.ebu.ch/metadata/ontologies/ebucore/">version 1.9 of the EBUCore Ontology.</a> The development of the EBUCore ontology is a joint effort of the EBUCore and PBCore communities, with several properties that have been added specifically to facilitate PBCore mapping. For more information about EBUCore, visit the homepage of the <a href="https://tech.ebu.ch/MetadataEbuCore">EBUCore metadata standard</a>.
 
 
-<h3>PBCore and ITPC</h3>
-The IPTC Video Metadata Hub is a set of video metadata properties that can be expressed by multiple technical standards, including XMP, EBUCore and JSON. The primary properties included in the Hub were mapped to PBCore in 2016 as a collaborative effort between the IPTC and the PBCore Advisory Sub-Committee. 
+<h3>PBCore and IPTC</h3>
+The IPTC Video Metadata Hub is a set of video metadata properties that can be expressed by multiple technical standards, including XMP, EBUCore and JSON. The primary properties included in the Hub were mapped to PBCore in 2016 as a collaborative effort between the IPTC and the PBCore Advisory Sub-Committee.
 
 View the <a href="https://iptc.org/std/videometadatahub/recommendation/IPTC-VideoMetadataHub-mapping-Rec_1.2.html">complete Video Metadata Hub mapping document here.</a>
 
