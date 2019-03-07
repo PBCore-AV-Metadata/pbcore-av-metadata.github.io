@@ -3,7 +3,7 @@ title: Annual Meeting Notes
 permalink: /annual-meeting-notes
 section: Community
 layout: default
-keywords: ["Community", "AMIA", "PBCore Advisory Subcommittee"]
+keywords: ["Community", "Association of Moving Image Archivists (AMIA)", "PBCore Advisory Subcommittee"]
 ---
 
 <h2 class="dark-grey title bold">Annual Meeting Notes</h2>

@@ -3,7 +3,7 @@ title: PBCore Mappings to Other Standards
 layout: default
 section: Resources
 permalink: /mappings
-keywords: ["Resources", "Tools", "Metadata Mapping", "MARC", "RDF", "EBUCore", "Extensions"]
+keywords: ["Resources", "Tools", "Metadata Mapping", "MARC Metadata Standard", "Resource Description Framework (RDF)", "EBUCore", "Extensions", "International Press Telecommunications Council (IPTC)", "Preservation Metadata Implementation Strategies (PREMIS)"]
 ---
 
 <h2 class="red title bold">Mappings</h2>
@@ -41,7 +41,7 @@ Any RDF implementation will vary based on the specific needs of the institution 
 EBUCore is supported by the European Broadcasting Union; this mapping refers to <a href="https://www.ebu.ch/metadata/ontologies/ebucore/">version 1.9 of the EBUCore Ontology.</a> The development of the EBUCore ontology is a joint effort of the EBUCore and PBCore communities, with several properties that have been added specifically to facilitate PBCore mapping. For more information about EBUCore, visit the homepage of the <a href="https://tech.ebu.ch/MetadataEbuCore">EBUCore metadata standard</a>.
 
 
-<h3>PBCore and ITPC</h3>
+<h3>PBCore and IPTC</h3>
 The IPTC Video Metadata Hub is a set of video metadata properties that can be expressed by multiple technical standards, including XMP, EBUCore and JSON. The primary properties included in the Hub were mapped to PBCore in 2016 as a collaborative effort between the IPTC and the PBCore Advisory Sub-Committee.
 
 View the <a href="https://iptc.org/std/videometadatahub/recommendation/IPTC-VideoMetadataHub-mapping-Rec_1.2.html">complete Video Metadata Hub mapping document here.</a>
