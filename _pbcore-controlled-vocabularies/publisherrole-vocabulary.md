@@ -3,7 +3,7 @@ section: Schema
 name: publisherRole Vocabulary
 usage: >
   for <a href="elements/publisherrole">publisherRole</a>
-omr-link: http://metadataregistry.org/concept/list/vocabulary_id/461
+omr-link: http://metadataregistry.org/concept/list/vocabulary_id/461.html
 download: /assets/downloads/pbcore_publisherrole_vocabulary.xlsx
 terms:
   - term: Distributor

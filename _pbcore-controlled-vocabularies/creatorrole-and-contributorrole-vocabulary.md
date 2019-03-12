@@ -3,7 +3,7 @@ section: Schema
 name: creatorRole and contributorRole Vocabulary
 usage: >
   for <a href="/elements/creatorrole">creatorRole</a> and <a href="/elements/contributorrole">contributorRole</a>
-omr-link: http://metadataregistry.org/concept/list/vocabulary_id/460
+omr-link: http://metadataregistry.org/concept/list/vocabulary_id/460.html
 download: /assets/downloads/pbcore_creatorandcontributorrole_vocabulary.xlsx
 terms:
   - term: Actor
