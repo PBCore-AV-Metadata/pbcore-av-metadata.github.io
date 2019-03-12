@@ -21,15 +21,7 @@ permalink: /mappings/pbcore-with-premis-events.xml
     <instantiationChannelConfiguration>Ch 1 MOS; Ch 2 Nats and Dialogue</instantiationChannelConfiguration>
     <instantiationExtension>
       <extensionEmbedded>
-        <?xml version="1.0" encoding="UTF-8"?>
-        <premis xmlns="info:lc/xmlns/premis-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis.xsd" version="2.0">
-          <object xsi:type="representation">
-            <objectIdentifier>
-              <objectIdentifierType>American Archive GUID</objectIdentifierType>
-              <objectIdentifierValue>cpb-aacip/123-abcdefghi</objectIdentifierValue>
-            </objectIdentifier>
-          </object>
-          <event>
+          <event xmlns="http://www.loc.gov/standards/premis/v2>
             <eventIdentifier>
               <eventIdentifierType>AMS event ID</eventIdentifierType>
               <eventIdentifierValue>62199</eventIdentifierValue>
@@ -41,7 +33,7 @@ permalink: /mappings/pbcore-with-premis-events.xml
               <linkingObjectIdentifierValue>cpb-aacip/123-abcdefghi</linkingObjectIdentifierValue>
             </linkingObjectIdentifier>
           </event>
-          <event>
+          <event xmlns="http://www.loc.gov/standards/premis/v2>
             <eventIdentifier>
               <eventIdentifierType>AMS event ID</eventIdentifierType>
               <eventIdentifierValue>62200</eventIdentifierValue>
@@ -53,7 +45,7 @@ permalink: /mappings/pbcore-with-premis-events.xml
               <linkingObjectIdentifierValue>cpb-aacip/123-abcdefghi</linkingObjectIdentifierValue>
             </linkingObjectIdentifier>
           </event>
-          <event>
+          <event xmlns="http://www.loc.gov/standards/premis/v2>
             <eventIdentifier>
               <eventIdentifierType>AMS event ID</eventIdentifierType>
               <eventIdentifierValue>62421</eventIdentifierValue>
@@ -66,7 +58,6 @@ permalink: /mappings/pbcore-with-premis-events.xml
               <linkingObjectIdentifierValue>cpb-aacip/123-abcdefghi</linkingObjectIdentifierValue>
             </linkingObjectIdentifier>
           </event>
-        </premis>
       </extensionEmbedded>
     </instantiationExtension>
   </pbcoreInstantiation>

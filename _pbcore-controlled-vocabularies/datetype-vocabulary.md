@@ -4,7 +4,7 @@ name: >
   @dateType Vocabulary
 usage: >
   for @dateType as an attribute on <a href="{{site.url}}/elements/pbcoreassetdate">pbcoreAssetDate</a> or <a href="{{site.url}}/elements/instantiationdate">instantiationDate</a>
-omr-link: http://metadataregistry.org/concept/list/vocabulary_id/455
+omr-link: http://metadataregistry.org/concept/list/vocabulary_id/455.html
 download: /assets/downloads/pbcore_datetype_vocabulary.xlsx
 terms:
   - term: accepted

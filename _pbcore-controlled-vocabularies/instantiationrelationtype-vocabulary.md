@@ -3,7 +3,7 @@ section: Schema
 name: instantiationRelationType Vocabulary
 usage: >
   for <a href="elements/instantiationrelationtype">instantiationRelationType</a>
-omr-link: http://metadataregistry.org/concept/list/vocabulary_id/459
+omr-link: http://metadataregistry.org/concept/list/vocabulary_id/459.html
 download: /assets/downloads/pbcore_instantiationrelationtype_vocabulary.xlsx
 terms:
   - term: Is Clone Of
