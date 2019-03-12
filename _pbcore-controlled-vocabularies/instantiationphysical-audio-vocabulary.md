@@ -89,7 +89,7 @@ terms:
   - term: Vinyl recording
     id: VinylRecording
     definition: >
-      A grooved vinyl analog disc format. If desired, format information can be included after a colon, for example: “Vinyl record: EP.” Types of records may include EP, LP, 45, 78. LP may also be known as 33 1/3.
+      A grooved vinyl analog disc format. If desired, format information can be included after a colon, for example: “Vinyl recording: EP.” Types of records may include EP, LP, 45, 78. LP may also be known as 33 1/3.
   - term: Wax cylinder
     id: WaxCylinder
     definition: A grooved wax analog phonograph cylinder format.
