@@ -11,7 +11,7 @@ attributes:
   - name: annotation
     note: optional
 controlled-vocabs:
-  - vocab: <a href="#">PBCore's creatorRole/contributorRole Vocabulary</a> (recommended)
+  - vocab: <a href="/pbcore-controlled-vocabularies/creatorrole-and-contributorrole-vocabulary">PBCore's creatorRole/contributorRole Vocabulary</a> (recommended)
   - vocab: <a href="https://www.ebu.ch/metadata/cs/web/ebu_RoleCodeCS_p.xml.htm">EBUCore roleCode</a>
 ---
 <pre>

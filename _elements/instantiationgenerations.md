@@ -11,7 +11,7 @@ attributes:
   - name: annotation
     note: optional
 controlled-vocabs:
-  - vocab: <a href="#">PBCore's instantiationGenerations Vocabulary</a> (recommended)
+  - vocab: <a href="/pbcore-controlled-vocabularies/instantiationgenerations-vocabulary/">PBCore's instantiationGenerations Vocabulary</a> (recommended)
   - vocab: <a href="http://id.loc.gov/vocabulary/graphicMaterials">Thesaurus for Graphic Materials</a>
 ---
 <pre>

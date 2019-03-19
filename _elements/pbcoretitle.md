@@ -26,6 +26,8 @@ attributes:
     note: optional
   - name: timeAnnotation
     note: optional
+controlled-vocabs:
+  - vocab: <a href="/pbcore-controlled-vocabularies/titletype-vocabulary/">PBCore's @titleType Vocabulary for the titleType attribute</a>
 ---
 <pre>
   <code>
