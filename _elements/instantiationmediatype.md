@@ -11,7 +11,7 @@ attributes:
   - name: annotation
     note: optional
 controlled-vocabs:
-  - vocab: <a href="#">PBCore's instantiationMediaType Vocabulary</a> (recommended)
+  - vocab: <a href="/pbcore-controlled-vocabularies/instantiationmediatype-vocabulary/">PBCore's instantiationMediaType Vocabulary</a> (recommended)
   - vocab: <a href="http://cv.iptc.org/newscodes/mediatype/">IPTC NewsCodes Media Type</a>
 ---
 <pre>

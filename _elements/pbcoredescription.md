@@ -36,6 +36,8 @@ attributes:
     note: optional
   - name: annotation
     note: optional
+controlled-vocabs:
+  - vocab: <a href="/pbcore-controlled-vocabularies/descriptiontype-vocabulary/">PBCore's @descriptionType Vocabulary for the descriptionType attribute</a>
 ---
 ~~~~
 <pbcoreDescription descriptionType="Version">HV (home video) Master Letterbox</pbcoreDescription>

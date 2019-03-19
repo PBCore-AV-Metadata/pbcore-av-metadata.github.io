@@ -11,7 +11,7 @@ attributes:
   - name: annotation
     note: optional
 controlled-vocabs:
-  - vocab: <a href="#">PBCore's pbcoreAssetType Vocabulary</a>
+  - vocab: <a href="/pbcore-controlled-vocabularies/pbcoreassettype-vocabulary/">PBCore's pbcoreAssetType Vocabulary</a>
   - vocab: <a href="https://www.ebu.ch/metadata/cs/web/ebu_ObjectTypeCodeCS_p.xml.htm">EBU Object Type Code</a>
 ---
 

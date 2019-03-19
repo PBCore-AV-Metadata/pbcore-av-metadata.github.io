@@ -11,9 +11,9 @@ attributes:
   - name: annotation
     note: optional
 controlled-vocabs:
-  - vocab: <a href="#">PBCore's instantiationPhysical (Video)</a>
-  - vocab: <a href="#">PBCore's instantiationPhysical (Film)</a>
-  - vocab: <a href="#">PBCore's instantiationPhysical (Audio)</a>
+  - vocab: <a href="/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/">PBCore's instantiationPhysical (Video)</a>
+  - vocab: <a href="/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/">PBCore's instantiationPhysical (Film)</a>
+  - vocab: <a href="/pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/">PBCore's instantiationPhysical (Audio)</a>
 ---
 
 <pre>
