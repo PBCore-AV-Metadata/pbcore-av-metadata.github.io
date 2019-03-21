@@ -51,7 +51,7 @@
         <iframe src="https://player.vimeo.com/video/303075963" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     - title: Using Spreadsheets
       id: tool-spreadsheets
-      description: Explains how to export and import data in CSV format, so that you have have your data as a spreadsheet
+      description: Explains how to export and import data in CSV format, so that you have your data as a spreadsheet
       embed: >
         <iframe src="https://player.vimeo.com/video/313430728" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     - title: Template Records
