@@ -30,7 +30,7 @@ controlled-vocabs:
   - vocab: <a href="http://id.loc.gov/authorities/subjects">Library of Congress Subject Headings</a>
   - vocab: <a href="http://cv.iptc.org/newscodes/subjectcode/">IPTC NewsCodes Subject Codes</a>
   - vocab: <a href="http://id.loc.gov/vocabulary/graphicMaterials">Thesaurus for Graphic Materials</a>
-  - vocab: < a href="https://www.wikipedia.org/">Wikipedia</a>
+  - vocab: <a href="https://www.wikipedia.org/">Wikipedia</a>
 ---
 <pre>
   <code>
