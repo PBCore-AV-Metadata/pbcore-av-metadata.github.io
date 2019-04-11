@@ -1,6 +1,6 @@
 ---
 section: Schema
-name: instantiationtracks
+name: instantiationTracks
 attributes:
   - name: source
     note: optional
