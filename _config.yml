@@ -67,4 +67,7 @@ defaults:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+#Google Analytics
+google_analytics: UA-60323667-2
+
 github_pages_save_generated_files: ['browse_pages']
