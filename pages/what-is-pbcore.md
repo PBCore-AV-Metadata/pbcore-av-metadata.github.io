@@ -21,10 +21,6 @@ keywords: ["About", "Introduction", "Getting Started", "Key Functions"]
       Public broadcasting communities in the United States originally developed PBCore so that producers and local stations could better share, manage and preserve their media. Since then, a growing number of moving image archives and media organizations outside of public broadcasting have also adopted PBCore to manage their audiovisual assets and collections.
     </p>
 
-    <p>
-      <img src="/assets/images/cpb.png" alt="">
-    </p>
-
   </div>
 
   <div class="col-md-1">
