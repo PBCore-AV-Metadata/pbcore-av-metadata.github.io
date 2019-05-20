@@ -14,6 +14,7 @@ keywords: ["Resources", "Getting Started", "Key Functions", "Tutorials", "Learni
 
     {% for group in site.data.tutorials %}
       <h3 class="red bold">{{group.section}}</h3>
+      <p>{{group.description}}</p>
       <div class="accordion" id="tutorial-accordion">
 
         {% for block in group.tutorials %}
@@ -25,13 +26,13 @@ keywords: ["Resources", "Getting Started", "Key Functions", "Tutorials", "Learni
               <span class="collapsed" data-toggle="collapse" href="#tutorial-collapse{{i}}" aria-expanded="false" aria-controls="tutorial-collapse{{i}}">
 
                 <span class="pres-arrow-icon pres-arrow-down"></span>
-              
+
                 <a href="#{{ block.id }}" id="{{ block.id }}">
                   <span class="red">{{ block.title }}</span>
                   <span class="black"> - {{ block.description }}</span>
                 </a>
               </span>
-              
+
             </div>
 
             <div id="tutorial-collapse{{i}}" class="collapse fade" aria-labelled by="tutorial{{ i }}">

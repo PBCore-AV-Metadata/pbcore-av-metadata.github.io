@@ -18,9 +18,14 @@
         <iframe src="https://player.vimeo.com/video/313027511" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     - title: Using PBCore Extensions
       id: extensions
-      description: Explains how to keep metadata that doesn't traditionally fit into a PBCore record in your PBCore records.
+      description: Explains how to keep metadata that doesn't traditionally fit into a PBCore record in your PBCore records
       embed: >
         <iframe src="https://player.vimeo.com/video/312996232" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    - title: Using PBCoreCollections
+      id: collections
+      description: Explains how to use the pbcoreCollection root element
+      embed: >
+        <iframe src="https://player.vimeo.com/video/336594390" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     - title: PBCore Controlled Vocabularies
       id: vocabs
       description: Explains what controlled vocabularies are and how to use them in PBCore records
@@ -39,6 +44,11 @@
       description: Introduces the PBCore Cataloging Tool and how to set it up
       embed: >
         <iframe src="https://player.vimeo.com/video/303077604" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    - title: Create and Edit Records
+      id: create-records
+      description: Explains how to make new and edit individual PBCore records
+      embed: >
+        <iframe src="https://player.vimeo.com/video/303184150" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     - title: How to Search
       id: tool-search
       description: Explains how to search records in the PBCore Cataloging Tool
@@ -64,3 +74,34 @@
       description: Explains how to add the same new value to many records at the same time in  the PBCore Cataloging Tool
       embed: >
         <iframe src="https://player.vimeo.com/video/313427056" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    - title: Preparing a CSV for the PBCore Cataloging Tool
+      id: tool-prepping-csv
+      description: Explains how to format a CSV file for ingest in to the PBCore Cataloging Tool
+      embed: >
+        <iframe src="https://player.vimeo.com/video/336594133" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+- section: PBCore Spreadsheet Templates
+  description: These videos explain how to use the PBCore spreadsheet templates, which are available to download <a href="/spreadsheet-templates">here</a>.
+  tutorials:
+    - title: Simple Spreadsheet Template
+      id: simple-spreadsheet
+      description: Explains how to use the PBCore Simple Spreadsheet to create an inventory of audiovisual assets
+      embed: >
+        <iframe src="https://player.vimeo.com/video/336593802" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+- section: Other PBCore Tools
+  description: These videos walk through how to use other tool that can help you use PBCore.
+  tutorials:
+    - title: Exporting PBCore 2.1 from MediaInfo
+      id: mediainfo
+      description: Explains how to use MediaInfo to generate pbcoreInstantiation documents for digital files
+      embed: >
+        <iframe src="https://player.vimeo.com/video/336594459" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    - title: Using the PBCore Validator
+      id: validator
+      description: Explains how to use the <a href="/validator">PBCore XML Validator</a> to make sure your PBCore files conform to the <a href="/xsd">XSD</a>.
+      embed: >
+        <iframe src="https://player.vimeo.com/video/336593532" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    - title: Building a PBCore-Compliant Database
+      id: compliant-database
+      description: Explains ideas to consider when building a PBCore-compliant database
+      embed: >
+        <iframe src="https://player.vimeo.com/video/336594294" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
