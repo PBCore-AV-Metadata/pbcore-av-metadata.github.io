@@ -41,7 +41,7 @@ terms:
     definition: A self-contained portion of a program/episode, which serves its own function, but operates within the larger program/episode.
   - term: Series
     id: Series
-    definition: A set of episodes broadcast in sequence, usually conceived without a definte end and aired on a regular schedule. Typically all episodes within a single series follow a specific theme or continuous storyline, or are all broadcast under the same series title and branding.
+    definition: A set of episodes broadcast in sequence, usually conceived without a definite end and aired on a regular schedule. Typically all episodes within a single series follow a specific theme or continuous storyline, or are all broadcast under the same series title and branding.
   - term: Season
     id: Season
     definition: A set of episodes from a series, which were all aired in the same broadcast period.

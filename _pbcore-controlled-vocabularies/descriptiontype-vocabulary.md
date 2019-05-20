@@ -63,9 +63,9 @@ terms:
     definition: A description of a self-contained portion of a program/episode, which serves its own function, but operates within the larger program/episode.
   - term: Series
     id: Series
-    definition: A description of a set of episodes broadcast in sequence, usually conceived without a definte end and aired on a regular schedule. Typically all episodes within a single series follow a specific theme or continuous storyline, and are all broadcast under the same series title and branding.
+    definition: A description of a set of episodes broadcast in sequence, usually conceived without a definite end and aired on a regular schedule. Typically all episodes within a single series follow a specific theme or continuous storyline, and are all broadcast under the same series title and branding.
   - term: Shot List
-    if: ShotList
+    id: ShotList
     definition: A document that lists, in chronological order, the sequences of footage used in the production of a program or asset.
   - term: Song
     id: Song

@@ -12,9 +12,6 @@ attributes:
     note: optional
   - name: annotation
     note: optional
-controlled-vocabs:
-  - vocab: <a href="#">PBCore's instantiationStandard Video Vocabulary</a> (recommended)
-  - vocab: <a href="#">PBCore's instantiationStandard Audio Vocabulary</a> (recommended)
 ---
 
 <pre>
