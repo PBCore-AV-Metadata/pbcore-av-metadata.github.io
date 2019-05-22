@@ -59,6 +59,11 @@
       description: Explains how to use and update controlled vocabulaires in the PBCore Cataloging Tool
       embed: >
         <iframe src="https://player.vimeo.com/video/303075963" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    - title: Preparing a CSV for the PBCore Cataloging Tool
+      id: tool-prepping-csv
+      description: Explains how to format a CSV file for ingest in to the PBCore Cataloging Tool
+      embed: >
+        <iframe src="https://player.vimeo.com/video/336594133" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     - title: Using Spreadsheets
       id: tool-spreadsheets
       description: Explains how to export and import data in CSV format, so that you have your data as a spreadsheet
@@ -74,11 +79,6 @@
       description: Explains how to add the same new value to many records at the same time in  the PBCore Cataloging Tool
       embed: >
         <iframe src="https://player.vimeo.com/video/313427056" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    - title: Preparing a CSV for the PBCore Cataloging Tool
-      id: tool-prepping-csv
-      description: Explains how to format a CSV file for ingest in to the PBCore Cataloging Tool
-      embed: >
-        <iframe src="https://player.vimeo.com/video/336594133" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 - section: PBCore Spreadsheet Templates
   description: These videos explain how to use the PBCore spreadsheet templates, which are available to download <a href="/spreadsheet-templates">here</a>.
   tutorials:
@@ -88,7 +88,7 @@
       embed: >
         <iframe src="https://player.vimeo.com/video/336593802" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 - section: Other PBCore Tools
-  description: These videos walk through how to use other tool that can help you use PBCore.
+  description: These videos walk through how to use other tools that can help you use PBCore.
   tutorials:
     - title: Exporting PBCore 2.1 from MediaInfo
       id: mediainfo
