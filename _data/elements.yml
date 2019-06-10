@@ -112,10 +112,10 @@ elementgroups:
             url: /elements/instantiationmediatype
           - name: instantiationGenerations
             url: /elements/instantiationgenerations
-          - name: instantiationTimeStart
-            url: /elements/instantiationtimestart
           - name: instantiationFileSize
             url: /elements/instantiationfilesize
+          - name: instantiationTimeStart
+            url: /elements/instantiationtimestart
           - name: instantiationDuration
             url: /elements/instantiationduration
           - name: instantiationDataRate
