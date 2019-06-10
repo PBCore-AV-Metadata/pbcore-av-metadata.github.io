@@ -12,6 +12,6 @@ keywords: ["Resources", "Tools", "Quality Control"]
   <button type="button" class="pb-button pb-button-who" name="button">TRY THE VALIDATOR</button>
 </a>
 
-<a href="{{site.url}}/tutorials">
+<a href="{{site.url}}/tutorials#validator">
   <button type="button" class="pb-button pb-button-who" name="button">TUTORIAL</button>
 </a>
