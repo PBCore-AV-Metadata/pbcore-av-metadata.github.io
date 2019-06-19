@@ -7,8 +7,8 @@ permalink: /xsd/pbcore-2.1.xsd
 
 <?xml version="1.0" ?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-    xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace"
-    targetNamespace="http://www.pbcore.org/PBCore/PBCoreNamespace"
+    xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html"
+    targetNamespace="http://www.pbcore.org/PBCore/PBCoreNamespace.html"
     elementFormDefault="qualified" version="2.1draft3">
     <xsd:annotation>
         <xsd:documentation xml:lang="en">This is the PBCore version 2.1draft3 XML schema. All
