@@ -69,7 +69,7 @@ children:
 ---
 
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;<br>
-&lt;pbcoreCollection xmlns=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd&quot;&gt;
+&lt;pbcoreCollection xmlns=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace.html&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace.html https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd&quot;&gt;
   &lt;pbcoreDescriptionDocument&gt;<br>
     &lt;pbcoreIdentifier source=&quot;TGIF&quot;&gt;19993&lt;/pbcoreIdentifier&gt;<br>
     &lt;pbcoreTitle titleType=&quot;Series&quot;&gt;Sabrina the Teenage Witch&lt;/pbcoreTitle&gt;<br>

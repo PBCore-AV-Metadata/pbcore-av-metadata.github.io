@@ -71,7 +71,7 @@ children:
 ---
 
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;<br>
-&lt;pbcoreDescriptionDocument xmlns=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd&quot;&gt;<br>
+&lt;pbcoreDescriptionDocument xmlns=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace.html&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace.html https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd&quot;&gt;<br>
   &lt;pbcoreAssetDate&gt;2013-11-19&lt;/pbcoreAssetDate&gt;<br>
   &lt;pbcoreIdentifier source=&quot;PBS NOLA Code&quot;&gt;FRON 3204&lt;/pbcoreIdentifier&gt;<br>
   &lt;pbcoreTitle titleType=&quot;Episode&quot;&gt;Who Was Lee Harvey Oswald?&lt;/pbcoreTitle&gt;<br>
