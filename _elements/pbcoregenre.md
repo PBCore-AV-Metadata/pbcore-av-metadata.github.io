@@ -17,7 +17,6 @@ attributes:
   - name: timeAnnotation
     note: optional
 controlled-vocabs:
-  - vocab: <a href="#">PBCore's pbcoreGenre Vocabulary</a>
   - vocab: <a href="http://www.loc.gov/rr/mopic/miggen">Library of Congress Moving Image Genre-Form Guide</a>
   - vocab: <a href="http://cv.iptc.org/newscodes/genre/">IPTC NewsCodes Genres</a>
   - vocab: <a href="http://id.loc.gov/vocabulary/graphicMaterials">Library of Congress for Graphic Materials</a>
