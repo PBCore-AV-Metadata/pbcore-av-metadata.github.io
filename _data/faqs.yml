@@ -95,8 +95,8 @@
       3. the addition of a @unitofmeasure attribute to the element essenceTrackBitDepth
       4. the change of the element extensionAuthorityUsed from required to optional within the container extensionWrap
       5. overall updated definitions and best practices for each element
-      For more information on the process and rationale behind the development of PBCore 2.1, see the readme on the <a href="https://github.com/WGBH/PBCore_2.1">PBCore 2.1 GitHub repository</a>.
+      For more information on the process and rationale behind the development of PBCore 2.1, see the readme on the <a href="https://github.com/PBCore-AV-Metadata/PBCore_2.1">PBCore 2.1 GitHub repository</a>.
   - question: When is version 3.0 coming?
     answer: Although the date for PBCore 3.0 has not yet been set, a roadmap for 3.0 is under discussion.
   - question: I have a question you haven't answered! What do I do?
-    answer: Reach out to us on the <a href="{{site.url}}/contact">Contact</a> page, leave an issue at the <a href="https://github.com/WGBH/PBCore_2.1"> 2.1 GitHub repository</a>, or email us at pbcoreinfo@wgbh.org. We’ll get back to you within two weeks with an answer (and maybe your question will end up here!)
+    answer: Reach out to us on the <a href="{{site.url}}/contact">Contact</a> page, leave an issue at the <a href="https://github.com/PBCore-AV-Metadata/PBCore_2.1"> 2.1 GitHub repository</a>, or email us at pbcoreinfo@wgbh.org. We’ll get back to you within two weeks with an answer (and maybe your question will end up here!)

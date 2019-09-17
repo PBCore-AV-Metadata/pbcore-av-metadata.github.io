@@ -30,7 +30,7 @@ permalink: /mappings/mets-with-pbcore-and-premis.xml
         <mets:techMD ID="techmd1">
             <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="PBCore">
                 <mets:xmlData>
-                    <pbcore:pbcoreInstantiationDocument xmlns:pbcore="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd">
+                    <pbcore:pbcoreInstantiationDocument xmlns:pbcore="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html https://pbcore.org/xsd/pbcore-2.1.xsd">
                         <!-- Master -->
                         <pbcore:instantiationIdentifier source="Filename">sample.mxf</pbcore:instantiationIdentifier>
                         <pbcore:instantiationDate>-11-05 15:</pbcore:instantiationDate>

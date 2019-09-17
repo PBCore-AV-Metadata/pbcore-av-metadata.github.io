@@ -46,7 +46,7 @@ children:
 ---
 
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;<br>
-&lt;pbcoreInstantiationDocument xmlns=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace.html&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace.html https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd&quot;&gt;<br>
+&lt;pbcoreInstantiationDocument xmlns=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace.html&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace.html https://pbcore.org/xsd/pbcore-2.1.xsd&quot;&gt;<br>
   &lt;instantiationIdentifier source=&quot;Barcode&quot;&gt;7005732&lt;/instantiationIdentifier&gt;<br>
   &lt;instantiationDate&gt;1950-01-03&lt;/instantiationDate&gt;<br>
   &lt;instantiationPhysical source=&quot;PBCore instantiationPysical Film&quot; ref=&quot;http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-film-vocabulary/#35mmFilm&quot;&gt;35mm film&lt;/instantiationPhysical&gt;<br>

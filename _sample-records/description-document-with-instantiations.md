@@ -136,7 +136,7 @@ children:
 ---
 
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;<br>
-&lt;pbcoreDescriptionDocument xmlns=&quot;http://www.pbcore.org/PBCore/PBCoreNamespac.html&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace.html https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd&quot;&gt;<br>
+&lt;pbcoreDescriptionDocument xmlns=&quot;http://www.pbcore.org/PBCore/PBCoreNamespac.html&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.pbcore.org/PBCore/PBCoreNamespace.html https://pbcore.org/xsd/pbcore-2.1.xsd&quot;&gt;<br>
   &lt;pbcoreAssetDate dateType=&quot;released&quot;&gt;1977&lt;/pbcoreAssetDate&gt;<br>
   &lt;pbcoreIdentifier source=&quot;Lucasfilm&quot;&gt;00001&lt;/pbcoreIdentifier&gt;<br>
   &lt;pbcoreTitle titleType=&quot;Program&quot;&gt;Star Wars: A New Hope&lt;/pbcoreTitle&gt;<br>
