@@ -23,7 +23,7 @@ permalink: /mappings/premis-with-pbcore-instantiation.xml
             </formatDesignation>     
         </format>
         <objectCharacteristicsExtension>
-            <pbcoreInstantiationDocument xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd">
+            <pbcoreInstantiationDocument xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html https://pbcore.org/xsd/pbcore-2.1.xsd">
                 <instantiationIdentifier source="File Name">cpb-aacip-23-85n8ptmt.j2k.mxf</instantiationIdentifier>
                 <instantiationDate dateType="encoded">2013-11-07</instantiationDate>
                 <instantiationDigital>application/mxf</instantiationDigital>
