@@ -63,5 +63,5 @@ Jimi Jones (University of Illinois) - <a href="/assets/downloads/EducatorWorksho
 
 Steven MacCall (University of Alabama) - <a href="/assets/downloads/EducatorWorkshop_StevenMacCall.docx">PBCore Learning Components Plan</a>
 
-Alexandra Provo (Pratt University) - <a href="/assets/downloads/EducatorWorkshop_AlexandraProvo.docx">XML Lesson Plan</a> and <a href="/assets/downloads/EducatorWorkshop_AlexandraProvo_SampleSlides.pptx">Slides</a>
+Alexandra Provo (Pratt Institute) - <a href="/assets/downloads/EducatorWorkshop_AlexandraProvo.docx">XML Lesson Plan</a> and <a href="/assets/downloads/EducatorWorkshop_AlexandraProvo_SampleSlides.pptx">Slides</a>
 
