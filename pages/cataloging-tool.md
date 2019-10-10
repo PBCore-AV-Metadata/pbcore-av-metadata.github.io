@@ -51,14 +51,14 @@ keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging T
     </ul>
 
     <span class="med-text">
-      <a href="/assets/downloads/PBCore-2.1.pkg" download>
+      <a href="/assets/downloads/PBCore-2.1-2.pkg" download>
       <button style="margin:3px;" type="button" name="button" class="pb-button pb-button-tools">
         <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;">
         Download Cataloging Tool for Mac
       </button>
       </a>
 
-      <a href="/assets/downloads/PBCore-2.1.exe" download>
+      <a href="/assets/downloads/PBCore-2.1-5.exe" download>
       <button style="margin:3px;" type="button" name="button" class="pb-button pb-button-tools">
         <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;">
         Download Cataloging Tool for PC
