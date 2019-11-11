@@ -26,6 +26,21 @@ Documentation provided <a href="/assets/downloads/PBCore_PREMIS_Implementations_
 
 Download the entire zipped directory of documentation and examples <a href="/assets/downloads/PBCore_and_PREMIS.zip" download>here</a>.
 
+<h3>PBCore and Dublin Core</h3>
+
+PBCore was created to expand the Dublin Core Metadata Element set to more fully describe audiovisual materials. Consequently, converting from PBCore to Dublin Core will result in a loss of audiovisual-specific information. There can be cases where offering a limited subset of your metadata is desired, however, such as sharing a list of asset titles and descriptions with another organization that uses Dublin Core, or for display in a discovery system that is similarly configured.
+
+Documentation provided here includes a simple mapping of PBCore elements to <a href="http://www.dublincore.org/documents/dces/">Dublin Core Metadata Element Set Version 1.1</a> and <a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/">DCMI Metadata Terms</a>.
+
+Download the <a href="/assets/downloads/PBCore_to_DublinCore_mapping.xlsx">mapping.</a>
+
+It is recommended that each Dublin Core record correspond to a single PBCore instantiation. For example, a PBCore record describing an asset with four instantiations should be represented by four records in Dublin Core. The link between these records can be documented using Dublin Core’s Relation element.
+
+PBCore element attributes are unable to be stored in simple Dublin Core. If an asset has multiple 'pbcoreTitle' values, they can all be recorded by repeating the Dublin Core property 'title', but you won't be able to record the PBCore 'titleType' attribute to differentiate between Series or Program titles. While it is possible to add custom local qualifiers to Dublin Core to hold more PBCore data, these qualifiers are not standardized, and will hinder interoperability with other Dublin Core users.
+
+The Dublin Core Metadata Element Set and DCMI Metadata Terms are maintained by the <a href="https://www.dublincore.org/about/">Dublin Core Metadata Initiative</a>.
+
+
 <h3>PBCore XML-RDF (EBUCore/Dublin Core/DC Terms/SKOS)</h3>
 
 The chart below provides a simple example mapping for converting from the PBCore metadata standard to existing RDF predicates, using primarily terms from the EBUCore ontology as well as Dublin Core and SKOS.
