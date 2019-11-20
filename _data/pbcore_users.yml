@@ -130,11 +130,9 @@ users:
     id: california-revealed
     logo-file: california-revealed.png
     title: |
-      PBCore at California Revealed 
+      PBCore at California Revealed
     statement: |
       <h4>How We Use PBCore</h4>
-      <p>California Revealed (formerly California Audiovisual Preservation Project) has been using PBCore to organize descriptive, rights, and technical metadata about the audiovisual objects that they preserve since the project's beginning in 2010. California Revealed is looking forward to using PBCore 2.1 in their latest round of digitization and will soon automate the ingest of metadata into our repository using PBCore XML files created by their digitization vendors.</p>
+      <p>California Revealed (formerly California Audiovisual Preservation Project) has been using PBCore to organize descriptive, rights, and technical metadata about the audiovisual objects that they preserve since the project's beginning in 2010. California Revealed is looking forward to using PBCore 2.1 in their latest round of digitization and will soon automate the ingest of metadata into their repository using PBCore XML files created by their digitization vendors.</p>
       <h4>Benefits of PBCore</h4>
       <p>As a project which collaborates with hundreds of cultural heritage institutions to preserve and facilitate access to their audiovisual media, the benefits of a standardized metadata schema specialized for audiovisual recordings has been enormously helpful.</p>
-
-

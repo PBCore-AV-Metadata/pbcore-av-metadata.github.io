@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<pbcoreCollection xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html" collectionDate="2018-05-24T15:04:29.135106-04:00">
+  <pbcoreDescriptionDocument>
+    <pbcoreAssetType>Episode</pbcoreAssetType>
+    <pbcoreAssetDate dateType="broadcast" annotation="according to ProTrack">2012-11-28T20:30:00</pbcoreAssetDate>
+    <pbcoreIdentifier source="NOLA Code">INSO  000510</pbcoreIdentifier>
+    <pbcoreIdentifier source="vsn_serial">4093</pbcoreIdentifier>
+    <pbcoreTitle titleType="Series" annotation="unpreserved case">Independent Sources</pbcoreTitle>
+    <pbcoreTitle titleType="Episode" annotation="unpreserved case">Africa Redux</pbcoreTitle>
+    <pbcoreDescription descriptionType="GUIDE">On this edition of Independent Sources, we take a look at President Obama's policies towards Africa. Then we hear about an MIT doctoral student's global initiative to get high school students more involved in community development projects in Sierra Leone. Finally, we profile an immigrant artist organization fighting to get more recognition for foreign artists. 12/3/12</pbcoreDescription>
+    <pbcoreDescription descriptionType="Series">Independent Sources A studio-based weekly news magazine with field segments about New York City's ethnic and immigrant communities, and the media that cover them. The series seeks to shed light on underreported stories and showcase guests who can offer lucid perspectives on what's happening in these neighborhoods and communities.</pbcoreDescription>
+    <pbcoreDescription descriptionType="Version" annotation="unpreserved case">12/3/2012</pbcoreDescription>
+    <pbcoreInstantiation>
+      <instantiationIdentifier source="li_serial">3473</instantiationIdentifier>
+      <instantiationIdentifier source="Media ID">INSO05010_V1</instantiationIdentifier>
+      <instantiationDate dateType="availableStart">2012-09-12T13:07:01</instantiationDate>
+      <instantiationDate dateType="availableEnd" annotation=":-/">9999-12-31T23:59:59</instantiationDate>
+      <instantiationLocation/>
+      <instantiationTimeStart>00:00:00:00</instantiationTimeStart>
+      <instantiationDuration>00:29:30:01</instantiationDuration>
+      <instantiationAnnotation annotationType="accessRestriction">Restricted</instantiationAnnotation>
+    </pbcoreInstantiation>
+  </pbcoreDescriptionDocument>
+</pbcoreCollection>

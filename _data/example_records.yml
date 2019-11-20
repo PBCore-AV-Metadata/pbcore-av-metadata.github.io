@@ -1,0 +1,9 @@
+- name: CUNY XML from ProTrack
+  description: blah blah blah blah blah blah blah
+  file: /assets/downloads/cuny_from_protrack.xml
+- name: KLRU Digitized Multitrack Audio
+  description: blah blah blah blah blah
+  file: /assets/downloads/klru_multitrack_audio.xml
+- name: Library of Congress MAVIS Export Mapped to PBCore
+  description: blah blah blah blah blah
+  file: /assets/downloads/loc_mavis_export.xml 

@@ -1,12 +1,24 @@
-<p class="sample-rec-wide {% if page.url == '/sample-records/collection' %}highlight{%endif%}">
-  <a href="/sample-records/collection">Collection</a>
-</p>
-<p class="sample-rec-wide {% if page.url == '/sample-records/description-document-with-instantiations' %}highlight{%endif%}">
-  <a href="/sample-records/description-document-with-instantiations">Description Document With Instantiations</a>
-</p>
-<p class="sample-rec-wide {% if page.url == '/sample-records/description-document' %}highlight{%endif%}">
-  <a href="/sample-records/description-document">Description Document</a>
-</p>
-<p class="sample-rec-wide {% if page.url == '/sample-records/instantiation' %}highlight{%endif%}">
-  <a href="/sample-records/instantiation">Instantiation</a>
-</p>
+<div class="row">
+
+  <div class="col-md-3 red">
+    <p class="{% if page.url == '/sample-records/collection' %}highlight{%endif%}" align="center">
+      <a href="/sample-records/collection"><button class="pb-button pb-button-who">Collection</button></a>
+    </p>
+  </div>
+  <div class="col-md-3 red">
+    <p class="{% if page.url == '/sample-records/description-document' %}highlight{%endif%}" align="center">
+      <a href="/sample-records/description-document"><button class="pb-button pb-button-who">Description Document</button></a>
+    </p>
+  </div>
+  <div class="col-md-3 red">
+    <p class="{% if page.url == '/sample-records/description-document-with-instantiations' %}highlight{%endif%}" align="center">
+      <a href="/sample-records/description-document-with-instantiations"><button class="pb-button pb-button-who">Description Document With Instantiations</button></a>
+    </p>
+  </div>
+  <div class="col-md-3 red">
+    <p class="{% if page.url == '/sample-records/instantiation' %}highlight{%endif%}" align="center">
+      <a href="/sample-records/instantiation"><button class="pb-button pb-button-who">Instantiation</button></a>
+    </p>
+  </div>
+
+</div>

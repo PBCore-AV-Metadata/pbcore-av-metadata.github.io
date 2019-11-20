@@ -8,7 +8,7 @@ keywords: ["Resources", "Tools", "Cataloging", "Creating Records", "Databases", 
 
 <h2 class="red title bold">External Tools and Integrations</h2>
 
-Many software maintained and supported by external organizations supports the export and management of PBCore metadata. If you manage software that supports PBCore and you would like to have it included on this list, please contact PBCoreInfo@wgbh.org.
+<p class="med-text">Many software maintained and supported by external organizations supports the export and management of PBCore metadata. If you manage software that supports PBCore and you would like to have it included on this list, please contact PBCoreInfo@wgbh.org.</p>
 
 <h3 id="mediainfo">MediaInfo</h3>
 
@@ -35,7 +35,7 @@ The development of ProTrack’s PBCore 2.1 export was funded by the NEH as part 
 <h3 id="collectiveaccess">Collective Access</h3>
 Collective Access is an open-source software for managing and publishing museum and archival collections. Providence, the core cataloguing and data management application of Collective Access, includes some ‘out-of-the-box’ support for existing metadata standards, including PBCore. XML documentation for Collective Access’ PBCore installation profile can be found on the <a href="https://github.com/collectiveaccess/providence/blob/master/install/profiles/xml/pbcore.xml">Collective Access GitHub</a> The profile is supported at install-time as a configuration profile for item-level (instantiation/intellectual content) cataloguing, and as an export target. (This profile was last revised in 2013).
 
-In 2019 a PBCore 2.1 profile was developed with funding by the NEH as part of the PBCore Development and Training Project. This installation profile can be found on the <a href="https://github.com/PBCore-AV-Metadata/collective-access-for-2.1">PBCore GitHub</a>, along with some general documentation. 
+In 2019 a PBCore 2.1 profile was developed with funding by the NEH as part of the PBCore Development and Training Project. This installation profile can be found on the <a href="https://github.com/PBCore-AV-Metadata/collective-access-for-2.1">PBCore GitHub</a>, along with some general documentation.
 
 Many users of Collective Access choose to configure their own installation profiles rather than using an out-of-the-box version. Below you can find examples of installation profiles from several Collective Access users who have incorporated PBCore into their data management applications:
 

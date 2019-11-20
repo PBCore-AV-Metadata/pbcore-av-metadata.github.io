@@ -1,0 +1,6 @@
+{% for rec in site.data.example_records %}
+  <p>
+    {{rec.name}}: {{rec.description}}<br/>
+    <a href="{{rec.file}}" download>Download XML</a>
+  </p>
+{% endfor %}

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<PBCoreDescriptionDocument xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:mv="http://www.wizardis.com.au/2005/12/MAVIS" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html http://www.pbcore.org/PBCore/PBCoreSchema.xsd">
+  <pbcoreAssetType>Moving Image</pbcoreAssetType>
+  <pbcoreAssetDate dateType="COPYRIGHT">1967-10-8</pbcoreAssetDate>
+  <pbcoreIdentifier source="MAVIS Title Number">2000440</pbcoreIdentifier>
+  <pbcoreIdentifier source="NET/PBS NOLA">CRPN</pbcoreIdentifier>
+  <pbcoreIdentifier source="NET/PBS number">70</pbcoreIdentifier>
+  <pbcoreTitle titleType="Preferred Title">Creative person. Fred Rogers.</pbcoreTitle>
+  <pbcoreTitle titleType="Alternate Title: Episode title">Fred Rogers.</pbcoreTitle>
+  <pbcoreTitle titleType="Alternate Title">Creative person. [No. 70], Fred Rogers.</pbcoreTitle>
+  <pbcoreSubject source="MAVIS Subject Authority List Library of Congress" subjectType="Topic">Television personalities--United States--Biography</pbcoreSubject>
+  <pbcoreSubject source="MAVIS Subject Authority List Library of Congress" subjectType="Topic">Children's television programs</pbcoreSubject>
+  <pbcoreSubject source="MAVIS Name Authority List Library of Congress" subjectType="About">Rogers, Fred</pbcoreSubject>
+  <pbcoreDescription descriptionType="Original Summary">From NET microfiche:
+
+Description of series:
+This series focuses on the private vision of the creative person. Each program is devoted to a 20th century artist whose special qualities of imagination, taste, originality, intelligence, craftsmanship, and individuality have marked him as a pace-setter in his field. These artists --- whose fields span the entire gamut of the art world --- include film maker Jean Renoir, poet John Ciardi, industrial designer Raymond Loewy, Hollywood producer-director King Vidor, noted Broadway couple Ossie Davis and Ruby Dee, artist Leonard Baskin, humorist James Thurber, satirist Robert Osborn, Indian musician Ravi Shankar, poet P. G. Wodehouse, painter Georges Braque, former ballet star Olga Spessivtzeva, Rudolf Bing, and Marni Nixon. 
+
+The format for each program has been geared to the individual featured; Performance, interview, and documentary technique are employed interchangeably.
+
+Program 70: Fred Rogers
+Fred Rogers is a television phenomenon.  He is a 39-year-old ordained minister, an educator, graduate musician, and a quiet, gentle, unselfconscious young man who possesses a mysterious and quite remarkable attraction for pre-school children.
+
+When his daily half-hour program, &quot;Mister Rogers' Neighborhood,&quot; was threatened with cancellation for lack of funds last spring in Boston, station WGBH-TV was deluged with protests.  When Rogers himself made a personal appearance there, 6,000 pint-sized fans turned out to see him.
+
+Since then, Rogers' program (a composite of songs, conversation, puppet neighbors, and people neighbors, palatable lessons and ideas) has attracted a Sears-Roebuck Foundation grant and will be a regular five-day-a-week children's feature on NET stations across the country this season.
+
+This Creative Person film shows the man behind &quot;Mister Rogers',&quot; the television personality.  Rogers is visited at his home, is seen at the studio rehearsing his television program and observed working with study groups.  He talks about his feelings towards his own two children and explains his intense desire to find a means of communicating with children honestly on their own terms.
+
+THE CREATIVE PERSON - FRED ROGERS was produced for National Educational Television by its Pittsburgh affiliate, WQED-TV.  Matt von Brauchitsch, producer-writer; editor: N. Spies; narrator: William Francisco; camera: PJ O'Connell.
+Producer for NET: Virginia Kassel</pbcoreDescription>
+  <pbcoreGenre source="MAVIS Genre Authority List Library of Congress">Biographical television programs (lcgft)</pbcoreGenre>
+  <pbcoreGenre source="MAVIS Genre Authority List Library of Congress">Cultural television programs (lcgft)</pbcoreGenre>
+  <pbcoreGenre source="MAVIS Genre Authority List Library of Congress">Documentary television programs (lcgft)</pbcoreGenre>
+  <pbcoreGenre source="MAVIS Genre Authority List Library of Congress">Nonfiction television programs (lcgft)</pbcoreGenre>
+  <pbcoreAnnotation annotationType="Note">Source used: PBS database (1994 list).; NET microfiche.
+
+Record updated for NET catalgoing. CMP 7/29/2017.</pbcoreAnnotation>
+  <pbcoreCreator>
+    <creator>WQED-TV ; for National Educational Television ; written and produced by M. Von Brauchitsch ; producer for NET, Virginia Kassel.</creator>
+    <creatorRole>Statement of Responsibility</creatorRole>
+  </pbcoreCreator>
+  <pbcoreContributor>
+    <contributor>Rogers, Fred</contributor>
+    <contributorRole>Appearing</contributorRole>
+  </pbcoreContributor>
+  <pbcoreContributor>
+    <contributor>National Educational Television and Radio Center</contributor>
+    <contributorRole>Broadcaster</contributorRole>
+  </pbcoreContributor>
+  <pbcoreCreator>
+    <creator>WQED</creator>
+    <creatorRole>Production Company</creatorRole>
+  </pbcoreCreator>
+  <pbcoreCreator>
+    <creator>Brauchitsch, Matt von</creator>
+    <creatorRole>Producer</creatorRole>
+  </pbcoreCreator>
+  <pbcoreCreator>
+    <creator>Brauchitsch, Matt von</creator>
+    <creatorRole>Writer</creatorRole>
+  </pbcoreCreator>
+  <pbcoreCreator>
+    <creator>Kassel, Virginia</creator>
+    <creatorRole>Producer</creatorRole>
+  </pbcoreCreator>
+  <pbcoreContributor>
+    <contributor>Francisco, William</contributor>
+    <contributorRole>Narrator</contributorRole>
+  </pbcoreContributor>
+  <pbcoreInstantiation>
+    <instantiationIdentifier source="MAVIS Component Number">2000440-1</instantiationIdentifier>
+    <instantiationIdentifier source="MAVIS Item ID">5306498</instantiationIdentifier>
+    <instantiationIdentifier source="NET/PBS number">598-11-20</instantiationIdentifier>
+    <instantiationIdentifier source="NET/PBS number">CRPN</instantiationIdentifier>
+    <instantiationLocation>Vault Site: Culpeper; RackNo: FBD 0587</instantiationLocation>
+    <instantiationPhysical>Format: Safety Film; TypeMaterial: Black &amp; White film; TechCode: Composite Positive; Gauge: 16mm</instantiationPhysical>
+    <instantiationStandard>Film</instantiationStandard>
+    <instantiationMediaType>Moving Image</instantiationMediaType>
+    <instantiationGenerations>Category: Access</instantiationGenerations>
+    <instantiationDuration>0:29:9</instantiationDuration>
+    <instantiationColors>Black &amp; White film</instantiationColors>
+    <instantiationLanguage>English</instantiationLanguage>
+    <instantiationEssenceTrack>
+      <essenceTrackType>Film</essenceTrackType>
+    </instantiationEssenceTrack>
+    <instantiationRelation>
+      <instantiationRelationType>Copied To</instantiationRelationType>
+      <instantiationRelationIdentifier source="MAVIS Component Number" annotation="DigitalComponent Creative person. Fred Rogers.">2000440-2</instantiationRelationIdentifier>
+    </instantiationRelation>
+    <instantiationRelation>
+      <instantiationRelationType>Copied To</instantiationRelationType>
+      <instantiationRelationIdentifier source="MAVIS Component Number" annotation="DigitalComponent Creative person. Fred Rogers.">2000440-3</instantiationRelationIdentifier>
+    </instantiationRelation>
+    <instantiationRelation>
+      <instantiationRelationType>Copied To</instantiationRelationType>
+      <instantiationRelationIdentifier source="MAVIS Component Number" annotation="DigitalComponent Creative person. Fred Rogers.">2000440-5</instantiationRelationIdentifier>
+    </instantiationRelation>
+    <instantiationRelation>
+      <instantiationRelationType>Copied To</instantiationRelationType>
+      <instantiationRelationIdentifier source="MAVIS Component Number" annotation="DigitalComponent Creative person. Fred Rogers.">2000440-4</instantiationRelationIdentifier>
+    </instantiationRelation>
+    <instantiationAnnotation annotationType="General Notes">Source used: PBS Database; PBS-1994-Excel spreadsheet;
+
+Title found on PBS-1994-Excel spreadsheet; therefore, assumed to be associated with acquisition report 7916.</instantiationAnnotation>
+    <instantiationAnnotation annotationType="Label Notes">r1 of 1</instantiationAnnotation>
+    <instantiationPart>
+      <instantiationIdentifier source="MAVIS Carrier Number" annotation="AcetateFilmCarrier 1 of 1">2000440-1-1</instantiationIdentifier>
+      <instantiationIdentifier source="MAVIS Item ID" annotation="AcetateFilmCarrier 1 of 1">5306499</instantiationIdentifier>
+      <instantiationIdentifier source="NET/PBS rack number">598-11-20</instantiationIdentifier>
+      <instantiationIdentifier source="Original Control No.">F17396</instantiationIdentifier>
+      <instantiationIdentifier source="LC Item Barcode">00416341965</instantiationIdentifier>
+      <instantiationLocation>RackNo: FBD 0587</instantiationLocation>
+      <instantiationDuration>0:29:9</instantiationDuration>
+      <instantiationRelation>
+        <instantiationRelationType>Copied To</instantiationRelationType>
+        <instantiationRelationIdentifier source="MAVIS Carrier Number" annotation="DigitalCarrier Creative person. Fred Rogers.">2000440-3-1</instantiationRelationIdentifier>
+      </instantiationRelation>
+      <instantiationRelation>
+        <instantiationRelationType>Copied To</instantiationRelationType>
+        <instantiationRelationIdentifier source="MAVIS Carrier Number" annotation="DigitalCarrier Creative person. Fred Rogers.">2000440-2-1</instantiationRelationIdentifier>
+      </instantiationRelation>
+      <instantiationRelation>
+        <instantiationRelationType>Copied To</instantiationRelationType>
+        <instantiationRelationIdentifier source="MAVIS Carrier Number" annotation="DigitalCarrier Creative person. Fred Rogers.">2000440-4-1</instantiationRelationIdentifier>
+      </instantiationRelation>
+      <instantiationRelation>
+        <instantiationRelationType>Copied To</instantiationRelationType>
+        <instantiationRelationIdentifier source="MAVIS Carrier Number" annotation="DigitalCarrier Creative person. Fred Rogers.">2000440-5-1</instantiationRelationIdentifier>
+      </instantiationRelation>
+      <instantiationAnnotation annotationType="General Notes">598-11-20
+inventory #</instantiationAnnotation>
+    </instantiationPart>
+  </pbcoreInstantiation>
+  <pbcoreInstantiation>
+    <instantiationIdentifier source="MAVIS Component Number">2000440-2</instantiationIdentifier>
+    <instantiationIdentifier source="MAVIS Item ID">6658295</instantiationIdentifier>
+    <instantiationLocation>URL: https://navccwebp1.loc.gov:8080/navcc/content/view.seam?id=1116929; URN: urn:navcc:contentId:1116929</instantiationLocation>
+    <instantiationDigital>Video/JPEG2K HD</instantiationDigital>
+    <instantiationMediaType>Moving Image</instantiationMediaType>
+    <instantiationGenerations>Category: Preservation Copy</instantiationGenerations>
+    <instantiationFileSize unitsOfMeasure="bytes">54476084860</instantiationFileSize>
+    <instantiationLanguage>English</instantiationLanguage>
+    <instantiationRelation>
+      <instantiationRelationType>Copied From</instantiationRelationType>
+      <instantiationRelationIdentifier source="MAVIS Component Number" annotation="AcetateFilmComponent Creative person. Fred Rogers.">2000440-1</instantiationRelationIdentifier>
+    </instantiationRelation>
+    <instantiationPart>
+      <instantiationIdentifier source="MAVIS Carrier Number" annotation="DigitalCarrier 1 of 1">2000440-2-1</instantiationIdentifier>
+      <instantiationIdentifier source="MAVIS Item ID" annotation="DigitalCarrier 1 of 1">6658296</instantiationIdentifier>
+      <instantiationIdentifier source="checksum using SHA-1">290f5bbb2aa2dbcd724af71d6f87369b15c20dd9</instantiationIdentifier>
+      <instantiationLocation>URL: https://navccwebp1.loc.gov:8080/navcc/content/view.seam?id=1116929</instantiationLocation>
+      <instantiationFileSize unitsOfMeasure="bytes">54476084860</instantiationFileSize>
+      <instantiationEssenceTrack>
+        <essenceTrackType>Digital/Video</essenceTrackType>
+        <essenceTrackStandard>Video: M-JPEG 2000 Audio:</essenceTrackStandard>
+        <essenceTrackEncoding>Video: M-JPEG 2000 Audio:</essenceTrackEncoding>
+      </instantiationEssenceTrack>
+      <instantiationRelation>
+        <instantiationRelationType>Copied From</instantiationRelationType>
+        <instantiationRelationIdentifier source="MAVIS Carrier Number" annotation="AcetateFilmCarrier Creative person. Fred Rogers.">2000440-1-1</instantiationRelationIdentifier>
+      </instantiationRelation>
+    </instantiationPart>
+  </pbcoreInstantiation>
+  <pbcoreInstantiation>
+    <instantiationIdentifier source="MAVIS Component Number">2000440-3</instantiationIdentifier>
+    <instantiationIdentifier source="MAVIS Item ID">6658297</instantiationIdentifier>
+    <instantiationLocation>URL: https://navccwebp1.loc.gov:8080/navcc/content/view.seam?id=1116928; URN: urn:navcc:contentId:1116928</instantiationLocation>
+    <instantiationDigital>Video/MPEG4 HD</instantiationDigital>
+    <instantiationMediaType>Moving Image</instantiationMediaType>
+    <instantiationGenerations>Category: Access/Browsing copy</instantiationGenerations>
+    <instantiationFileSize unitsOfMeasure="bytes">360958830</instantiationFileSize>
+    <instantiationLanguage>English</instantiationLanguage>
+    <instantiationRelation>
+      <instantiationRelationType>Copied From</instantiationRelationType>
+      <instantiationRelationIdentifier source="MAVIS Component Number" annotation="AcetateFilmComponent Creative person. Fred Rogers.">2000440-1</instantiationRelationIdentifier>
+    </instantiationRelation>
+    <instantiationPart>
+      <instantiationIdentifier source="MAVIS Carrier Number" annotation="DigitalCarrier 1 of 1">2000440-3-1</instantiationIdentifier>
+      <instantiationIdentifier source="MAVIS Item ID" annotation="DigitalCarrier 1 of 1">6658298</instantiationIdentifier>
+      <instantiationIdentifier source="checksum using SHA-1">226adfeb719abc17acb41bff6597ce7f2690b822</instantiationIdentifier>
+      <instantiationLocation>URL: https://navccwebp1.loc.gov:8080/navcc/content/view.seam?id=1116928</instantiationLocation>
+      <instantiationFileSize unitsOfMeasure="bytes">360958830</instantiationFileSize>
+      <instantiationEssenceTrack>
+        <essenceTrackType>Digital/Video</essenceTrackType>
+        <essenceTrackStandard>Video: MPEG4 Audio:</essenceTrackStandard>
+        <essenceTrackEncoding>Video: MPEG4 Audio:</essenceTrackEncoding>
+      </instantiationEssenceTrack>
+      <instantiationRelation>
+        <instantiationRelationType>Copied From</instantiationRelationType>
+        <instantiationRelationIdentifier source="MAVIS Carrier Number" annotation="AcetateFilmCarrier Creative person. Fred Rogers.">2000440-1-1</instantiationRelationIdentifier>
+      </instantiationRelation>
+    </instantiationPart>
+  </pbcoreInstantiation>
+  <pbcoreInstantiation>
+    <instantiationIdentifier source="MAVIS Component Number">2000440-4</instantiationIdentifier>
+    <instantiationIdentifier source="MAVIS Item ID">7066317</instantiationIdentifier>
+    <instantiationLocation>URL: https://navccwebp1.loc.gov:8080/navcc/content/view.seam?id=1207698; URN: urn:navcc:contentId:1207698</instantiationLocation>
+    <instantiationDigital>Video/JPEG2K 2K</instantiationDigital>
+    <instantiationMediaType>Moving Image</instantiationMediaType>
+    <instantiationGenerations>Category: Preservation Copy</instantiationGenerations>
+    <instantiationFileSize unitsOfMeasure="bytes">236094216316</instantiationFileSize>
+    <instantiationLanguage>English</instantiationLanguage>
+    <instantiationRelation>
+      <instantiationRelationType>Copied From</instantiationRelationType>
+      <instantiationRelationIdentifier source="MAVIS Component Number" annotation="AcetateFilmComponent Creative person. Fred Rogers.">2000440-1</instantiationRelationIdentifier>
+    </instantiationRelation>
+    <instantiationPart>
+      <instantiationIdentifier source="MAVIS Carrier Number" annotation="DigitalCarrier 1 of 1">2000440-4-1</instantiationIdentifier>
+      <instantiationIdentifier source="MAVIS Item ID" annotation="DigitalCarrier 1 of 1">7066318</instantiationIdentifier>
+      <instantiationIdentifier source="checksum using SHA-1">9333ceff174d9f7575df72ee562b83ff8641c664</instantiationIdentifier>
+      <instantiationLocation>URL: https://navccwebp1.loc.gov:8080/navcc/content/view.seam?id=1207698</instantiationLocation>
+      <instantiationFileSize unitsOfMeasure="bytes">236094216316</instantiationFileSize>
+      <instantiationEssenceTrack>
+        <essenceTrackType>Digital/Video</essenceTrackType>
+        <essenceTrackStandard>Video: M-JPEG 2000 Audio: Broadcast WAV</essenceTrackStandard>
+        <essenceTrackEncoding>Video: M-JPEG 2000 Audio: Broadcast WAV</essenceTrackEncoding>
+        <essenceTrackFrameSize>2048x Progressive</essenceTrackFrameSize>
+        <essenceTrackSamplingRate>48 kHz</essenceTrackSamplingRate>
+        <essenceTrackFrameRate>24 fps</essenceTrackFrameRate>
+      </instantiationEssenceTrack>
+      <instantiationRelation>
+        <instantiationRelationType>Copied From</instantiationRelationType>
+        <instantiationRelationIdentifier source="MAVIS Carrier Number" annotation="AcetateFilmCarrier Creative person. Fred Rogers.">2000440-1-1</instantiationRelationIdentifier>
+      </instantiationRelation>
+    </instantiationPart>
+  </pbcoreInstantiation>
+  <pbcoreInstantiation>
+    <instantiationIdentifier source="MAVIS Component Number">2000440-5</instantiationIdentifier>
+    <instantiationIdentifier source="MAVIS Item ID">7066321</instantiationIdentifier>
+    <instantiationLocation>URL: https://navccwebp1.loc.gov:8080/navcc/content/view.seam?id=1207697; URN: urn:navcc:contentId:1207697</instantiationLocation>
+    <instantiationDigital>Video/MPEG4</instantiationDigital>
+    <instantiationMediaType>Moving Image</instantiationMediaType>
+    <instantiationGenerations>Category: Access/Browsing copy</instantiationGenerations>
+    <instantiationFileSize unitsOfMeasure="bytes">361403638</instantiationFileSize>
+    <instantiationLanguage>English</instantiationLanguage>
+    <instantiationRelation>
+      <instantiationRelationType>Copied From</instantiationRelationType>
+      <instantiationRelationIdentifier source="MAVIS Component Number" annotation="AcetateFilmComponent Creative person. Fred Rogers.">2000440-1</instantiationRelationIdentifier>
+    </instantiationRelation>
+    <instantiationPart>
+      <instantiationIdentifier source="MAVIS Carrier Number" annotation="DigitalCarrier 1 of 1">2000440-5-1</instantiationIdentifier>
+      <instantiationIdentifier source="MAVIS Item ID" annotation="DigitalCarrier 1 of 1">7066322</instantiationIdentifier>
+      <instantiationIdentifier source="checksum using SHA-1">138ce4a73f768d8ade7626cf7dc7a5e5794fa58c</instantiationIdentifier>
+      <instantiationLocation>URL: https://navccwebp1.loc.gov:8080/navcc/content/view.seam?id=1207697</instantiationLocation>
+      <instantiationFileSize unitsOfMeasure="bytes">361403638</instantiationFileSize>
+      <instantiationColors> Video Colour Space: SMPTE component color</instantiationColors>
+      <instantiationEssenceTrack>
+        <essenceTrackType>Digital/Video</essenceTrackType>
+        <essenceTrackStandard>Video: MPEG4 Audio: AAC</essenceTrackStandard>
+        <essenceTrackEncoding>Video: MPEG4 Audio: AAC</essenceTrackEncoding>
+        <essenceTrackFrameSize>720x480 Interlaced</essenceTrackFrameSize>
+        <essenceTrackSamplingRate>48 kHz</essenceTrackSamplingRate>
+        <essenceTrackFrameRate>30 fps</essenceTrackFrameRate>
+        <essenceTrackAspectRatio>4:3 Standard TV Frame</essenceTrackAspectRatio>
+      </instantiationEssenceTrack>
+      <instantiationRelation>
+        <instantiationRelationType>Copied From</instantiationRelationType>
+        <instantiationRelationIdentifier source="MAVIS Carrier Number" annotation="AcetateFilmCarrier Creative person. Fred Rogers.">2000440-1-1</instantiationRelationIdentifier>
+      </instantiationRelation>
+    </instantiationPart>
+  </pbcoreInstantiation>
+</PBCoreDescriptionDocument>
+
