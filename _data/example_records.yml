@@ -1,9 +1,19 @@
-- name: CUNY XML from ProTrack
-  description: blah blah blah blah blah blah blah
+- name: CUNY Export from ProTrack
+  description: This record is an example of a mapping performed by CUNY TV from ProTrack to export program metadata in PBCore. Note that in this example, instantiationLocation, a required element, is present to confirm to PBCore's specifications but contains no data.
   file: /assets/downloads/cuny_from_protrack.xml
-- name: KLRU Digitized Multitrack Audio
-  description: blah blah blah blah blah
+- name: KLRU Digitized Multitrack Audio Record
+  description: This record from KLRU's Austin City Limits digitization project uses multiple instantiationParts to track the relationships between the multi-track audio reels that make up the physical instantiation and the digital master files created for each track during the preservation process.
   file: /assets/downloads/klru_multitrack_audio.xml
 - name: Library of Congress MAVIS Export Mapped to PBCore
-  description: blah blah blah blah blah
-  file: /assets/downloads/loc_mavis_export.xml 
+  description: This is an example of a PBCore-formatted export from MAVIS, the Merged Audio Visual Information System used for the Library of Congress' audiovisual catalog.
+  file: /assets/downloads/loc_mavis_export.xml
+- name: Yale Audio and Video Records
+  description: These records, contributed by Yale University Library, represent an audio and a video asset from their mass digitization project. Their audio PBCore was developed with the help of George Blood Audio Video Film Data, and their video PBCore with the assistance of Media Preserve.
+  file: /assets/downloads/Yale_Sample_XML.zip
+- name: MediaInfo Digital Instantiation Record
+  description: This record is an example of the PBCore 2.1 output from MediaInfo. On more for how to use MediaInfo to generate instantiationDocuments, read our <a href="/2018/11/28/pbcore-audiovisual-tricks.html">blog post</a>.
+  file: /assets/downloads/mediainfo_instantiation_document.xml
+- name: American Archive of Public Broadcasting Records
+  description: These records are from the PBCore that underlies the American Archive of Public Broadcasting website. The first has multiple physical and digital instantiations in different locations, while, for the other, only the AAPB's digital instantiations are represented
+  file: /assets/downloads/AAPB_Sample_XML.zip
+  
