@@ -246,6 +246,12 @@ h2.med-title {
   border: 1px #000 solid;
   color: #fff; }
 
+.pb-button-who-selected {
+  background-color: #e44;
+  border: 1px #000 solid;
+  color: #fff; }
+
+
 .pb-button-tools {
   background-color: #444;
   border: 1px #000 solid;

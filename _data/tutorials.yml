@@ -87,6 +87,16 @@
       description: Explains how to use the PBCore Simple Spreadsheet to create an inventory of audiovisual assets
       embed: >
         <iframe src="https://player.vimeo.com/video/336593802" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    - title: Extended Spreadsheet Temaplate
+      id: extended-spreadsheet
+      description: Explains how to use the PBCore Extended Spreadsheet (both collapsed and expanded versions) to capture PBCore metadata, especially for importing into the PBCore Cataloging Tool
+      embed: >
+        <iframe src="https://player.vimeo.com/video/375495664" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    - title: Multiple Instantiation Inventory Spreadsheet Template
+      id: multiple-instantiation-spreadsheet
+      description: Explains how to use the Multiple Instantiation Inventory Spreadsheet to create an inventory with multiple copies of the same intellectual content
+      embed: >
+        <iframe src="https://player.vimeo.com/video/375504011" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 - section: Other PBCore Tools
   description: These videos walk through how to use other tools that can help you use PBCore.
   tutorials:
@@ -100,6 +110,16 @@
       description: Explains how to use the <a href="/validator">PBCore XML Validator</a> to make sure your PBCore files conform to the <a href="/xsd">XSD</a>.
       embed: >
         <iframe src="https://player.vimeo.com/video/336593532" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    - title: Collective Access PBCore 2.1 Profile
+      id: collective-access
+      description: Explains how to use the PBCore 2.1 profile in a Collective Access database to capture information about assets and instantiations
+      embed: >
+        <iframe src="https://player.vimeo.com/video/375489895" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    - title: PBCore Omeka Plugin
+      id: omeka
+      description: Explains how to capture PBCore-compliant metadata in Omeka.
+      embed: >
+        <iframe src="https://player.vimeo.com/video/375509761" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     - title: Building a PBCore-Compliant Database
       id: compliant-database
       description: Explains ideas to consider when building a PBCore-compliant database

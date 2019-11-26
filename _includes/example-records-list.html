@@ -1,0 +1,13 @@
+
+<div class="row sample-records-examples">
+  <div class="col-md-12">
+    <h3>Real-world Example Records</h3>
+    <p>Here are some example records gathered from organizations that are actually using PBCore. Each organization uses PBCore slightly differently to fit their specific needs. See if any of those needs align with yours, and if you're using PBCore in a different way, contact PBCoreInfo@wgbh.org to add an example record to this page.</p>
+    {% for rec in site.data.example_records %}
+    <p>
+      <span class="bold">{{rec.name}}:</span> {{rec.description}}<br/>
+      <a href="{{rec.file}}" download>Download XML</a>
+    </p>
+    {% endfor %}
+  </div>
+</div>  
