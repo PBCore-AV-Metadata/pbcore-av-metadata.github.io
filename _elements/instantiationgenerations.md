@@ -16,13 +16,12 @@ controlled-vocabs:
 ---
 <pre>
   <code>
-    &lt;instantiationGenerations source=&quot;PBCore instantiationGenerations&quot; ref=&quot;http://metadataregistry.org/concept/show/id/2294&quot;&gt;Master: green label&lt;/instantiationGenerations&gt;
+    &lt;instantiationGenerations&gt;Preservation Master&lt;/instantiationGenerations&gt;
   </code>
 </pre>
 
-
 <pre>
   <code>
-    &lt;instantiationGenerations source=&quot;PBCore instantiationGenerations&quot; ref=&quot;http://metadataregistry.org/concept/show/id/2372&quot;&gt;Sound effects&lt;/instantiationGenerations&gt;
+    &lt;instantiationGenerations source=&quot;PBCore instantiationGenerations&quot; ref=&quot;http://pbcore.org/pbcore-controlled-vocabularies/instantiationgenerations-vocabulary/#WorkTrack&quot;&gt;Work track&lt;/instantiationGenerations&gt;  
   </code>
 </pre>

@@ -60,10 +60,10 @@ subelements:
 ---
 <pre>
   <code>
-    &lt;pbcoreInstantiation&gt;<br>
-    &lt;!-- No data here directly; it's within sub-elements instead --&gt;<br>
-           &lt;instantiationIdentifier&gt;123456&lt;/instantiationIdentifier&gt;<br>
-           &lt;instantiationLocation&gt;Shelf 46, Row 3&lt;/instantiationLocation&gt;<br>
-    &lt;/pbcoreInstantiation&gt;<br>
+	&lt;pbcoreInstantiation&gt;<br>
+   		&lt;!-- No data here directly; it's within sub-elements instead --&gt;<br>
+   		&lt;instantiationIdentifier&gt;123456&lt;/instantiationIdentifier&gt;<br>
+   		&lt;instantiationLocation&gt;Shelf 46, Row 3&lt;/instantiationLocation&gt;<br>
+	&lt;/pbcoreInstantiation&gt;
   </code>
 </pre>

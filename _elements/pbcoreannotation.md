@@ -15,8 +15,12 @@ attributes:
 ---
 <pre>
   <code>
-    &lt;pbcoreAnnotation&gt;This is the edited version produced for the Digital Learning Library&lt;/pbcoreAnnotation&gt;<br>
-    &lt;pbcoreAnnotation&gt;Voiceover replaced 20020302.&lt;/pbcoreAnnotation&gt;<br>
-    &lt;pbcoreAnnotation&gt;Handle with care, tape appears to be shedding.&lt;/pbcoreAnnotation&gt;<br>
+	&lt;pbcoreAnnotation&gt;This is the edited version produced for the Digital Learning Library&lt;/pbcoreAnnotation&gt;  
+  </code>
+</pre>
+
+<pre>
+  <code>
+	&lt;pbcoreAnnotation&gt;No surviving instantiations of this content&lt;/pbcoreAnnotation&gt; 
   </code>
 </pre>

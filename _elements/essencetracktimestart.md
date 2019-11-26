@@ -13,6 +13,6 @@ attributes:
 ---
 <pre>
   <code>
-    &lt;essenceTrackTimeStart&gt;00:00:32:05&lt;/essenceTrackTimeStart&gt;
+    &lt;essenceTrackTimeStart&gt;00:00:32:05&lt;/essenceTrackTimeStart&gt;  
   </code>
 </pre>

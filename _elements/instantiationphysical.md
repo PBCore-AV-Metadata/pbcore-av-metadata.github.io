@@ -18,18 +18,12 @@ controlled-vocabs:
 
 <pre>
   <code>
-    &lt;instantiationPhysical&gt;Betacam Digital (Digi Beta)&lt;/instantiationPhysical&gt;
+    &lt;instantiationPhysical&gt;Piano roll&lt;/instantiationPhysical&gt;
   </code>
 </pre>
 
 <pre>
   <code>
-    &lt;instantiationPhysical&gt;Shellac disc&lt;/instantiationPhysical&gt;
-  </code>
-</pre>
-
-<pre>
-  <code>
-    &lt;instantiationPhysical&gt;6.3 mm (1/4 inch) track half width analogue audio tape, Stereo&lt;/instantiationPhysical&gt;
+    &lt;instantiationPhysical source=&rdquo;PBCore instantiationPhysical Controlled Vocabulary&rdquo; ref=&rdquo;http://pbcore.org/pbcore-controlled-vocabularies/instantiationphysical-video-vocabulary/#DigitalBetacam&rdquo;&gt;Digital Betacam&lt;/instantiationPhysical&gt; 
   </code>
 </pre>

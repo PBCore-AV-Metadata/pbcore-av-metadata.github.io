@@ -13,6 +13,6 @@ attributes:
 ---
 <pre>
   <code>
-    &lt;instantiationTimeStart&gt;00:23:30:15&lt;/instantiationTimeStart&gt;
+    &lt;instantiationTimeStart&gt;00:23:30:15&lt;/instantiationTimeStart&gt;  
   </code>
 </pre>

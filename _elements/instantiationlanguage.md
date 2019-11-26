@@ -15,17 +15,12 @@ controlled-vocabs:
 ---
 <pre>
   <code>
-    &lt;!-- Multiple language codes in one element value separated by a semicolon. Not recommended, but valid. --&gt;<br>
-    &lt;instantiationLanguage source=&quot;ISO 639.2&quot; ref=&quot;http://www.loc.gov/standards/iso639-2/php/code_list.php&quot;&gt;<br>
-    eng;fra<br>
-    &lt;/instantiationLanguage&gt;<br>
+    &lt;instantiationLanguage source=&quot;ISO 639.3&quot; ref=&quot;https://iso639-3.sil.org/code/jpn&quot;&gt;jpn&lt;/instantiationLanguage&gt;
   </code>
 </pre>
 
 <pre>
   <code>
-    &lt;!-- Individual language codes (with ref to code URI) for each language. Recommended. --&gt;
-    &lt;instantiationLanguage source=&quot;IS0 639.2&quot; ref=&quot;http://id.loc.gov/vocabulary/iso639-2/eng&quot;&gt;eng&lt;/instantiationLanguage&gt;
-    &lt;instantiationLanguage source=&quot;ISO 639.2&quot; ref=&quot;http://id.loc.gov/vocabulary/iso639-2/fra&quot;&gt;fra&lt;/instantiationLanguage&gt;
+    &lt;instantiationLanguage source=&quot;ISO 639.2&quot; ref=&quot;http://www.loc.gov/standards/iso639-2/php/code_list.php&quot;&gt;eng;fra&lt;/instantiationLanguage&gt;
   </code>
 </pre>

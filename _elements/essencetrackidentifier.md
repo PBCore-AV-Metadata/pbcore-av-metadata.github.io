@@ -13,16 +13,13 @@ attributes:
 ---
 <pre>
   <code>
-    &lt;essenceTrackIdentifier source=&quot;Digital Asset Management System&quot;&gt;<br>
-    898_Laura.wav<br>
-    &lt;/essenceTrackIdentifier&gt;<br>
+    &lt;essenceTrackIdentifier source=&quot;Digital Asset Management System&quot;&gt;
+898_Laura.wav&lt;/essenceTrackIdentifier&gt;
   </code>
 </pre>
 
 <pre>
   <code>
-  &lt;essenceTrackIdentifier ref=&quot;ftp://WABC_drive2/edit1/sourcefiles/&quot;&gt;<br>
-  98097.mov<br>
-  &lt;/essenceTrackIdentifier&gt;<br>
+  	&lt;essenceTrackIdentifier source=&quot;StreamOrder (MediaInfo)&quot;&gt;1&lt;/essenceTrackIdentifier&gt;
   </code>
 </pre>

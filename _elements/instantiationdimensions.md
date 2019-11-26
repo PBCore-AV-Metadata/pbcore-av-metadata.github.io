@@ -15,19 +15,12 @@ attributes:
 ---
 <pre>
   <code>
-    &lt;instantiationDimensions annotation=&quot;letterbox&quot;&gt;720x480&lt;/instantiationDimensions&gt;
+    &lt;instantiationDimensions annotation=&quot;letterbox&quot;&gt;720x480&lt;/instantiationDimensions&gt;  
   </code>
 </pre>
 
 <pre>
   <code>
-    &lt;instantiationDimensions unitsOfMeasure=&quot;pixels&quot;&gt;100x200&lt;/instantiationDimensions&gt;
-  </code>
-</pre>
-
-
-<pre>
-  <code>
-    &lt;instantiationDimensions unitsOfMeasure=&quot;inches&quot;&gt;5x7&lt;/instantiationDimensions&gt;
+    &lt;instantiationDimensions unitsOfMeasure=&quot;inches&quot;&gt;5x7&lt;/instantiationDimensions&gt; 
   </code>
 </pre>

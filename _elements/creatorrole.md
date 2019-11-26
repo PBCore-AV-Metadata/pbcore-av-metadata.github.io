@@ -16,37 +16,18 @@ controlled-vocabs:
 ---
 <pre>
   <code>
-    &lt;pbcoreCreator&gt;<br>
-            &lt;creator&gt;WGBH Educational Foundation&lt;/creator&gt;<br>
-            &lt;creatorRole&gt;Producer&lt;/creatorRole&gt;<br>
-    &lt;/pbcoreCreator&gt;<br>
-    &lt;pbcoreCreator&gt;<br>
-            &lt;creator&gt;Lone Wolf Documentary Group&lt;/creator&gt;<br>
-            &lt;creatorRole&gt;Producer&lt;/creatorRole&gt;<br>
-    &lt;/pbcoreCreator&gt;<br>
-    &lt;pbcoreCreator&gt;<br>
-            &lt;creator&gt;Paula Apsell&lt;/creator&gt;<br>
-            &lt;creatorRole&gt;Senior Executive Producer&lt;/creatorRole&gt;<br>
-    &lt;/pbcoreCreator&gt;<br>
-    &lt;pbcoreCreator&gt;<br>
-            &lt;creator&gt;Jed Rauscher&lt;/creator&gt;<br>
-            &lt;creatorRole&gt;Editor&lt;/creatorRole&gt;<br>
-    &lt;/pbcoreCreator&gt;<br>
-    &lt;pbcoreCreator&gt;<br>
-            &lt;creator&gt;Matthew Collins&lt;/creator&gt;<br>
-            &lt;creatorRole&gt;Producer&lt;/creatorRole&gt;<br>
-    &lt;/pbcoreCreator&gt;<br>
-    &lt;pbcoreCreator&gt;<br>
-            &lt;creator&gt;Matthew Collins&lt;/creator&gt;<br>
-            &lt;creatorRole&gt;Writer&lt;/creatorRole&gt;<br>
-    &lt;/pbcoreCreator&gt;<br>
-    &lt;pbcoreCreator&gt;<br>
-            &lt;creator&gt;Kirk Wolfinger&lt;/creator&gt;<br>
-            &lt;creatorRole&gt;Producer&lt;/creatorRole&gt;<br>
-    &lt;/pbcoreCreator&gt;<br>
-    &lt;pbcoreCreator&gt;<br>
-            &lt;creator&gt;Lisa Quijano Wolfinger&lt;/creator&gt;<br>
-            &lt;creatorRole&gt;Producer&lt;/creatorRole&gt;<br>
-    &lt;/pbcoreCreator&gt;<br>
+	&lt;pbcoreCreator&gt;<br>
+    	&lt;creator&gt;Paula Apsell&lt;/creator&gt;<br>
+    	&lt;creatorRole&gt;Senior Executive Producer&lt;/creatorRole&gt;<br>
+	&lt;/pbcoreCreator&gt;  
+  </code>
+</pre>
+
+<pre>
+  <code>
+	&lt;pbcoreCreator&gt;<br>
+    	&lt;creator affiliation=&quot;WGBH&quot;&gt;Jed Rauscher&lt;/creator&gt;<br>
+    	&lt;creatorRole source=&quot;PBCore creatorRole and contributorRole&quot; ref=&quot;http://pbcore.org/pbcore-controlled-vocabularies/creatorrole-and-contributorrole-vocabulary/Editor&quot;&gt;Editor&lt;/creatorRole&gt;<br>
+	&lt;/pbcoreCreator&gt; 
   </code>
 </pre>

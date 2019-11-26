@@ -23,19 +23,13 @@ controlled-vocabs:
 ---
 <pre>
   <code>
-    &lt;pbcoreGenre source=&quot;PBCore pbcoreGenre&quot; ref=&quot;http://metadataregistry.org/concept/show/id/2449&quot;&gt;History&lt;/pbcoreGenre&gt;
+    &lt;pbcoreGenre&gt;Documentary&lt;/pbcoreGenre&gt;
   </code>
 </pre>
 
 <pre>
   <code>
-    &lt;pbcoreGenre source=&quot;EBU Content Genre&quot; ref=&quot;http://www.ebu.ch/metadata/cs/web/ebu_ContentGenreCS_p.xml.htm&quot;&gt;Goat roping&lt;/pbcoreGenre&gt;
+    &lt;pbcoreGenre source=&quot;Library of Congress Thesaurus for Graphic Materials&quot; ref=&quot;http://id.loc.gov/vocabulary/graphicMaterials/tgm003474&quot;&gt;Educational/cultural films &amp; video&lt;/pbcoreGenre&gt;
   </code>
 </pre>
 
-
-<pre>
-  <code>
-    &lt;pbcoreGenre source=&quot;TGM&quot; ref=&quot;http://id.loc.gov/vocabulary/graphicMaterials/tgm003474&quot;&gt;Educational/cultural films &amp; video&lt;/pbcoreGenre&gt;
-  </code>
-</pre>

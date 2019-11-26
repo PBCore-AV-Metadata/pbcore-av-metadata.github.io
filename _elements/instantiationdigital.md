@@ -17,18 +17,12 @@ controlled-vocabs:
 
 <pre>
   <code>
-    &lt;instantiationDigital source=&quot;IANA MIME Media types&quot; ref=&quot;http://www.iana.org/assignments/media-types/video/&quot;&gt;H264&lt;/instantiationDigital&gt;
+    &lt;instantiationDigital&gt;Wav file&lt;/instantiationDigital&gt;
   </code>
 </pre>
 
 <pre>
   <code>
-    &lt;instantiationDigital source=&quot;IANA MIME Media types&quot;&gt;vnd.dolby.mlp&lt;/instantiationDigital&gt;
-  </code>
-</pre>
-
-<pre>
-  <code>
-    &lt;instantiationDigital annotation=&quot;Flash Animation, .fla&quot;&gt;application/octet-stream&lt;/instantiationDigital&gt;
+    &lt;instantiationDigital source=&quot;IANA MIME Media types&quot; ref=&quot; https://www.iana.org/assignments/media-types/video/H264&quot;&gt;video/H264&lt;/instantiationDigital&gt; 
   </code>
 </pre>

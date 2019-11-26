@@ -14,13 +14,6 @@ attributes:
 
 <pre>
   <code>
-    &lt;instantiationAlternativeModes&gt;SAP in English&lt;/instantiationAlternativeModes&gt;
-  </code>
-</pre>
-
-
-<pre>
-  <code>
-    &lt;instantiationAlternativeModes&gt;fre&lt;/instantiationAlternativeModes&gt;
+    &lt;instantiationAlternativeModes&gt;Subtitle in French; DVI in French&lt;/instantiationAlternativeModes&gt;  
   </code>
 </pre>

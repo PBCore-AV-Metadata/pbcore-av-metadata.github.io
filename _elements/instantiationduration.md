@@ -13,6 +13,6 @@ attributes:
 ---
 <pre>
   <code>
-    &lt;instantiationDuration&gt;00:56:46&lt;/instantiationDuration&gt;
+    &lt;instantiationDuration&gt;00:56:46&lt;/instantiationDuration&gt;  
   </code>
 </pre>

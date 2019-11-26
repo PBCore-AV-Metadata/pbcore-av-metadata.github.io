@@ -15,12 +15,12 @@ attributes:
 ---
 <pre>
   <code>
-    &lt;essenceTrackSamplingRate unitsOfMeasure=&quot;kHz&quot;&gt;44.1&lt;/essenceTrackSamplingRate&gt;
+    &lt;essenceTrackSamplingRate unitsOfMeasure=&quot;kHz&quot;&gt;44.1&lt;/essenceTrackSamplingRate&gt;  
   </code>
 </pre>
 
 <pre>
   <code>
-    &lt;essenceTrackSamplingRate unitsOfMeasure=&quot;MHz&quot;&gt;2.8224&lt;/essenceTrackSamplingRate&gt;
+    &lt;essenceTrackSamplingRate unitsOfMeasure=&quot;Hz&quot;&gt;48000&lt;/essenceTrackSamplingRate
   </code>
 </pre>

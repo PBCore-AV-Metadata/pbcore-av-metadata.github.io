@@ -24,10 +24,10 @@ subelements:
 ---
 <pre>
   <code>
-    &lt;pbcoreCollection xmlns=&quot;http://pbcore.org/PBCore/PBCoreNamespace&quot;
-        xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
-        xsi:schemaLocation=&quot;http://pbcore.org/PBCore/PBCoreNamespace http://pbcore.org/xsd/pbcore-2.0.xsd&quot;&gt;
-        &lt;pbcoreDescriptionDocument&gt;<br>
+	&lt;pbcoreCollection xmlns=&quot;http://pbcore.org/PBCore/PBCoreNamespace&quot;        
+		xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;        
+		xsi:schemaLocation=&quot;http://pbcore.org/PBCore/PBCoreNamespace http://pbcore.org/xsd/pbcore-2.0.xsd&quot;&gt;        
+		&lt;pbcoreDescriptionDocument&gt;<br>
             &lt;pbcoreIdentifier source=&quot;NOLA Code&quot;&gt;AMEX000102&lt;/pbcoreIdentifier&gt;<br>
             &lt;pbcoreTitle titleType=&quot;Full&quot;&gt;American Experience: Radio Bikini&lt;/pbcoreTitle&gt;<br>
             &lt;pbcoreDescription&gt;In July 1946, the U.S. Navy staged &quot;Operation Crossroads&quot;--two highly publicized atomic bomb tests at a Pacific Island called Bikini.  This film is the story of those tests and their effect not only on the thousands of Naval personnel and spectators who watched, but also on the Bikinians whose homes was rendered uninhabitable by contamination, even now, 40 years later.&lt;/pbcoreDescription&gt;<br>
@@ -41,7 +41,7 @@ subelements:
             &lt;pbcoreIdentifier source=&quot;NOLA Code&quot;&gt;AMEX000104&lt;/pbcoreIdentifier&gt;<br>
             &lt;pbcoreTitle titleType=&quot;Full&quot;&gt;American Experience: Alone on the Ice&lt;/pbcoreTitle&gt;<br>
             &lt;pbcoreDescription&gt;In June 1934, Richard Byrd lay alone in a small hut below the polar ice, hovering near death.  No one before Byrd had ever experienced winter in the interior of the Antarctic.  In an age of heroes, he was one of America's greatest.  An explorer, aviation pioneer and scientist, Byrd was also an egotist, risk-taker, heavy drinker -- and, his critics claim, a fraud who took credit for the accomplishments of others.&lt;/pbcoreDescription&gt;<br>
-      &lt;/pbcoreDescriptionDocument&gt;<br>
-    &lt;/pbcoreCollection&gt;<br>
+    	&lt;/pbcoreDescriptionDocument&gt;<br>
+	&lt;/pbcoreCollection&gt;<br>
   </code>
 </pre>

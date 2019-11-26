@@ -15,24 +15,12 @@ attributes:
 ---
 <pre>
   <code>
-    &lt;essenceTrackFrameRate unitsOfMeasure=&quot;fps&quot; annotation=&quot;interlaced&quot;&gt;<br>
-      29.97<br>
-    &lt;/essenceTrackFrameRate&gt;<br>
+    &lt;essenceTrackFrameRate unitsOfMeasure=&quot;fps&quot; annotation=&quot;interlaced&quot;&gt;29.97&lt;/essenceTrackFrameRate&gt;
   </code>
 </pre>
 
 <pre>
   <code>
-  &lt;essenceTrackFrameRate unitsOfMeasure=&quot;ips&quot;&gt;<br>
-  3 3/4<br>
-  &lt;/essenceTrackFrameRate&gt;<br>
-  </code>
-</pre>
-
-<pre>
-  <code>
-  &lt;essenceTrackFrameRate unitsOfMeasure=&quot;fps&quot; annotation=&quot;progressive&quot;&gt;<br>
-  50<br>
-  &lt;/essenceTrackFrameRate&gt;<br>
+  	&lt;essenceTrackFrameRate annotation=&quot;rational_frame_rate:30000/1001 interlacement:Progressive&quot;&gt;29.970&lt;/essenceTrackFrameRate&gt;
   </code>
 </pre>
