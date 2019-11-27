@@ -13,8 +13,7 @@ attributes:
 ---
 <pre>
   <code>
-    &lt;essenceTrackIdentifier source=&quot;Digital Asset Management System&quot;&gt;
-898_Laura.wav&lt;/essenceTrackIdentifier&gt;
+    &lt;essenceTrackIdentifier source=&quot;Digital Asset Management System&quot;&gt;898_Laura.wav&lt;/essenceTrackIdentifier&gt;
   </code>
 </pre>
 

@@ -30,5 +30,6 @@ controlled-vocabs:
 	&lt;pbcoreContributor&gt;<br>
      	&lt;contributor source=&quot;LC Name Authority&quot;&gt;Yo-Yo Ma&lt;/contributor&gt;<br>
      	&lt;contributorRole source=&quot;PBCore creatorRole and contributorRole&quot; ref=&quot;http://pbcore.org/pbcore-controlled-vocabularies/creatorrole-and-contributorrole-vocabulary/Musician&quot;&gt;Musician&lt;/contributorRole&gt;<br>
-	&lt;/pbcoreContributor&gt;  </code>
+	&lt;/pbcoreContributor&gt;
+  </code>
 </pre>
