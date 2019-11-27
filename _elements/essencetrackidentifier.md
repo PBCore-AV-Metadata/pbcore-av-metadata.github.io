@@ -19,6 +19,6 @@ attributes:
 
 <pre>
   <code>
-  	&lt;essenceTrackIdentifier source=&quot;StreamOrder (MediaInfo)&quot;&gt;1&lt;/essenceTrackIdentifier&gt;
+    &lt;essenceTrackIdentifier source=&quot;StreamOrder (MediaInfo)&quot;&gt;1&lt;/essenceTrackIdentifier&gt;
   </code>
 </pre>

@@ -15,12 +15,12 @@ attributes:
 ---
 <pre>
   <code>
-	&lt;pbcoreAnnotation&gt;This is the edited version produced for the Digital Learning Library&lt;/pbcoreAnnotation&gt;  
+  &lt;pbcoreAnnotation&gt;This is the edited version produced for the Digital Learning Library&lt;/pbcoreAnnotation&gt;  
   </code>
 </pre>
 
 <pre>
   <code>
-	&lt;pbcoreAnnotation&gt;No surviving instantiations of this content&lt;/pbcoreAnnotation&gt; 
+  &lt;pbcoreAnnotation&gt;No surviving instantiations of this content&lt;/pbcoreAnnotation&gt; 
   </code>
 </pre>

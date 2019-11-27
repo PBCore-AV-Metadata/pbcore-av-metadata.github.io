@@ -29,8 +29,8 @@ attributes:
 ---
 <pre>
   <code>
-	&lt;pbcorePublisher&gt;<br>
-		&lt;publisher source=&quot;LC Name Authority&quot; ref=&quot;http://id.loc.gov/authorities/names/no94021892&quot; annotation=&quot;back of box&quot;&gt;PBS Home Video&lt;/publisher&gt;<br>
-	&lt;/pbcorePublisher&gt;<br>
+  &lt;pbcorePublisher&gt;<br>
+    &lt;publisher source=&quot;LC Name Authority&quot; ref=&quot;http://id.loc.gov/authorities/names/no94021892&quot; annotation=&quot;back of box&quot;&gt;PBS Home Video&lt;/publisher&gt;<br>
+  &lt;/pbcorePublisher&gt;<br>
   </code>
 </pre>

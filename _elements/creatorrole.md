@@ -16,18 +16,18 @@ controlled-vocabs:
 ---
 <pre>
   <code>
-	&lt;pbcoreCreator&gt;<br>
-    	&lt;creator&gt;Paula Apsell&lt;/creator&gt;<br>
-    	&lt;creatorRole&gt;Senior Executive Producer&lt;/creatorRole&gt;<br>
-	&lt;/pbcoreCreator&gt;  
+  &lt;pbcoreCreator&gt;<br>
+      &lt;creator&gt;Paula Apsell&lt;/creator&gt;<br>
+      &lt;creatorRole&gt;Senior Executive Producer&lt;/creatorRole&gt;<br>
+  &lt;/pbcoreCreator&gt;  
   </code>
 </pre>
 
 <pre>
   <code>
-	&lt;pbcoreCreator&gt;<br>
-    	&lt;creator affiliation=&quot;WGBH&quot;&gt;Jed Rauscher&lt;/creator&gt;<br>
-    	&lt;creatorRole source=&quot;PBCore creatorRole and contributorRole&quot; ref=&quot;http://pbcore.org/pbcore-controlled-vocabularies/creatorrole-and-contributorrole-vocabulary/Editor&quot;&gt;Editor&lt;/creatorRole&gt;<br>
-	&lt;/pbcoreCreator&gt; 
+  &lt;pbcoreCreator&gt;<br>
+      &lt;creator affiliation=&quot;WGBH&quot;&gt;Jed Rauscher&lt;/creator&gt;<br>
+      &lt;creatorRole source=&quot;PBCore creatorRole and contributorRole&quot; ref=&quot;http://pbcore.org/pbcore-controlled-vocabularies/creatorrole-and-contributorrole-vocabulary/Editor&quot;&gt;Editor&lt;/creatorRole&gt;<br>
+  &lt;/pbcoreCreator&gt; 
   </code>
 </pre>

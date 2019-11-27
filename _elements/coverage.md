@@ -34,18 +34,18 @@ controlled-vocabs:
 ---
 <pre>
   <code>
-	&lt;pbcoreCoverage&gt;<br>
-   		&lt;coverage&gt;2007&lt;/coverage&gt;<br>
-    	&lt;coverageType annotation=&quot;current&quot;&gt;Temporal&lt;/coverageType&gt;<br>
-	&lt;/pbcoreCoverage&gt;
+  &lt;pbcoreCoverage&gt;<br>
+       &lt;coverage&gt;2007&lt;/coverage&gt;<br>
+      &lt;coverageType annotation=&quot;current&quot;&gt;Temporal&lt;/coverageType&gt;<br>
+  &lt;/pbcoreCoverage&gt;
   </code>
 </pre>
 
 <pre>
   <code>
-	&lt;pbcoreCoverage&gt;<br>
-    	&lt;coverage source=&quot;GeoNames&quot; ref=&quot; http://www.geonames.org/4766510/jamestown.html&quot;&gt;Jamestown, VA&lt;/coverage&gt;<br>
-    	&lt;coverageType&gt;Spatial&lt;/coverageType&gt;<br>
-	&lt;/pbcoreCoverage&gt;
+  &lt;pbcoreCoverage&gt;<br>
+      &lt;coverage source=&quot;GeoNames&quot; ref=&quot; http://www.geonames.org/4766510/jamestown.html&quot;&gt;Jamestown, VA&lt;/coverage&gt;<br>
+      &lt;coverageType&gt;Spatial&lt;/coverageType&gt;<br>
+  &lt;/pbcoreCoverage&gt;
   </code>
 </pre>

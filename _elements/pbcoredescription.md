@@ -54,7 +54,7 @@ controlled-vocabs:
 
 <pre>
   <code>
-	&lt;pbcoreDescription descriptionType=&quot;Shot List&quot; startTime=&quot;00:00:34&quot; endTime=&quot;00:06:22&quot;&gt;
+  &lt;pbcoreDescription descriptionType=&quot;Shot List&quot; startTime=&quot;00:00:34&quot; endTime=&quot;00:06:22&quot;&gt;
     00:00:34  ship at dock/EWS
     00:01:01  Crew on deck/WS
     00:01:43  Ship bow tied to pier/WS

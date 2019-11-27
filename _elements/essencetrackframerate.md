@@ -21,6 +21,6 @@ attributes:
 
 <pre>
   <code>
-  	&lt;essenceTrackFrameRate annotation=&quot;rational_frame_rate:30000/1001 interlacement:Progressive&quot;&gt;29.970&lt;/essenceTrackFrameRate&gt;
+    &lt;essenceTrackFrameRate annotation=&quot;rational_frame_rate:30000/1001 interlacement:Progressive&quot;&gt;29.970&lt;/essenceTrackFrameRate&gt;
   </code>
 </pre>

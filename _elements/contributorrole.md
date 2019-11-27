@@ -18,18 +18,18 @@ controlled-vocabs:
 ---
 <pre>
   <code>
-	&lt;pbcoreContributor&gt;<br>
-    	&lt;contributor source=&quot;IMDB&quot; ref=&quot;https://www.imdb.com/name/nm0189337/&quot;&gt;Callie Crossley&lt;/contributor&gt;<br>
-    	&lt;contributorRole source=&quot;credits&quot;&gt;Interviewer&lt;/contributorRole&gt;<br>
-	&lt;/pbcoreContributor&gt;
+  &lt;pbcoreContributor&gt;<br>
+      &lt;contributor source=&quot;IMDB&quot; ref=&quot;https://www.imdb.com/name/nm0189337/&quot;&gt;Callie Crossley&lt;/contributor&gt;<br>
+      &lt;contributorRole source=&quot;credits&quot;&gt;Interviewer&lt;/contributorRole&gt;<br>
+  &lt;/pbcoreContributor&gt;
   </code>
 </pre>
 
 <pre>
   <code>
-	&lt;pbcoreContributor&gt;<br>
-     	&lt;contributor source=&quot;LC Name Authority&quot;&gt;Yo-Yo Ma&lt;/contributor&gt;<br>
-     	&lt;contributorRole source=&quot;PBCore creatorRole and contributorRole&quot; ref=&quot;http://pbcore.org/pbcore-controlled-vocabularies/creatorrole-and-contributorrole-vocabulary/Musician&quot;&gt;Musician&lt;/contributorRole&gt;<br>
-	&lt;/pbcoreContributor&gt;
+  &lt;pbcoreContributor&gt;<br>
+       &lt;contributor source=&quot;LC Name Authority&quot;&gt;Yo-Yo Ma&lt;/contributor&gt;<br>
+       &lt;contributorRole source=&quot;PBCore creatorRole and contributorRole&quot; ref=&quot;http://pbcore.org/pbcore-controlled-vocabularies/creatorrole-and-contributorrole-vocabulary/Musician&quot;&gt;Musician&lt;/contributorRole&gt;<br>
+  &lt;/pbcoreContributor&gt;
   </code>
 </pre>

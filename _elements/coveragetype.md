@@ -7,9 +7,9 @@ controlled-vocabs:
 ---
 <pre>
   <code>
-	&lt;pbcoreCoverage&gt;<br>
-    	&lt;coverage source=&quot;Wikipedia&quot; ref=&quot;http://en.wikipedia.org/wiki/Werowocomoco&quot;&gt;Werowocomoco&lt;/coverage&gt;<br>
-    	&lt;coverageType source=&quot;PBCore coverageType Vocabulary&quot;&gt;Spatial&lt;/coverageType&gt;<br>
-	&lt;/pbcoreCoverage&gt;<br>
+  &lt;pbcoreCoverage&gt;<br>
+      &lt;coverage source=&quot;Wikipedia&quot; ref=&quot;http://en.wikipedia.org/wiki/Werowocomoco&quot;&gt;Werowocomoco&lt;/coverage&gt;<br>
+      &lt;coverageType source=&quot;PBCore coverageType Vocabulary&quot;&gt;Spatial&lt;/coverageType&gt;<br>
+  &lt;/pbcoreCoverage&gt;<br>
   </code>
 </pre>
