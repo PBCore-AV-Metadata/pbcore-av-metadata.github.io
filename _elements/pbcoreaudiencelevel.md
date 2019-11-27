@@ -14,7 +14,7 @@ attributes:
 
 <pre>
   <code>
-    &lt;pbcoreAudienceLevel source=&quot;PBCore audienceLevel&quot; ref=&quot;http://pbcore.org/vocabularies/pbcoreAudienceLevel#general&quot;&gt;General&lt;/pbcoreAudienceLevel&gt;
+    &lt;pbcoreAudienceLevel&gt;Teen&lt;/pbcoreAudienceLevel&gt;
   </code>
 </pre>
 
@@ -24,8 +24,3 @@ attributes:
   </code>
 </pre>
 
-<pre>
-  <code>
-    &lt;pbcoreAudienceLevel source=&quot;PBS Teachers&quot; annotation=&quot;for educational use&quot;&gt;K-2&lt;/pbcoreAudienceLevel&gt;
-  </code>
-</pre>

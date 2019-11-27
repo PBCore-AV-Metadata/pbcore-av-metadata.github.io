@@ -31,18 +31,18 @@ controlled-vocabs:
 ---
 <pre>
   <code>
-    &lt;pbcoreTitle titleType=&quot;Full&quot;&gt;NOVA: Pocahontas Revealed&lt;/pbcoreTitle&gt;
+    &lt;pbcoreTitle titleType=&quot;Full&quot; source=&quot;Box&quot;&gt;American Experience: The Boys of '36&lt;/pbcoreTitle&gt;
   </code>
 </pre>
 
 <pre>
   <code>
-    &lt;pbcoreTitle titleType=&quot;Program&quot;&gt;Pocahontas Revealed&lt;/pbcoreTitle&gt;
+    &lt;pbcoreTitle titleType=&quot;Program&quot;&gt;The Boys of '36&lt;/pbcoreTitle&gt; 
   </code>
 </pre>
 
 <pre>
   <code>
-    &lt;pbcoreTitle titleType=&quot;Series&quot;&gt;NOVA&lt;/pbcoreTitle&gt;
+    &lt;pbcoreTitle titleType=&quot;Series&quot; titleTypeSource=&quot;PBCore titleType Controlled Vocabulary&quot; titleTypeRef=&quot;http://pbcore.org/pbcore-controlled-vocabularies/titletype-vocabulary/#Series&quot;&gt;American Experience&lt;/pbcoreTitle&gt;
   </code>
 </pre>

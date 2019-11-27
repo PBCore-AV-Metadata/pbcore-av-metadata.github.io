@@ -16,18 +16,12 @@ attributes:
 
 <pre>
   <code>
-    &lt;!-- Example usage of instantiationStandard for a physical instantiation. --&gt;<br>
-    &lt;instantiationStandard source=&quot;PBCore instantiationStandard/video&quot; ref=&quot;http://pbcore.org/vocabularies/instantiationStandard/video%23ntsc&quot;&gt;<br>
-    NTSC<br>
-    &lt;/instantiationStandard&gt;<br>
+    &lt;instantiationStandard&gt;NTSC&lt;/instantiationStandard&gt;
   </code>
 </pre>
-~~~~
-<!-- Example usage of instantiationStandard for a physical instantiation. -->
-<instantiationStandard source="PBCore instantiationStandard/video" ref="http://pbcore.org/vocabularies/instantiationStandard/video%23ntsc">NTSC</instantiationStandard>
-~~~~
 
-~~~~
-<!-- Example usage of instantiationStandard for a digital (file-based) instantiation. -->
-<instantiationStandard source="Sustainability of Digital Formats Planning for Library of Congress Collections">MXF OP1a</instantiationStandard>
-~~~~
+<pre>
+  <code>
+    &lt;instantiationStandard source=&quot;Sustainability of Digital Formats Planning for Library of Congress Collections&quot; ref=&rdquo; https://www.loc.gov/preservation/digital/formats/fdd/fdd000266.shtml&rdquo;&gt;MXF OP1a&lt;/instantiationStandard&gt;
+  </code>
+</pre>

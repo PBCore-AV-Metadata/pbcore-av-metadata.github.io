@@ -20,12 +20,12 @@ controlled-vocabs:
 
 <pre>
   <code>
-    &lt;pbcoreAssetDate&gt;2001-02-03T09:30:01&lt;/pbcoreAssetDate&gt;
+    &lt;pbcoreAssetDate&gt;1987-05-13&lt;/pbcoreAssetDate&gt;
   </code>
 </pre>
 
 <pre>
   <code>
-    &lt;pbcoreAssetDate&gt;2004-06?&lt;/pbcoreAssetDate&gt;
+    &lt;pbcoreAssetDate dateType=&rdquo;broadcast&rdquo;&gt;2001-02-03&lt;/pbcoreAssetDate&gt;
   </code>
 </pre>

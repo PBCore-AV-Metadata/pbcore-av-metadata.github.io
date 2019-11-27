@@ -10,7 +10,7 @@ subelements:
 <pre>
   <code>
     &lt;pbcoreCreator&gt;<br>
-    &lt;!-- No data here directly; it's within sub-elements instead --&gt;<br>
+      &lt;!-- No data here directly; it's within sub-elements instead --&gt;<br>
       &lt;creator&gt;WGBH Educational Foundation&lt;/creator&gt;<br>
       &lt;creatorRole source=&quot;PBCore creatorRole&quot; ref=&quot;http://metadataregistry.org/conceptprop/list/concept_id/1425&quot;&gt;Producer&lt;/creatorRole&gt;<br>
     &lt;/pbcoreCreator&gt;<br>

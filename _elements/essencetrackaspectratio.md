@@ -15,8 +15,12 @@ attributes:
 ---
 <pre>
   <code>
-    &lt;essenceTrackAspectRatio source=&quot;PBCore essenceTrackAspectRatio&quot; ref=&quot;http://metadataregistry.org/conceptprop/list/concept_id/1439&quot;&gt;<br>
-    4:3 (16:9 letterbox)<br>
-    &lt;/essenceTrackAspectRatio&gt;<br>
+    &lt;essenceTrackAspectRatio&gt;4:3&lt;/essenceTrackAspectRatio&gt;
+  </code>
+</pre>
+
+<pre>
+  <code>
+    &lt;essenceTrackAspectRatio&gt;1.778&lt;/essenceTrackAspectRatio&gt;
   </code>
 </pre>

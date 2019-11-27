@@ -15,8 +15,12 @@ attributes:
 ---
 <pre>
   <code>
-    &lt;essenceTrackAnnotation annotationType=&quot;Condition note&quot;&gt;<br>
-    Audio reel shows faint signs of mold<br>
-    &lt;/essenceTrackAnnotation&gt;<br>
+    &lt;essenceTrackAnnotation annotationType=&quot;Condition note&quot;&gt;Audio reel shows faint signs of mold&lt;/essenceTrackAnnotation&gt;
+  </code>
+</pre>
+
+<pre>
+  <code>
+    &lt;essenceTrackAnnotation annotationType=&quot;ChromaSubsampling&quot;&gt;4:2:0&lt;/essenceTrackAnnotation&gt;
   </code>
 </pre>

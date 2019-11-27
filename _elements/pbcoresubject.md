@@ -34,25 +34,13 @@ controlled-vocabs:
 ---
 <pre>
   <code>
-    &lt;pbcoreSubject subjectType=&quot;entity&quot; source=&quot;Library of Congress Name Authority&quot;&gt;Smith, John, 1580-1631&lt;/pbcoreSubject&gt;
+    &lt;pbcoreSubject&gt;Olympics&lt;/pbcoreSubject&gt;
   </code>
 </pre>
 
 <pre>
   <code>
-    &lt;pbcoreSubject source=&quot;Library of Congress Subject Headings&quot; ref=&quot;http://id.loc.gov/authorities/sh85106022#concept&quot;&gt;Powhatan Indians&lt;/pbcoreSubject&gt;
+    &lt;pbcoreSubject subjectType=&quot;entity&quot; source=&quot;LC Subject Headings&quot; ref=&quot;http://id.loc.gov/authorities/subjects/sh85147037&quot;&gt;Winter Olympics&lt;/pbcoreSubject&gt;
   </code>
 </pre>
 
-
-<pre>
-  <code>
-    &lt;pbcoreSubject source=&quot;Library of Congress Subject Headings&quot; ref=&quot;http://id.loc.gov/authorities/sh85061212#concept&quot;&gt;History&lt;/pbcoreSubject&gt;
-  </code>
-</pre>
-
-<pre>
-  <code>
-    &lt;pbcoreSubject subjectType=&quot;topic&quot; source=&quot;Wikipedia&quot; ref=&quot;http://en.wikipedia.org/wiki/West_Side_Story&quot;&gt;West Side Story&lt;/pbcoreSubject&gt;
-  </code>
-</pre>

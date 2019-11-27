@@ -29,14 +29,8 @@ attributes:
 ---
 <pre>
   <code>
-    &lt;pbcorePublisher&gt;<br>
-      &lt;publisher&gt;WGBH Educational Foundation&lt;/publisher&gt;<br>
-      &lt;publisherRole&gt;Copyright Holder&lt;/publisherRole&gt;<br>
-    &lt;/pbcorePublisher&gt;<br>
-
-    &lt;pbcorePublisher&gt;<br>
-      &lt;publisher&gt;Public Broadcasting Service&lt;/publisher&gt;<br>
-      &lt;publisherRole&gt;Distributor&lt;/publisherRole&gt;<br>
-    &lt;/pbcorePublisher&gt;<br>
+  &lt;pbcorePublisher&gt;<br>
+    &lt;publisher source=&quot;LC Name Authority&quot; ref=&quot;http://id.loc.gov/authorities/names/no94021892&quot; annotation=&quot;back of box&quot;&gt;PBS Home Video&lt;/publisher&gt;<br>
+  &lt;/pbcorePublisher&gt;<br>
   </code>
 </pre>

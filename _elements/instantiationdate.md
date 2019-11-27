@@ -20,18 +20,12 @@ controlled-vocabs:
 
 <pre>
   <code>
-    &lt;instantiationDate dateType=&quot;Created&quot;&gt;2007-05&lt;/instantiationDate&gt;
+    &lt;instantiationDate dateType=&quot;Created&quot;&gt;2007-05-09&lt;/instantiationDate&gt;  
   </code>
 </pre>
 
 <pre>
   <code>
-    &lt;instantiationDate dateType=&quot;Issued&quot;&gt;2007-06-02&lt;/instantiationDate&gt;
-  </code>
-</pre>
-
-<pre>
-  <code>
-    &lt;instantiationDate dateType=&quot;Published&quot;&gt;2007-07-02T18:10+02:24&lt;/instantiationDate&gt;
+    &lt;instantiationDate dateType=&quot;Issued&quot; &gt;2007-06-02&lt;/instantiationDate&gt;  
   </code>
 </pre>

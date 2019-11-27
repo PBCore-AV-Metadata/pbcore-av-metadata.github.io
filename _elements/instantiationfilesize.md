@@ -16,12 +16,6 @@ attributes:
 
 <pre>
   <code>
-    &lt;instantiationFileSize unitsOfMeasure=&quot;MB&quot;&gt;322&lt;/instantiationFileSize&gt;
-  </code>
-</pre>
-
-<pre>
-  <code>
-    &lt;instantiationFileSize unitsOfMeasure=&quot;kB&quot;&gt;125&lt;/instantiationFileSize&gt;
+    &lt;instantiationFileSize unitsOfMeasure=&quot;MB&quot;&gt;322&lt;/instantiationFileSize&gt;  
   </code>
 </pre>

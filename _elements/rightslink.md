@@ -13,8 +13,16 @@ attributes:
 ---
 <pre>
   <code>
-    &lt;pbcoreRightsSummary&gt;<br>
-     &lt;rightsLink&gt;www.rightsinfo.com&lt;/rightsLink&gt;<br>
-    &lt;/pbcoreRightsSummary&gt;<br>
+  &lt;pbcoreRightsSummary&gt;<br>
+       &lt;rightsLink&gt;http://creativecommons.org/licenses/by/3.0&lt;/rightsLink&gt;<br>
+  &lt;/pbcoreRightsSummary&gt;
+  </code>
+</pre>
+
+<pre>
+  <code>
+  &lt;pbcoreRightsSummary&gt;<br>
+    &lt;rightsLink&gt;https://rightsstatements.org/page/InC/1.0/?language=en&lt;/rightsLink&gt;<br>
+  &lt;/pbcoreRightsSummary&gt;<br>
   </code>
 </pre>

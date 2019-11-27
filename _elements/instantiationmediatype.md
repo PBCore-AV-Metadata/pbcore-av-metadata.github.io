@@ -16,8 +16,12 @@ controlled-vocabs:
 ---
 <pre>
   <code>
-    &lt;instantiationMediaType source=&quot;PBCore instantiationMediaType&quot; ref=&quot;http://metadataregistry.org/concept/show/id/1491&quot;&gt;<br>
-    Moving Image<br>
-    &lt;/instantiationMediaType&gt;<br>
+    &lt;instantiationMediaType&gt;Audio&lt;/instantiationMediaType&gt;
+  </code>
+</pre>
+
+<pre>
+  <code>
+    &lt;instantiationMediaType source=&quot;PBCore instantiationMediaType Vocabulary&quot; ref=&quot;http://pbcore.org/pbcore-controlled-vocabularies/instantiationmediatype-vocabulary/#MovingImage&quot;&gt;Moving Image&lt;/instantiationMediaType&gt;
   </code>
 </pre>

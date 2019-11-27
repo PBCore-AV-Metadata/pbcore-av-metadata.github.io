@@ -18,7 +18,7 @@
 
   <script>
     $(document).ready(function() {
-      hljs.configure({useBR: true});hljs.initHighlightingOnLoad();
+      hljs.configure({useBR: true, languages: 'xml', tabReplace: '  '});hljs.initHighlightingOnLoad();
 
       $('.element-arrow-icon, .faq-arrow-icon, .pres-arrow-icon').click(function(e){
         var start = ''

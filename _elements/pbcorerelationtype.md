@@ -17,8 +17,8 @@ controlled-vocabs:
 <pre>
   <code>
   &lt;pbcoreRelation&gt;<br>
-    &lt;pbcoreRelationType&gt;Is Part Of&lt;/pbcoreRelationType&gt;<br>
-    &lt;pbcoreRelationIdentifier&gt;NOVA&lt;/pbcoreRelationIdentifier&gt;<br>
-  &lt;/pbcoreRelation&gt;<br>
+      &lt;pbcoreRelationType source=&quot;pbcoreRelationType Vocabulary&quot; ref=&quot;http://pbcore.org/pbcore-controlled-vocabularies/pbcorerelationtype-vocabulary/#IsPartOf&quot;&gt;Is Part Of&lt;/pbcoreRelationType&gt;<br>
+      &lt;pbcoreRelationIdentifier&gt;NOVA&lt;/pbcoreRelationIdentifier&gt;<br>
+  &lt;/pbcoreRelation&gt;
   </code>
 </pre>

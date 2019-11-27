@@ -29,18 +29,18 @@ attributes:
 ---
 <pre>
   <code>
-    &lt;pbcoreContributor&gt;<br>
-      &lt;contributor&gt;Lisa Quijano Wolfinger&lt;/contributor&gt;<br>
-      &lt;contributorRole&gt;Narrator&lt;/contributorRole&gt;<br>
-    &lt;/pbcoreContributor&gt;<br>
+  &lt;pbcoreContributor&gt;<br>
+       &lt;contributor&gt;Kenneth Branagh&lt;/contributor&gt;<br>
+       &lt;contributorRole&gt;Director&lt;/contributorRole&gt;<br>
+  &lt;/pbcoreContributor&gt;
   </code>
 </pre>
 
 <pre>
   <code>
-    &lt;pbcoreContributor&gt;<br>
-      &lt;contributor&gt;Yo-Yo Ma&lt;/contributor&gt;<br>
-      &lt;contributorRole source=&quot;PBCore contributorRole&quot;<br> ref=&quot;http://metadataregistry.org/conceptprop/list/concept_id/1330&quot;&gt;Instrumentalist&lt;/contributorRole&gt;<br>
-    &lt;/pbcoreContributor&gt;<br>
+  &lt;pbcoreContributor&gt;<br>
+       &lt;contributor source=&quot;LC Name Authority&quot; ref=&quot;http://id.loc.gov/authorities/names/nr88009360&quot; portrayal=&quot;Gilderoy Lockhart&quot;&gt;Branagh, Kenneth&lt;/contributor&gt;<br>
+       &lt;contributorRole&gt;Actor&lt;/contributorRole&gt;<br>
+  &lt;/pbcoreContributor&gt;
   </code>
 </pre>

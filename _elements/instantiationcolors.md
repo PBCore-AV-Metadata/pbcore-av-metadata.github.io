@@ -14,12 +14,6 @@ attributes:
 
 <pre>
   <code>
-    &lt;instantiationColors source=&quot;PBCore instantiationColors&quot;&gt;Color&lt;/instantiationColors&gt;
-  </code>
-</pre>
-
-<pre>
-  <code>
-    &lt;instantiationColors source=&quot;instantiationColors&quot; ref=&quot;http://metadataregistry.org/conceptprop/list/concept_id/1484&quot; annotation=&quot;sepia&quot;&gt;Toned&lt;/instantiationColors&gt;
+    &lt;instantiationColors&gt;Color&lt;/instantiationColors&gt;  
   </code>
 </pre>

@@ -19,14 +19,12 @@ controlled-vocabs:
 
 <pre>
   <code>
-    &lt;essenceTrackEncoding source=&quot;PBCore essenceTrackEncoding&quot; ref=&quot;http://metadataregistry.org/concept/show/id/2889&quot;&gt;<br>
-    H.264/MPEG-4 AVC: QuickTime H.264<br>
-    &lt;/essenceTrackEncoding&gt;<br>
+    &lt;essenceTrackEncoding source=&rdquo;EBU Audio Compression Code&rdquo; ref=&rdquo;https://www.ebu.ch/metadata/cs/web/ebu_AudioCompressionCodeCS_p.xml.htm&rdquo;&gt;WAV&lt;/essenceTrackEncoding&gt;  
   </code>
 </pre>
 
 <pre>
   <code>
-    &lt;essenceTrackEncoding&gt;WAV&lt;/essenceTrackEncoding&gt;
+    &lt;essenceTrackEncoding source=&quot;codecid&quot; ref=&quot;avc1&quot; annotation=&quot;profile:High@L4&quot;&gt;AVC&lt;/essenceTrackEncoding&gt;
   </code>
 </pre>
