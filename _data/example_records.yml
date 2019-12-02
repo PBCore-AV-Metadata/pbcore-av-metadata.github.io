@@ -14,6 +14,8 @@
   description: This record is an example of the PBCore 2.1 output from MediaInfo. On more for how to use MediaInfo to generate instantiationDocuments, read our <a href="/2018/11/28/pbcore-audiovisual-tricks.html">blog post</a>.
   file: /assets/downloads/mediainfo_instantiation_document.xml
 - name: American Archive of Public Broadcasting Records
-  description: These records are from the PBCore that underlies the American Archive of Public Broadcasting website. The first has multiple physical and digital instantiations in different locations, while, for the other, only the AAPB's digital instantiations are represented
+  description: These records are from the PBCore that underlies the American Archive of Public Broadcasting website. The first has multiple physical and digital instantiations in different locations, while, for the other, only the AAPB's digital instantiations are represented.
   file: /assets/downloads/AAPB_Sample_XML.zip
-  
+- name: Radio Free Europe Video Record
+  description: This record features extensive descriptive and subject cataloging, including multilingual titles and the use of a Description element to store a transcript, as well as multiple digital instantiations representing different generations of a file. 
+  file: /assets/downloads/RFERL_wastelanddoc_withinstantiations.xml

@@ -18,11 +18,11 @@ Attendees reported back to WGBH with outcomes on how they are incorporating PBCo
 
 <a href="/assets/downloads/UserWorkshop_KBOO.docx">Marti Clemmons (KBOO Community Radio)</a>
 
-<a href="/assets/downloads/UserWorkshop_PBSLearningMedia.pdf">Athina Livanos-Propst (PBS Learning Media)</a>
-<a href="/assets/downloads/UserWorkshop_PBSLearningMedia_Crosswalk.xlsx">PBS Learning Media Metadata Crosswalk</a>
-<a href="/assets/downloads/UserWorkshop_PBSLearningMedia_Presentation.pdf">PBS Learning Media Staff Presentation</a>
+<a href="/assets/downloads/UserWorkshop_PBSLearningMedia.pdf">Athina Livanos-Propst (PBS Learning Media)</a><br>
+<a href="/assets/downloads/UserWorkshop_PBSLearningMedia_Crosswalk.xlsx">PBS Learning Media Metadata Crosswalk</a><br>
+<a href="/assets/downloads/UserWorkshop_PBSLearningMedia_Presentation.pdf">PBS Learning Media Staff Presentation</a><br>
 
-<a href="/assets/downloads/UserWorkshop_KLRU.pdf">Amanda Moore on behalf of James Cole (KLRU)</a> 
+<a href="/assets/downloads/UserWorkshop_KLRU.pdf">Amanda Moore on behalf of James Cole (KLRU)</a><br> 
 <a href="/assets/downloads/UserWorkshop_KLRU_sample.xml">KLRU Sample Record</a>
 
 <a href="/assets/downloads/UserWorkshop_KQED.pdf">Robert Chehoski (KQED)</a>
