@@ -136,3 +136,25 @@ users:
       <p>California Revealed (formerly California Audiovisual Preservation Project) has been using PBCore to organize descriptive, rights, and technical metadata about the audiovisual objects that they preserve since the project's beginning in 2010. California Revealed is looking forward to using PBCore 2.1 in their latest round of digitization and will soon automate the ingest of metadata into their repository using PBCore XML files created by their digitization vendors.</p>
       <h4>Benefits of PBCore</h4>
       <p>As a project which collaborates with hundreds of cultural heritage institutions to preserve and facilitate access to their audiovisual media, the benefits of a standardized metadata schema specialized for audiovisual recordings has been enormously helpful.</p>
+  - user: Radio Free Europe
+    column: left
+    id: radio-free-europe
+    logo-file: radio-free-europe.png
+    title: |
+      PBCore at Radio Free Europe
+    statement: |
+      <h4>How We Use PBCore</h4>
+      <p>Radio Free Europe is an American media company based in Prague, CZ. Its journalists report the news in 22 countries where a free press is banned by the government or is not fully established. With a long history of radio broadcasting, RFE has pivoted towards video production and distribution in the past decade. Established in 2016, the RFE Video Archives preserves video and makes it accessible for re-use by journalists. Currently, we are expanding our archival storage capabilities, although we still lack a cataloging utility that can produce structured and consistent metadata. We hope to migrate to a more sophisticated system in the near future, but decided in the interim to create PBCore XML metadata with the Cataloging Tool developed by AAPB and WGHB.</p>
+      <h4>Benefits of PBCore</h4>
+      <p>The standard is flexible, easy to learn, and adaptable to the needs of our news content and our language services. Because PBCore XML is system-agnostic, we are confident that the metadata we create with the Cataloging Tool can be successfully migrated into a new system. We are in the process of training our librarians to use the Cataloging Tool in production in select RFERL bureaus, as well as at our Prague HQ. We anticipate benefits from increased consistency in our descriptions, better searching and retrieval, and efficiencies from establishing standard cataloging workflows.</p>
+  - user: Iowa PBS
+    column: right
+    id: iowa-ptv
+    logo-file: iowa-ptv.jpg
+    title: |
+      Using PBCore with ProTrack at Iowa PTV
+    statement: |
+      <h4>How We Use PBCore</h4>
+      <p>Iowa PBS currently uses ProTrack as their broadcast and archive database. After learning how they can export data from ProTrack to populate a PBCore-based spreadsheet and MediaInfo to generate an XML, they are preparing to use the PBCore XML files to populate their own online database for their stock footage licensing library.</p>
+      <h4>Benefits of PBCore</h4>
+      <p>The demonstration of PBCore asset and instantiation relationships allowed for a better understanding of how to organize multiple copies of media and the information needed to be able to differentiate between two instantiations of the same asset. In the past, the maintenance of library assets was not ideal, but PBCore training has reinvigorated staff to better complete and maintain future records as well as begin to update past records that lack information.</p>
