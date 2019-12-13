@@ -1,0 +1,40 @@
+- title: PBCore Handbook (Full Version)
+  filepath: /assets/downloads/handbook/PBCore_Handbook_Full.pdf
+  description: The full version of the PBCore Handbook, so you can download all of the sections in one file.
+- title: PBCore Handbook Section 1 - What is PBCore
+  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_1.pdf
+  description: The first section of the PBCore Handbook focuses on a general explanation of PBCore's intended uses.
+- title: PBCore Handboook Section 2 - History and Development
+  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_2.pdf
+  description: The second section of the PBCore Handbook recounts the history of PBCore's development and community from version 1.0 to 2.1.
+- title: PBCore Handbook Section 3 - Glossary
+  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_3.pdf
+  description: The third section of the PBCore Handbook provides a glossary of PBCore-specific terms and other terms used throughout the documentation.
+- title: PBCore Handbook Section 4 - PBCore Structure
+  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_4.pdf
+  description: The fourth section of the PBCore Handbook provides a listings of PBCore Root Elements, PBCore Subelements in required order, and example records in plain text and XML format for each of the main categorie of PBCore records.
+- title: PBCore Handbook Section 5 - Elements
+  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_5.pdf
+  description: The fifth section of the PBCore Handbook provides definitions, usage notes, and examples for all of PBCore's 15 containers and 82 elements.
+- title: PBCore Handbook Section 6 - Attributes
+  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_6.pdf
+  description: The sixth section of the PBCore Handbook provides definitions and usage notes for all of the attributes that can be used to further clarify the information included in an PBCore element's value.
+- title: PBCore Handbook Section 7 - Controlled Vocabularies
+  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_7.pdf
+  description: The seventh section of the PBCore Handbook provides the terms, definitions, and URIs for all of the PBCore-community-maintained controlled vocabularies.
+- title: PBCore Handbook Section 8 - Sample Records
+  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_8.pdf
+  description: The eigth section of the PBCore Handbook provides real-world example records gathered from organizations that use PBCore and described the differences in the ways each organization uses PBCore for their specific needs.
+- title: PBCore Handbook Section 9 - Acknowledgements
+  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_9.pdf
+  description: The ninth section of the PBCore Handbook acknowledges the granting agencies, organizations, and individuals that have helped to make this documentation available.
+- title: |
+    PBCore Handbook Section 10 - Apppendix A: PBCore 2.1 XML Schema and Process History
+  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_10.pdf
+  description: The tenth section of the PBCore Handbook appends to the document the PBCore 2.1 XSD and process history of schema updates from PBCore 2.0 to PBCore 2.1.
+- title: PBCore Handbook Table of Contents
+  filepath: /assets/downloads/handbook/PBCore_Handbook_Table_of_Contents.pdf
+  description: The PBCore Handbook's Table of Contents
+- title: PBCore Handbook Title Page
+  filepath: /assets/downloads/handbook/PBCore_Handbook_Title_Page.pdf
+  description: The Title Page for the PBCore Handbook
