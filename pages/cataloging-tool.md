@@ -123,6 +123,6 @@ keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging T
 
 <div class="row"  style="margin-top:4%;">
   <div class="col-md-12">
-    The PBCore Cataloging Tool is an open-source tool written in Java. We welcome contributions, suggestions, and review! Code available here: <a href="https://github.com/WGBH-MLA/PBCore-Cataloging-Tool">https://github.com/WGBH/PBCore-Cataloging-Tool</a>
+    The PBCore Cataloging Tool is an open-source tool written in Java. We welcome contributions, suggestions, and review! Code available here: <a href="https://github.com/WGBH/PBCore-Cataloging-Tool">https://github.com/WGBH/PBCore-Cataloging-Tool</a>
   </div>
 </div>
