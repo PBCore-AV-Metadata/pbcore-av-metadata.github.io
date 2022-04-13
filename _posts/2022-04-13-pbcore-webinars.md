@@ -23,13 +23,13 @@ The webinar series contains five programs:
 
 <a href="/assets/downloads/handouts/av_metadata_pbcore_vocabularies_updated.pptx">Powerpoint</a>
 <a href="/assets/downloads/handouts/Class_3_Exercise.docx">Exercise</a>
-Examples (<a href="/assets/downloads/handouts/Class 3 Example 1.jpg">1</a>, <a href="/assets/downloads/handouts/Class 3 Example 2.jpg">2</a>, <a href="/assets/downloads/handouts/Class 3 Example 3.png">3</a>, <a href="<a href="/assets/downloads/handouts/Class 3 Example 4.jpg">4</a>, <a href="/assets/downloads/handouts/Class 3 Example 5.jpg">5</a>)
+Examples (<a href="/assets/downloads/handouts/Class 3 Example 1.jpg">1</a>, <a href="/assets/downloads/handouts/Class 3 Example 2.jpg">2</a>, <a href="/assets/downloads/handouts/Class 3 Example 3.png">3</a>, <a href="/assets/downloads/handouts/Class 3 Example 4.jpg">4</a>, <a href="/assets/downloads/handouts/Class 3 Example 5.jpg">5</a>)
 
 4. <a href="https://www.youtube.com/watch?v=WYJCpTUobdw&list=PLSqxpHY476Jy2drZRl7uuqKTOfmyNeKPP&index=1">Using the PBCore Cataloging Tool</a>
 
 <a href="/assets/downloads/handouts/av_metadata_pbcore_cataloging_tool_updated.pptx">Powerpoint</a>
 <a href="/assets/downloads/handouts/class_4_exercise.pptx">Exercise</a>
-Examples (<a href="/assets/downloads/handouts/Class 3 Example 1.jpg">1</a>, <a href="/assets/downloads/handouts/Class 4 Example 1.docx">2</a>, <a href="/assets/downloads/handouts/Class 4 Example 2.docx">3</a>, <a href="<a href="/assets/downloads/handouts/Class 4 Example 3.docx">4</a>, <a href="/assets/downloads/handouts/Class 4 Example 4.docx">5</a>)
+Examples (<a href="/assets/downloads/handouts/Class 4 Example 1.docx">1</a>, <a href="/assets/downloads/handouts/Class 4 Example 2.docx">2</a>, <a href="/assets/downloads/handouts/Class 4 Example 3.docx">3</a>, <a href="/assets/downloads/handouts/Class 4 Example 4.docx">4</a>)
 
 5. <a href="https://www.youtube.com/watch?v=WYJCpTUobdw&list=PLSqxpHY476Jy2drZRl7uuqKTOfmyNeKPP&index=1">PBCore Mappings and Database Modeling</a>
 
