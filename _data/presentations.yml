@@ -1,4 +1,11 @@
 - title: >
+    "2021 PBCore Webinar Series"
+  presenters: Presented by Rebecca Fraimow in conjunction with NEDCC
+  link: https://www.youtube.com/playlist?list=PLSqxpHY476Jy2drZRl7uuqKTOfmyNeKPP
+  embed: >
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLSqxpHY476Jy2drZRl7uuqKTOfmyNeKPP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- title: >
     "Intro to PBCore."
   presenters: Presented by Rebecca Fraimow at the 2018 AMIA conference
   link: https://www.slideshare.net/pbcore/pbcore-workshop-slides
