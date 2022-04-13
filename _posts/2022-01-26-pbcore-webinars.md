@@ -17,4 +17,4 @@ The webinar series contains five programs:
 
 Each webinar contains approximately half an hour of lecture instruction, followed by a hands-on activity. The lectures are included in the recorded series in their entirety; some activities and discussion are also included, but others occurred primarily in breakout sessions, which were not recorded. 
 
-Viewers of the recorded webinars are welcome to reach out with questions or to discuss the activities with the instructor by emailing rebecca_fraimow@wgbh.org. 
+Viewers of the recorded webinars are welcome to reach out with questions or to discuss the activities with the instructor by emailing pbcoreinfo@wgbh.org. 
