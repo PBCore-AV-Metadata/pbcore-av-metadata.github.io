@@ -1,10 +1,4 @@
 ---
-title: PBCore 2.1 XSD
-layout: xsd
-section: Schema
-permalink: /xsd/pbcore-2.1.xsd
----
-
 <?xml version="1.0" ?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html"
