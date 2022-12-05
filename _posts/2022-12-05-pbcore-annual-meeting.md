@@ -6,6 +6,9 @@ excerpt-separator: <span class="end-blurb"></span>
 ---
 
 We hope to see many PBCore users at the PBCore Advisory Sub-Committee meeting at the annual AMIA conference this week! This year's meeting will be held on Wednesday, December 7th, from 1 PM-2 PM ET / 10 AM-11 AM PT. 
+<span class="end-blurb"></span>
+
+We hope to see many PBCore users at the PBCore Advisory Sub-Committee meeting at the annual AMIA conference this week! This year's meeting will be held on Wednesday, December 7th, from 1 PM-2 PM ET / 10 AM-11 AM PT. 
 
 The meeting will be hybrid: we encourage attendees at the AMIA conference to join us in person, but PBCore users who are not attending the conference are welcome to join us virtually 
 
