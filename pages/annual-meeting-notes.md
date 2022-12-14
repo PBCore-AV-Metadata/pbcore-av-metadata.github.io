@@ -12,6 +12,12 @@ keywords: ["Community", "Association of Moving Image Archivists (AMIA)", "PBCore
 
 <h3>Past Agendas/Minutes</h3>
 
+<p><a href="/assets/downloads/PBCore_Annual_Meeting_2022.pdf" download>2022</a></p>
+
+<p><a href="/assets/downloads/PBCore_Annual_Meeting_2021.pdf" download>2021</a></p>
+
+<p><a href="/assets/downloads/PBCore_Annual_Meeting_2019.pdf" download>2019</a></p>
+
 <p><a href="/assets/downloads/PBCore_Annual_Meeting_2018.pdf" download>2018</a></p>
 
 <p><a href="/assets/downloads/PBCore_Annual_Meeting_2017.pdf" download>2017</a></p>
@@ -20,4 +26,3 @@ keywords: ["Community", "Association of Moving Image Archivists (AMIA)", "PBCore
 
 <p><a href="/assets/downloads/PBCore_Annual_Meeting_2015.pdf" download>2015</a></p>
 
-<p>The annual meeting for 2019 will be held on Friday, November 15, 5:45-6:45 PM EST. Meeting agenda available <a href="https://docs.google.com/document/d/1-uWAiYsaKbYIAvhM8HxIrEb1VBRVNqePdZpuiT7uziA/edit?usp=sharing">here.</a> Interested parties can email PBCoreInfo@wgbh.org for information on remote participation.</p>

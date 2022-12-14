@@ -8,7 +8,7 @@ keywords: ["Resources", "Tools", "Quality Control"]
 
 <h2 class="red title bold">PBCore XML Validator</h2>
 
-<a href="http://pbcore-validator.herokuapp.com/">
+<a href="http://validator.pbcore.org/">
   <button type="button" class="pb-button pb-button-who" name="button">TRY THE VALIDATOR</button>
 </a>
 
