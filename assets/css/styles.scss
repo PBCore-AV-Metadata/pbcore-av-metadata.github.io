@@ -1221,3 +1221,14 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 .nav-underline-grey {
   border-bottom: 5px solid $dark-grey
 }
+
+.language-selector {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1em 1em 0 0;
+
+  a {
+    font-size: 1em;
+  }
+}
