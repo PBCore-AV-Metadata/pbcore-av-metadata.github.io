@@ -5,7 +5,7 @@ section: Community
 excerpt-separator: <span class="end-blurb"></span>
 ---
 
-Applications open for PBCore Workshop travel grants
+Applications open for PBCore Workshop travel grants to Boston, August 24th-25th.
 
 <span class="end-blurb"></span>
 
