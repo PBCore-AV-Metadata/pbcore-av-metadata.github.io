@@ -13,7 +13,7 @@ GBH Archives invites applications to receive travel funding for the first of two
  
 The first workshop will be held August 24-25th at GBH facilities in Boston, Massachusetts. Thanks to a generous grant from NEH, the workshops are offered free of charge; in addition, fifteen attendees will receive full funding to attend, with travel costs, accommodations, and meals provided through the workshop. A strong applicant will be able to commit to attending the workshop and fulfilling documentation requirements, and will be able to make a clear argument for how the training will provide impact and value on an individual and/or institutional level. (Due to federal restrictions, we are unable to provide travel funding from or to locations outside of the United States.)
  
-Apply to attend the workshop here: https://docs.google.com/forms/d/e/1FAIpQLSd2Iq4WZtIPrEPKDL88gzllWvPVrI2mtxXH18B3mEF6RX4yZw/viewform?usp=sf_link
+Apply to attend the workshop <a href="https://docs.google.com/forms/d/e/1FAIpQLSd2Iq4WZtIPrEPKDL88gzllWvPVrI2mtxXH18B3mEF6RX4yZw/viewform?usp=sf_link">here.</a>
 
 Application deadline: May 31, 2023
 Applications will be notified of application status by June 15, 2023
