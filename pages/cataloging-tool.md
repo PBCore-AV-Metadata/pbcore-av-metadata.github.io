@@ -16,7 +16,7 @@ keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging T
   <div class="col-md-6 index-text" style="margin-bottom: 4%;">
     <p class="">
       The PBCore Cataloging Tool is designed to support the creation, editing, and export of moving image-related inventory metadata as PBCore XML records. With a user-friendly data entry interface and full support of all PBCore elements and attributes, the tool makes creating valid PBCore XML documents as easy as filling out
-      a spreadsheet.
+      a spreadsheet. As of the latest version in 2023, the PBCore Cataloging Tool can be used in English or Spanish.
     </p>
     <p>
       The PBCore Cataloging Tool is designed to be used in conjunction with the PBCore Spreadsheet Templates, and can import and export metadata in the <a href="/spreadsheet-templates">full PBCore Spreadsheet Template format</a>.*
@@ -51,16 +51,16 @@ keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging T
     </ul>
 
     <span class="med-text">
-      <a href="/assets/downloads/PBCore-2.1-3.pkg" download>
+      <a href="/assets/downloads/PBCore Cataloging Tool-3.0_x86.dmg" download="">
       <button style="margin:3px;" type="button" name="button" class="pb-button pb-button-tools">
-        <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;">
+        <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;" />
         Download Cataloging Tool for Mac
       </button>
       </a>
 
-      <a href="/assets/downloads/PBCore-2.1-5.exe" download>
+      <a href="/assets/downloads/PBCore Cataloging Tool-3.0.exe" download="">
       <button style="margin:3px;" type="button" name="button" class="pb-button pb-button-tools">
-        <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;">
+        <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;" />
         Download Cataloging Tool for PC
       </button>
       </a>
