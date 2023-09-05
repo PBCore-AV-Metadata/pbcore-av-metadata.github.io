@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pbcoreCollection xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd"
+                  collectionSource="Yale University Libraries"
+                  collectionTitle="School of Architecture Yale University lectures and presentations">
+   <pbcoreDescriptionDocument>
+      <pbcoreAssetType>Media Object</pbcoreAssetType>
+      <pbcoreAssetDate dateType="Created">4/10/2008</pbcoreAssetDate>
+      <pbcoreIdentifier source="Yale University Libraries" annotation="Filename">ru_0880_s2008-a-115_b018</pbcoreIdentifier>
+      <pbcoreIdentifier source="Yale University Libraries" annotation="Originator">CtY-MSSA</pbcoreIdentifier>
+      <pbcoreIdentifier source="Yale University Libraries" annotation="Call Number">ru_0880</pbcoreIdentifier>
+      <pbcoreIdentifier source="Yale University Libraries" annotation="ASpaceID">archival_objects/965265</pbcoreIdentifier>
+      <pbcoreIdentifier source="Yale University Libraries" annotation="Item Barcode">39002075241167</pbcoreIdentifier>
+      <pbcoreTitle titleType="Main">Frank O. Gehry Eero Saarinen Visiting Professor "Work" 2008 April 10</pbcoreTitle>
+      <pbcoreDescription>Yale Identifiers</pbcoreDescription>
+      <pbcorePart>
+         <pbcoreIdentifier source="Yale University Libraries" annotation="Filename">ru_0880_s2008-a-115_b018</pbcoreIdentifier>
+         <pbcoreTitle titleType="Main">Frank O. Gehry Eero Saarinen Visiting Professor "Work" 2008 April 10</pbcoreTitle>
+         <pbcoreDescription>Yale Filename and Title</pbcoreDescription>
+         <pbcoreInstantiation><!--Physical Asset and Capture History-->
+            <instantiationIdentifier source="Yale University Libraries" annotation="Identifier">ru_0880_s2008-a-115_b018</instantiationIdentifier>
+            <instantiationPhysical>DVCAM</instantiationPhysical>
+            <instantiationLocation><!--Required Field--></instantiationLocation>
+            <instantiationDuration>00:57:31</instantiationDuration>
+            <instantiationColors>Color</instantiationColors>
+            <instantiationTracks>Sound</instantiationTracks>
+            <instantiationChannelConfiguration>SplitCh1: Mono; Ch2: Mono</instantiationChannelConfiguration>
+            <instantiationEssenceTrack>
+               <essenceTrackType>Video</essenceTrackType>
+               <essenceTrackFrameRate unitsOfMeasure="fps">29.97</essenceTrackFrameRate>
+               <essenceTrackAspectRatio>4:3</essenceTrackAspectRatio>
+            </instantiationEssenceTrack>
+            <instantiationAnnotation annotationType="Stock Manufacturer">Sony</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Tape Model">DVCAM</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Tape Type"/>
+            <instantiationAnnotation annotationType="Reel Size">124 min.</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Physical condition of item"/>
+            <instantiationAnnotation annotationType="PictureQuality">Good</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Audio Quality">Good</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Noise Reduction">N/A</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Source Deck Type">DVCAM / MiniDV / DV Cassette Recorder</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Source Deck Manufacturer">Sony</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Source Deck Model">HVR-M35U</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Studio Transfer Method">Firewire</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Source Deck Serial Number">0110138</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Video Correction Device Manufacturer">N/A</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Video Correction Device Model Name">N/A</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Video Correction Device Model Version">N/A</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Video Correction Device Model Serial Number">N/A</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Transfer Comments">Successful Native DV Ingest;Channel1 Mono; Channel2 Mono;</instantiationAnnotation>
+         </pbcoreInstantiation>
+         <pbcoreInstantiation><!--Preservation Master-->
+            <instantiationIdentifier source="The MediaPreserve" annotation="file name">ru_0880_s2008-a-115_b018.mst.dv</instantiationIdentifier>
+            <instantiationIdentifier source="The MediaPreserve" version="MD5" annotation="checksum">F1A348855E9559754B75E532EFD83FB6</instantiationIdentifier>
+            <instantiationDate>UTC 2019-04-02 15:50:35</instantiationDate>
+            <instantiationDigital source="PRONOM Technical Registry"/>
+            <instantiationStandard>dv</instantiationStandard>
+            <instantiationLocation><!--Required Field--></instantiationLocation>
+            <instantiationMediaType>Moving Image</instantiationMediaType>
+            <instantiationGenerations>Preservation Master</instantiationGenerations>
+            <instantiationFileSize unitsOfMeasure="GB">11.55</instantiationFileSize>
+            <instantiationColors>Color</instantiationColors>
+            <instantiationTracks>Sound</instantiationTracks>
+            <instantiationChannelConfiguration>SplitCh1: Mono; Ch2: Mono</instantiationChannelConfiguration>
+            <instantiationEssenceTrack>
+               <essenceTrackType>Video</essenceTrackType>
+               <essenceTrackDataRate unitsOfMeasure="Mbps">24.4</essenceTrackDataRate>
+               <essenceTrackFrameRate unitsOfMeasure="fps">29.97</essenceTrackFrameRate>
+               <essenceTrackBitDepth>8</essenceTrackBitDepth>
+               <essenceTrackAspectRatio>4:3</essenceTrackAspectRatio>
+               <essenceTrackTimeStart>00:00:00</essenceTrackTimeStart>
+               <essenceTrackDuration>00:57:31</essenceTrackDuration>
+               <essenceTrackAnnotation annotationType="Frame Count">103433</essenceTrackAnnotation>
+               <essenceTrackAnnotation annotationType="Scan Type">Interlaced</essenceTrackAnnotation>
+               <essenceTrackAnnotation annotationType="Color Sampling">4:1:1</essenceTrackAnnotation>
+               <essenceTrackAnnotation annotationType="Frame Size Vertical">480</essenceTrackAnnotation>
+               <essenceTrackAnnotation annotationType="Frame Size Horizontal">720</essenceTrackAnnotation>
+            </instantiationEssenceTrack>
+            <instantiationEssenceTrack>
+               <essenceTrackType>Audio</essenceTrackType>
+               <essenceTrackStandard>PCM</essenceTrackStandard>
+               <essenceTrackSamplingRate unitsOfMeasure="kHz">48</essenceTrackSamplingRate>
+               <essenceTrackBitDepth>16</essenceTrackBitDepth>
+               <essenceTrackAnnotation annotationType="Audio Bit Rate">1536Kbps</essenceTrackAnnotation>
+               <essenceTrackAnnotation annotationType="Audio Schema">Uncompressed</essenceTrackAnnotation>
+            </instantiationEssenceTrack>
+            <instantiationRelation>
+               <instantiationRelationType source="PBCore relationType">Derived from</instantiationRelationType>
+               <instantiationRelationIdentifier annotation="Object Identifier">ru_0880_s2008-a-115_b018</instantiationRelationIdentifier>
+            </instantiationRelation>
+            <instantiationAnnotation annotationType="Quality Control">Quality Control was performed by MediaPreserve engineers, with Digimetrics Quality Control.</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Computer Manufacturer">Apple</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Host Computer Name">Mac Mini</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Host Computer Version">N/A</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Host Computer Build">N/A</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Operating System">MAC OS X</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Operating System Version">Mac OS X v10.9.4</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Encode Software Manufacturer">Square Box</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Encode Software Name">CatDV Live Capture Plus</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Encode Software Version">2.2.0</instantiationAnnotation>
+         </pbcoreInstantiation>
+         <pbcoreInstantiation><!--Access Copy-->
+            <instantiationIdentifier source="The MediaPreserve" annotation="file name">ru_0880_s2008-a-115_b018.u.mp4</instantiationIdentifier>
+            <instantiationIdentifier source="The MediaPreserve" version="MD5" annotation="checksum">3280D2848306FA8E02778404B09BB639</instantiationIdentifier>
+            <instantiationDate>UTC 2019-04-26 21:32:42</instantiationDate>
+            <instantiationDigital source="PRONOM Technical Registry">fmt/199</instantiationDigital>
+            <instantiationStandard>AVC Main@L3 - avc1</instantiationStandard>
+            <instantiationLocation><!--Required Field--></instantiationLocation>
+            <instantiationMediaType>Moving Image</instantiationMediaType>
+            <instantiationGenerations>Access Copy</instantiationGenerations>
+            <instantiationFileSize unitsOfMeasure="GB">2.21</instantiationFileSize>
+            <instantiationDuration>00:57:31</instantiationDuration>
+            <instantiationColors>Color</instantiationColors>
+            <instantiationTracks>Sound</instantiationTracks>
+            <instantiationChannelConfiguration>SplitCh1: Mono; Ch2: Mono</instantiationChannelConfiguration>
+            <instantiationEssenceTrack>
+               <essenceTrackType>Video</essenceTrackType>
+               <essenceTrackDataRate unitsOfMeasure="Mbps">5</essenceTrackDataRate>
+               <essenceTrackFrameRate unitsOfMeasure="fps">29.97</essenceTrackFrameRate>
+               <essenceTrackBitDepth>8</essenceTrackBitDepth>
+               <essenceTrackAspectRatio>4:3</essenceTrackAspectRatio>
+               <essenceTrackTimeStart>00:00:00</essenceTrackTimeStart>
+               <essenceTrackDuration>00:57:31</essenceTrackDuration>
+               <essenceTrackAnnotation annotationType="Frame Count">103433</essenceTrackAnnotation>
+               <essenceTrackAnnotation annotationType="Scan Type">Progressive</essenceTrackAnnotation>
+               <essenceTrackAnnotation annotationType="Color Sampling">4:2:0</essenceTrackAnnotation>
+               <essenceTrackAnnotation annotationType="Frame Size Vertical">480</essenceTrackAnnotation>
+               <essenceTrackAnnotation annotationType="Frame Size Horizontal">720</essenceTrackAnnotation>
+            </instantiationEssenceTrack>
+            <instantiationEssenceTrack>
+               <essenceTrackType>Audio</essenceTrackType>
+               <essenceTrackStandard>AAC(Low Complexity)</essenceTrackStandard>
+               <essenceTrackSamplingRate unitsOfMeasure="kHz">44.1</essenceTrackSamplingRate>
+               <essenceTrackBitDepth/>
+               <essenceTrackAnnotation annotationType="Audio Bit Rate">256Kbps</essenceTrackAnnotation>
+               <essenceTrackAnnotation annotationType="Audio Schema">Compressed</essenceTrackAnnotation>
+            </instantiationEssenceTrack>
+            <instantiationRelation>
+               <instantiationRelationType source="PBCore relationType">Derived from</instantiationRelationType>
+               <instantiationRelationIdentifier annotation="Object Identifier">ru_0880_s2008-a-115_b018.mst.dv</instantiationRelationIdentifier>
+            </instantiationRelation>
+            <instantiationAnnotation annotationType="Quality Control">Quality
+                                Control was performed by MediaPreserve engineers, with with
+                                Digimetrics Quality Control.</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Computer Manufacturer">Dell</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Host Computer Name">Precision</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Host Computer Version">T5600</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Host Computer Build">N/A</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Operating System">Windows Server</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Operating System Version">2012 R2 Standard</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Encode Software Manufacturer">Telestream</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Encode Software Name">Vantage</instantiationAnnotation>
+            <instantiationAnnotation annotationType="Encode Software Version">7.1.172</instantiationAnnotation>
+         </pbcoreInstantiation>
+      </pbcorePart>
+   </pbcoreDescriptionDocument>
+</pbcoreCollection>
