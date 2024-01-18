@@ -8,7 +8,7 @@ keywords: ["Schema", "Elements", "Attributes", "XML", "Structure", "Revisions", 
 
 <h2 class="green title bold">PBCore XML Schema</h2>
 
-PBCore is a metadata standard designed to describe media, both digital and analog. The PBCore XML Schema Definition (XSD) defines the structure and content of PBCore. The current release (PBCore 2.1) can be viewed at our [GitHub repository](https://raw.githubusercontent.com/PBCore-AV-Metadata/PBCore_2.1/master/pbcore-2.1.xsd) or you can <a href="https://s3.amazonaws.com/pbcore.org/pbcore-2.1.xsd" download>download</a> the .xsd file. The previous release (PBCore 2.) can be downloaded <a href="https://s3.amazonaws.com/pbcore.org/pbcore-2.0.xsd">here.</a>
+PBCore is a metadata standard designed to describe media, both digital and analog. The PBCore XML Schema Definition (XSD) defines the structure and content of PBCore. The current release (PBCore 2.1) of the XSD can be [viewed via our GitHub repository](https://raw.githubusercontent.com/PBCore-AV-Metadata/PBCore_2.1/master/pbcore-2.1.xsd) or you can <a href="https://s3.amazonaws.com/pbcore.org/pbcore-2.1.xsd" download>download</a> the .xsd file. The previous release (PBCore 2.) can be downloaded <a href="https://s3.amazonaws.com/pbcore.org/pbcore-2.0.xsd">here.</a>
 
 PBCore 2.1 was created by the public broadcasting community in the United States of America for use by public broadcasters and others. PBCore is built on the foundation of the Dublin Core (ISO 15836), an international standard for resource discovery. PBCore was developed with funding provided by the Corporation for Public Broadcasting and is maintained by WGBH with support and guidance from the AMIA PBCore Advisory Sub-Committee.
 
@@ -25,7 +25,7 @@ For a glossary of terms used in the PBCore schema, visit the [Glossary]({{ site.
 PBCore 2.1 is an incremental update to the PBCore 2.0 schema that provides clearer element definitions and more options to include detailed source information for metadata, while still being backwards compatible with PBCore 2.0.
 
 Changes for 2.1 include:
-<p>1. the option to include ‘@source, @ref, @version, @annotation’ information to all non-container elements.</p>
+<p>1. the option to include @source, @ref, @version, @annotation information to all non-container elements.</p>
 <p>2. the addition of new optional attribute groups for the following elements:</p>
 <p>for pbcoreTitle:</p>
 - <span>@titleTypeSource</span>
