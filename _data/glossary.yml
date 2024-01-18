@@ -7,7 +7,7 @@
     <pbcoreTitle titleType=“main”>Lassie</pbcoreTitle>
     In this case, the element is pbcoreTitle, and the attribute titleType provides more information about the title.
 - term: Container
-  definition: A container element in XML is a way to group other elements together. Container elements usually do not hold data themselves, but act as a bucket for sub-elements that do hold data. The container element is only relevant to PBCore users who are using the XML expression.
+  definition: A container element in XML is a way to group other elements together. Container elements usually do not hold data themselves, but act as a bucket for subelements that do hold data. The container element is only relevant to PBCore users who are using the XML expression.
 - term: Digital Asset Management (DAM)
   definition: An asset management system that either serves as a brand asset library or a system for storing and retrieving historical assets.
 - term: Elements
@@ -16,17 +16,19 @@
     Here’s an example.
       <pbcoreTitle titleType=“main”>Lassie</pbcoreTitle>
     This would appear as “Title: Lassie.” “Title” is the element, and “Lassie” is the value.
-    Putting the information “Lassie” within a “pbcoreTitle” element tells anyone (or any machine) looking at the data that “Lassie” is the title of the asset. Attributes may be associated with any element, and elements provide even further detail about the data.
+    Putting the information “Lassie” within a “pbcoreTitle” element tells anyone (or any machine) looking at the data that “Lassie” is a title of the asset. Attributes may be associated with any element and provide even further detail about the data.
 - term: Instantiation
   definition: A manifestation of an asset that is embodied in physical or digital form, such as a tape, DVD, or digital file. One asset can have many instantiations, but generally, each instantiation holds the same intellectual content.
 - term: Media Asset Management (MAM)
-  definition: An asset management system that's primarily a part of an audio or video workflow. MAM systems are primarily for audiovisual creators that allow them to put content in a central location so that editors can access it.
+  definition: An asset management system that's primarily a part of an audio or video workflow. MAM systems are primarily for audiovisual creators, allowing them to put content in a central location so that editors can access it.
 - term: Metadata
   definition: >
     A set of data that describes and gives information about other data. Some examples include description (title, subject), technical information, or rights information.
     Metadata can include a wide variety of information, and different communities have different uses for metadata. Often there are different types of metadata needed for different purposes: structural metadata, technical metadata, and preservation metadata. PBCore describes descriptive, structural, and technical metadata, and some people also use it for preservation metadata.
 - term: Schema
-  definition: An XML schema lays out rules for structuring an XML document in a specific way. The PBCore schema specifies how PBCore information should be written in XML so that people and machines can consistently understand the information contained in PBCore documents by referencing the schema.
+  definition: An XML schema lays out rules for structuring an XML document in a specific way. The PBCore schema specifies how PBCore information should be written in XML so that people and machines can consistently understand the information contained in PBCore documents.
+- term: Subelement
+  definition: An element contained within a container element, used to provide additional structure for data within the container element.  Here's an example. <pbcoreContributor><contributor>Gwen Ifill</contributor><contributorRole>Host</contributorRole></pbcoreContributor>  In this case, information within the "pbcoreContributor" container element is structured to give the identity of the contributor and describe that person's role in producing the asset.  
 - term: XML (Extensible Markup Language)
   definition: A [markup language](https://en.wikipedia.org/wiki/Markup_language) that defines a set of rules for encoding documents in a [format](https://en.wikipedia.org/wiki/File_format) that is readable by both humans and machines. It is defined by the [W3C](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium)‘s [XML](https://en.wikipedia.org/wiki/XML) 1.0 Specification and by several other related specifications.
 - term: XSD (XML Schema Definition)
