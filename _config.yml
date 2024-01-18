@@ -55,7 +55,7 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "posts"
+      path: "_posts"
     values:
       layout: "post"
       section: "Community"
