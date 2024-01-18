@@ -2,7 +2,7 @@
 section: Schema
 name: pbcoreAssetType Vocabulary
 usage: >
-  for <a href="elements/pbcoreassettype">pbcoreAssetType</a>
+  for <a href="/elements/pbcoreassettype">pbcoreAssetType</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/454.html
 download: /assets/downloads/pbcore_pbcoreassettype_vocabulary.xlsx
 terms:
