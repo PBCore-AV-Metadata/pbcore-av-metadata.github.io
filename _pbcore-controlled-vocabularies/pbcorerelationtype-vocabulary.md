@@ -2,7 +2,7 @@
 section: Schema
 name: pbcoreRelationType Vocabulary
 usage: >
-  for <a href="elements/pbcorerelationtype">pbcoreRelationType</a>
+  for <a href="/elements/pbcorerelationtype">pbcoreRelationType</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/458.html
 download: /assets/downloads/pbcore_pbcorerelationtype_vocabulary.xlsx
 terms:
