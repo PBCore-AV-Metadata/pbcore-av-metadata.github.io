@@ -12,11 +12,14 @@
       - A guideline for identifying a set of vocabularies for describing audiovisual assets
       - A data model for configurable collection management systems such as Omeka, Collective Access, etc.
       - A guideline for creating inventory spreadsheets
+  - question: How does PBCore compare to Dublin Core?
+    answer: |
+      PBCore was originally based on Dublin Core; so users of Dublin Core should feel comfortable with PBCore fairly quickly.  However, PBCore offers a few additional features that make it especially useful for cataloging audiovisual collections.  First, PBCore draws a sharp distinction between assets (abstract representations of the intellectual content of particular audiovisual productions) and instantiations (particular realizations of the Asset in physical or digital form).  Second, PBCore offers a straightforward way to catalog the roles of the (potentially many) creators, contributors, and publishers involved in audiovisual production, as well as the relationships and distinctions between original and derivative materials used at different points in the production process.  PBCore's additional elements and guidelines provide flexible options for structuring and standardizing searchable descriptions of audiovisual-specific metadata.
   - question: What is PBCore not?
     answer: |
       PBCore is focused on providing a standardized way to describe audiovisual assets and related audiovisual material generally created within a broadcast environment. If you primarily need to describe manuscripts, photographs, or other materials that aren’t audiovisual or related to audiovisual content, PBCore is probably not the right choice for your project.
       While it is generally designed to manage descriptive and technical metadata, PBCore can be used alongside other standards to capture preservation, process, and additional technical metadata.
-      To address more preservation needs, PBCore encourages the use of other standards through extensions and additions. For example, the American Archive of Public Broadcasting uses PBCore for descriptive and technical metadata , PREMIS for preservation metadata, and reVTMD for process history metadata.
+      To address more preservation needs, PBCore encourages the use of other standards through extensions and additions. For example, the American Archive of Public Broadcasting uses PBCore for descriptive and technical metadata, PREMIS for preservation metadata, and reVTMD for process history metadata.
   - question: How do I get started with PBCore?
     answer: |
       Before getting started with PBCore, there are some questions you should ask yourself:
