@@ -51,47 +51,55 @@ keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging T
     </ul>
 
     <span class="med-text">
-      <a style="font-weight: bolder; text-align: center; display: inline-block; width: 24%; max-width: 24%;">
-        Mac
-      </a>
-      <a style="display: inline-block; width: 20%; max-width: 20%;" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/PBCore-2.1.pkg" download="">
-        <button style="margin:3px;" type="button" name="button" class="pb-button pb-button-tools">
-          <img src="/assets/images/icons/download.png" alt="" style="max-width: 12%;" />
-          Legacy
-        </button>
-      </a>
-      <a style="display: inline-block; width: 20%; max-width: 20%;" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/PBCore+Cataloging+Tool-3.0_x86.dmg" download="">      
-        <button style="margin:3px;" type="button" name="button" class="pb-button pb-button-tools">
-          <img src="/assets/images/icons/download.png" alt="" style="max-width: 12%;" />
-          x86/64
-        </button>
-      </a>
-      <a style="display: inline-block; width: 20%; max-width: 20%;" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/PBCore+Cataloging+Tool-3.0_arm.dmg" download="">      
-        <button style="margin:3px;" type="button" name="button" class="pb-button pb-button-tools">
-          <img src="/assets/images/icons/download.png" alt="" style="max-width: 12%;" />
-          ARM
-        </button>        
-      </a>
 
-      <a style="font-weight: bolder; text-align: center; display: inline-block; width: 24.3%; max-width: 16vw;">
-        PC
-      </a>
-      <a style="display: inline-block; width: 74.5%; max-width: 74.5%;" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/PBCore+Cataloging+Tool-3.0.exe" download="">
-        <button style="margin:3px;" type="button" name="button" class="pb-button pb-button-tools">
-          <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;" />
-          Download
-        </button>
+      <div class="row">
+        <a class="pb-download-label">
+          Mac
         </a>
+        <a class="pb-download-small" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/PBCore-2.1.pkg" download="">
+          <button type="button" name="button" class="pb-button pb-button-download">
+            <img src="/assets/images/icons/download.png" alt="" style="max-width: 12%;" />
+            Legacy
+          </button>
+        </a>
+        <a class="pb-download-small" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/PBCore+Cataloging+Tool-3.0_x86.dmg" download="">      
+          <button type="button" name="button" class="pb-button pb-button-download">
+            <img src="/assets/images/icons/download.png" alt="" style="max-width: 12%;" />
+            x86/64
+          </button>
+        </a>
+        <a class="pb-download-small" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/PBCore+Cataloging+Tool-3.0_arm.dmg" download="">      
+          <button type="button" name="button" class="pb-button pb-button-download">
+            <img src="/assets/images/icons/download.png" alt="" style="max-width: 12%;" />
+            ARM
+          </button>        
+        </a>
+      </div>
 
-      <a style="font-weight: bolder; text-align: center; display: inline-block; width: 24.3%; max-width: 16vw;">
-        Linux
-      </a>
-      <a style="display: inline-block; width: 74.5%; max-width: 74.5%;" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/pbcore_3.0_amd64.deb" download="">
-        <button style="margin:3px;" type="button" name="button" class="pb-button pb-button-tools">
-          <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;" />
-          Download
-        </button>
-      </a>      
+      <div class="row">
+        <a class="pb-download-label">
+          PC
+        </a>
+        <a class="pb-download" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/PBCore+Cataloging+Tool-3.0.exe" download="">
+          <button type="button" name="button" class="pb-button pb-button-download">
+            <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;" />
+            Download
+          </button>
+        </a>
+      </div>
+
+      <div class="row">
+
+        <a class="pb-download-label">
+          Linux
+        </a>
+        <a class="pb-download" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/pbcore_3.0_amd64.deb" download="">
+          <button type="button" name="button" class="pb-button pb-button-download">
+            <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;" />
+            Download
+          </button>
+        </a>
+      </div>
     </span>
     <p style="margin-top:4%; margin-left:4%;">
       * Please note that the Cataloging Tool currently will only work with the <a href="/spreadsheet-templates">full PBCore Spreadsheet Template</a> and not the abbreviated version or instantiation-only version.
