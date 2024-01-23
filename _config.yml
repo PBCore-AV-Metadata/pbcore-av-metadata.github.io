@@ -54,6 +54,12 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      section: "Community"
+      excerpt-separator: <span class="end-blurb"></span>
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
