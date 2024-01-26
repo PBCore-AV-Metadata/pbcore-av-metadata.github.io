@@ -462,6 +462,45 @@ h2.med-title {
   color: #444;
 }
 
+.pb-button-download {
+  background-color: #444;
+  border: 1px #000 solid;
+  color: #fff;
+}
+
+.pb-button-download:hover {
+  background-color: #fff;
+  border: 1px #000 solid;
+  color: #444;
+}
+
+.pb-download {
+  display: inline-block;
+  width: 30vw;
+}
+
+.pb-download button {
+  align-items: normal;
+  width: 100%;
+  margin: 3px;
+}
+
+.pb-download-label {
+  font-weight: bolder;
+  text-align: center;
+  display: inline-block;
+  width: 10vw;
+}
+
+.pb-download-small {
+  display: inline-block;
+  width: 10.15vw;
+}
+
+.pb-download-small button {
+  margin: 3px;
+}
+
 .med-text {
   font-size: 20px;
 }
