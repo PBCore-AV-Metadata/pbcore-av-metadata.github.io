@@ -133,9 +133,9 @@ users:
       PBCore at California Revealed
     statement: |
       <h4>How We Use PBCore</h4>
-      <p>California Revealed (formerly California Audiovisual Preservation Project) has been using PBCore to organize descriptive, rights, and technical metadata about the audiovisual objects that they preserve since the project's beginning in 2010. California Revealed is looking forward to using PBCore 2.1 in their latest round of digitization and will soon automate the ingest of metadata into their repository using PBCore XML files created by their digitization vendors.</p>
+      <p>California Revealed is a California State Library initiative that helps public libraries, archives, museums, historical societies, and other heritage groups digitize, preserve, and provide online access to archival materials documenting the state's histories, arts, and cultures. By providing online access to digitized materials, California Revealed is working to aggregate California's digital collections into a single resource at californiarevealed.org. They have used PBCore to organize descriptive, rights, and technical metadata about the audiovisual objects that they preserve since the program's beginning in 2010.</p>
       <h4>Benefits of PBCore</h4>
-      <p>As a project which collaborates with hundreds of cultural heritage institutions to preserve and facilitate access to their audiovisual media, the benefits of a standardized metadata schema specialized for audiovisual recordings has been enormously helpful.</p>
+      <p>As a statewide program that collaborates with hundreds of organizations to preserve and facilitate access to their audiovisual media, the benefits of a standardized metadata schema specialized for audiovisual recordings has been enormously helpful. Most of our audiovisual materials are oral histories, home movies, educational films, news and radio programs, and other amateur recordings. PBCore is flexible enough to be able to accommodate many forms and formats. As a program that provides digitization and preservation services, we use instantiations to track the relationship between our access, preservation, and physical versions of the recordings.</p>
   - user: Radio Free Europe
     column: left
     id: radio-free-europe
